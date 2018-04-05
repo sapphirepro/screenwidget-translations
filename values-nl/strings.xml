@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenWidget</string>
+    <string name="label_on">Altijd aan</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Licentie-controle mislukt.</string>
+    <string name="lchecker_publickey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4vfaUrgePJ4cYE9Yl9IylMb+f8gbQ6+hoH/J0urNIKDHAW/8i/qWFYjbKBBJkinSA9HklKoF3d1iHaJQCOFN9uJKCm7P6tdkuqHBjKkThTjW148TcLhROpIm0+8EeBgHNmQFnQHj01x+w9PNHrqJ+LPxwO+ENrhZ92JtQrvgTOWeZ6mpn1V8vPILwB5i6Tybgs06qlGRyOjackcsAWRv8NYinvTgXvTZLlHWsb4WhFH8Q8OKSwCI2mWDuyigr2nSix06pg6b4LDv+ZZHJWdVvxpOcqS4aFwbujikYKQWdt8He14e+bk2iCqA/Fc8SAePFqfcGwoHLw+ARmO//38WnwIDAQAB</string>
+
+    <string name="lchecker_prefsname">com.sapphire_project.screenwidget.LCPREFS</string>
+
+    <string name="lbl_permissions">Om de time-out instelling te veranderen heeft deze app toelating nodig om de instellingen van uw apparaat te veranderen, de app veranderd enkel de instelling voor de time-out voor het automatisch uitschakelen van het scherm.</string>
+    <string name="btn_permissions">Instellen</string>
+    <string name="lbl_addwidget_header">Om de widget aan uw startscherm toe te voegen:</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Druk op de home toets om naar het startscherm te gaan.<br/>
+        2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.<br/>
+        3. Selecteer \"widgets\".<br/>
+        4. Scroll naar de \"ScreenWidget\" widget.\n
+        5. Sleep het naar het startscherm en plaats het waar u het wilt.<br/>
+        6. Druk op de widget om de time-out modus te kiezen.]]>
+    </string>
+    <string name="btn_addwidget">Toevoegen aan startscherm</string>
+
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Opstart Instellingen</string>
+    <string name="onboot_trigger_name">Herstel bij opstarten</string>
+    <string name="onboot_trigger_desc">Herstel de laatste actieve staat bij het opstarten van de telefoon. Nuttig als u wilt dat de ingestelde tijd word onthouden tijdens herstarten.</string>
+    <string name="onboot_toast_name">Toon bericht</string>
+    <string name="onboot_toast_desc">Toon een \"toast\" bericht als de instelling is hersteld.</string>
+
+    <!-- Multi tap settings-->
+    <string name="multitap_section">Dubbelklik Instellingen</string>
+    <string name="multitap_enable_name">Dubbelklik ondersteuning</string>
+    <string name="multitap_enable_desc">Schakel dubbelklik ondersteuning voor de widget aan of uit. Als dit aan staat kunt u naast altijd-aan ook een tijd specifieren om het scherm aan te houden door te dubbel- en driedubbelklikken.</string>
+    <string name="multitap_smart_system_name">Dubbelklik \"smart delay\"</string>
+    <string name="multitap_smart_system_desc">Zorgt ervoor dat een enkele klik sneller reageert door niet te lang te wachten op dubbelle of driedubbelle klikken.</string>
+
+    <string name="single_tap_action_name">Enkele klik actie</string>
+    <string name="single_tap_action_desc">%s. Kies de actie voor een enkele klik.</string>
+    <string name="single_always_on">Schakel tussen altijd-aan en de standaard time-out</string>
+    <string name="single_last_active">Schakel tussen de laatst gebruikte time-out en de standaard time-out</string>
+    <string name="sort_timeouts_name">Sort custom timeouts list</string>
+    <string name="sort_timeouts_desc">%s. Choose sort option.</string>
+
+    <string name="do_not_sort">Do not sort</string>
+    <string name="do_sort_asc">Sort ascending</string>
+    <string name="do_sort_desc">Sort descending</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Visuele aanpassingen</string>
+    <string name="widget_font_size_header">Lettertypeformaat</string>
+    <string name="widget_font_size_desc">Kies de grootte van de tekst die word gebruikt in de widget. Zinvol om het beste visuele resultaat te berijken met verschillende \"launchers\".</string>
+    <string name="widget_icon_size_header">Icoongrootte</string>
+    <string name="widget_icon_size_desc">Selecteer de grootte van het icoontje dat in de widget gebruikt wordt. Zinvol om het beste visuele resultaat te berijken met verschillende \"launchers\".</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Icoongrootte</string>
+    <string name="action_settings">Instellingen</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Instellingen</string>
+    <string name="str_menu_rate_app">Rate application</string>
+    <string name="str_menu_share_app">Recommend application</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Customize timeouts</string>
+    <string name="custom_timeout1_header">Custom timeout value 1</string>
+    <string name="custom_timeout1_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout2_header">Custom timeout value 2</string>
+    <string name="custom_timeout2_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout3_header">Custom timeout value 3</string>
+    <string name="custom_timeout3_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout4_header">Custom timeout value  4</string>
+    <string name="custom_timeout4_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout5_header">Custom timeout value 5</string>
+    <string name="custom_timeout5_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout6_header">Custom timeout value 6</string>
+    <string name="custom_timeout6_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="enter_timeout_value">Please enter value in minutes</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Low battery protection</string>
+
+    <string name="disable_on_low_name">Auto disable on low battery</string>
+    <string name="disable_on_low_desc">Automatically disable always on mode on low battery level.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Geen licentie</string>
+
+
+    <!-- Global values. No translation!!! -->
+
+    <string-array name="singletap_default_action_entries">
+        <item>@string/single_last_active</item>
+        <item>@string/single_always_on</item>
+    </string-array>
+    <string-array name="singletap_default_action_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="sort_timeouts_entries">
+        <item>@string/do_not_sort</item>
+        <item>@string/do_sort_asc</item>
+        <item>@string/do_sort_desc</item>
+    </string-array>
+    <string-array name="sort_timeouts_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

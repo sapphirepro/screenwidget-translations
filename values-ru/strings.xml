@@ -8,39 +8,39 @@
 
     <string name="lchecker_prefsname">com.sapphire_project.screenwidget.LCPREFS</string>
 
-    <string name="lbl_permissions">Вам нужно выдать приложению разрешение на инзменение настроек прежде чем оно сможет работать. Единственная настройка которую оно будет менять - таймаут экрана.</string>
+    <string name="lbl_permissions">Вам нужно выдать приложению разрешение на изменение настроек, прежде чем оно сможет работать. Единственная настройка, которую оно будет менять - таймаут экрана.</string>
     <string name="btn_permissions">Настроить разрешение</string>
     <string name="lbl_addwidget_header">Для добавления виджета на рабочий стол:</string>
     <string name="lbl_addwidget"><![CDATA[
-        1. Нажмите кнопку домой, чтобы попасть на домашний экран.<br/>
+        1. Нажмите кнопку Домой, чтобы попасть на домашний экран.<br/>
         2. Нажмите и удерживайте палец в любой пустой области экрана, не занятой иконками.<br/>
         3. Выберите \"Виджеты\".<br/>
         4. Найдите виджет \"ScreenWidget\".<br/>
-        5. Перетащите его в любое удобное для вас место на домашнем экране.<br/>
-        6. Нажмите на виджет для переключения режима автоотключения питания экрана.]]>
+        5. Перетащите его в любое удобное для Вас место на домашнем экране.<br/>
+        6. Нажмите на виджет для переключения режима автоотключения экрана.]]>
     </string>
-    <string name="btn_addwidget">Добавить на Домашний экран</string>
+    <string name="btn_addwidget">Добавить на домашний экран</string>
 
 
     <!-- Settings localization -->
     <string name="onboot_section">Настройки автозапуска</string>
     <string name="onboot_trigger_name">Восстановление состояния</string>
-    <string name="onboot_trigger_desc">Востанавливать последнее состояние при запуске. Может быть полезно, если Вы желаете, чтобы при запуске устройства было востановлено состояние до перезапуска. Если экран был "всё время включён", то при запуске будет восстановлено это значение.</string>
+    <string name="onboot_trigger_desc">Восстанавливать последнее состояние при запуске. Может быть полезно, если Вы желаете, чтобы при запуске устройства было восстановлено состояние до перезапуска. Если экран был "всё время включен", то при запуске будет восстановлено это значение.</string>
     <string name="onboot_toast_name">Показывать оповещение</string>
-    <string name="onboot_toast_desc">Показывать Toast сообщение о восстановлении настроек.</string>
+    <string name="onboot_toast_desc">Показывать всплывающее сообщение о восстановлении настроек.</string>
 
     <!-- Multi tap settings-->
     <string name="multitap_section">Настройки многократного нажатия</string>
     <string name="multitap_enable_name">Поддержка многократного нажатия</string>
-    <string name="multitap_enable_desc">Включить или выключить поддержку многократного нажатия. Функция многократного нажатия позволяет Вам изменять время включённого экрана между запрограммированными значениями. Используйте двойное нажатие на виджет для увеличения значения и тройное нажатие для уменьшения соответственно.</string>
+    <string name="multitap_enable_desc">Включить или выключить поддержку многократного нажатия. Функция многократного нажатия позволяет Вам изменять время включенного экрана между заданными значениями. Используйте двойное нажатие на виджет - для увеличения значения, и тройное нажатие - для уменьшения значения.</string>
     <string name="multitap_smart_system_name">Умная задержка многократного нажатия</string>
-    <string name="multitap_smart_system_desc">Умная задержка многократного нажатия: в случае одиночного нажатия реакция виджета на событие будет вдвое быстрее(350 мс), в то время как на 2 и 3 нажатия жадержка счётчика нажатий будет 700 мс.</string>
+    <string name="multitap_smart_system_desc">Умная задержка многократного нажатия: в случае одиночного нажатия реакция виджета на событие будет вдвое быстрее (350 мс), в то время как на двойное и тройное нажатие реакция виджета будет 700 мс.</string>
 
-    <string name="single_tap_action_name">Действие одного нажатия</string>
-    <string name="single_tap_action_desc">%s. Выберите действие для одного нажатия.</string>
-    <string name="single_always_on">Переключение между всегда включенным экраном и таймаутом по умолчанию</string>
-    <string name="single_last_active">Переключение между последним активным таймаутом и таймаутом по умолчанию</string>
-    <string name="sort_timeouts_name">Сортировка пользовательских таймаутов</string>
+    <string name="single_tap_action_name">Действие одиночного нажатия</string>
+    <string name="single_tap_action_desc">%s. Выберите действие для одиночного нажатия.</string>
+    <string name="single_always_on">Переключение между < всегда включенным экраном > и < таймаутом по-умолчанию ></string>
+    <string name="single_last_active">Переключение между < последним активным таймаутом > и < таймаутом по-умолчанию ></string>
+    <string name="sort_timeouts_name">Сортировка пользовательских тайм-аутов</string>
     <string name="sort_timeouts_desc">%s. Выберите значение сортировки.</string>
 
     <string name="do_not_sort">Не сортировать</string>
@@ -66,25 +66,25 @@
 
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Пользовательские таймауты</string>
-    <string name="custom_timeout1_header">Пользовательское время ожидания 1</string>
-    <string name="custom_timeout1_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout2_header">Пользовательское время ожидания 2</string>
-    <string name="custom_timeout2_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout3_header">Пользовательское время ожидания 3</string>
-    <string name="custom_timeout3_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout4_header">Пользовательское время ожидания 4</string>
-    <string name="custom_timeout4_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout5_header">Пользовательское время ожидания 5</string>
-    <string name="custom_timeout5_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout6_header">Пользовательское время ожидания 6</string>
-    <string name="custom_timeout6_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
+    <string name="custom_timeout1_header">Пользовательский таймаут #1</string>
+    <string name="custom_timeout1_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout2_header">Пользовательский таймуат #2</string>
+    <string name="custom_timeout2_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout3_header">Пользовательский таймаут #3</string>
+    <string name="custom_timeout3_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout4_header">Пользовательский таймаут #4</string>
+    <string name="custom_timeout4_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout5_header">Пользовательский таймаут #5</string>
+    <string name="custom_timeout5_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout6_header">Пользовательский таймаут #6</string>
+    <string name="custom_timeout6_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
 
     <!-- Power related events -->
     <string name="power_events">Защита от полного разряда</string>
 
     <string name="disable_on_low_name">Автоотключение при низком заряде</string>
-    <string name="disable_on_low_desc">Автоматически отключать режим всегда включённого экрана при низком заряде аккумулятора.</string>
+    <string name="disable_on_low_desc">Автоматически отключать режим < всегда включенного экрана > при низком заряде аккумулятора.</string>
 
     <!-- Licensing state -->
     <string name="no_license">Нет лицензии</string>

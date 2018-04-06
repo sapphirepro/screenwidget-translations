@@ -4,9 +4,6 @@
     <string name="label_on">Altijd aan</string>
     <string name="label_off">%1$d min.</string>
     <string name="lceck_fail">Licentie-controle mislukt.</string>
-    <string name="lchecker_publickey">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4vfaUrgePJ4cYE9Yl9IylMb+f8gbQ6+hoH/J0urNIKDHAW/8i/qWFYjbKBBJkinSA9HklKoF3d1iHaJQCOFN9uJKCm7P6tdkuqHBjKkThTjW148TcLhROpIm0+8EeBgHNmQFnQHj01x+w9PNHrqJ+LPxwO+ENrhZ92JtQrvgTOWeZ6mpn1V8vPILwB5i6Tybgs06qlGRyOjackcsAWRv8NYinvTgXvTZLlHWsb4WhFH8Q8OKSwCI2mWDuyigr2nSix06pg6b4LDv+ZZHJWdVvxpOcqS4aFwbujikYKQWdt8He14e+bk2iCqA/Fc8SAePFqfcGwoHLw+ARmO//38WnwIDAQAB</string>
-
-    <string name="lchecker_prefsname">com.sapphire_project.screenwidget.LCPREFS</string>
 
     <string name="lbl_permissions">Om de time-out instelling te veranderen heeft deze app toelating nodig om de instellingen van uw apparaat te veranderen, de app veranderd enkel de instelling voor de time-out voor het automatisch uitschakelen van het scherm.</string>
     <string name="btn_permissions">Instellen</string>
@@ -88,26 +85,4 @@
     <!-- Licensing state -->
     <string name="no_license">Geen licentie</string>
 
-
-    <!-- Global values. No translation!!! -->
-
-    <string-array name="singletap_default_action_entries">
-        <item>@string/single_last_active</item>
-        <item>@string/single_always_on</item>
-    </string-array>
-    <string-array name="singletap_default_action_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="sort_timeouts_entries">
-        <item>@string/do_not_sort</item>
-        <item>@string/do_sort_asc</item>
-        <item>@string/do_sort_desc</item>
-    </string-array>
-    <string-array name="sort_timeouts_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
 </resources>

@@ -38,8 +38,8 @@
 
     <string name="single_tap_action_name">Действие одиночного нажатия</string>
     <string name="single_tap_action_desc">%s. Выберите действие для одиночного нажатия.</string>
-    <string name="single_always_on">Переключение между < всегда включенным экраном > и < таймаутом по-умолчанию ></string>
-    <string name="single_last_active">Переключение между < последним активным таймаутом > и < таймаутом по-умолчанию ></string>
+    <string name="single_always_on">Переключение между  &lt; всегда включенным экраном &gt; и  &lt; таймаутом по-умолчанию &gt;</string>
+    <string name="single_last_active">Переключение между &lt; последним активным таймаутом &gt; и &lt; таймаутом по-умолчанию &gt;</string>
     <string name="sort_timeouts_name">Сортировка пользовательских тайм-аутов</string>
     <string name="sort_timeouts_desc">%s. Выберите значение сортировки.</string>
 
@@ -84,7 +84,7 @@
     <string name="power_events">Защита от полного разряда</string>
 
     <string name="disable_on_low_name">Автоотключение при низком заряде</string>
-    <string name="disable_on_low_desc">Автоматически отключать режим < всегда включенного экрана > при низком заряде аккумулятора.</string>
+    <string name="disable_on_low_desc">Автоматически отключать режим &lt; всегда включенного экрана &gt; при низком заряде аккумулятора.</string>
 
     <!-- Licensing state -->
     <string name="no_license">Нет лицензии</string>

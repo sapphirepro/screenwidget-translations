@@ -34,13 +34,13 @@
     <string name="multitap_enable_name">Поддержка многократного нажатия</string>
     <string name="multitap_enable_desc">Включить или выключить поддержку многократного нажатия. Функция многократного нажатия позволяет Вам изменять время включенного экрана между заданными значениями. Используйте двойное нажатие на виджет - для увеличения значения, и тройное нажатие - для уменьшения значения.</string>
     <string name="multitap_smart_system_name">Умная задержка многократного нажатия</string>
-    <string name="multitap_smart_system_desc">Умная задержка многократного нажатия: в случае одиночного нажатия реакция виджета на событие будет вдвое быстрее (350 мс), в то время как на двойное и тройное нажатие реакция виджета будет 700 мс.</string>
+    <string name="multitap_smart_system_desc">Умная задержка многократного нажатия: в случае одиночного нажатия реакция виджета на событие будет вдвое быстрее (350 мс), в то время как на двойное и тройное нажатие - 700 мс.</string>
 
     <string name="single_tap_action_name">Действие одиночного нажатия</string>
     <string name="single_tap_action_desc">%s. Выберите действие для одиночного нажатия.</string>
-    <string name="single_always_on">Переключение между < всегда включенным экраном > и < таймаутом по-умолчанию ></string>
-    <string name="single_last_active">Переключение между < последним активным таймаутом > и < таймаутом по-умолчанию ></string>
-    <string name="sort_timeouts_name">Сортировка пользовательских тайм-аутов</string>
+    <string name="single_always_on">Переключение между \"всегда включенным экраном\" и \"таймаутом по-умолчанию\"</string>
+    <string name="single_last_active">Переключение между \"последним активным таймаутом\" и \"таймаутом по-умолчанию\"</string>
+    <string name="sort_timeouts_name">Сортировка пользовательских таймаутов</string>
     <string name="sort_timeouts_desc">%s. Выберите значение сортировки.</string>
 
     <string name="do_not_sort">Не сортировать</string>
@@ -67,24 +67,24 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Пользовательские таймауты</string>
     <string name="custom_timeout1_header">Пользовательский таймаут #1</string>
-    <string name="custom_timeout1_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout1_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="custom_timeout2_header">Пользовательский таймуат #2</string>
-    <string name="custom_timeout2_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout2_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="custom_timeout3_header">Пользовательский таймаут #3</string>
-    <string name="custom_timeout3_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout3_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="custom_timeout4_header">Пользовательский таймаут #4</string>
-    <string name="custom_timeout4_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout4_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="custom_timeout5_header">Пользовательский таймаут #5</string>
-    <string name="custom_timeout5_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout5_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="custom_timeout6_header">Пользовательский таймаут #6</string>
-    <string name="custom_timeout6_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout6_value">%s минут. (введите желаемое значение или 0 - для выключения этого таймаута)</string>
     <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
 
     <!-- Power related events -->
     <string name="power_events">Защита от полного разряда</string>
 
     <string name="disable_on_low_name">Автоотключение при низком заряде</string>
-    <string name="disable_on_low_desc">Автоматически отключать режим < всегда включенного экрана > при низком заряде аккумулятора.</string>
+    <string name="disable_on_low_desc">Автоматически отключать режим \"всегда включенного экрана\" при низком заряде аккумулятора.</string>
 
     <!-- Licensing state -->
     <string name="no_license">Нет лицензии</string>

@@ -40,9 +40,9 @@
     <string name="sort_timeouts_name">Sort custom timeouts list</string>
     <string name="sort_timeouts_desc">%s. Choose sort option.</string>
 
-    <string name="do_not_sort">Do not sort</string>
-    <string name="do_sort_asc">Sort ascending</string>
-    <string name="do_sort_desc">Sort descending</string>
+    <string name="do_not_sort">Niet sorteren</string>
+    <string name="do_sort_asc">Sorteer oplopend</string>
+    <string name="do_sort_desc">Sorteer aflopend</string>
 
     <!-- Design tuning -->
     <string name="design_section">Visuele aanpassingen</string>
@@ -57,32 +57,31 @@
 
     <!-- Menu items -->
     <string name="str_menu_settings">Instellingen</string>
-    <string name="str_menu_rate_app">Rate application</string>
-    <string name="str_menu_share_app">Recommend application</string>
+    <string name="str_menu_rate_app">App waarderen</string>
+    <string name="str_menu_share_app">App aanbevelen</string>
 
     <!-- Custom timeouts -->
-    <string name="settings_custom_timeouts">Customize timeouts</string>
-    <string name="custom_timeout1_header">Custom timeout value 1</string>
-    <string name="custom_timeout1_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout2_header">Custom timeout value 2</string>
-    <string name="custom_timeout2_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout3_header">Custom timeout value 3</string>
-    <string name="custom_timeout3_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout4_header">Custom timeout value  4</string>
-    <string name="custom_timeout4_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout5_header">Custom timeout value 5</string>
-    <string name="custom_timeout5_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout6_header">Custom timeout value 6</string>
-    <string name="custom_timeout6_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="enter_timeout_value">Please enter value in minutes</string>
+    <string name="settings_custom_timeouts">Time-outs aanpassen</string>
+    <string name="custom_timeout1_header">Time-out waarde 1</string>
+    <string name="custom_timeout1_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout2_header">Time-out waarde 2</string>
+    <string name="custom_timeout2_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout3_header">Time-out waarde 3</string>
+    <string name="custom_timeout3_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout4_header">Time-out waarde 4</string>
+    <string name="custom_timeout4_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout5_header">Time-out waarde 5</string>
+    <string name="custom_timeout5_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout6_header">Time-out waarde 6</string>
+    <string name="custom_timeout6_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="enter_timeout_value">Geef waarde in als minuten</string>
 
     <!-- Power related events -->
-    <string name="power_events">Low battery protection</string>
+    <string name="power_events">Bescherming voor bijna lege batterij</string>
 
-    <string name="disable_on_low_name">Auto disable on low battery</string>
-    <string name="disable_on_low_desc">Automatically disable always on mode on low battery level.</string>
+    <string name="disable_on_low_name">Automatisch uitschakelen bij bijna lege batterij</string>
+    <string name="disable_on_low_desc">Schakel altijd-aan modus automatisch uit als de batterij bijna leeg is.</string>
 
     <!-- Licensing state -->
     <string name="no_license">Geen licentie</string>
-
 </resources>

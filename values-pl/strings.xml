@@ -76,6 +76,9 @@
     <string name="custom_timeout6_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="enter_timeout_value">Please enter value in minutes</string>
 
+    <!-- Tile translations -->
+    <string name="tile_name">Screen Timeout</string>
+
     <!-- Power related events -->
     <string name="power_events">Low battery protection</string>
 

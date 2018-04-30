@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <string name = "application_name">Keep Screen Awake Widget</string>
 
 <string name = "description_short">Widget to toggle display auto off or always on state</string>

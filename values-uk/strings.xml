@@ -81,6 +81,9 @@
     <string name="custom_timeout6_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
     <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
 
+    <!-- Tile translations -->
+    <string name="tile_name">Время ожидания экрана</string>
+
     <!-- Power related events -->
     <string name="power_events">Защита от полного разряда</string>
 

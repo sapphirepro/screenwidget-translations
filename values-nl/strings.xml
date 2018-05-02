@@ -76,6 +76,9 @@
     <string name="custom_timeout6_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="enter_timeout_value">Geef waarde in als minuten</string>
 
+    <!-- Tile translations -->
+    <string name="tile_name">Screen Timeout</string>
+
     <!-- Power related events -->
     <string name="power_events">Bescherming voor bijna lege batterij</string>
 

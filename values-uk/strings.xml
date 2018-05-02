@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ScreenWidget</string>
+    <string name="app_name">Screen Awake</string>
     <string name="label_on">Ввімкнений</string>
     <string name="label_off">%1$d мин.</string>
     <string name="lceck_fail">Недійсна ліцензія.</string>
@@ -80,6 +80,9 @@
     <string name="custom_timeout6_header">Пользовательское время ожидания 6</string>
     <string name="custom_timeout6_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
     <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Время ожидания экрана</string>
 
     <!-- Power related events -->
     <string name="power_events">Защита от полного разряда</string>

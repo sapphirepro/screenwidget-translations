@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ScreenWidget</string>
+    <string name="app_name">Screen Awake</string>
     <string name="label_on">Altijd aan</string>
     <string name="label_off">%1$d min.</string>
     <string name="lceck_fail">Licentie-controle mislukt.</string>

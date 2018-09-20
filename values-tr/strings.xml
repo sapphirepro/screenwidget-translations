@@ -58,7 +58,7 @@
     <!-- Menu items -->
     <string name="str_menu_settings">Ayarlar</string>
     <string name="str_menu_rate_app">Uygulamayı derecelendir</string>
-    <string name="str_menu_share_app">Uygulamayı bir başkına öner</string>
+    <string name="str_menu_share_app">Uygulamayı bir başkasına öner</string>
 
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Zaman Aşımı Kişiselleştirmesi</string>

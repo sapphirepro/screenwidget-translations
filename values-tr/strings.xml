@@ -30,7 +30,7 @@
     <string name="multitap_enable_name">Çoklu Dokunma desteği</string>
     <string name="multitap_enable_desc">Kısayolun çoklu dokunma desteğini açar veya kapatır. Birden fazla kere dokunarak kısayolun ayarlayacağı bekleme süresini arttırabilir veya azaltabilirsiniz.</string>
     <string name="multitap_smart_system_name">Akıllı Çoklu Dokunma gecikmesi</string>
-    <string name="multitap_smart_system_desc">Akıllı çoklu dokunma gecikmesi: tek bir tıklama ile çok daha fazla değer değişimi ile üçten fazla tıklamada oluşan gecikme süresini azaltır.</string>
+    <string name="multitap_smart_system_desc">Akıllı çoklu dokunma gecikmesi: tek bir tıklama ile varsayılan ile en son ayarladığınız bekleme süresi arasında hızlıca geçiş yaparken hızlıca yapılan iki tıklamada ise bekleme süreleri arasında geçiş yapın.</string>
 
     <string name="single_tap_action_name">Tek Dokunma etkinliği</string>
     <string name="single_tap_action_desc">Kısayola bir kere dokunduğunuzda yapılacak eylem: %s.</string>

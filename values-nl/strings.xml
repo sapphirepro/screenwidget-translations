@@ -26,6 +26,12 @@
         5. Tap back and you are ready to use tile.\n]]>
     </string>
 
+    <!-- Notification icon settings -->
+    <string name="notification">Notification</string>
+    <string name="notification_name">Notification and statusbar icon</string>
+    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <!-- End of notification icon settings -->
+
     <!-- Settings localization -->
     <string name="onboot_section">Opstart Instellingen</string>
     <string name="onboot_trigger_name">Herstel bij opstarten</string>

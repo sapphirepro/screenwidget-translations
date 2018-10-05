@@ -26,6 +26,12 @@
         5. Нажмите НАЗАД. Плитка быстрых настроек готова к использованию.\n]]>
     </string>
 
+    <!-- Notification icon settings -->
+    <string name="notification">Уведомления</string>
+    <string name="notification_name">Уведомление и иконка в статус баре</string>
+    <string name="notification_desc">Включение данной опции при активном режиме \"всегда ключённого экрана\" будет выводить уведомление и иконку в статус баре.</string>
+    <!-- End of notification icon settings -->
+
     <string name="btn_addwidget">Добавить на домашний экран</string>
     <!-- Settings localization -->
     <string name="onboot_section">Настройки автозапуска</string>

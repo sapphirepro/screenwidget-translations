@@ -7,7 +7,7 @@
 
     <string name="lbl_permissions">Uygulamamı kullanmaya başlamadan önce ekranınızın bekleme süresini ayarlayabilmek için ayarlardan uygulamama izin vermeniz gerekiyor.</string>
     <string name="btn_permissions">Ayarla</string>
-    <string name="lbl_addwidget_header">Ana ekranınıza bekleme süresi kısayolunu eklemek için:</string>
+    <string name="lbl_addwidget_header">Ana ekranınıza bekleme süresi kısayolunu eklemek için</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Öncelikle ana ekranına dönmek için ana ekran tuşuna basınız.<br/>
         2. Daha sonra parmağınızı ekranın boş bir kısmında bir süre basılı tutunuz.<br/>
@@ -16,6 +16,16 @@
         5. Kısayolu bulduktan sonra ana ekranınıza eklemek için kısayola basılı tutun ve ana ekranınızın boş bir kısmına sürükleyin.<br/>
         6. Artık ekranınızın bekleme süresini değiştirmek için kısayolu kullanmaya başlayabilirsiniz! :)\n]]>
     </string>
+
+    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Open the notification drawer.<br/>
+        2. Swipe down from the top to open the Quick Settings drawer.<br/>
+        3. Tap EDIT button.<br/>
+        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
+        5. Tap back and you are ready to use tile.\n]]>
+    </string>
+
     <string name="btn_addwidget">Ana Ekrana Ekle</string>
 
     <!-- Settings localization -->
@@ -30,7 +40,7 @@
     <string name="multitap_enable_name">Çoklu Dokunma desteği</string>
     <string name="multitap_enable_desc">Kısayolun çoklu dokunma desteğini açar veya kapatır. Birden fazla kere dokunarak kısayolun ayarlayacağı bekleme süresini arttırabilir veya azaltabilirsiniz.</string>
     <string name="multitap_smart_system_name">Akıllı Çoklu Dokunma gecikmesi</string>
-    <string name="multitap_smart_system_desc">Akıllı çoklu dokunma gecikmesi: tek bir tıklama ile varsayılan ile en son ayarladığınız bekleme süresi arasında hızlıca geçiş yaparken hızlıca yapılan iki tıklamada ise bekleme süreleri arasında geçiş yapın.</string>
+    <string name="multitap_smart_system_desc">Akıllı çoklu dokunma gecikmesi: tek bir tıklama ile çok daha fazla değer değişimi ile üçten fazla tıklamada oluşan gecikme süresini azaltır.</string>
 
     <string name="single_tap_action_name">Tek Dokunma etkinliği</string>
     <string name="single_tap_action_desc">Kısayola bir kere dokunduğunuzda yapılacak eylem: %s.</string>

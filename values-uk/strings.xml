@@ -32,6 +32,12 @@
     <string name="notification_desc">Включение данной опции при активном режиме \"всегда ключённого экрана\" будет выводить уведомление и иконку в статус баре.</string>
     <!-- End of notification icon settings -->
 
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto deactivation</string>
+    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
+    <string name="revert_default_timeout_desc">When enabled screen timeout setting will automatically turn off "always on" mode, if screen has been powered off by power button press</string>
+    <!-- End of auto disable always on mode setting -->
+
     <string name="btn_addwidget">Додати на домашній екран</string>
 
 

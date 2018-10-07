@@ -7,7 +7,7 @@
 
     <string name="lbl_permissions">Вам нужно выдать приложению разрешение на изменение настроек, прежде чем оно сможет работать. Единственная настройка, которую оно будет менять - таймаут экрана.</string>
     <string name="btn_permissions">Настроить разрешение</string>
-    <string name="lbl_addwidget_header">Для добавления виджета на рабочий стол:</string>
+    <string name="lbl_addwidget_header">Добавление виджета на рабочий стол</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Нажмите кнопку Домой, чтобы попасть на домашний экран.<br/>
         2. Нажмите и удерживайте палец в любой пустой области экрана, не занятой иконками.<br/>
@@ -16,9 +16,29 @@
         5. Перетащите его в любое удобное для Вас место на домашнем экране.<br/>
         6. Нажмите на виджет для переключения режима автоотключения экрана.]]>
     </string>
+
+    <string name="lbl_addtile_header">Добавление плитки быстрых настроек</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Откройте панель уведомлений.<br/>
+        2. Потяните сверху вниз чтобы открыть нанель быстрых настроек.Swipe down from the top to open the Quick Settings drawer.<br/>
+        3. Нажмите кнопку редактировать (карандаш).<br/>
+        4. Перетащите плитку \"Время ожидания экранаэ" в область панели быстрых настроек.<br/>
+        5. Нажмите НАЗАД. Плитка быстрых настроек готова к использованию.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Уведомления</string>
+    <string name="notification_name">Уведомление и иконка в статус баре</string>
+    <string name="notification_desc">Включение данной опции при активном режиме \"всегда ключённого экрана\" будет выводить уведомление и иконку в статус баре.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto deactivation</string>
+    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
+    <string name="revert_default_timeout_desc">When enabled screen timeout setting will automatically turn off "always on" mode, if screen has been powered off by power button press</string>
+    <!-- End of auto disable always on mode setting -->
+
     <string name="btn_addwidget">Добавить на домашний экран</string>
-
-
     <!-- Settings localization -->
     <string name="onboot_section">Настройки автозапуска</string>
     <string name="onboot_trigger_name">Восстановление состояния</string>

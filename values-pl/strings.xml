@@ -7,16 +7,36 @@
 
     <string name="lbl_permissions">Aby aplikacja działała poprawnie, należy przyznać pozwolenie na zmianę ustawień systemu, jedyne ustawienie którego używa aplikacja to czas przez jaki ekran będzie włączony.</string>
     <string name="btn_permissions">Konfiguracja</string>
-    <string name="lbl_addwidget_header">Aby dodać widget do Ekranu Głównego:</string>
+    <string name="lbl_addwidget_header">Aby dodać widget do Ekranu Głównego</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Naciśnij przycisk Home, aby wyjść do Ekranu Głównego.<br/>
         2. Przytrzymaj palec na wolnym obszarze (bez ikon).<br/>
         3. Wybierz \"Widgets\".<br/>
         4. Przejdź do \"ScreenWidget\".<br/>
         5. Przytrzymaj chwilę palec na ikonie widget\'u, aby dodać go do Ekranu Głównego.<br/>
-        6. Klikając ikonę widget'u wybierz żądany czas przez jaki ekran będzie aktywny.\n]]>
+        6. Klikając ikonę widget\'u wybierz żądany czas przez jaki ekran będzie aktywny.\n]]>
     </string>
     <string name="btn_addwidget">Dodaj do Ekranu Głównego</string>
+    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Open the notification drawer.<br/>
+        2. Swipe down from the top to open the Quick Settings drawer.<br/>
+        3. Tap EDIT button.<br/>
+        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
+        5. Tap back and you are ready to use tile.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notification</string>
+    <string name="notification_name">Notification and statusbar icon</string>
+    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto deactivation</string>
+    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
+    <string name="revert_default_timeout_desc">When enabled screen timeout setting will automatically turn off "always on" mode, if screen has been powered off by power button press</string>
+    <!-- End of auto disable always on mode setting -->
 
     <!-- Settings localization -->
     <string name="onboot_section">Ustawienia po ponownym uruchomieniu systemu</string>
@@ -46,9 +66,9 @@
     <!-- Design tuning -->
     <string name="design_section">Personalizacja wyglądu widget\'u</string>
     <string name="widget_font_size_header">Rozmiar czcionki</string>
-    <string name="widget_font_size_desc">Wybierz rozmiar czcionki widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher'ach.</string>
+    <string name="widget_font_size_desc">Wybierz rozmiar czcionki widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher\'ach.</string>
     <string name="widget_icon_size_header">Wielkość ikony</string>
-    <string name="widget_icon_size_desc">Wybór wielkości ikony widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher'ach.</string>
+    <string name="widget_icon_size_desc">Wybór wielkości ikony widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher\'ach.</string>
 
 
     <!-- Margin settings -->

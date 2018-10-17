@@ -38,9 +38,9 @@
     <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
 
     <!-- Auto disable select options -->
-    <string name="condition_never">is disabled</string>
-    <string name="condition_any_timeout">is enabled for all custom timeouts and always on mode</string>
-    <string name="condition_only_always_on">is enabled only for always on mode</string>
+    <string name="condition_never">disabled</string>
+    <string name="condition_any_timeout">enabled</string>
+    <string name="condition_only_always_on">enabled only for always on mode</string>
 
     <!-- Settings localization -->
     <string name="onboot_section">Ustawienia po ponownym uruchomieniu systemu</string>

@@ -1,24 +1,26 @@
-<string name = "application_name">Keep Screen Awake Widget</string>
+<?xml version="1.0" encoding="utf-8"?>
+<string name = "application_name">Keep Screen Awake</string>
 
-<string name = "description_short">Widget to toggle display auto off or always on state</string>
+<string name = "description_short">Widget oraz przełącznik Szybkich Ustawień do szybkiego ustawienia czasu włączenia ekranu</string>
 
-<string name = "playmarket_description">Now you can work on your phone, read web articles and do any other stuff without your display turning off at the most inconvenient time. You can easily switch it to stay on directly from your home screen with a single click!
+<string name = "playmarket_description">Teraz możesz pracować na twoim urządzeniu, przeglądać artykuły w sieci oraz robić wiele innych rzeczy bez obawy, że ekran wyłączy się w najmniej oczekiwanym momencie. Możesz łatwo przełączać tryby włączenia z Ekranu Głównego lub panelu Szybkich Ustawień poprzez pojedyncze kliknięcie!
 
-Very useful and easy to use application that allows you to quickly toggle phone's screen timeout settings, setting it to always on or revert back to chosen before display timeout.
+Bardzo prosta i użyteczna aplikacja pozwalająca na szybką zmianę ustawień czasu włączenia ekranu w tryb "ZAWSZE WŁĄCZONY" lub domyślnych ustawień systemu.
 
-<b>KEY FEATURES:</b>
-&bull; Quickly toggle screen timeout with compact and easy to use widget.
-&bull; Screen always on mode.
-&bull; Multi-tap support for switching between different screen timeout values.
-&bull; Up to 6 user definable custom timeout values, that you're able to quickly switch between using double and triple taps on widget.
-&bull; Option to restore last active timeout state on device boot.
+<b>GŁÓWNE ZALETY APLIKACJI</b>
+&bull; <u><i>NOWE!</i></u> Przełącznik w panelu Szybkich Ustawień (wymagany Android 7.0+) do wygodnej i szybkiej zmiany ustawień czasu włączenia ekranu.
+&bull; Szybkie przełączanie pomiędzy trybami za pomocą widget'u
+&bull; Tryb ekranu "ZAWSZE WŁĄCZONY".
+&bull; Opcja Multi-tap dla szybkiego wyboru zaprogramowanych przez Użytkownika wartości .
+&bull; Do 6 trybów definiowanych przez Użytkownika, aby szybko przełączyć w żadany tryb za pomocą podwójnego i potrójnego kliknięcia widget'u.
+&bull; Opcja przywracania ustawień po restarcie urządzenia.
 
-We hope you'll enjoy this easy to use and always on hand widget.
+Mamy nadzieję, że będziesz cieszył się tym prostym i praktycznym narzędziem.
 
-If you would like to help with translations, use GitHub link: <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. You can also use it for any app related bug reports and feature requests.
+Jeśli chcesz pomóc w tłumaczeniu aplikacji, użyj link GitHub: <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. You can also use it for any app related bug reports and feature requests.
 
-<b>FEATURE REQUESTS, SUGGESTIONS AND ASSISTANCE:</b>
-1. Google+ group related to this application: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
-2. Write us email with your suggestions, feature requests to <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
-3. Telegram customer support group: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a>
+<b>PROŚBY O DODANIE NOWYCH FUNKCJONALNOŚCI, SUGESTIE I WSPARCIE :</b>
+1. Google+ grupa dedykowna aplikacji: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
+2. Napisz do nas emaila, z prośbą o dodanie nowych funkcji <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
+3. Grupa wsparcia na Telegramie: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a>
 </string>

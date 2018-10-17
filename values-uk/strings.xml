@@ -1,96 +1,117 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">Screen Awake</string>
-    <string name="label_on">Ввімкнений</string>
-    <string name="label_off">%1$d мин.</string>
+    <string name="label_on">Включений</string>
+    <string name="label_off">%1$d хв.</string>
     <string name="lceck_fail">Недійсна ліцензія.</string>
 
-    <string name="lbl_permissions">Вам потрібно видати додатку дозвіл на зміну налаштунків раніше ніж він зможе працювати. Единий налаштунок, який він буде змінювати - таймаут екрану.</string>
-
-    <string name="btn_permissions">Налаштувати роздільну здатність екрану</string>
-    <string name="lbl_addwidget_header">Для додавання віджету на рабочий стіл:</string>
+    <string name="lbl_permissions">Вам необхідно надати додатку дозвіл на змінення налаштувань перш, ніж він почне працювати. Єдина налаштування, яке він буде змінювати - тайм-аут екрану.</string>
+    <string name="btn_permissions">Налаштування розділення</string>
+    <string name="lbl_addwidget_header">Для додавання віджету на робочий стіл</string>
     <string name="lbl_addwidget"><![CDATA[
-        1. Натисніть кнопку "додому", щоб попасти на домашній екран.<br/>
-        2. Натисніть і утримуйте палець в будь-якій пустій області екрану, не зайнятій іконками.<br/>
+        1. Натисніть кнопку \"До дому\", щоб потрапити на домашній екран.<br/>
+        2. Натисніть та утримуйте пальця у будь-який порожній області екрану, не зайнятій іконками.<br/>
         3. Оберіть \"Віджети\".<br/>
         4. Знайдіть віджет \"ScreenWidget\".<br/>
-        5. Перетягніть його у будь-яке зручне для Вас місце на домашньому екрані.<br/>
-        6. Натисніть на віджет для перемикання режиму автовимкнення живлення екрану.]]>
+        5. Перетяніть його у будь-яке зручне для Вас місце на домашньому екрані.<br/>
+        6. Натисніть на віджеті для перемикання режиму автоматичного вимикання екрану.]]>
     </string>
 
-    <string name="btn_addwidget">Додати на Домашній екран</string>
+    <string name="lbl_addtile_header">Додання плитки швидких налаштувань</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Выдкрийте панель повідомлень.<br/>
+        2. Потягніть зверху донизу щоб відкрити панель швидких налаштувань.<br/>
+        3. Натисніть кнопку редагування(олівець).<br/>
+        4. Перетягніть плитку \"Час очікування екрану\" в область панелі швидких налаштувань.<br/>
+        5. Натисніть НАЗАД. Плитка швидких налаштувань готова до використання.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Повідомлення</string>
+    <string name="notification_name">Повідомлення та іконка у рядку стану</string>
+    <string name="notification_desc">Увімкнення даної опції при активному режимі \"Завжди увімкненого екрану\" буде показуватися повідомлення та іконка у рядку стану.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Автоматична деактивація</string>
+    <string name="revert_default_timeout_name">Автматичне повернення до тайм-ауту а замовченню</string>
+    <string name="revert_default_timeout_desc">Автоматический возврат к системному таймауту при отключении экрана %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">отключён</string>
+    <string name="condition_any_timeout">включён</string>
+    <string name="condition_only_always_on">включён только для всегда включенного экрана</string>
+
+    <string name="btn_addwidget">Додати на домашній екран</string>
 
 
     <!-- Settings localization -->
-    <string name="onboot_section">Настройки автозапуска</string>
-    <string name="onboot_trigger_name">Восстановление состояния</string>
-    <string name="onboot_trigger_desc">Востанавливать последнее состояние при запуске. Может быть полезно, если Вы желаете, чтобы при запуске устройства было востановлено состояние до перезапуска. Если экран был "всё время включён", то при запуске будет восстановлено это значение.</string>
-    <string name="onboot_toast_name">Показывать оповещение</string>
-    <string name="onboot_toast_desc">Показывать Toast сообщение о восстановлении настроек.</string>
+    <string name="onboot_section">Налаштування автозапуску</string>
+    <string name="onboot_trigger_name">Відновлення стану</string>
+    <string name="onboot_trigger_desc">Відноовленння останньго стану при запуску. Може бути корисним, якщо ви побажаєте, щоб при запуску пристрія було відновлено стан до перезупуска. Якщо екран був \"весь час включений\", то при запуску буде відновлено це значення.</string>
+    <string name="onboot_toast_name">Покаувати сповіщенння</string>
+    <string name="onboot_toast_desc">Показувати спливаюче повідомлення про відновлення налаштувань.</string>
 
     <!-- Multi tap settings-->
-    <string name="multitap_section">Настройки многократного нажатия</string>
-    <string name="multitap_enable_name">Поддержка многократного нажатия</string>
-    <string name="multitap_enable_desc">Включить или выключить поддержку многократного нажатия. Функция многократного нажатия позволяет Вам изменять время включённого экрана между запрограммированными значениями. Используйте двойное нажатие на виджет для увеличения значения и тройное нажатие для уменьшения соответственно.</string>
-    <string name="multitap_smart_system_name">Умная задержка многократного нажатия</string>
-    <string name="multitap_smart_system_desc">Умная задержка многократного нажатия: в случае одиночного нажатия реакция виджета на событие будет вдвое быстрее(350 мс), в то время как на 2 и 3 нажатия жадержка счётчика нажатий будет 700 мс.</string>
+    <string name="multitap_section">Налаштування багаторазового натискання</string>
+    <string name="multitap_enable_name">Підтримка багаторазового натискання</string>
+    <string name="multitap_enable_desc">Включити або вимкнути підтримку багаторазового натискання. Функція багаторазового натискання доволяє Вам змінювати час включеного екрану між вказаними значеннями. Використовуйте подвійне натискання  на віджет для збільшення значення, потрійне - для зменьшення.</string>
+    <string name="multitap_smart_system_name">Розумна затримка багаторазового натискання</string>
+    <string name="multitap_smart_system_desc">Розумна затримка багаторазового натискання: у разі одиночго натискання реакція віджету буде удвічи бистрішою (350мс), в той час, як на подвійне та потрійне натискання реакція віджету буде 700мс.</string>
 
+    <string name="single_tap_action_name">Дія одиночного натискання</string>
+    <string name="single_tap_action_desc">%s. Оберіть дію для одиночно натискання.</string>
+    <string name="single_always_on"><![CDATA[Перемикання між  <b>завжди включеним екраном</b> та  <b>тайм-аутом по-замовченню</b>]]></string>
+    <string name="single_last_active"><![CDATA[Перемикання між <b>останнім активним тайм-аутом</b> та <b>тайм-аутом по-замовченню</b>]]></string>
+    <string name="sort_timeouts_name">Сортування тайм-аутовів користувача</string>
+    <string name="sort_timeouts_desc">%s. Оберіть значення сортування.</string>
 
-    <string name="single_tap_action_name">Действие одного нажатия</string>
-    <string name="single_tap_action_desc">%s. Выберите действие для одного нажатия.</string>
-    <string name="single_always_on">Переключение между всегда включенным экраном и таймаутом по умолчанию</string>
-    <string name="single_last_active">Переключение между последним активным таймаутом и таймаутом по умолчанию</string>
-    <string name="sort_timeouts_name">Сортировка пользовательских таймаутов</string>
-    <string name="sort_timeouts_desc">%s. Выберите значение сортировки.</string>
-
-    <string name="do_not_sort">Не сортировать</string>
-    <string name="do_sort_asc">Сортировать по возрастанию</string>
-    <string name="do_sort_desc">Сортировать по убыванию</string>
+    <string name="do_not_sort">Не сортувати</string>
+    <string name="do_sort_asc">Сортування за спаданням</string>
+    <string name="do_sort_desc">Сортування за збільшенням</string>
 
     <!-- Design tuning -->
-    <string name="design_section">Visual customizations</string>
-    <string name="widget_font_size_header">Font size</string>
-    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
-    <string name="widget_icon_size_header">Icon size</string>
-    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
+    <string name="design_section">Візуальні налаштування</string>
+    <string name="widget_font_size_header">Розмір шрифту</string>
+    <string name="widget_font_size_desc">Оберіть розмір шрифту, який буде використовуватися у віджеті. Корисно для кращіх візуальних результатів із використанням різних оболонок.</string>
+    <string name="widget_icon_size_header">Розмір іконки</string>
+    <string name="widget_icon_size_desc">Вибір роміру іконки віджету. Корисно для кращіх візуальних результатів із використанням різних оболонок.</string>
 
 
     <!-- Margin settings -->
-    <string name="layout_ico_header">Icon size</string>
-    <string name="action_settings">Настройки</string>
+    <string name="layout_ico_header">Розмір іконки</string>
+    <string name="action_settings">Налаштування</string>
 
     <!-- Menu items -->
-    <string name="str_menu_settings">Настройки</string>
-    <string name="str_menu_rate_app">Оценить приложение</string>
-    <string name="str_menu_share_app">Порекомендовать приложение</string>
+    <string name="str_menu_settings">Налаштування</string>
+    <string name="str_menu_rate_app">Оцінити додаток</string>
+    <string name="str_menu_share_app">Порекомендувати додаток</string>
 
     <!-- Custom timeouts -->
-    <string name="settings_custom_timeouts">Пользовательские таймауты</string>
-    <string name="custom_timeout1_header">Пользовательское время ожидания 1</string>
-    <string name="custom_timeout1_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout2_header">Пользовательское время ожидания 2</string>
-    <string name="custom_timeout2_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout3_header">Пользовательское время ожидания 3</string>
-    <string name="custom_timeout3_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout4_header">Пользовательское время ожидания 4</string>
-    <string name="custom_timeout4_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout5_header">Пользовательское время ожидания 5</string>
-    <string name="custom_timeout5_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="custom_timeout6_header">Пользовательское время ожидания 6</string>
-    <string name="custom_timeout6_value">%s минут. Введите желаемое значение. Введите 0 для пропуска значения.</string>
-    <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
+    <string name="settings_custom_timeouts">Тайм-аути користувача</string>
+    <string name="custom_timeout1_header">Тайм-аут користувача #1</string>
+    <string name="custom_timeout1_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout2_header">Тайм-аути користувача #2</string>
+    <string name="custom_timeout2_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout3_header">Тайм-аути користувача #3</string>
+    <string name="custom_timeout3_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout4_header">Тайм-аути користувача #4</string>
+    <string name="custom_timeout4_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout5_header">Тайм-аути користувача #5</string>
+    <string name="custom_timeout5_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout6_header">Тайм-аути користувача #6</string>
+    <string name="custom_timeout6_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="enter_timeout_value">Будьласка, введить значення у хвилинах</string>
 
     <!-- Tile translations -->
-    <string name="tile_name">Время ожидания экрана</string>
+    <string name="tile_name">Час очикування екрану</string>
 
     <!-- Power related events -->
-    <string name="power_events">Защита от полного разряда</string>
+    <string name="power_events">Захист від повного розряду</string>
 
-    <string name="disable_on_low_name">Автоотключение при низком заряде</string>
-    <string name="disable_on_low_desc">Автоматически отключать режим всегда включённого экрана при низком заряде аккумулятора.</string>
-
+    <string name="disable_on_low_name">Автовідключення при низькому заряді</string>
+    <string name="disable_on_low_desc">Автоматичне вимкнення режиму \"Завжди включеного екрану\" при низькому заряді акумулятору.</string>
 
     <!-- Licensing state -->
-    <string name="no_license">Нет лицензии</string>
+    <string name="no_license">Відсутня ліцензія</string>
 </resources>

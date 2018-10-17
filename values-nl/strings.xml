@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ScreenWidget</string>
+    <string name="app_name">Screen Awake</string>
     <string name="label_on">Altijd aan</string>
     <string name="label_off">%1$d min.</string>
     <string name="lceck_fail">Licentie-controle mislukt.</string>
 
     <string name="lbl_permissions">Om de time-out instelling te veranderen heeft deze app toelating nodig om de instellingen van uw apparaat te veranderen, de app veranderd enkel de instelling voor de time-out voor het automatisch uitschakelen van het scherm.</string>
     <string name="btn_permissions">Instellen</string>
-    <string name="lbl_addwidget_header">Om de widget aan uw startscherm toe te voegen:</string>
+    <string name="lbl_addwidget_header">Om de widget aan uw startscherm toe te voegen</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Druk op de home toets om naar het startscherm te gaan.<br/>
         2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.<br/>
@@ -17,7 +17,29 @@
         6. Druk op de widget om de time-out modus te kiezen.]]>
     </string>
     <string name="btn_addwidget">Toevoegen aan startscherm</string>
+    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Open the notification drawer.<br/>
+        2. Swipe down from the top to open the Quick Settings drawer.<br/>
+        3. Tap EDIT button.<br/>
+        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
+        5. Tap back and you are ready to use tile.\n]]>
+    </string>
 
+    <!-- Notification icon settings -->
+    <string name="notification">Notification</string>
+    <string name="notification_name">Notification and statusbar icon</string>
+    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <!-- End of notification icon settings -->
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto deactivation</string>
+    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
+    <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">disabled</string>
+    <string name="condition_any_timeout">enabled</string>
+    <string name="condition_only_always_on">enabled only for always on mode</string>
 
     <!-- Settings localization -->
     <string name="onboot_section">Opstart Instellingen</string>

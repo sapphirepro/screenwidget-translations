@@ -1,92 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Screen Awake</string>
-    <string name="label_on">Always on</string>
+    <string name="label_on">Zawsze włączony</string>
     <string name="label_off">%1$d min.</string>
-    <string name="lceck_fail">License check failed.</string>
+    <string name="lceck_fail">Sprawdzenie licencji nie powiodło się</string>
 
-    <string name="lbl_permissions">You need to give this app permission to change the settings before it will work, the only setting it will touch is the screen time-out.</string>
-    <string name="btn_permissions">Configure</string>
-    <string name="lbl_addwidget_header">For adding the widget to the home screen:</string>
+    <string name="lbl_permissions">Aby aplikacja działała poprawnie, należy przyznać pozwolenie na zmianę ustawień systemu, jedyne ustawienie którego używa aplikacja to czas przez jaki ekran będzie włączony.</string>
+    <string name="btn_permissions">Konfiguracja</string>
+    <string name="lbl_addwidget_header">Aby dodać widget do Ekranu Głównego</string>
     <string name="lbl_addwidget"><![CDATA[
-        1. Press the home button to get to the home screen.<br/>
-        2. Hold finger down on an area that is not occupied by an icon.<br/>
-        3. Select \"widgets\".<br/>
-        4. Scroll to \"ScreenWidget\" widget.<br/>
-        5. Drag and drop it into the home screen to where you want it.<br/>
-        6. Click on widget to change screen timeout mode.\n]]>
+        1. Naciśnij przycisk Home, aby wyjść do Ekranu Głównego.<br/>
+        2. Przytrzymaj palec na wolnym obszarze (bez ikon).<br/>
+        3. Wybierz \"Widgets\".<br/>
+        4. Przejdź do \"ScreenWidget\".<br/>
+        5. Przytrzymaj chwilę palec na ikonie widget\'u, aby dodać go do Ekranu Głównego.<br/>
+        6. Klikając ikonę widget\'u wybierz żądany czas przez jaki ekran będzie aktywny.\n]]>
     </string>
-    <string name="btn_addwidget">Add to Home Screen</string>
+    <string name="btn_addwidget">Dodaj do Ekranu Głównego</string>
+    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Open the notification drawer.<br/>
+        2. Swipe down from the top to open the Quick Settings drawer.<br/>
+        3. Tap EDIT button.<br/>
+        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
+        5. Tap back and you are ready to use tile.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notification</string>
+    <string name="notification_name">Notification and statusbar icon</string>
+    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto deactivation</string>
+    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
+    <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">disabled</string>
+    <string name="condition_any_timeout">enabled</string>
+    <string name="condition_only_always_on">enabled only for always on mode</string>
 
     <!-- Settings localization -->
-    <string name="onboot_section">On-Boot Settings</string>
-    <string name="onboot_trigger_name">Restore on boot</string>
-    <string name="onboot_trigger_desc">Restore last active state on boot. Useful, if you want timings to be restored to the state it was before device reboot.</string>
-    <string name="onboot_toast_name">Show message</string>
-    <string name="onboot_toast_desc">Show Toast message once settings restored</string>
+    <string name="onboot_section">Ustawienia po ponownym uruchomieniu systemu</string>
+    <string name="onboot_trigger_name">Przywróć ustawienia po ponownym uruchomieniu systemu</string>
+    <string name="onboot_trigger_desc">Przywróć ostatnie ustawienie widget\'u przed ponownym uruchomieniu systemu. Użyteczne w momencie potrzeby przywrócenia ustawień zanim urządzenie zostało uruchomine ponownie.</string>
+    <string name="onboot_toast_name">Wyświetlanie powiadomień</string>
+    <string name="onboot_toast_desc">Pokaż Toast w momencie przywrócenia ostatnich ustawień aplikacji</string>
 
     <!-- Multi tap settings-->
-    <string name="multitap_section">Multi-Tap Settings</string>
-    <string name="multitap_enable_name">Multi-tap support</string>
-    <string name="multitap_enable_desc">Enable or disable multi-tap support for widget. Multi-tap feature allows increasing and decreasing widget timeout setting by using double and triple taps on widget.</string>
-    <string name="multitap_smart_system_name">Multi-tap smart delay</string>
-    <string name="multitap_smart_system_desc">Multi-tap smart multi stage delay: single click will pass much faster, then double and triple clicks reducing wait time.</string>
+    <string name="multitap_section">Ustawienia dla Multi-tap</string>
+    <string name="multitap_enable_name">Wsparcie Multi-tap</string>
+    <string name="multitap_enable_desc">Włącz/wyłącz wsparcie Multi-tap dla widget\'u. Opcja Multi-tap pozwala na płynne przełączanie ustawień czasu włączenia ekranu, podwójnym lub potrójnym kliknięciem ikony widget\'u.</string>
+    <string name="multitap_smart_system_name">Inteligentne opóźnienie dla Multi-tap </string>
+    <string name="multitap_smart_system_desc">Multi-tap smart multi stage delay: pojedyńcze klikniecie zadziała szybciej niż podwójne lub potrójne.</string>
 
-    <string name="single_tap_action_name">Single tap action</string>
-    <string name="single_tap_action_desc">%s. Choose single-tap action to use.</string>
-    <string name="single_always_on">Switch between always on and default timeout</string>
-    <string name="single_last_active">Switch between last used timeout and default timeout</string>
-    <string name="sort_timeouts_name">Sort custom timeouts list</string>
-    <string name="sort_timeouts_desc">%s. Choose sort option.</string>
+    <string name="single_tap_action_name">Funkcja dla pojedyńczego kliknięcia</string>
+    <string name="single_tap_action_desc">%s. Wybierz funkcję dla pojedyńczego kliknięcia.</string>
+    <string name="single_always_on">Przełącz miedzy trybami \"Zawsze włączony\" a domyślnym</string>
+    <string name="single_last_active">Przełącz miedzy trybami ostatnio używanym a domyślnym</string>
+    <string name="sort_timeouts_name">Sortuj listę ustawień spersonalizowanych</string>
+    <string name="sort_timeouts_desc">%s. Wybierz opcję sortowania.</string>
 
-    <string name="do_not_sort">Do not sort</string>
-    <string name="do_sort_asc">Sort ascending</string>
-    <string name="do_sort_desc">Sort descending</string>
+    <string name="do_not_sort">Bez sortowania</string>
+    <string name="do_sort_asc">Sortuj rosnąco</string>
+    <string name="do_sort_desc">Sortuj malejąco</string>
 
     <!-- Design tuning -->
-    <string name="design_section">Visual customizations</string>
-    <string name="widget_font_size_header">Font size</string>
-    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
-    <string name="widget_icon_size_header">Icon size</string>
-    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
+    <string name="design_section">Personalizacja wyglądu widget\'u</string>
+    <string name="widget_font_size_header">Rozmiar czcionki</string>
+    <string name="widget_font_size_desc">Wybierz rozmiar czcionki widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher\'ach.</string>
+    <string name="widget_icon_size_header">Wielkość ikony</string>
+    <string name="widget_icon_size_desc">Wybór wielkości ikony widget\'u. Użyteczne, aby ujednolicić wygląd widget\'u dla wielu launcher\'ach.</string>
 
 
     <!-- Margin settings -->
-    <string name="layout_ico_header">Icon size</string>
-    <string name="action_settings">Settings</string>
+    <string name="layout_ico_header">Wielkość ikony</string>
+    <string name="action_settings">Ustawienia</string>
 
     <!-- Menu items -->
-    <string name="str_menu_settings">Settings</string>
-    <string name="str_menu_rate_app">Rate application</string>
-    <string name="str_menu_share_app">Recommend application</string>
+    <string name="str_menu_settings">Ustawienia</string>
+    <string name="str_menu_rate_app">Oceń aplikację</string>
+    <string name="str_menu_share_app">Rekomendowane aplikacje</string>
 
     <!-- Custom timeouts -->
-    <string name="settings_custom_timeouts">Customize timeouts</string>
-    <string name="custom_timeout1_header">Custom timeout value 1</string>
-    <string name="custom_timeout1_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout2_header">Custom timeout value 2</string>
-    <string name="custom_timeout2_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout3_header">Custom timeout value 3</string>
-    <string name="custom_timeout3_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout4_header">Custom timeout value  4</string>
-    <string name="custom_timeout4_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout5_header">Custom timeout value 5</string>
-    <string name="custom_timeout5_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="custom_timeout6_header">Custom timeout value 6</string>
-    <string name="custom_timeout6_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
-    <string name="enter_timeout_value">Please enter value in minutes</string>
+    <string name="settings_custom_timeouts">Personalizacja czasów wyłączenie ekranu</string>
+    <string name="custom_timeout1_header">Ustawienie Custom 1</string>
+    <string name="custom_timeout1_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout2_header">Ustawienie Custom 2</string>
+    <string name="custom_timeout2_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout3_header">Ustawienie Custom 3</string>
+    <string name="custom_timeout3_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout4_header">Ustawienie Custom 4</string>
+    <string name="custom_timeout4_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout5_header">Ustawienie Custom 5</string>
+    <string name="custom_timeout5_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout6_header">Ustawienie Custom 6</string>
+    <string name="custom_timeout6_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="enter_timeout_value">Wartości proszę wpisać w minutach</string>
 
     <!-- Tile translations -->
-    <string name="tile_name">Screen Timeout</string>
+    <string name="tile_name">Wygaszanie ekranu</string>
 
     <!-- Power related events -->
-    <string name="power_events">Low battery protection</string>
+    <string name="power_events">Tryb oszczędzania baterii</string>
 
-    <string name="disable_on_low_name">Auto disable on low battery</string>
-    <string name="disable_on_low_desc">Automatically disable always on mode on low battery level.</string>
+    <string name="disable_on_low_name">Automatyczne wyłączenie widget\'u przy niskim stanie naładowania baterii.</string>
+    <string name="disable_on_low_desc">Automatyczne wyłączenie trybu \"Zawsze włączony\" przy niskim stanie naładowania baterii.</string>
 
     <!-- Licensing state -->
-    <string name="no_license">No license</string>
+    <string name="no_license">Brak licencji</string>
 
 
 

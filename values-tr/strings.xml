@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Ekranımı Uyanık Tut</string>
+	<string name="label_on">Her zaman açık</string>
+	<string name="label_off">%1$d dk.</string>
+	<string name="lceck_fail">Lisans kontrolü başarısız oldu.</string>
+	<string name="lbl_permissions">Uygulamamı kullanmaya başlamadan önce ekranınızın bekleme süresini ayarlayabilmek için ayarlardan uygulamama izin vermeniz gerekiyor.</string>
+	<string name="btn_permissions">Ayarla</string>
+	<string name="lbl_addwidget_header">Ana ekranınıza bekleme süresi kısayolunu eklemek için</string>
+	<string name="lbl_addwidget">
+		<![CDATA[
+        1. Öncelikle ana ekranına dönmek için ana ekran tuşuna basınız.<br/>
+        2. Daha sonra parmağınızı ekranın boş bir kısmında bir süre basılı tutunuz.<br/>
+        3. Ardından \"Widget\'lar\" butonuna basınız.<br/>
+        4. Gelen ekranda \"Ekranımı Açık Tut\" kısayolunu bulana kadar sayfayı kaydırın.<br/>
+        5. Kısayolu bulduktan sonra ana ekranınıza eklemek için kısayola basılı tutun ve ana ekranınızın boş bir kısmına sürükleyin.<br/>
+        6. Artık ekranınızın bekleme süresini değiştirmek için kısayolu kullanmaya başlayabilirsiniz! :)\n
+		]]>
+	</string>
+	<string name="lbl_addtile_header">Hızlı Ayarlar Menüsüne Kısayol Eklemek için</string>
+	<string name="lbl_addtile">
+		<![CDATA[
+        1. Bildirim ekranınızı açınız.<br/>
+        2. Hızlı Ayarlar ekranını açmak için yukarıdan aşağıya doğru çekiniz.<br/>
+        3. DÜZENLE butonuna basınız.<br/>
+        4. Açılan menüde \"Ekran Zaman Aşımı\" adlı hızlı ayara basılı tutarak üstteki listeye ekleyin.<br/>
+        5. Geri butonuna tıklayın ve artık kısayolu kullanmaya hazırsınız!\n
+		]]>
+	</string>
+	<!-- Notification icon settings -->
+	<string name="notification">Bildirim</string>
+	<string name="notification_name">Bildirim ve durum çubuğu simgesi</string>
+	<string name="notification_desc">\"Her zaman açık\" modu açıksa ve bu özellik aktif edilirse, bildirim çubuğunda ve durum çubuğunda simge gösterilir.</string>
+	<!-- End of notification icon settings -->
+	<!-- Auto disable always on mode settings -->
+	<string name="revert_default_timeout">Otomatik zaman aşımı</string>
+	<string name="revert_default_timeout_name">Otomatik olarak varsayılan bekleme süresine geri dönme</string>
+	<string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+	
+	<!-- Auto disable select options -->
+	<string name="condition_never">disabled</string>
+	<string name="condition_any_timeout">enabled</string>
+	<string name="condition_only_always_on">enabled only for always on mode</string>
+	<!-- End of auto disable always on mode setting -->
+	<string name="btn_addwidget">Ana Ekrana Ekle</string>
+	<!-- Settings localization -->
+	<string name="onboot_section">Sistem Açılışında Ayarları</string>
+	<string name="onboot_trigger_name">Ayarları sistem açıldığında geri yükle</string>
+	<string name="onboot_trigger_desc">Telefonunuz açıldığında en son ayarlanan ayarları geri yükler. Bu özellik, eğer en son bıraktığınız ekran süresi ayarını geri yüklemek istiyorsanız oldukça faydalıdır.</string>
+	<string name="onboot_toast_name">Bildirim göster</string>
+	<string name="onboot_toast_desc">Ayarlar geri yüklediğinde tost bildirimi göstermesini istiyorsanız bu seçeneği aktifleştirin.</string>
+	<!-- Multi tap settings-->
+	<string name="multitap_section">Çoklu Dokunma Ayarı</string>
+	<string name="multitap_enable_name">Çoklu Dokunma desteği</string>
+	<string name="multitap_enable_desc">Kısayolun çoklu dokunma desteğini açar veya kapatır. Birden fazla kere dokunarak kısayolun ayarlayacağı bekleme süresini arttırabilir veya azaltabilirsiniz.</string>
+	<string name="multitap_smart_system_name">Akıllı Çoklu Dokunma gecikmesi</string>
+	<string name="multitap_smart_system_desc">Akıllı çoklu dokunma gecikmesi: tek bir tıklama ile varsayılan ile en son ayarladığınız bekleme süresi arasında hızlıca geçiş yaparken hızlıca yapılan iki tıklamada ise bekleme süreleri arasında geçiş yapın.</string>
+	<string name="single_tap_action_name">Tek Dokunma etkinliği</string>
+	<string name="single_tap_action_desc">Kısayola bir kere dokunduğunuzda yapılacak eylem: %s.</string>
+	<string name="single_always_on">Varsayılan zaman aşımı ile sürekli açık seçenekleri arasında değiş</string>
+	<string name="single_last_active">Varsayılan zaman aşımı ile en son kullanılan ayar arasında değiş</string>
+	<string name="sort_timeouts_name">Kişiselleştirilmiş zaman aşımını sırala</string>
+	<string name="sort_timeouts_desc">Seçilen sıralama tipi: %s.</string>
+	<string name="do_not_sort">Sıraya koyma</string>
+	<string name="do_sort_asc">Artan sırayla sırala</string>
+	<string name="do_sort_desc">Azalan sırayla sırala</string>
+	<!-- Design tuning -->
+	<string name="design_section">Görsel kişiselleştirmeler</string>
+	<string name="widget_font_size_header">Font büyüklüğü</string>
+	<string name="widget_font_size_desc">Kısayolda kullanılacak olan font büyüklüğü. Bu ayar farklı ana ekran uygulamalarında en iyi görüntüyü almak için oldukça kullanışlıdır.</string>
+	<string name="widget_icon_size_header">Simge büyüklüğü</string>
+	<string name="widget_icon_size_desc">Kısayolda kullanılacak olan simge büyüklüğü. Bu ayar farklı ana ekran uygulamalarında en iyi görüntüyü almak için oldukça kullanışlıdır.</string>
+	<!-- Margin settings -->
+	<string name="layout_ico_header">Simge büyüklüğü</string>
+	<string name="action_settings">Ayarlar</string>
+	<!-- Menu items -->
+	<string name="str_menu_settings">Ayarlar</string>
+	<string name="str_menu_rate_app">Uygulamayı derecelendir</string>
+	<string name="str_menu_share_app">Uygulamayı bir başkasına öner</string>
+	<!-- Custom timeouts -->
+	<string name="settings_custom_timeouts">Zaman Aşımı Kişiselleştirmesi</string>
+	<string name="custom_timeout1_header">Özel zaman aşımı değeri 1</string>
+	<string name="custom_timeout1_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout2_header">Özel zaman aşımı değeri 2</string>
+	<string name="custom_timeout2_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout3_header">Özel zaman aşımı değeri 3</string>
+	<string name="custom_timeout3_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout4_header">Özel zaman aşımı değeri  4</string>
+	<string name="custom_timeout4_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout5_header">Özel zaman aşımı değeri 5</string>
+	<string name="custom_timeout5_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout6_header">Özel zaman aşımı değeri 6</string>
+	<string name="custom_timeout6_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="enter_timeout_value">Lütfen değerleri dakika cinsinden giriniz</string>
+	<!-- Tile translations -->
+	<string name="tile_name">Ekran Zaman Aşımı</string>
+	<!-- Power related events -->
+	<string name="power_events">Düşük batarya koruması</string>
+	<string name="disable_on_low_name">Batarya seviyeniz düştüğünde ayarı kapat</string>
+	<string name="disable_on_low_desc">Batarya seviyeniz düşük seviyeye geldiğinde otomatik olarak ekranı açık tut ayarını kapatır.</string>
+	<!-- Licensing state -->
+	<string name="no_license">Uygulamanın Geçerli Lisansı Yok</string>
+</resources>

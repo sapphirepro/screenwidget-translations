@@ -34,13 +34,13 @@
 	<!-- End of notification icon settings -->
 	<!-- Auto disable always on mode settings -->
 	<string name="revert_default_timeout">Otomatik zaman aşımı</string>
-	<string name="revert_default_timeout_name">Otomatik olarak varsayılan bekleme süresine geri dönme</string>
-	<string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+	<string name="revert_default_timeout_name">Otomatik olarak varsayılan bekleme süresine geri dön</string>
+	<string name="revert_default_timeout_desc">Otomatik olarak varsayılan bekleme süresine geri dönme: %s.</string>
 	
 	<!-- Auto disable select options -->
-	<string name="condition_never">disabled</string>
-	<string name="condition_any_timeout">enabled</string>
-	<string name="condition_only_always_on">enabled only for always on mode</string>
+	<string name="condition_never">Devre dışı</string>
+	<string name="condition_any_timeout">Aktif</string>
+	<string name="condition_only_always_on">Sadece her zaman açık modunda iken aktif</string>
 	<!-- End of auto disable always on mode setting -->
 	<string name="btn_addwidget">Ana Ekrana Ekle</string>
 	<!-- Settings localization -->
@@ -95,7 +95,7 @@
 	<!-- Tile translations -->
 	<string name="tile_name">Ekran Zaman Aşımı</string>
 	<!-- Power related events -->
-	<string name="power_events">Düşük batarya koruması</string>
+	<string name="power_events">Düşük Batarya Koruması</string>
 	<string name="disable_on_low_name">Batarya seviyeniz düştüğünde ayarı kapat</string>
 	<string name="disable_on_low_desc">Batarya seviyeniz düşük seviyeye geldiğinde otomatik olarak ekranı açık tut ayarını kapatır.</string>
 	<!-- Licensing state -->

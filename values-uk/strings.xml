@@ -35,8 +35,12 @@
     <!-- Auto disable always on mode settings -->
     <string name="revert_default_timeout">Автоматична деактивація</string>
     <string name="revert_default_timeout_name">Автматичне повернення до тайм-ауту а замовченню</string>
-    <string name="revert_default_timeout_desc">Коли увімкнено, налаштування тайм-аута екрану буде вимикати режи \"постійно увімкнено\", коли екран буде вимкнено натисканням кнопки живлення</string>
-    <!-- End of auto disable always on mode setting -->
+    <string name="revert_default_timeout_desc">Автоматический возврат к системному таймауту при отключении экрана %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">отключён</string>
+    <string name="condition_any_timeout">включён</string>
+    <string name="condition_only_always_on">включён только для всегда включенного экрана</string>
 
     <string name="btn_addwidget">Додати на домашній екран</string>
 

@@ -33,10 +33,14 @@
     <!-- End of notification icon settings -->
 
     <!-- Auto disable always on mode settings -->
-    <string name="revert_default_timeout">Auto deactivation</string>
-    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
-    <string name="revert_default_timeout_desc">When enabled screen timeout setting will automatically turn off "always on" mode, if screen has been powered off by power button press</string>
-    <!-- End of auto disable always on mode setting -->
+    <string name="revert_default_timeout">Автоматическая деактивация</string>
+    <string name="revert_default_timeout_name">Автоматический возврат к системному таймауту</string>
+    <string name="revert_default_timeout_desc">Автоматический возврат к системному таймауту при отключении экрана %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">отключён</string>
+    <string name="condition_any_timeout">включён</string>
+    <string name="condition_only_always_on">включён только для всегда включенного экрана</string>
 
     <string name="btn_addwidget">Добавить на домашний экран</string>
     <!-- Settings localization -->

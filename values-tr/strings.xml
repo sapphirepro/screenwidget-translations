@@ -35,7 +35,12 @@
 	<!-- Auto disable always on mode settings -->
 	<string name="revert_default_timeout">Otomatik zaman aşımı</string>
 	<string name="revert_default_timeout_name">Otomatik olarak varsayılan bekleme süresine geri dönme</string>
-	<string name="revert_default_timeout_desc">Bu özellik aktif edildiğinde eğer bekleme süresi "Her zaman açık" olarak ayarlanmasına rağmen güç tuşuna basılarak ekran kapatılırsa, otomatik olarak bekleme süresi sistem varsayılanına geri döner.</string>
+	<string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+	
+	<!-- Auto disable select options -->
+	<string name="condition_never">disabled</string>
+	<string name="condition_any_timeout">enabled</string>
+	<string name="condition_only_always_on">enabled only for always on mode</string>
 	<!-- End of auto disable always on mode setting -->
 	<string name="btn_addwidget">Ana Ekrana Ekle</string>
 	<!-- Settings localization -->

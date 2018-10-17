@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Screen Awake</string>
     <string name="label_on">Включений</string>
-    <string name="label_off">%1$d мин.</string>
+    <string name="label_off">%1$d хв.</string>
     <string name="lceck_fail">Недійсна ліцензія.</string>
 
     <string name="lbl_permissions">Вам необхідно надати додатку дозвіл на змінення налаштувань перш, ніж він почне працювати. Єдина налаштування, яке він буде змінювати - тайм-аут екрану.</string>
@@ -10,33 +10,37 @@
     <string name="lbl_addwidget_header">Для додавання віджету на робочий стіл</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Натисніть кнопку \"До дому\", щоб потрапити на домашній екран.<br/>
-        2. Натисніть ту утримуйте пальця у будь-який порожній області екрану, не зайнятій іконками.<br/>
+        2. Натисніть та утримуйте пальця у будь-який порожній області екрану, не зайнятій іконками.<br/>
         3. Оберіть \"Віджети\".<br/>
         4. Знайдіть віджет \"ScreenWidget\".<br/>
         5. Перетяніть його у будь-яке зручне для Вас місце на домашньому екрані.<br/>
         6. Натисніть на віджеті для перемикання режиму автоматичного вимикання екрану.]]>
     </string>
 
-    <string name="lbl_addtile_header">Добавление плитки быстрых настроек</string>
+    <string name="lbl_addtile_header">Додання плитки швидких налаштувань</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Откройте панель уведомлений.<br/>
-        2. Потяните сверху вниз чтобы открыть нанель быстрых настроек.Swipe down from the top to open the Quick Settings drawer.<br/>
-        3. Нажмите кнопку редактировать (карандаш).<br/>
-        4. Перетащите плитку \"Время ожидания экранаэ" в область панели быстрых настроек.<br/>
-        5. Нажмите НАЗАД. Плитка быстрых настроек готова к использованию.\n]]>
+        1. Выдкрийте панель повідомлень.<br/>
+        2. Потягніть зверху донизу щоб відкрити панель швидких налаштувань.<br/>
+        3. Натисніть кнопку редагування(олівець).<br/>
+        4. Перетягніть плитку \"Час очікування екрану\" в область панелі швидких налаштувань.<br/>
+        5. Натисніть НАЗАД. Плитка швидких налаштувань готова до використання.\n]]>
     </string>
 
     <!-- Notification icon settings -->
-    <string name="notification">Уведомления</string>
-    <string name="notification_name">Уведомление и иконка в статус баре</string>
-    <string name="notification_desc">Включение данной опции при активном режиме \"всегда ключённого экрана\" будет выводить уведомление и иконку в статус баре.</string>
+    <string name="notification">Повідомлення</string>
+    <string name="notification_name">Повідомлення та іконка у рядку стану</string>
+    <string name="notification_desc">Увімкнення даної опції при активному режимі \"Завжди увімкненого екрану\" буде показуватися повідомлення та іконка у рядку стану.</string>
     <!-- End of notification icon settings -->
 
     <!-- Auto disable always on mode settings -->
-    <string name="revert_default_timeout">Auto deactivation</string>
-    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
-    <string name="revert_default_timeout_desc">When enabled screen timeout setting will automatically turn off "always on" mode, if screen has been powered off by power button press</string>
-    <!-- End of auto disable always on mode setting -->
+    <string name="revert_default_timeout">Автоматична деактивація</string>
+    <string name="revert_default_timeout_name">Автматичне повернення до тайм-ауту а замовченню</string>
+    <string name="revert_default_timeout_desc">Автоматический возврат к системному таймауту при отключении экрана %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">отключён</string>
+    <string name="condition_any_timeout">включён</string>
+    <string name="condition_only_always_on">включён только для всегда включенного экрана</string>
 
     <string name="btn_addwidget">Додати на домашній екран</string>
 
@@ -67,11 +71,11 @@
     <string name="do_sort_desc">Сортування за збільшенням</string>
 
     <!-- Design tuning -->
-    <string name="design_section">Visual customizations</string>
-    <string name="widget_font_size_header">Font size</string>
-    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
-    <string name="widget_icon_size_header">Icon size</string>
-    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
+    <string name="design_section">Візуальні налаштування</string>
+    <string name="widget_font_size_header">Розмір шрифту</string>
+    <string name="widget_font_size_desc">Оберіть розмір шрифту, який буде використовуватися у віджеті. Корисно для кращіх візуальних результатів із використанням різних оболонок.</string>
+    <string name="widget_icon_size_header">Розмір іконки</string>
+    <string name="widget_icon_size_desc">Вибір роміру іконки віджету. Корисно для кращіх візуальних результатів із використанням різних оболонок.</string>
 
 
     <!-- Margin settings -->

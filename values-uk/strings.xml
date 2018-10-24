@@ -13,13 +13,13 @@
         2. Натисніть та утримуйте пальця у будь-який порожній області екрану, не зайнятій іконками.<br/>
         3. Оберіть \"Віджети\".<br/>
         4. Знайдіть віджет \"ScreenWidget\".<br/>
-        5. Перетяніть його у будь-яке зручне для Вас місце на домашньому екрані.<br/>
+        5. Перетягніть його у будь-яке зручне для Вас місце на домашньому екрані.<br/>
         6. Натисніть на віджеті для перемикання режиму автоматичного вимикання екрану.]]>
     </string>
 
     <string name="lbl_addtile_header">Додання плитки швидких налаштувань</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Выдкрийте панель повідомлень.<br/>
+        1. Відкрийте панель повідомлень.<br/>
         2. Потягніть зверху донизу щоб відкрити панель швидких налаштувань.<br/>
         3. Натисніть кнопку редагування(олівець).<br/>
         4. Перетягніть плитку \"Час очікування екрану\" в область панелі швидких налаштувань.<br/>
@@ -35,12 +35,12 @@
     <!-- Auto disable always on mode settings -->
     <string name="revert_default_timeout">Автоматична деактивація</string>
     <string name="revert_default_timeout_name">Автматичне повернення до тайм-ауту а замовченню</string>
-    <string name="revert_default_timeout_desc">Автоматический возврат к системному таймауту при отключении экрана %s.</string>
+    <string name="revert_default_timeout_desc">Автоматичне повернення до системного тайм-ауту при відключеному екрані %s.</string>
 
     <!-- Auto disable select options -->
-    <string name="condition_never">отключён</string>
-    <string name="condition_any_timeout">включён</string>
-    <string name="condition_only_always_on">включён только для всегда включенного экрана</string>
+    <string name="condition_never">вимкнено</string>
+    <string name="condition_any_timeout">включено</string>
+    <string name="condition_only_always_on">включено тільки для завжди включеного екрану</string>
 
     <string name="btn_addwidget">Додати на домашній екран</string>
 

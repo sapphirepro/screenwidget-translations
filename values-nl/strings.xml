@@ -17,29 +17,29 @@
         6. Druk op de widget om de time-out modus te kiezen.]]>
     </string>
     <string name="btn_addwidget">Toevoegen aan startscherm</string>
-    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile_header">Tegel toevoegen aan "Quick Settings" menu</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Open the notification drawer.<br/>
-        2. Swipe down from the top to open the Quick Settings drawer.<br/>
-        3. Tap EDIT button.<br/>
-        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
-        5. Tap back and you are ready to use tile.\n]]>
+        1. Open de "notification drawer" door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
+        2. Swipe opnieuw naar beneden om de Quick Settings drawer te openen.<br/>
+        3. Druk op de "bewerken" knop.<br/>
+        4. Sleep de tegel genaamd \"Screen Timeout\" naar de Quick Settings.<br/>
+        5. Ga terug met de back toets en de tegel is klaar voor gebruik.\n]]>
     </string>
 
     <!-- Notification icon settings -->
-    <string name="notification">Notification</string>
-    <string name="notification_name">Notification and statusbar icon</string>
-    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <string name="notification">Notificatie</string>
+    <string name="notification_name">Notificatie en statusbalk icoon</string>
+    <string name="notification_desc">Toon een notificatie en statusbar icoon wanneer de \"Altijd aan\" modus is geactiveerd.</string>
     <!-- End of notification icon settings -->
     <!-- Auto disable always on mode settings -->
-    <string name="revert_default_timeout">Auto deactivation</string>
-    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
-    <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+    <string name="revert_default_timeout">Automatische deactivatie</string>
+    <string name="revert_default_timeout_name">Schakel automatisch uit</string>
+    <string name="revert_default_timeout_desc">Deactiveer automatisch als het scherm manueel word uitgezet is %s.</string>
 
     <!-- Auto disable select options -->
-    <string name="condition_never">disabled</string>
-    <string name="condition_any_timeout">enabled</string>
-    <string name="condition_only_always_on">enabled only for always on mode</string>
+    <string name="condition_never">uit</string>
+    <string name="condition_any_timeout">aan</string>
+    <string name="condition_only_always_on">enkel aan voor "altijd aan" modus</string>
 
     <!-- Settings localization -->
     <string name="onboot_section">Opstart Instellingen</string>

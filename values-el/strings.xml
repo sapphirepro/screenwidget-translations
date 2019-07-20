@@ -13,7 +13,7 @@
         2. Κρατήστε το δάκτυλο σας σε μια περιοχή που δεν έχει κάποιο εικονίδιο.<br/>
         3. Επιλέξτε \"Γραφικά στοιχεία\".<br/>
         4. Επιλέξτε το γραφικό στοιχείο \"ScreenWidget\".<br/>
-        5. Σύρτε το και αφήστε το στην περιοχή που επιθυμείτε.<br/>
+        5. Σύρετε το και αφήστε το στην περιοχή που επιθυμείτε.<br/>
         6. Πατήστε το γραφικό στοιχείο για να αλλάξετε το χρόνο αδράνειας της οθόνης.\n]]>
     </string>
     <string name="lbl_addtile_header">Προσθήκη εικονιδίου γρήγορων ρυθμίσεων</string>
@@ -28,7 +28,7 @@
     <!-- Notification icon settings -->
     <string name="notification">Ειδοποίηση</string>
     <string name="notification_name">Ειδοποίηση και εικονίδιο στην περιοχή ειδοποιήσεων</string>
-    <string name="notification_desc">Όταν είναι ενεργό, μια ειδοποίηση και ένα εικονίδιο στην περιοχή ειδοποιήσεων θα εμφανίζονται όταν η κατάσταση \"Πάντα ενεργή\" είναι ενεργή</string>
+    <string name="notification_desc">Όταν είναι ενεργό, μια ειδοποίηση και ένα εικονίδιο στην περιοχή ειδοποιήσεων θα εμφανίζονται όταν η κατάσταση \"Πάντα ενεργή\" είναι ενεργή.</string>
     <!-- End of notification icon settings -->
 
     <!-- Auto disable always on mode settings -->
@@ -70,7 +70,7 @@
 
     <string name="do_not_sort">Χωρίς ταξινόμηση</string>
     <string name="do_sort_asc">Αύξουσα</string>
-    <string name="do_sort_desc">Φθήνουσα</string>
+    <string name="do_sort_desc">Φθίνουσα</string>
 
     <!-- Design tuning -->
     <string name="design_section">Οπτική προσαρμογή</string>
@@ -103,7 +103,7 @@
     <string name="custom_timeout5_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout6_header">Προσαρμοσμένος χρόνος 6</string>
     <string name="custom_timeout6_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
-    <string name="enter_timeout_value">Εισάγετε τιμές σε λεπτά</string>
+    <string name="enter_timeout_value">Εισάγετε τιμή σε λεπτά</string>
 
     <!-- Tile translations -->
     <string name="tile_name">Ενεργή οθόνη</string>

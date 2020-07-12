@@ -59,8 +59,8 @@
     <string name="single_tap_action_desc">%s. Kies de actie voor een enkele klik.</string>
     <string name="single_always_on">Schakel tussen altijd-aan en de standaard time-out</string>
     <string name="single_last_active">Schakel tussen de laatst gebruikte time-out en de standaard time-out</string>
-    <string name="sort_timeouts_name">Sort custom timeouts list</string>
-    <string name="sort_timeouts_desc">%s. Choose sort option.</string>
+    <string name="sort_timeouts_name">Sorteer aangepaste timeouts lijst</string>
+    <string name="sort_timeouts_desc">%s. Kies sorteermethode.</string>
 
     <string name="do_not_sort">Niet sorteren</string>
     <string name="do_sort_asc">Sorteer oplopend</string>
@@ -99,7 +99,7 @@
     <string name="enter_timeout_value">Geef waarde in als minuten</string>
 
     <!-- Tile translations -->
-    <string name="tile_name">Screen Timeout</string>
+    <string name="tile_name">Scherm Timeout</string>
 
     <!-- Power related events -->
     <string name="power_events">Bescherming voor bijna lege batterij</string>
@@ -111,11 +111,11 @@
     <string name="no_license">Geen licentie</string>
 
     <!-- Settings menu -->
-    <string name="general_settings">General Settings</string>
-    <string name="advanced_settings">Advanced Settings</string>
-    <string name="timeout_settings">Custom Timeouts</string>
-    <string name="contact_support">Contact Support</string>
-    <string name="email_us">Email Us</string>
-    <string name="documentation">Documentation</string>
+    <string name="general_settings">Algemene Instellingen</string>
+    <string name="advanced_settings">Geadvanceerde Instellingen</string>
+    <string name="timeout_settings">Aangepaste Timeouts</string>
+    <string name="contact_support">Contacteer Helpdesk</string>
+    <string name="email_us">Email Ons</string>
+    <string name="documentation">Documentatie</string>
 
 </resources>

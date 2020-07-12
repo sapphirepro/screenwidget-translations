@@ -88,17 +88,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Пользовательские таймауты</string>
     <string name="custom_timeout1_header">Пользовательский таймаут #1</string>
-    <string name="custom_timeout1_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout1_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="custom_timeout2_header">Пользовательский таймуат #2</string>
-    <string name="custom_timeout2_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout2_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="custom_timeout3_header">Пользовательский таймаут #3</string>
-    <string name="custom_timeout3_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout3_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="custom_timeout4_header">Пользовательский таймаут #4</string>
-    <string name="custom_timeout4_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout4_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="custom_timeout5_header">Пользовательский таймаут #5</string>
-    <string name="custom_timeout5_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout5_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="custom_timeout6_header">Пользовательский таймаут #6</string>
-    <string name="custom_timeout6_value">%s минут. (введите желаемое значение или 0 - для пропуска значения)</string>
+    <string name="custom_timeout6_value"> минут. (введите желаемое значение или 0 - для пропуска значения)</string>
     <string name="enter_timeout_value">Пожалуйста, введите значение в минутах</string>
 
     <!-- Tile translations -->
@@ -112,4 +112,12 @@
 
     <!-- Licensing state -->
     <string name="no_license">Нет лицензии</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Общие настройки</string>
+    <string name="advanced_settings">Расширенные настройки</string>
+    <string name="timeout_settings">Пользовательские таймауты</string>
+    <string name="contact_support">Центр поддержки</string>
+    <string name="email_us">Отправить нам эмейл</string>
+    <string name="documentation">Документация</string>
 </resources>

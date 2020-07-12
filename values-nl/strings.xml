@@ -85,17 +85,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Time-outs aanpassen</string>
     <string name="custom_timeout1_header">Time-out waarde 1</string>
-    <string name="custom_timeout1_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout1_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="custom_timeout2_header">Time-out waarde 2</string>
-    <string name="custom_timeout2_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout2_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="custom_timeout3_header">Time-out waarde 3</string>
-    <string name="custom_timeout3_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout3_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="custom_timeout4_header">Time-out waarde 4</string>
-    <string name="custom_timeout4_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout4_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="custom_timeout5_header">Time-out waarde 5</string>
-    <string name="custom_timeout5_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout5_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="custom_timeout6_header">Time-out waarde 6</string>
-    <string name="custom_timeout6_value">%s minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
+    <string name="custom_timeout6_value"> minuten. Geef gewenste time-out waarde. Plaats 0 om dit item uit te schakelen.</string>
     <string name="enter_timeout_value">Geef waarde in als minuten</string>
 
     <!-- Tile translations -->
@@ -109,4 +109,13 @@
 
     <!-- Licensing state -->
     <string name="no_license">Geen licentie</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">General Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="timeout_settings">Custom Timeouts</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="email_us">Email Us</string>
+    <string name="documentation">Documentation</string>
+
 </resources>

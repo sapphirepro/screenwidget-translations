@@ -92,17 +92,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Προσαρμογή χρόνων αδράνειας</string>
     <string name="custom_timeout1_header">Προσαρμοσμένος χρόνος 1</string>
-    <string name="custom_timeout1_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout1_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout2_header">Προσαρμοσμένος χρόνος 2</string>
-    <string name="custom_timeout2_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout2_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout3_header">Προσαρμοσμένος χρόνος 3</string>
-    <string name="custom_timeout3_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout3_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout4_header">Προσαρμοσμένος χρόνος 4</string>
-    <string name="custom_timeout4_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout4_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout5_header">Προσαρμοσμένος χρόνος 5</string>
-    <string name="custom_timeout5_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout5_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="custom_timeout6_header">Προσαρμοσμένος χρόνος 6</string>
-    <string name="custom_timeout6_value">%s λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout6_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
     <string name="enter_timeout_value">Εισάγετε τιμή σε λεπτά</string>
 
     <!-- Tile translations -->
@@ -116,6 +116,14 @@
 
     <!-- Licensing state -->
     <string name="no_license">Έλλειψη άδειας χρήσης</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">General Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="timeout_settings">Custom Timeouts</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="email_us">Email Us</string>
+    <string name="documentation">Documentation</string>
 
 
 

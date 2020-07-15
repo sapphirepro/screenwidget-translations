@@ -80,17 +80,17 @@
 	<!-- Custom timeouts -->
 	<string name="settings_custom_timeouts">Zaman Aşımı Kişiselleştirmesi</string>
 	<string name="custom_timeout1_header">Özel zaman aşımı değeri 1</string>
-	<string name="custom_timeout1_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout1_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="custom_timeout2_header">Özel zaman aşımı değeri 2</string>
-	<string name="custom_timeout2_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout2_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="custom_timeout3_header">Özel zaman aşımı değeri 3</string>
-	<string name="custom_timeout3_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout3_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="custom_timeout4_header">Özel zaman aşımı değeri  4</string>
-	<string name="custom_timeout4_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout4_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="custom_timeout5_header">Özel zaman aşımı değeri 5</string>
-	<string name="custom_timeout5_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout5_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="custom_timeout6_header">Özel zaman aşımı değeri 6</string>
-	<string name="custom_timeout6_value">%s dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
+	<string name="custom_timeout6_value"> dakika. Lütfen istediğiniz değeri giriniz. Bu seçeneği görmezden gelmesi için lütfen 0 olarak ayarlayın.</string>
 	<string name="enter_timeout_value">Lütfen değerleri dakika cinsinden giriniz</string>
 	<!-- Tile translations -->
 	<string name="tile_name">Ekran Zaman Aşımı</string>
@@ -100,4 +100,12 @@
 	<string name="disable_on_low_desc">Batarya seviyeniz düşük seviyeye geldiğinde otomatik olarak ekranı açık tut ayarını kapatır.</string>
 	<!-- Licensing state -->
 	<string name="no_license">Uygulamanın Geçerli Lisansı Yok</string>
+
+	<!-- Settings menu -->
+	<string name="general_settings">General Settings</string>
+	<string name="advanced_settings">Advanced Settings</string>
+	<string name="timeout_settings">Custom Timeouts</string>
+	<string name="contact_support">Contact Support</string>
+	<string name="email_us">Email Us</string>
+	<string name="documentation">Documentation</string>
 </resources>

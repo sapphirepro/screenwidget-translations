@@ -90,17 +90,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Тайм-аути користувача</string>
     <string name="custom_timeout1_header">Тайм-аут користувача #1</string>
-    <string name="custom_timeout1_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout1_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="custom_timeout2_header">Тайм-аути користувача #2</string>
-    <string name="custom_timeout2_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout2_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="custom_timeout3_header">Тайм-аути користувача #3</string>
-    <string name="custom_timeout3_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout3_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="custom_timeout4_header">Тайм-аути користувача #4</string>
-    <string name="custom_timeout4_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout4_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="custom_timeout5_header">Тайм-аути користувача #5</string>
-    <string name="custom_timeout5_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout5_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="custom_timeout6_header">Тайм-аути користувача #6</string>
-    <string name="custom_timeout6_value">%s хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
+    <string name="custom_timeout6_value"> хвилин. (введить бажане значенння або 0 - для пропуску значення)</string>
     <string name="enter_timeout_value">Будьласка, введить значення у хвилинах</string>
 
     <!-- Tile translations -->
@@ -114,4 +114,13 @@
 
     <!-- Licensing state -->
     <string name="no_license">Відсутня ліцензія</string>
+
+    <!-- Settings menu -->
+    <!-- Settings menu -->
+    <string name="general_settings">Общие настройки</string>
+    <string name="advanced_settings">Расширенные настройки</string>
+    <string name="timeout_settings">Пользовательские таймауты</string>
+    <string name="contact_support">Центр поддержки</string>
+    <string name="email_us">Отправить нам эмейл</string>
+    <string name="documentation">Документация</string>
 </resources>

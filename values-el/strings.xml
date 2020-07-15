@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ενεργή Οθόνη</string>
+    <string name="label_on">Πάντα ενεργή</string>
+    <string name="label_off">%1$d λεπ.</string>
+    <string name="lceck_fail">Αποτυχία ελέγχου αδείας.</string>
+
+    <string name="lbl_permissions">Πρέπει να επιτρέψετε στην εφαρμογή τη δυνατότητα τροποποίησης των ρυθμίσεων συστήματος, για να δουλέψει. Η μόνη ρύθμιση την οποία θα τροποποιήσει είναι ο χρόνος αδράνειας της οθόνης.</string>
+    <string name="btn_permissions">Ρύθμιση</string>
+    <string name="lbl_addwidget_header">Προσθήκη γραφικού στοιχείου (widget) στην αρχική οθόνη</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Πατήστε το κουμπί αρχικής οθόνης για να μεταβείτε σε αυτήν.<br/>
+        2. Κρατήστε το δάκτυλο σας σε μια περιοχή που δεν έχει κάποιο εικονίδιο.<br/>
+        3. Επιλέξτε \"Γραφικά στοιχεία\".<br/>
+        4. Επιλέξτε το γραφικό στοιχείο \"ScreenWidget\".<br/>
+        5. Σύρετε το και αφήστε το στην περιοχή που επιθυμείτε.<br/>
+        6. Πατήστε το γραφικό στοιχείο για να αλλάξετε το χρόνο αδράνειας της οθόνης.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Προσθήκη εικονιδίου γρήγορων ρυθμίσεων</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Ανοίξτε την περιοχή ειδοποιήσεων.<br/>
+        2. Σύρετε την προς τα κάτω.<br/>
+        3. Πατήστε το εικονίδιο με το μολυβάκι (τροποποίηση).<br/>
+        4. Σύρετε το εικονίδιο \"Ενεργή οθόνη\" στην περιοχή των γρήγορων ρυθμίσεων.<br/>
+        5. Βγείτε από το μενού και είστε έτοιμοι.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Ειδοποίηση</string>
+    <string name="notification_name">Ειδοποίηση και εικονίδιο στην περιοχή ειδοποιήσεων</string>
+    <string name="notification_desc">Όταν είναι ενεργό, μια ειδοποίηση και ένα εικονίδιο στην περιοχή ειδοποιήσεων θα εμφανίζονται όταν η κατάσταση \"Πάντα ενεργή\" είναι ενεργή.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Αυτόματη απενεργοποίηση</string>
+    <string name="revert_default_timeout_name">Αυτόματη επιστροφή στον καθορισμένο χρόνο αδράνειας</string>
+    <string name="revert_default_timeout_desc">Η αυτόματη επιστροφή στον καθορισμένο χρόνο αδράνειας όταν σβήνει η οθόνη είναι %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">ανενεργή</string>
+    <string name="condition_any_timeout">ενεργή</string>
+    <string name="condition_only_always_on">ενεργή μόνο για την κατάσταση Πάντα Ενεργή</string>
+
+
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Προσθήκη στην αρχική οθόνη</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Επιλογές εκκίνησης</string>
+    <string name="onboot_trigger_name">Επαναφορά κατά την εκκίνηση</string>
+    <string name="onboot_trigger_desc">Επαναφορά στην τελευταία ενεργή κατάσταση κατά την εκκίνηση της συσκευής. Χρήσιμο, αν θέλετε να διατηρηθεί η ρύθμιση της εφαρμογής μετά από επανεκκίνηση της συσκευής.</string>
+    <string name="onboot_toast_name">Εμφάνιση μηνύματος</string>
+    <string name="onboot_toast_desc">Εμφάνιση σχετικού μηνύματος όταν γίνει επαναφορά της ρύθμισης.</string>
+
+    <!-- Multi tap settings-->
+    <string name="multitap_section">Ρυθμίσεις πολλαπλών αγγιγμάτων</string>
+    <string name="multitap_enable_name">Υποστήριξη πολλαπλών αγγιγμάτων</string>
+    <string name="multitap_enable_desc">Ενεργοποίηση υποστήριξης πολλαπλών αγγιγμάτων του γραφικού στοιχείου. Επιτρέπει την αύξηση και μείωση του χρόνου αδρανείας, με διπλό και τριπλό άγγιγμα του γραφικού στοιχείου.</string>
+    <string name="multitap_smart_system_name">Έξυπνη καθυστέρηση πολλαπλών αγγιγμάτων</string>
+    <string name="multitap_smart_system_desc">Έξυπνη καθυστέρηση πολλαπλών αγγιγμάτων: το μονό άγγιγμα διαρκεί λιγότερο και έτσι μειώνονται οι χρόνοι του διπλού και τριπλού αγγίγματος.</string>
+
+    <string name="single_tap_action_name">Ενέργεια μονού αγγίγματος</string>
+    <string name="single_tap_action_desc">%s. Επιλογή ενέργειας μονού αγγίγματος.</string>
+    <string name="single_always_on">Εναλλαγή μεταξύ κατάστασης πάντα ενεργής και του ορισμένου χρόνου αδράνειας</string>
+    <string name="single_last_active">Εναλλαγή μεταξύ τελευταίου χρόνου που χρησιμοποιήθηκε και του ορισμένου χρόνου αδράνειας.</string>
+    <string name="sort_timeouts_name">Ταξινόμηση λίστας επιλεγμένων χρόνων αδράνειας</string>
+    <string name="sort_timeouts_desc">%s. Επιλογή τρόπου ταξινόμησης.</string>
+
+    <string name="do_not_sort">Χωρίς ταξινόμηση</string>
+    <string name="do_sort_asc">Αύξουσα</string>
+    <string name="do_sort_desc">Φθίνουσα</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Οπτική προσαρμογή</string>
+    <string name="widget_font_size_header">Μέγεθος γραμματοσειράς</string>
+    <string name="widget_font_size_desc">Επιλογή του μεγέθους γραμματοσειράς του γραφικού στοιχείου. Χρήσιμο για το καλύτερο οπτικό αποτέλεσμα σε διαφορετικές εφαρμογές αρχικής οθόνης.</string>
+    <string name="widget_icon_size_header">Μέγεθος εικονιδίου</string>
+    <string name="widget_icon_size_desc">Επιλογή μεγέθους του εικονιδίου του γραφικού στοιχείου. Χρήσιμο για το καλύτερο οπτικό αποτέλεσμα σε διαφορετικές εφαρμογές αρχικής οθόνης.</string>
+
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Μέγεθος εικονιδίου</string>
+    <string name="action_settings">Ρυθμίσεις</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Ρυθμίσεις</string>
+    <string name="str_menu_rate_app">Βαθμολόγηση εφαρμογής</string>
+    <string name="str_menu_share_app">Προτείνετε την εφαρμογή</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Προσαρμογή χρόνων αδράνειας</string>
+    <string name="custom_timeout1_header">Προσαρμοσμένος χρόνος 1</string>
+    <string name="custom_timeout1_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout2_header">Προσαρμοσμένος χρόνος 2</string>
+    <string name="custom_timeout2_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout3_header">Προσαρμοσμένος χρόνος 3</string>
+    <string name="custom_timeout3_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout4_header">Προσαρμοσμένος χρόνος 4</string>
+    <string name="custom_timeout4_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout5_header">Προσαρμοσμένος χρόνος 5</string>
+    <string name="custom_timeout5_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="custom_timeout6_header">Προσαρμοσμένος χρόνος 6</string>
+    <string name="custom_timeout6_value"> λεπτά. Εισάγετε τον επιθυμητό χρόνο. Εισάγετε 0 για να παραβλεφτεί.</string>
+    <string name="enter_timeout_value">Εισάγετε τιμή σε λεπτά</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Ενεργή οθόνη</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Προστασία χαμηλής μπαταρίας</string>
+
+    <string name="disable_on_low_name">Αυτόματη απενεργοποίηση όταν είναι χαμηλή η στάθμη της μπαταρίας</string>
+    <string name="disable_on_low_desc">Αυτόματη απενεργοποίηση της κατάστασης Πάντα Ενεργή, όταν είναι χαμηλή η στάθμη της μπαταρίας.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Έλλειψη άδειας χρήσης</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">General Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="timeout_settings">Custom Timeouts</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="email_us">Email Us</string>
+    <string name="documentation">Documentation</string>
+
+
+
+
+</resources>

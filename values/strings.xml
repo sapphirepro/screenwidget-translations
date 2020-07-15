@@ -92,17 +92,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Customize timeouts</string>
     <string name="custom_timeout1_header">Custom timeout value 1</string>
-    <string name="custom_timeout1_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout1_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="custom_timeout2_header">Custom timeout value 2</string>
-    <string name="custom_timeout2_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout2_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="custom_timeout3_header">Custom timeout value 3</string>
-    <string name="custom_timeout3_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout3_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="custom_timeout4_header">Custom timeout value  4</string>
-    <string name="custom_timeout4_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout4_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="custom_timeout5_header">Custom timeout value 5</string>
-    <string name="custom_timeout5_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout5_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="custom_timeout6_header">Custom timeout value 6</string>
-    <string name="custom_timeout6_value">%s minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
+    <string name="custom_timeout6_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="enter_timeout_value">Please enter value in minutes</string>
 
     <!-- Tile translations -->
@@ -117,7 +117,12 @@
     <!-- Licensing state -->
     <string name="no_license">No license</string>
 
-
-
+    <!-- Settings menu -->
+    <string name="general_settings">General Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="timeout_settings">Custom Timeouts</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="email_us">Email Us</string>
+    <string name="documentation">Documentation</string>
 
 </resources>

@@ -87,17 +87,17 @@
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Personalizacja czasów wyłączenie ekranu</string>
     <string name="custom_timeout1_header">Ustawienie Custom 1</string>
-    <string name="custom_timeout1_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout1_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="custom_timeout2_header">Ustawienie Custom 2</string>
-    <string name="custom_timeout2_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout2_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="custom_timeout3_header">Ustawienie Custom 3</string>
-    <string name="custom_timeout3_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout3_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="custom_timeout4_header">Ustawienie Custom 4</string>
-    <string name="custom_timeout4_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout4_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="custom_timeout5_header">Ustawienie Custom 5</string>
-    <string name="custom_timeout5_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout5_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="custom_timeout6_header">Ustawienie Custom 6</string>
-    <string name="custom_timeout6_value">%s minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
+    <string name="custom_timeout6_value"> minut. Wpisz wybraną przez siebie wartość. Aby pominąć wpisz 0.</string>
     <string name="enter_timeout_value">Wartości proszę wpisać w minutach</string>
 
     <!-- Tile translations -->
@@ -112,7 +112,13 @@
     <!-- Licensing state -->
     <string name="no_license">Brak licencji</string>
 
-
+    <!-- Settings menu -->
+    <string name="general_settings">General Settings</string>
+    <string name="advanced_settings">Advanced Settings</string>
+    <string name="timeout_settings">Custom Timeouts</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="email_us">Email Us</string>
+    <string name="documentation">Documentation</string>
 
 
 </resources>

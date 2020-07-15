@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!-- General app localization -->
     <string name="app_name">Screen Awake</string>
     <string name="label_on">Always on</string>
     <string name="label_off">%1$d min.</string>
     <string name="lceck_fail">License check failed.</string>
-
+<!-- End of General app localization -->
+<!-- Main screen localization -->
     <string name="lbl_permissions">You need to give this app permission to change the settings before it will work, the only setting it will touch is the screen time-out.</string>
     <string name="btn_permissions">Configure</string>
+	<!-- First Step localization -->
     <string name="lbl_addwidget_header">Adding the widget to the home screen</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Press the home button to get to the home screen.<br/>
@@ -16,6 +19,7 @@
         5. Drag and drop it into the home screen to where you want it.<br/>
         6. Click on widget to change screen timeout mode.\n]]>
     </string>
+	<!-- Second step localization -->
     <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
     <string name="lbl_addtile"><![CDATA[
         1. Open the notification drawer.<br/>
@@ -24,71 +28,71 @@
         4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
         5. Tap back and you are ready to use tile.\n]]>
     </string>
+<!-- End of Main screen localization -->
 
-    <!-- Notification icon settings -->
+<!-- Notification icon settings -->
     <string name="notification">Notification</string>
     <string name="notification_name">Notification and statusbar icon</string>
     <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
-    <!-- End of notification icon settings -->
+<!-- End of notification icon settings -->
 
-    <!-- Auto disable always on mode settings -->
+<!-- Auto disable always on mode settings -->
     <string name="revert_default_timeout">Auto deactivation</string>
     <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
     <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
-
-    <!-- Auto disable select options -->
+	<!-- Auto disable select options -->
     <string name="condition_never">disabled</string>
     <string name="condition_any_timeout">enabled</string>
     <string name="condition_only_always_on">enabled only for always on mode</string>
+<!-- End of auto disable always on mode setting -->
 
-
-
-    <!-- End of auto disable always on mode setting -->
-
+<!-- Widget localization -->
     <string name="btn_addwidget">Add to Home Screen</string>
+<!-- End of Widget localization -->
 
-    <!-- Settings localization -->
+<!-- Settings localization -->
     <string name="onboot_section">On-Boot Settings</string>
     <string name="onboot_trigger_name">Restore on boot</string>
     <string name="onboot_trigger_desc">Restore last active state on boot. Useful, if you want timings to be restored to the state it was before device reboot.</string>
     <string name="onboot_toast_name">Show message</string>
     <string name="onboot_toast_desc">Show Toast message once settings restored</string>
-
-    <!-- Multi tap settings-->
+	
+    <!-- Multi tap settings -->
     <string name="multitap_section">Multi-Tap Settings</string>
     <string name="multitap_enable_name">Multi-tap support</string>
     <string name="multitap_enable_desc">Enable or disable multi-tap support for widget. Multi-tap feature allows increasing and decreasing widget timeout setting by using double and triple taps on widget.</string>
     <string name="multitap_smart_system_name">Multi-tap smart delay</string>
     <string name="multitap_smart_system_desc">Multi-tap smart multi stage delay: single click will pass much faster, then double and triple clicks reducing wait time.</string>
-
+	
+	<!-- Single tap settings -->
     <string name="single_tap_action_name">Single tap action</string>
     <string name="single_tap_action_desc">%s. Choose single-tap action to use.</string>
     <string name="single_always_on">Switch between always on and default timeout</string>
     <string name="single_last_active">Switch between last used timeout and default timeout</string>
+	
+	<!-- Time sorting settings -->
     <string name="sort_timeouts_name">Sort custom timeouts list</string>
     <string name="sort_timeouts_desc">%s. Choose sort option.</string>
-
     <string name="do_not_sort">Do not sort</string>
     <string name="do_sort_asc">Sort ascending</string>
     <string name="do_sort_desc">Sort descending</string>
-
+	
     <!-- Design tuning -->
     <string name="design_section">Visual customizations</string>
     <string name="widget_font_size_header">Font size</string>
     <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
     <string name="widget_icon_size_header">Icon size</string>
     <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
-
-
+	
     <!-- Margin settings -->
     <string name="layout_ico_header">Icon size</string>
     <string name="action_settings">Settings</string>
-
+	
     <!-- Menu items -->
     <string name="str_menu_settings">Settings</string>
     <string name="str_menu_rate_app">Rate application</string>
     <string name="str_menu_share_app">Recommend application</string>
-
+	
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Customize timeouts</string>
     <string name="custom_timeout1_header">Custom timeout value 1</string>
@@ -104,25 +108,25 @@
     <string name="custom_timeout6_header">Custom timeout value 6</string>
     <string name="custom_timeout6_value"> minutes. Enter desired timeout value. Enter 0 to ignore this slot.</string>
     <string name="enter_timeout_value">Please enter value in minutes</string>
-
+	
     <!-- Tile translations -->
     <string name="tile_name">Screen Timeout</string>
 
     <!-- Power related events -->
     <string name="power_events">Low battery protection</string>
-
     <string name="disable_on_low_name">Auto disable on low battery</string>
     <string name="disable_on_low_desc">Automatically disable always on mode on low battery level.</string>
 
     <!-- Licensing state -->
     <string name="no_license">No license</string>
+<!-- End of Settings localization -->
 
-    <!-- Settings menu -->
+<!-- Settings menu -->
     <string name="general_settings">General Settings</string>
     <string name="advanced_settings">Advanced Settings</string>
     <string name="timeout_settings">Custom Timeouts</string>
     <string name="contact_support">Contact Support</string>
     <string name="email_us">Email Us</string>
     <string name="documentation">Documentation</string>
-
+<!-- End of Settings menu -->
 </resources>

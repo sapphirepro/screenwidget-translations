@@ -118,12 +118,12 @@
     <string name="no_license">Έλλειψη άδειας χρήσης</string>
 
     <!-- Settings menu -->
-    <string name="general_settings">General Settings</string>
-    <string name="advanced_settings">Advanced Settings</string>
-    <string name="timeout_settings">Custom Timeouts</string>
-    <string name="contact_support">Contact Support</string>
-    <string name="email_us">Email Us</string>
-    <string name="documentation">Documentation</string>
+    <string name="general_settings">Γενικές ρυθμίσεις</string>
+    <string name="advanced_settings">Προχωρημένες ρυθμίσεις</string>
+    <string name="timeout_settings">Προσαρμοσμένοι χρόνοι</string>
+    <string name="contact_support">Υποστήριξη</string>
+    <string name="email_us">Στείλτε μας Email</string>
+    <string name="documentation">Τεκμηρίωση</string>
 
 
 

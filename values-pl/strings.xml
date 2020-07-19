@@ -17,30 +17,30 @@
         6. Klikając ikonę widget\'u wybierz żądany czas przez jaki ekran będzie aktywny.\n]]>
     </string>
     <string name="btn_addwidget">Dodaj do Ekranu Głównego</string>
-    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile_header">Dodawanie kafelka do paneluszybkich ustawień</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Open the notification drawer.<br/>
-        2. Swipe down from the top to open the Quick Settings drawer.<br/>
-        3. Tap EDIT button.<br/>
-        4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.<br/>
-        5. Tap back and you are ready to use tile.\n]]>
+        1. Otwórz panel powiadomień.<br/>
+        2. Przesuń w dół, aby otworzyć panel szybkich ustawień.<br/>
+        3. Przejdź do edycji panelu szybkich ustawień (menu w prawym górnym rogu) .<br/>
+        4. Odszukaj i przeciągnij kafelek "Screen Timeout" w obszar panelu szybkich ustawień.<br/>
+        5. Zatwierdź zmiany.\n]]>
     </string>
 
     <!-- Notification icon settings -->
-    <string name="notification">Notification</string>
-    <string name="notification_name">Notification and statusbar icon</string>
-    <string name="notification_desc">When enabled, notification and statusbar icon will be shown in notification area when \"Always on\" mode activated</string>
+    <string name="notification">Powiadomienia</string>
+    <string name="notification_name">Powiadomienia i ikony paska stanu</string>
+    <string name="notification_desc">Jeśli WŁĄCZONE, powiadomienie oraz ikona będą wyświetlane w panelu powiadomień oraz na pasku stanu, jeśli tryb "Always On" zostanie aktywowany.</string>
     <!-- End of notification icon settings -->
 
     <!-- Auto disable always on mode settings -->
-    <string name="revert_default_timeout">Auto deactivation</string>
-    <string name="revert_default_timeout_name">Automatic revert to default timeout</string>
-    <string name="revert_default_timeout_desc">Automatic revert to default screen timeout on screen going off %s.</string>
+    <string name="revert_default_timeout">Przywracanie ustawień domyślnych</string>
+    <string name="revert_default_timeout_name">Automatycznie przywraca domyślne ustawienia</string>
+    <string name="revert_default_timeout_desc">Utomatycznie ustaw czasu wygaszenia ekranu na %s.</string>
 
     <!-- Auto disable select options -->
-    <string name="condition_never">disabled</string>
-    <string name="condition_any_timeout">enabled</string>
-    <string name="condition_only_always_on">enabled only for always on mode</string>
+    <string name="condition_never">Wyłączone</string>
+    <string name="condition_any_timeout">Włączone</string>
+    <string name="condition_only_always_on">Włączone tylko w trybie "Always On"</string>
 
     <!-- Settings localization -->
     <string name="onboot_section">Ustawienia po ponownym uruchomieniu systemu</string>
@@ -113,12 +113,12 @@
     <string name="no_license">Brak licencji</string>
 
     <!-- Settings menu -->
-    <string name="general_settings">General Settings</string>
-    <string name="advanced_settings">Advanced Settings</string>
-    <string name="timeout_settings">Custom Timeouts</string>
-    <string name="contact_support">Contact Support</string>
-    <string name="email_us">Email Us</string>
-    <string name="documentation">Documentation</string>
+    <string name="general_settings">Ustawienia</string>
+    <string name="advanced_settings">Ustawienia zaawansowane</string>
+    <string name="timeout_settings">Personalizacja ustawień czasów</string>
+    <string name="contact_support">Wsparcie techniczne/pomoc</string>
+    <string name="email_us">Wyślij email</string>
+    <string name="documentation">Dokumentacja/string>
 
 
 </resources>

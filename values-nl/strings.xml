@@ -112,7 +112,7 @@
 
     <!-- Settings menu -->
     <string name="general_settings">Algemene Instellingen</string>
-    <string name="advanced_settings">Geadvanceerde Instellingen</string>
+    <string name="advanced_settings">Geavanceerde Instellingen</string>
     <string name="timeout_settings">Aangepaste Timeouts</string>
     <string name="contact_support">Contacteer Helpdesk</string>
     <string name="email_us">Email Ons</string>

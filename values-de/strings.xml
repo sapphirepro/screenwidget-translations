@@ -1,125 +1,136 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- General app localization -->
     <string name="app_name">Screen Awake</string>
-    <string name="label_on">Eingeschaltet</string>
+    <string name="label_on">Immer an</string>
     <string name="label_off">%1$d Min.</string>
-    <string name="lceck_fail">Die ungültige Lizenz</string>
-
-    <string name="lbl_permissions">Sie müssen der Anwendung die Erlaubnis geben, die Einstellungen zu ändern, bevor sie funktionieren können. Die einzige Einstellung, die es ändert – die Auszeit (das Timeout) auf dem Bildschirm.</string>
-    <string name="btn_permissions">Auflösung anpassen</string>
-    <string name="lbl_addwidget_header">Hinzufügen eines Widgets zur Arbeitsfläche</string>
-    <string name="lbl_addwidget"><![CDATA[
-        1. Drücken die Home-Taste, um zum Startbildschirm zu gelangen.<br/>
-        2. Klicken auf und halten den Finger in einem beliebigen leeren Bereich des Bildschirms, der nicht von den Symbolen besetzt ist.<br/>
-        3. Wählen \"Widgets\".<br/>
-        4. Finden das Widget "ScreenWidget".<br/>
-        5. Ziehen Sie es auf Ihren Startbildschirm an eine beliebige Stelle. <br/>
-        6. Klicken Sie auf das Widget, um den automatischen Abschaltmodus des Bildschirms zu aktivieren.]]>
-    </string>
-
-    <string name="lbl_addtile_header"> Hinzufügen einer Schnelleinstellungskachel.</string>
+    <string name="lceck_fail">Lizenzüberprüfung fehlgeschlagen</string>
+    <!-- End of General app localization -->
+    
+    <!-- Main screen localization -->
+    <string name="lbl_permissions">Sie müssen dieser App die Berechtigung erteilen, Einstellungen zu ändern, bevor sie funktioniert. Die einzige Einstellung, die es ändert, ist das Timeout für den Bildschirm.</string>
+    <string name="btn_permissions">Konfigurieren</string>
+    
+    <!-- First Step localization -->
+    <string name="lbl_addtile_header">Hinzufügen einer Kachel in den Schnelleinstellungen</string>
     <string name="lbl_addtile"><![CDATA[
         1. Öffnen Sie das Benachrichtigungsfeld.<br/>
         2. Ziehen Sie von oben nach unten, um die Schnelleinstellungen zu öffnen.<br/>
-        3. Klicken Sie auf die Schaltfläche Bearbeiten (Bleistift).<br/>
-        4. Ziehen Sie die Kachel "Bildschirm-Timeout" in den Bereich \"Schnelleinstellungen\".<br/>
-        5. Klicken Sie auf ZURÜCK. Schnelleinstellungskachel ist bereit für den Einsatz.\n]]>
+        3. Klicken Sie auf den Bleistift.<br/>
+        4. Ziehen Sie die Kachel \"Screen Awake\" in den Bereich \"Schnelleinstellungen\".<br/>
+        5. Gehen Sie zurück und der Schnelleinstellungskachel ist bereit für den Einsatz.\n]]>
     </string>
+    
+    <!-- Second step localization -->
+    <string name="lbl_addwidget_header">Hinzufügen eines Widgets zur Startseite</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Drücken Sie die Home-Taste, um zum Startbildschirm zu gelangen.<br/>
+        2. Halten Sie den Finger in einem beliebigen leeren Bereich des Bildschirms, der nicht von den Symbolen besetzt ist.<br/>
+        3. Drücken Sie dann auf \"Widgets\".<br/>
+        4. Finden Sie das Widget \"ScreenWidget\".<br/>
+        5. Ziehen Sie es auf Ihren Startbildschirm an eine beliebige Stelle.<br/>
+        6. Klicken Sie auf das Widget, um den Timeout für den Bildschirm zu ändern.]]>
+    </string>
+    <!-- End of Main screen localization -->
 
     <!-- Notification icon settings -->
-    <string name="notification">Die Benachrichtigungen. </string>
-    <string name="notification_name">Die Benachrichtigung und Symbol in der Statusleiste.</string>
-    <string name="notification_desc">Die Aktivierung dieser Option im aktiven Modus \"immer Tastaturbildschirm\" zeigt die Benachrichtigung und das Symbol im Balkenstatus an.</string>
+    <string name="notification">Benachrichtigungen</string>
+    <string name="notification_name">Benachrichtigungs- und Statusleistensymbol</string>
+    <string name="notification_desc">Wenn aktiviert, wird im Benachrichtigungsbereich ein Symbol angezeigt, wenn der Modus \"Immer an\" aktiviert ist</string>
     <!-- End of notification icon settings -->
 
     <!-- Auto disable always on mode settings -->
-    <string name="revert_default_timeout">Die Automatische Deaktivierung. </string>
-    <string name="revert_default_timeout_name"> Die Automatische Rückkehr zum System-Timeout.</string>
-    <string name="revert_default_timeout_desc"> Die Automatische Rückkehr zur Systemzeitüberschreitung bei deaktiviertem Bildschirm %s.</string>
+    <string name="revert_default_timeout">Automatische Deaktivierung</string>
+    <string name="revert_default_timeout_name">Automatische Wiederherstellung des Standard-Timeouts</string>
+    <string name="revert_default_timeout_desc">Die automatische Wiederherstellung des Standard-Bildschirm-Timeout bei deaktiviertem Bildschirm ist %s</string>
 
     <!-- Auto disable select options -->
-    <string name="condition_never">ist ausgeschaltet</string>
-    <string name="condition_any_timeout">ist aktiviert</string>
-    <string name="condition_only_always_on">nur für immer auf dem Bildschirm aktiviert ist</string>
+    <string name="condition_never">deaktiviert</string>
+    <string name="condition_any_timeout">aktiviert</string>
+    <string name="condition_only_always_on">aktivert, wenn nur \"Immer an\" an ist</string>
+    <!-- End of auto disable always on mode setting -->
 
-    <string name="btn_addwidget">Zum Startbildschirm hinzufügen.</string>
+    <!-- Widget localization -->
+    <string name="btn_addwidget">Zum Startbildschirm hinzufügen</string>
+    <!-- End of Widget localization -->
+    
     <!-- Settings localization -->
     <string name="onboot_section">Autostart-Einstellungen</string>
-    <string name="onboot_trigger_name">Die Wiederherstellung des Zustands</string>
-    <string name="onboot_trigger_desc">Wiederherstellen des letzten Status beim Start. Wenn Sie möchten, dass das Gerät auf das vorherige zurückgesetzt wird. Wenn der Bildschirm \"ständig eingeschaltet\" war, wird dieser Wert beim Start wiederhergestellt.</string>
-    <string name="onboot_toast_name">Benachrichtigungen anzeigen.</string>
-    <string name="onboot_toast_desc">Popup-Meldung zum Wiederherstellen von Einstellungen anzeigen.</string>
+    <string name="onboot_trigger_name">Beim Booten wiederherstellen</string>
+    <string name="onboot_trigger_desc">Wenn sich Ihr Telefon einschaltet, werden die zuletzt eingestellten Einstellungen wiederhergestellt. Diese Funktion ist nützlich, wenn Sie die zuletzt verwendete Timeout-Einstellung wiederherstellen möchten</string>
+    <string name="onboot_toast_name">Benachrichtigungen anzeigen</string>
+    <string name="onboot_toast_desc">Popup-Meldung anzeigen, sobald die Einstellungen wiederhergestellt wurden</string>
 
     <!-- Multi tap settings-->
-    <string name="multitap_section">Mehrfachklick-Einstellungen.</string>
-    <string name="multitap_enable_name">Unterstützung für mehrere Klicks.</string>
-    <string name="multitap_enable_desc"> Aktivieren oder Deaktivieren der Multi-Tap-Unterstützung. Mit der Multitouch-Funktion können Sie die Bildschirmzeit zwischen den Sollwerten ändern.
-Tippen Sie zweimal auf das Widget, um den Wert zu erhöhen, und dreimal auf das Widget, um den Wert zu verringern.</string>
-    <string name="multitap_smart_system_name">Intelligente Multi-Tap-Verzögerung </string>
-    <string name="multitap_smart_system_desc">Intelligente Multi-Tap-Verzögerung: Bei einem einzelnen Tap reagiert das Widget auf ein doppelt so schnelles Ereignis (350 ms), während das Widget auf ein doppeltes und dreifaches Tap 700 ms reagiert.</string>
+    <string name="multitap_section">Multi-Tap-Einstellungen</string>
+    <string name="multitap_enable_name">Unterstützung für Multi-Tap</string>
+    <string name="multitap_enable_desc">Aktivieren oder deaktivieren Sie die Multi-Tap-Unterstützung für Widgets: Mit der Multi-Tap-Funktion können Sie das Widget-Timeout-Einstellung erhöhen oder verringern, indem Sie zweimal und dreimal auf das Widget tippen</string>
+    <string name="multitap_smart_system_name">Intelligente Multi-Tap-Verzögerung</string>
+    <string name="multitap_smart_system_desc">Mit einem Klick können Sie schnell zwischen der von Ihnen festgelegten Standard- und Wartezeit wechseln, während Sie mit zwei schnellen Klicks zwischen den Wartezeiten wechseln</string>
 
-    <string name="single_tap_action_name">Einmal Klick-Aktion</string>
-    <string name="single_tap_action_desc">%s. Wählen Sie eine Aktion für den einmaligen Gebrauch
- </string>
-    <string name="single_always_on"><![CDATA[Umschalten zwischen <b>immer auf dem Bildschirm </b> und <b>dem Standardzeitlimit</b>]]></string>
-    <string name="single_last_active"><![CDATA[Umschalten zwischen <b>dem letzten aktiven Timeout</b> und <b>dem Standardzeitlimit</b>]]></string>
-    <string name="sort_timeouts_name">Die Sortierung von kundenspezifischen Timeouts.</string>
-    <string name="sort_timeouts_desc">%s. Wählen Sie einen Sortierwert.</string>
+    <!-- Single tap settings -->
+    <string name="single_tap_action_name">Einfaches Tippen</string>
+    <string name="single_tap_action_desc">%s. Wählen Sie die zu verwendende Aktion mit einem einfachen Tippen aus</string>
+    <string name="single_always_on"><![CDATA[Wechseln Sie zwischen <b> \"Immer ein\"</b> und <b>Standard-Timeout</b>]]></string>
+    <string name="single_last_active"><![CDATA[Wechseln Sie zwischen <b>dem zuletzt verwendeten Timeout</b> und <b>dem Standard-Timeout</b>]]></string>
 
+    <!-- Time sorting settings -->
+    <string name="sort_timeouts_name">Benutzerdefinierte "Timeout"-liste sortieren</string>
+    <string name="sort_timeouts_desc">%s. Wählen Sie eine Sortieroption aus</string>
     <string name="do_not_sort">Nicht sortieren</string>
     <string name="do_sort_asc">Aufsteigend sortieren</string>
     <string name="do_sort_desc">Absteigend sortieren</string>
 
     <!-- Design tuning -->
-    <string name="design_section">Visual customizations</string>
-    <string name="widget_font_size_header">Font size</string>
-    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
-    <string name="widget_icon_size_header">Icon size</string>
-    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
-
+    <string name="design_section">Visuelle Anpassungen</string>
+    <string name="widget_font_size_header">Schriftgröße</string>
+    <string name="widget_font_size_desc">Wählen Sie die im Widget verwendete Schriftgröße aus. Nützlich, um mit verschiedenen Launcher die besten visuellen Ergebnisse zu erzielen</string>
+    <string name="widget_icon_size_header">Symbolgröße</string>
+    <string name="widget_icon_size_desc">Auswahl der Größe des Widget-Symbols (Nützlich, um mit verschiedenen Launcher die besten visuellen Ergebnisse zu erzielen)</string>
 
     <!-- Margin settings -->
-    <string name="layout_ico_header">Icon size</string>
-    <string name="action_settings">die Einstellungen</string>
+    <string name="layout_ico_header">Symbolgröße</string>
+    <string name="action_settings">Einstellungen</string>
 
     <!-- Menu items -->
-    <string name="str_menu_settings">Die Einstellungen</string>
-    <string name="str_menu_rate_app">Das App zu bewerten</string>
-    <string name="str_menu_share_app">Das App zu empfelen</string>
+    <string name="str_menu_settings">Einstellungen</string>
+    <string name="str_menu_rate_app">App bewerten</string>
+    <string name="str_menu_share_app">App empfehlen</string>
 
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">Benutzerdefinierte Timeouts</string>
     <string name="custom_timeout1_header">Benutzerdefinierte Timeout #1</string>
-    <string name="custom_timeout1_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout1_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="custom_timeout2_header">Benutzerdefinierte Timeout #2</string>
-    <string name="custom_timeout2_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout2_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="custom_timeout3_header">Benutzerdefinierte Timeout #3</string>
-    <string name="custom_timeout3_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout3_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="custom_timeout4_header">Benutzerdefinierte Timeout #4</string>
-    <string name="custom_timeout4_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout4_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="custom_timeout5_header">Benutzerdefinierte Timeout #5</string>
-    <string name="custom_timeout5_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout5_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="custom_timeout6_header">Benutzerdefinierte Timeout #6</string>
-    <string name="custom_timeout6_value"> Minuten. (Geben Sie den gewünschten Wert oder 0 ein, um den Wert zu überspringen.)</string>
+    <string name="custom_timeout6_value"> Minuten. Geben Sie den gewünschten Wert ein. (Geben Sie 0 ein, um dies zu ignorieren)</string>
     <string name="enter_timeout_value">Bitte geben Sie einen Wert in Minuten ein</string>
 
     <!-- Tile translations -->
-    <string name="tile_name">Das Wartezeit des Bildschirms </string>
+    <string name="tile_name">Bildschirm-Timeout</string>
 
     <!-- Power related events -->
-    <string name="power_events">Der Schutz gegen vollständige Entladung. </string>
-
-    <string name="disable_on_low_name">Die automatische Abschaltung bei schwacher Batterie. </string>
-    <string name="disable_on_low_desc">Schaltet den Always-On-Bildschirmmodus automatisch aus, wenn die Batterie schwach ist. </string>
+    <string name="power_events">Batterieschutz bei schwacher Batterie</string>
+    <string name="disable_on_low_name">Automatische Abschaltung bei schwacher Batterie</string>
+    <string name="disable_on_low_desc">Schaltet den "Immer an"-Modus automatisch aus, wenn die Batterie schwach ist</string>
 
     <!-- Licensing state -->
     <string name="no_license">Keine Lizenz</string>
+    <!-- End of Settings localization -->
 
     <!-- Settings menu -->
-    <string name="general_settings">Die Allgemeine Einstellungen</string>
-    <string name="advanced_settings">Die Erweiterte Einstellungen</string>
-    <string name="timeout_settings">Die Benutzerdefinierte Timeouts</string>
-    <string name="contact_support">Das Support Center</string>
+    <string name="general_settings">Allgemeine Einstellungen</string>
+    <string name="advanced_settings">Erweiterte Einstellungen</string>
+    <string name="timeout_settings">Benutzerdefinierte Timeouts</string>
+    <string name="contact_support">Support</string>
     <string name="email_us">Senden Sie uns eine Email</string>
-    <string name="documentation">Die Dokumentation </string>
+    <string name="documentation">Dokumentation</string>
+    <!-- End of Settings menu -->
 </resources>

@@ -1,29 +1,26 @@
-<string name = "application_name">Bildschirm immer ein</string>
+<string name = "application_name">Keep Screen Awake</string>
 
-<string name = "description_short"> Das Applikation zum erzwungenen Halten des Smartphone-Bildschirms im Ein-Modus
- </string>
+<string name = "description_short">Eine Anwendung, um den Bildschirm eingeschaltet zu halten</string>
 
 <string name = "playmarket_description">
-Jetzt können Sie sicher mit Ihrem Telefon arbeiten, Artikel lesen und andere Geschäfte machen, ohne dass der Bildschirm im ungünstigsten Moment automatisch abgeschaltet wird. Sie können den Modus einfach von Ihrem Home-Bildschirm oder dem Schnelleinstellungsfelder (Quick Settings Panel) mit einem einfachen Klick umschalten!
-Eine sehr nützliche und einfach zu bedienende Anwendung, die es Ihnen ermöglicht, schnell die Off-Screen-Politik in die permanent aktivierte Position zu schalten und schnell zum vorherigen Abschaltwert zurückzukehren.
+Jetzt können Sie sicher mit Ihrem Telefon arbeiten, Artikel lesen und andere Geschäfte erledigen, ohne dass sich der Bildschirm im ungünstigsten Moment automatisch ausschaltet. Sie können den Modus einfach von Ihrem Homescreen oder vom Schnelleinstellungen mit einem einfachen Klick umschalten!
 
-<b>Die Haupfunktionalität  t:</b> 
-&bull; <u><i>Die Neuheit!</i></u> Schnelles Umschalten des Bildschirmtimeouts mit der Quick Fix Tile im Setup Panel (Android Nougat oder eine spätere Version von Android wird für diese Funktion benötigt).
-&bull; Schnelles Umschalten der Bildschirmzeitüberschreitung mit einem kompakten und einfach zu bedienenden Widget.
-&bull; Immer im Bildschirmmodus.
-&bull; Unterstützt mehrere Pressen (Klicks), um zwischen verschiedenen Bildschirmtimeout-Werten zu wechseln.
-&bull; Bis zu 6 benutzerdefinierbare Bildschirm-Ausschaltzeiten, zwischen denen Sie schnell und einfach zwischen zwei und drei Tippen auf das Widget wechseln können.
-&bull; Option zum Einrichten des letzten aktiven Modus der automatischen Deaktivierung beim Laden des Gerätes.
+Eine sehr nützliche und benutzerfreundliche Anwendung, mit der Sie die Bildschirm-Timeout-Einstellungen des Telefons schnell umschalten können, indem Sie festlegen, dass sie immer aktiviert sind, oder auf die vor dem Anzeige-Timeout ausgewählte Einstellung zurückkehren.
 
-Wir wünschen Ihnen viel Spaß mit dieser nützlichen und stets verfügbaren Anwendung.
+<b>FUNKTIONEN:</b>
+&bull; <u><i>Neu!</i></u> Schnelleinstellungskachel (erfordert Android Nougat oder höher), um das Bildschirmzeitlimit auf die bequemste Weise umzuschalten
+&bull; Schnelles Umschalten des Bildschirm-Timeouts mit einem kompakten und benutzerfreundlichen Widget
+&bull; Modus, um den Bildschirm immer eingeschaltet zu halten
+&bull; Multi-Tap-Unterstützung zum Umschalten zwischen verschiedenen Bildschirm-Timeout-Werten.
+&bull; Bis zu 6 benutzerdefinierbare Timeout-Werte, mit denen Sie schnell zwischen Doppel- und Dreifachtippen auf das Widget wechseln können
+&bull; Option zum Wiederherstellen des letzten verwendeten Timeout beim Gerätestart
 
-Wenn Sie bei Übersetzungen helfen möchten, verwenden Sie das Repository
- GitHub:  <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. Sie können dieses Repository auch verwenden, um Probleme / Fehler zu melden und in Zukunft zusätzliche Funktionen anzufordern.
+Wir hoffen, dass Ihnen diese benutzerfreundliche Anwendung gefällt.
 
-<b> ANFORDERUNGEN AN NEUE FUNKTIONEN, VERBESSERUNGEN UND VORSCHLÄGE, BENUTZERUNTERSTÜTZUNG:</b>
-1. Über die Google+ Gruppe, die diesem Programm gewidmet ist: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
-2. Schreiben Sie uns einen Brief mit Ihren Vorschlägen, Wünschen, Fragen oder Problemen per E-Mail
- <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
-3. Kundendienst der Telegrammgruppe
-: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a></a>
+Wenn Sie bei Übersetzungen helfen möchten, verwenden Sie den GitHub-Link:  <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. Sie können es auch für alle App-bezogenen Fehlerberichte und Funktionsanforderungen verwenden.
+
+<b>FUNKTIONEN ANFRAGEN, VORSCHLÄGE UND UNTERSTÜTZUNG:</b>
+1. Über die Google+ Gruppe im Zusammenhang mit dieser Anwendung: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
+2. Schreiben Sie uns einen Brief mit Ihren Vorschlägen, Wünschen, Fragen oder Problemen per E-Mail <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
+3. Kundendienst der Telegrammgruppe: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a></a>
 </string>

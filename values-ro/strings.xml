@@ -31,7 +31,7 @@
 <!-- End of Main screen localization -->
 
 <!-- Notification icon Settings -->
-    <string name="notification">Notificari</string>
+    <string name="notification">Notificări</string>
     <string name="notification_name">Notificări și pictograma barei de stare</string>
     <string name="notification_desc">Când este activat, pictograma de notificare și bara de stare vor fi afișate în zona de notificare atunci când este activat modul \ "Întotdeauna Pornit\"</string>
 <!-- End of notification icon Settings -->

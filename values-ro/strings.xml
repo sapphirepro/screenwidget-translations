@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- General app localization -->
+    <string name="app_name">Ecran aprins</string>
+    <string name="label_on">Pemanent aprins</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Verificarea licenței a eșuat.</string>
+<!-- End of General app localization -->
+<!-- Main screen localization -->
+    <string name="lbl_permissions">Trebuie să acordați acestei aplicații permisiunea de a schimba setările înainte ca aceasta să funcționeze, singura setare pe care o va schimba este punerea în pauză a ecranului.</string>
+    <string name="btn_permissions">Configurare</string>
+	<!-- First Step localization -->
+    <string name="lbl_addwidget_header">Adăugarea widget-ului la ecranul de start</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Apăsați butonul home pentru a ajunge la ecranul de pornire.<br/>
+        2. Țineți degetul pe o zonă care nu este ocupată de o pictogramă.<br/>
+        3. Selectați \"widgets\".<br/>
+        4. Derulați la \"Widget de ecran\" widget.<br/>
+        5. Glisați-l și plasați-l în ecranul de start până unde doriți.<br/>
+        6. Apăsați pe widget pentru a schimba modul de întrerupere al ecranului.\n]]>
+    </string>
+	<!-- Second step localization -->
+    <string name="lbl_addtile_header">Adăugarea mini-pictogramei de setări rapide</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Deschideți sertarul de notificări.<br/>
+        2. Glisați în jos în sus pentru a deschide sertarul Setări rapide.<br/>
+        3. Atingeți butonul EDITARE.<br/>
+        4. Trageți mini-pictograma denumită \ "Întrerupere Ecran \" în sertarul Setări rapide.<br/>
+        5. Atingeți înapoi și sunteți gata să folosiți mini-pictograma.\n]]>
+    </string>
+<!-- End of Main screen localization -->
+
+<!-- Notification icon Settings -->
+    <string name="notification">Notificări</string>
+    <string name="notification_name">Notificări și pictograma barei de stare</string>
+    <string name="notification_desc">Când este activat, pictograma de notificare și bara de stare vor fi afișate în zona de notificare atunci când este activat modul \ "Permanent Pornit\"</string>
+<!-- End of notification icon Settings -->
+
+<!-- Auto disable always on mode Settings -->
+    <string name="revert_default_timeout">Dezactivare automată</string>
+    <string name="revert_default_timeout_name">Revenire automată la întreruperea implicită</string>
+    <string name="revert_default_timeout_desc">Revenire automată la întreruperea implicită a ecranului când ecranul se stinge %s.</string>
+	<!-- Auto disable select options -->
+    <string name="condition_never">Dezactivat</string>
+    <string name="condition_any_timeout">Activat</string>
+    <string name="condition_only_always_on">Activat numai pentru modul Permanent Aprins</string>
+<!-- End of auto disable always on mode setting -->
+
+<!-- Widget localization -->
+    <string name="btn_addwidget">Adăugați la ecranul principal</string>
+<!-- End of Widget localization -->
+
+<!-- Settings localization -->
+    <string name="onboot_section">Setări la pornire</string>
+    <string name="onboot_trigger_name">Restaurați la pornire</string>
+    <string name="onboot_trigger_desc">Restaurați ultima stare activă la pornire. Este util, dacă doriți să fie restabilite cronologiile la starea de înainte de repornirea dispozitivului.</string>
+    <string name="onboot_toast_name">Afișați mesajul</string>
+    <string name="onboot_toast_desc">Afișați mesajul Toast odată ce setările sunt restabilite</string>
+	
+    <!-- Multi tap Settings -->
+    <string name="multitap_section">Setări multi-atingere</string>
+    <string name="multitap_enable_name">Asistență multi-atingere</string>
+    <string name="multitap_enable_desc">Activați sau dezactivați asistența multi-atingere pentru widget. Funcția multi-atingere permite creșterea și scăderea setării timpului de expirare a widget-urilor, utilizând apăsările duble și triple pe widget.</string>
+    <string name="multitap_smart_system_name">Întârziere inteligentă multi-atingere</string>
+    <string name="multitap_smart_system_desc">Întârziere inteligentă multifuncțională în mai multe etape: o singură atingere este mai rapidă, apoi atingerile duble și triple reduc timpul de așteptare.</string>
+	
+	<!-- Single tap Settings -->
+    <string name="single_tap_action_name">Acțiune cu o singură atingere</string>
+    <string name="single_tap_action_desc">%s. Alegeți acțiunea cu o singură atingere pentru a fi utilizată.</string>
+    <string name="single_always_on">Comutați între intervalul de funcționare Permanent Aprins și timpul de întrerupere implicit</string>
+    <string name="single_last_active">Comutați între ultimul timp de întrerupere utilizat și timpul de întrerupere implicit</string>
+	
+	<!-- Time sorting Settingsi -->
+    <string name="sort_timeouts_name">Sortați lista personalizată de întreruperi</string>
+    <string name="sort_timeouts_desc">%s. Alegeți opțiunea de sortare.</string>
+    <string name="do_not_sort">Nu sortați</string>
+    <string name="do_sort_asc">Sortare ascendentă</string>
+    <string name="do_sort_desc">Sortează descrescător</string>
+	
+    <!-- Design tuning -->
+    <string name="design_section">Personalizări vizuale</string>
+    <string name="widget_font_size_header">Dimensiune font</string>
+    <string name="widget_font_size_desc">Selectați dimensiunea fontului folosită în widget. Util pentru a obține cele mai bune rezultate vizuale cu diferite lansatoare.</string>
+    <string name="widget_icon_size_header">Dimensiunea pictogramei</string>
+    <string name="widget_icon_size_desc">Selectați dimensiunea fontului utilizat în widget. Util pentru a obține cele mai bune rezultate vizuale cu diferite lansatoare.</string>
+	
+    <!-- Margin Settingsi -->
+    <string name="layout_ico_header">Dimensiunea pictogramei</string>
+    <string name="action_Settings">Setări</string>
+	
+    <!-- Menu items -->
+    <string name="str_menu_Settings">Setări</string>
+    <string name="str_menu_rate_app">Evaluați aplicația</string>
+    <string name="str_menu_share_app">Recomandați aplicația</string>
+	
+    <!-- Custom timeouts -->
+    <string name="Settings_custom_timeouts">Personalizați întreruperile</string>
+    <string name="custom_timeout1_header">Valoare întrerupere personalizată 1</string>
+    <string name="custom_timeout1_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="custom_timeout2_header">Valoare întrerupere personalizată  2</string>
+    <string name="custom_timeout2_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="custom_timeout3_header">Valoare întrerupere personalizată  3</string>
+    <string name="custom_timeout3_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="custom_timeout4_header">Valoare întrerupere personalizată  4</string>
+    <string name="custom_timeout4_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="custom_timeout5_header">Valoare întrerupere personalizată  5</string>
+    <string name="custom_timeout5_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="custom_timeout6_header">Valoare întrerupere personalizată  6</string>
+    <string name="custom_timeout6_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
+    <string name="enter_timeout_value">Vă rugăm să introduceți valoarea în minute</string>
+	
+    <!-- Tile translations -->
+    <string name="tile_name">Întrerupere Ecran</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Protecție baterie scăzută</string>
+    <string name="disable_on_low_name">Dezactivare automată la baterie scăzută</string>
+    <string name="disable_on_low_desc">Dezactivați automat modul întotdeauna pornit la nivelul scăzut al bateriei.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Fără licență</string>
+<!-- End of Settings localization -->
+
+<!-- Settings menu -->
+    <string name="general_Settings">Setări Generale</string>
+    <string name="advanced_Setări">Setări Avansate</string>
+    <string name="timeout_Setări">Întreruperi personalizate</string>
+    <string name="contact_support">Contactați asistența</string>
+    <string name="email_us">Trimite-ți-ne un e-mail</string>
+    <string name="documentation">Documentație</string>
+<!-- End of Settings menu -->
+</resources>

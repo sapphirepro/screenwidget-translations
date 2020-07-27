@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- General app localization -->
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">Indefinido</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Control de licencia fallido.</string>
+<!-- End of General app localization -->
+<!-- Main screen localization -->
+    <string name="lbl_permissions">Para que funcione correctamente esta app necesita dar permisos para cambiar los ajustes. El único ajuste que se utilizará es el tiempo de apagado de la pantalla.</string>
+    <string name="btn_permissions">Configurar</string>
+	<!-- First Step localization -->
+    <string name="lbl_addwidget_header">Añadir el widget a la pantalla de inicio</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Pulse el botón home para ir a la pantalla de inicio.<br/>
+        2. Mantenga su dedo pulsado en una zona que no esté ocupada por un icono.<br/>
+        3. Seleccione \"widgets\".<br/>
+        4. Haga Scroll hasta llegar al widget \"ScreenWidget\".<br/>
+        5. Arrastre y suelte en la parte de la pantalla de inicio donde lo quiere poner.<br/>
+        6. Pulse sobre el widget para cambiar el modo de tiempo de apagado de la pantalla.\n]]>
+    </string>
+	<!-- Second step localization -->
+    <string name="lbl_addtile_header">Añadir Selector de Ajuste Rápido</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Acceda el área de notificaciones.<br/>
+        2. Deslizar desde arriba hacia abajo para abrir el cajón de Ajustes Rápidos.<br/>
+        3. Pulse el botón EDITAR.<br/>
+        4. Arraste el selector llamado \"Tiempo de Pantalla\" hacia el cajón de Ajustes Rápidos.<br/>
+        5. Retroceda y estará preparado para usar el acceso.\n]]>
+    </string>
+<!-- End of Main screen localization -->
+
+<!-- Notification icon settings -->
+    <string name="notification">Notificación</string>
+    <string name="notification_name">Notificación e icono barra de estado</string>
+    <string name="notification_desc">Cuando está habilitado, será mostrada una notificación y un icono en la barra de estado cuando se active el modo \"Siempre on\"</string>
+<!-- End of notification icon settings -->
+
+<!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Auto desactivación</string>
+    <string name="revert_default_timeout_name">Regreso automático al tiempo de espera de pantalla por defecto</string>
+    <string name="revert_default_timeout_desc">Regreso automático al tiempo de espera de pantalla por defecto al apagar la pantalla %s.</string>
+	<!-- Auto disable select options -->
+    <string name="condition_never">Deshabilitado</string>
+    <string name="condition_any_timeout">Habilitado</string>
+    <string name="condition_only_always_on">Habilitado sólo para modo siempre encendido</string>
+<!-- End of auto disable always on mode setting -->
+
+<!-- Widget localization -->
+    <string name="btn_addwidget">Añadir a Pantalla Inicio</string>
+<!-- End of Widget localization -->
+
+<!-- Settings localization -->
+    <string name="onboot_section">Ajustes Reinicio</string>
+    <string name="onboot_trigger_name">Restaurar al reiniciar</string>
+    <string name="onboot_trigger_desc">Restaurar el último estado activo al reiniciar. Útil, si quiere que los tiempos sean restaurados al estado que estaban antes de que el dispositivo fuese reiniciado.</string>
+    <string name="onboot_toast_name">Mostrar mensaje</string>
+    <string name="onboot_toast_desc">Mostrar mensaje una vez que los ajustes han sido restaurados</string>
+	
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Ajustes Multi-Tap</string>
+    <string name="multitap_enable_name">Soporte Multi-tap</string>
+    <string name="multitap_enable_desc">Habilitar o deshabilitar el soporte multi-tap del widget. La característica Multi-tap permite incrementar y decrementar el ajuste del tiempo de espera de pantalla del widget usando pulsaciones dobles o triples sobre el widget.</string>
+    <string name="multitap_smart_system_name">Retraso inteligente Multi-tap</string>
+    <string name="multitap_smart_system_desc">Retraso inteligente de varias etapas Multi-tap: una pulsación simple cambiará mucho más rápido que las pulsaciones dobles o triples, reduciendo el tiempo de espera.</string>
+	
+	<!-- Single tap settings -->
+    <string name="single_tap_action_name">Acción de pulsación simple</string>
+    <string name="single_tap_action_desc">%s. Elija la acción al realizar una pulsación simple.</string>
+    <string name="single_always_on">Cambia entre siempre encendido y tiempo de espera por defecto</string>
+    <string name="single_last_active">Cambia entre el último tiempo de espera y el tiempo de espera por defecto</string>
+	
+	<!-- Time sorting settings -->
+    <string name="sort_timeouts_name">Ordenar lista personalizada de tiempos de espera</string>
+    <string name="sort_timeouts_desc">%s. Elegir tipo de orden.</string>
+    <string name="do_not_sort">Sin orden</string>
+    <string name="do_sort_asc">Orden ascendente</string>
+    <string name="do_sort_desc">Orden descendente</string>
+	
+    <!-- Design tuning -->
+    <string name="design_section">Personalizaciones visuales</string>
+    <string name="widget_font_size_header">Tamaño de fuente</string>
+    <string name="widget_font_size_desc">Seleccionar tamaño de fuente usada en el widget. Útil para conseguir los mejores resultados visuales con diferentes launchers.</string>
+    <string name="widget_icon_size_header">Tamaño de Icono</string>
+    <string name="widget_icon_size_desc">Seleccionar tamaño de icono del Widget. Útil para conseguir los mejores resultados visuales con diferentes launchers.</string>
+	
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Tamaño de Icono</string>
+    <string name="action_settings">Ajustes</string>
+	
+    <!-- Menu items -->
+    <string name="str_menu_settings">Ajustes</string>
+    <string name="str_menu_rate_app">Valorar aplicación</string>
+    <string name="str_menu_share_app">Recomendar aplicación</string>
+	
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Personalizar tiempos de espera</string>
+    <string name="custom_timeout1_header">Personalizar tiempo de espera valor 1</string>
+    <string name="custom_timeout1_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="custom_timeout2_header">Personalizar tiempo de espera valor 2</string>
+    <string name="custom_timeout2_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="custom_timeout3_header">Personalizar tiempo de espera valor 3</string>
+    <string name="custom_timeout3_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="custom_timeout4_header">Personalizar tiempo de espera valor  4</string>
+    <string name="custom_timeout4_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="custom_timeout5_header">Personalizar tiempo de espera valor 5</string>
+    <string name="custom_timeout5_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="custom_timeout6_header">Personalizar tiempo de espera valor 6</string>
+    <string name="custom_timeout6_value"> minutos. Introduzca valor de tiempo de espera deseado. Introduzca 0 para ignonar este espacio.</string>
+    <string name="enter_timeout_value">Por favor, introduzca el valor en minutos</string>
+	
+    <!-- Tile translations -->
+    <string name="tile_name">Tiempo de Pantalla</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Protección de batería baja</string>
+    <string name="disable_on_low_name">Auto apagado con batería baja</string>
+    <string name="disable_on_low_desc">Automáticamente apaga el modo siempre encendido con nivel de batería bajo.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Sin licencia</string>
+<!-- End of Settings localization -->
+
+<!-- Settings menu -->
+    <string name="general_settings">Ajustes Generales</string>
+    <string name="advanced_settings">Ajustes Avanzados</string>
+    <string name="timeout_settings">Tiempos Personalizados</string>
+    <string name="contact_support">Soporte</string>
+    <string name="email_us">Email</string>
+    <string name="documentation">Documentación</string>
+<!-- End of Settings menu -->
+</resources>

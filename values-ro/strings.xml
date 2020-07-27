@@ -25,7 +25,7 @@
         1. Deschideți sertarul de notificări.<br/>
         2. Glisați în jos în sus pentru a deschide sertarul Setări rapide.<br/>
         3. Atingeți butonul EDITARE.<br/>
-        4. Trageți mini-pictograma denumită \ "Întrerupere Ecran \" în sertarul Setări rapide.<br/>
+        4. Trageți mini-pictograma denumită \" Întrerupere Ecran \" în sertarul Setări rapide.<br/>
         5. Atingeți înapoi și sunteți gata să folosiți mini-pictograma.\n]]>
     </string>
 <!-- End of Main screen localization -->
@@ -86,15 +86,15 @@
 	
     <!-- Margin Settingsi -->
     <string name="layout_ico_header">Dimensiunea pictogramei</string>
-    <string name="action_Settings">Setări</string>
+    <string name="action_settings">Setări</string>
 	
     <!-- Menu items -->
-    <string name="str_menu_Settings">Setări</string>
+    <string name="str_menu_settings">Setări</string>
     <string name="str_menu_rate_app">Evaluați aplicația</string>
     <string name="str_menu_share_app">Recomandați aplicația</string>
 	
     <!-- Custom timeouts -->
-    <string name="Settings_custom_timeouts">Personalizați întreruperile</string>
+    <string name="settings_custom_timeouts">Personalizați întreruperile</string>
     <string name="custom_timeout1_header">Valoare întrerupere personalizată 1</string>
     <string name="custom_timeout1_value"> minute. Introduceți valoarea dorită. Introduceți 0 pentru a ignora acest slot.</string>
     <string name="custom_timeout2_header">Valoare întrerupere personalizată  2</string>
@@ -122,9 +122,9 @@
 <!-- End of Settings localization -->
 
 <!-- Settings menu -->
-    <string name="general_Settings">Setări Generale</string>
-    <string name="advanced_Setări">Setări Avansate</string>
-    <string name="timeout_Setări">Întreruperi personalizate</string>
+    <string name="general_settings">Setări Generale</string>
+    <string name="advanced_settings">Setări Avansate</string>
+    <string name="timeout_settings">Întreruperi personalizate</string>
     <string name="contact_support">Contactați asistența</string>
     <string name="email_us">Trimite-ți-ne un e-mail</string>
     <string name="documentation">Documentație</string>

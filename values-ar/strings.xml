@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- General app localization -->
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">دائما شغال</string>
+    <string name="label_off">%1$d دقيقة.</string>
+    <string name="lceck_fail">فشل التحقق من الترخيص.</string>
+<!-- End of General app localization -->
+<!-- Main screen localization -->
+    <string name="lbl_permissions">تحتاج إلى منح هذا التطبيق إذنًا لتغيير الإعدادات قبل أن يعمل ، الإعداد الوحيد الذي سيلمسه هو مهلة الشاشة.</string>
+    <string name="btn_permissions">Configure</string>
+	<!-- First Step localization -->
+    <string name="lbl_addwidget_header">إضافة القطعة إلى الشاشة الرئيسية</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.<br/>
+        2. اضغط باستمرار على منطقة لا تشغلها أيقونة.<br/>
+        3. تحديد \"widgets\".<br/>
+        4. انتقل إلى \"ScreenWidget\" القطعة.<br/>
+        5. اسحبه وأفلته في الشاشة الرئيسية إلى المكان الذي تريده.<br/>
+        6. انقر على القطعة لتغيير وضع مهلة الشاشة.\n]]>
+    </string>
+	<!-- Second step localization -->
+    <string name="lbl_addtile_header">إضافة بلاط الإعدادات السريعة</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. افتح درج الإشعارات.<br/>
+        2. اسحب لأسفل من الأعلى لفتح درج الإعدادات السريعة.<br/>
+        3. اضغط على زر تحرير.<br/>
+        4. اسحب المربع المسمى \"Screen Timeout\" في درج الإعدادات السريعة.<br/>
+        5. اضغط مرة أخرى وأنت على استعداد لاستخدام البلاط.\n]]>
+    </string>
+<!-- End of Main screen localization -->
+
+<!-- Notification icon settings -->
+    <string name="notification">تنبيه</string>
+    <string name="notification_name">رمز الإعلام وشريط الحالة</string>
+    <string name="notification_desc">عند التمكين ، سيظهر رمز الإعلام وشريط الحالة في منطقة الإعلام عند \"Always on\" تم تنشيط الوضع</string>
+<!-- End of notification icon settings -->
+
+<!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">التعطيل التلقائي</string>
+    <string name="revert_default_timeout_name">العودة التلقائية إلى المهلة الافتراضية</string>
+    <string name="revert_default_timeout_desc">العودة التلقائية إلى مهلة الشاشة الافتراضية عند توقف الشاشة %s.</string>
+	<!-- Auto disable select options -->
+    <string name="condition_never">معطل</string>
+    <string name="condition_any_timeout">مفعل</string>
+    <string name="condition_only_always_on">ممكّن دائمًا في الوضع</string>
+<!-- End of auto disable always on mode setting -->
+
+<!-- Widget localization -->
+    <string name="btn_addwidget">إضافة إلى الشاشة الرئيسية</string>
+<!-- End of Widget localization -->
+
+<!-- Settings localization -->
+    <string name="onboot_section">الإعدادات عند التشغيل</string>
+    <string name="onboot_trigger_name">الاستعادة عند بدء التشغيل</string>
+    <string name="onboot_trigger_desc">استعادة آخر حالة نشطة عند البدء. مفيد إذا كنت تريد استعادة التوقيت إلى حالته قبل إعادة تشغيل الجهاز.</string>
+    <string name="onboot_toast_name">اظهر الرسالة</string>
+    <string name="onboot_toast_desc">إظهار رسالة التوست بمجرد استعادة الإعدادات</string>
+	
+    <!-- Multi tap settings -->
+    <string name="multitap_section">إعدادات النقر المتعدد</string>
+    <string name="multitap_enable_name">دعم النقرات المتعددة</string>
+    <string name="multitap_enable_desc">قم بتمكين أو تعطيل دعم النقرات المتعددة للأداة. تسمح ميزة النقر المتعدد بزيادة وقت الأداة وتقليلها باستخدام النقرات المزدوجة والثلاثية على الأداة.</string>
+    <string name="multitap_smart_system_name">تأخير ذكي متعدد النقرات</string>
+    <string name="multitap_smart_system_desc">تأخير متعدد المراحل الذكي متعدد النقرات: ستمر النقرة الواحدة بسرعة أكبر ، ثم النقرات المزدوجة والثلاثية لتقليل وقت الانتظار.</string>
+	
+	<!-- Single tap settings -->
+    <string name="single_tap_action_name">عمل بنقرة واحدة</string>
+    <string name="single_tap_action_desc">%s. اختر إجراء بنقرة واحدة لاستخدامه.</string>
+    <string name="single_always_on">قم بالتبديل بين مهلة التشغيل دائمًا والوقت الافتراضي</string>
+    <string name="single_last_active">التبديل بين آخر مهلة مستخدمة والمهلة الافتراضية</string>
+	
+	<!-- Time sorting settings -->
+    <string name="sort_timeouts_name">فرز قائمة المهلات المخصصة</string>
+    <string name="sort_timeouts_desc">%s. حدد خيار الفرز.</string>
+    <string name="do_not_sort">لا تفرز</string>
+    <string name="do_sort_asc">فرز تصاعدي</string>
+    <string name="do_sort_desc">ترتيب تنازلي</string>
+	
+    <!-- Design tuning -->
+    <string name="design_section">التخصيصات المرئية</string>
+    <string name="widget_font_size_header">حجم الخط</string>
+    <string name="widget_font_size_desc">حدد حجم الخط المستخدم في عنصر واجهة المستخدم. مفيد للحصول على أفضل النتائج المرئية مع واجهات مختلفة.</string>
+    <string name="widget_icon_size_header">حجم ايقونة</string>
+    <string name="widget_icon_size_desc">اختيار حجم أيقونة القطعة. مفيد للحصول على أفضل النتائج المرئية مع واجهات مختلفة.</string>
+	
+    <!-- Margin settings -->
+    <string name="layout_ico_header">حجم ايقونة</string>
+    <string name="action_settings">الإعدادات</string>
+	
+    <!-- Menu items -->
+    <string name="str_menu_settings">الإعدادات</string>
+    <string name="str_menu_rate_app">أعط تقيم لتطبيق</string>
+    <string name="str_menu_share_app">شارك تطبيق</string>
+	
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">تخصيص المهلات</string>
+    <string name="custom_timeout1_header">قيمة المهلة المخصصة 1</string>
+    <string name="custom_timeout1_value">الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="custom_timeout2_header">قيمة المهلة المخصصة 2</string>
+    <string name="custom_timeout2_value"> الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="custom_timeout3_header">قيمة المهلة المخصصة 3</string>
+    <string name="custom_timeout3_value"> الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="custom_timeout4_header">قيمة المهلة المخصصة 14</string>
+    <string name="custom_timeout4_value"> الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="custom_timeout5_header">قيمة المهلة المخصصة 15</string>
+    <string name="custom_timeout5_value">الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="custom_timeout6_header">قيمة المهلة المخصصة 6</string>
+    <string name="custom_timeout6_value"> الدقائق. أدخل قيمة المهلة المطلوبة. أدخل 0 لتجاهل هذه الفتحة.</string>
+    <string name="enter_timeout_value">الرجاء إدخال القيمة في دقائق</string>
+	
+    <!-- Tile translations -->
+    <string name="tile_name">شاشة المهلة</string>
+
+    <!-- Power related events -->
+    <string name="power_events">حماية البطارية منخفضة</string>
+    <string name="disable_on_low_name">تعطيل تلقائي لبطارية منخفضة</string>
+    <string name="disable_on_low_desc">قم بالتعطيل تلقائيًا دائمًا في الوضع عند انخفاض مستوى البطارية.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">لا يوجد ترخيص</string>
+<!-- End of Settings localization -->
+
+<!-- Settings menu -->
+    <string name="general_settings">الاعدادات العامة</string>
+    <string name="advanced_settings">إعدادات متقدمة</string>
+    <string name="timeout_settings">مهلات مخصصة</string>
+    <string name="contact_support">اتصل بالدعم</string>
+    <string name="email_us">ارسل لنا عبر البريد الإلكتروني</string>
+    <string name="documentation">توثيق</string>
+<!-- End of Settings menu -->
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string name = "application_name">Keep Screen Awake</string>
+
+<string name = "description_short">Widget and Quick Settings Tile to toggle display auto off or always on state</string>
+
+<string name = "playmarket_description">يمكنك الآن العمل على هاتفك وقراءة مقالات الويب والقيام بأي أشياء أخرى دون إيقاف تشغيل الشاشة في أكثر الأوقات غير الملائمة. يمكنك التبديل بسهولة للبقاء مباشرة من الشاشة الرئيسية أو لوحة الإعدادات السريعة بنقرة واحدة!
+
+تطبيق مفيد للغاية وسهل الاستخدام يسمح لك بالتبديل السريع لإعدادات مهلة شاشة الهاتف ، وتعيينه على التشغيل دائمًا أو العودة إلى اختياره قبل مهلة العرض.
+
+<b>دلائل الميزات:</b>
+&bull; <u><i>جديد!</i></u>بلاط الإعداد السريع (يتطلب Android Nougat أو أعلى) لتبديل مهلة الشاشة بأكثر الطرق ملاءمة.
+&bull; يمكنك تبديل مهلة الشاشة بسرعة باستخدام أداة صغيرة وسهلة الاستخدام.
+&bull; الشاشة دائمًا في الوضع.
+&bull; دعم النقرات المتعددة للتبديل بين قيم مهلة الشاشة المختلفة.
+&bull; ما يصل إلى 6 قيم مهلة مخصصة قابلة للتعريف من قبل المستخدم ، يمكنك التبديل بسرعة بين استخدام النقرات المزدوجة والثلاثية على الأداة.
+&bull; خيار لاستعادة آخر حالة مهلة نشطة عند تشغيل الجهاز.
+
+نأمل أن تستمتع بهذا التطبيق سهل الاستخدام ودائمًا في متناول اليد.
+
+إذا كنت ترغب في المساعدة في الترجمات ، استخدم رابط GitHub: <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. You can also use it for any app related bug reports and feature requests.
+
+<b>طلبات الميزات والاقتراحات والمساعدة:</b>
+1. مجموعة Google+ المتعلقة بهذا التطبيق: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
+2. اكتب لنا بريد إلكتروني مع اقتراحاتك وطلبات الميزة <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
+3.مجموعة دعم عملاء Telegram: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a>
+</string>

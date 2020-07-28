@@ -6,6 +6,7 @@
 	<string name="label_off">%1$d dk.</string>
 	<string name="lceck_fail">Lisans kontrolü başarısız oldu.</string>
 <!-- End of General app localization / Genel uygulama çevirisi bitişi -->
+
 <!-- Main screen localization / Ana ekran çevirisi -->
 	<string name="lbl_permissions">Uygulamamı kullanmaya başlamadan önce ekranınızın bekleme süresini ayarlayabilmek için ayarlardan uygulamama izin vermeniz gerekiyor.</string>
 	<string name="btn_permissions">Ayarla</string>

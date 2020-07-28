@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<string name = "application_name">Keep Screen Awake</string>
+
+<string name = "description_short">Widget y ajuste rápido para cambiar entre el apagado automático de la pantalla o mantenerla siempre encendida</string>
+
+<string name = "playmarket_description">Ahora puede trabajar con su teléfono, leer noticias y hacer cualquier otra cosa sin que se apague la pantalla en el momento más inoportuno. Puede cambiarlo para que se quede encendida directamente desde la pantalla de inicio o desde el panel de ajustes rápidos con un simple click!
+
+Aplicación muy útil y fácil de usar que le permite cambiar rápidamente el tiempo de suspensión de la pantalla de su teléfono, dejarla siempre encendida o regresar al tiempo de apagado por defecto.
+
+<b>CARACTERÍSTICAS CLAVE:</b>
+&bull; <u><i>NUEVO!</i></u> Selector de ajuste rápido (requiere Android Nougat o superior) para cambiar el tiempo de apagado de la forma más adecuada.
+&bull; Widget fácil de usar para cambiar rápidamente el tiempo de apagado de la pantalla.
+&bull; Modo pantalla siempre encendida.
+&bull; Soporte multi-tap para cambiar entre diferentes valores de tiempo de apagado de pantalla.
+&bull; Hasta seis valores de tiempo de apagado de pantalla definibles por el usuario, que rápidamente podrá cambiar entre ellos realizando dobles o triples pulsaciones sobre el widget.
+&bull; Opción para reestablecer el último valor activo de tiempo de apagado de pantalla al reiniciar el dispositivo.
+
+Esperamos que disfrute con esta aplicación útil y fácil de usar.
+
+Si quiere ayudar con las traducciones, use los enlaces de GitHub: <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. También puede usarlo para notificar cualquier bug o solicitar nuevas características.
+
+<b>SOLICITUD DE CARACTERÍSTICAS, SUGERENCIAS Y SOPORTE:</b>
+1. Grupo de Google+ relativo a esta aplicación: <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
+2. Escriba un email con sus sugerencias o solicitud de características a <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
+3. Grupo de soporte al cliente de Telegram: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a>
+</string>

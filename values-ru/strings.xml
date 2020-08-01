@@ -120,4 +120,18 @@
     <string name="contact_support">Центр поддержки</string>
     <string name="email_us">Отправить нам эмейл</string>
     <string name="documentation">Документация</string>
+    <string name="chat_support">Чат технической поддержки</string>
+    <string name="contribute_translations">Помочь с переводами приложения</string>
+    <string name="social_networks">Социальные сети</string>
+    <string name="social_facebook">Страница Facebook</string>
+    <string name="social_vk">Страница VK</string>
+    <string name="social_telegram">Группа в Telegram</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Настройки приложения</string>
+    <string name="settings_header_support_channels">Каналы технической помощи</string>
+    <string name="settings_header_contribution_and_social_media">Поддержка проекта и соцсети</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Каналы социальных сетей</string>
 </resources>

@@ -119,6 +119,19 @@
     <string name="contact_support">Wsparcie techniczne/pomoc</string>
     <string name="email_us">Wyślij email</string>
     <string name="documentation">Dokumentacja</string>
+    <string name="chat_support">Technical Support Chat</string>
+    <string name="contribute_translations">Contribute in Translations</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="social_facebook">Facebook Page</string>
+    <string name="social_vk">VK Page</string>
+    <string name="social_telegram">Telegram Group</string>
 
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Application Settings</string>
+    <string name="settings_header_support_channels">Support Channels</string>
+    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Social Network Channels</string>
 
 </resources>

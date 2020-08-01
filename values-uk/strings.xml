@@ -117,10 +117,24 @@
 
     <!-- Settings menu -->
     <!-- Settings menu -->
-    <string name="general_settings">Общие настройки</string>
-    <string name="advanced_settings">Расширенные настройки</string>
-    <string name="timeout_settings">Пользовательские таймауты</string>
-    <string name="contact_support">Центр поддержки</string>
-    <string name="email_us">Отправить нам эмейл</string>
-    <string name="documentation">Документация</string>
+    <string name="general_settings">Загальні налаштування</string>
+    <string name="advanced_settings">Розширені налаштування</string>
+    <string name="timeout_settings">Призначені для користувача тайм-аути</string>
+    <string name="contact_support">Центр підтримки</string>
+    <string name="email_us">Відправити мені емейл</string>
+    <string name="documentation">Документація</string>
+    <string name="chat_support">Technical Support Chat</string>
+    <string name="contribute_translations">Contribute in Translations</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="social_facebook">Facebook Page</string>
+    <string name="social_vk">VK Page</string>
+    <string name="social_telegram">Telegram Group</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Application Settings</string>
+    <string name="settings_header_support_channels">Support Channels</string>
+    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Social Network Channels</string>
 </resources>

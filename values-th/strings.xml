@@ -20,7 +20,7 @@
         6. กดที่วิดเจ็ตที่นำออกมาเพื่อเปลี่ยนเวลาแสดงผลก่อนหน้าจอดับลง \n]]>
     </string>
 	<!-- Second step localization -->
-    <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile_header">การเพิ่มปุ่มการตั้งค่าแบบรวดเร็วจากแผงการแจ้งเตือน</string>
     <string name="lbl_addtile"><![CDATA[
         1. เปิดแถบการแจ้งเตือน <br/>
         2. ปัดแถบการแจ้งเตือนจากบนลงล่างเพื่อเปิดหน้าการตั้งค่า Quick Settings <br/>

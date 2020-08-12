@@ -6,7 +6,6 @@
 	<string name="label_off">%1$d dk.</string>
 	<string name="lceck_fail">Lisans kontrolü başarısız oldu.</string>
 <!-- End of General app localization / Genel uygulama çevirisi bitişi -->
-
 <!-- Main screen localization / Ana ekran çevirisi -->
 	<string name="lbl_permissions">Uygulamamı kullanmaya başlamadan önce ekranınızın bekleme süresini ayarlayabilmek için ayarlardan uygulamama izin vermeniz gerekiyor.</string>
 	<string name="btn_permissions">Ayarla</string>
@@ -133,5 +132,18 @@
 	<string name="contact_support">Destek ile İletişime Geç</string>
 	<string name="email_us">Bize e-Posta Gönderin</string>
 	<string name="documentation">Bilgilendirmeler</string>
-<!-- End of Settings menu / Ayarlar Menüsü bitişi -->
+	<string name="chat_support">Technical Support Chat</string>
+	<string name="contribute_translations">Contribute in Translations</string>
+	<string name="social_networks">Social Networks</string>
+	<string name="social_facebook">Facebook Page</string>
+	<string name="social_vk">VK Page</string>
+	<string name="social_telegram">Telegram Group</string>
+
+	<!-- Main settings view sections -->
+	<string name="settings_header_application_settings">Application Settings</string>
+	<string name="settings_header_support_channels">Support Channels</string>
+	<string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+
+	<!-- Social networks header -->
+	<string name="social_networks_list">Social Network Channels</string>
 </resources>

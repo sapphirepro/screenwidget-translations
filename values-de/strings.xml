@@ -132,5 +132,18 @@
     <string name="contact_support">Support</string>
     <string name="email_us">Senden Sie uns eine Email</string>
     <string name="documentation">Dokumentation</string>
-    <!-- End of Settings menu -->
+    <string name="chat_support">Chat für technischen Support</string>
+    <string name="contribute_translations">Übersetzungen beitragen</string>
+    <string name="social_networks">Soziale Netzwerke</string>
+    <string name="social_facebook">Facebook Seite</string>
+    <string name="social_vk">VK Seite</string>
+    <string name="social_telegram">Telegram Gruppe</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Anwendungseinstellungen</string>
+    <string name="settings_header_support_channels">Support-Kanäle</string>
+    <string name="settings_header_contribution_and_social_media">Beitrag und Soziale Netzwerke</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Kanäle für soziale Netzwerke</string>
 </resources>

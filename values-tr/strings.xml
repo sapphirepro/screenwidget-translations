@@ -132,18 +132,18 @@
 	<string name="contact_support">Destek ile İletişime Geç</string>
 	<string name="email_us">Bize e-Posta Gönderin</string>
 	<string name="documentation">Bilgilendirmeler</string>
-	<string name="chat_support">Technical Support Chat</string>
-	<string name="contribute_translations">Contribute in Translations</string>
-	<string name="social_networks">Social Networks</string>
-	<string name="social_facebook">Facebook Page</string>
-	<string name="social_vk">VK Page</string>
-	<string name="social_telegram">Telegram Group</string>
+	<string name="chat_support">Teknik Destek Sohbeti</string>
+	<string name="contribute_translations">Çevirilere Katkıda Bulunun</string>
+	<string name="social_networks">Sosyal Ağlar</string>
+	<string name="social_facebook">Facebook Sayfası</string>
+	<string name="social_vk">VK Sayfası</string>
+	<string name="social_telegram">Telegram Grubu</string>
 
-	<!-- Main settings view sections -->
-	<string name="settings_header_application_settings">Application Settings</string>
-	<string name="settings_header_support_channels">Support Channels</string>
-	<string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+	<!-- Main settings view sections / Ana ayarlar menüsü görünümü -->
+	<string name="settings_header_application_settings">Uygulama Ayarları</string>
+	<string name="settings_header_support_channels">Destek Kanalları</string>
+	<string name="settings_header_contribution_and_social_media">Katkı ve Sosyal Medya</string>
 
-	<!-- Social networks header -->
-	<string name="social_networks_list">Social Network Channels</string>
+	<!-- Social networks header / Sosyal medya başlığı -->
+	<string name="social_networks_list">Sosyal Medya Kanalları</string>
 </resources>

@@ -19,8 +19,8 @@
     <string name="btn_addwidget">Toevoegen aan startscherm</string>
     <string name="lbl_addtile_header">Tegel toevoegen aan "Quick Settings" menu</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Open de "notification drawer" door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
-        2. Swipe opnieuw naar beneden om de Quick Settings drawer te openen.<br/>
+        1. Open de notificatie lade door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
+        2. Swipe opnieuw naar beneden om de Quick Settings lade te openen.<br/>
         3. Druk op de "bewerken" knop.<br/>
         4. Sleep de tegel genaamd \"Screen Timeout\" naar de Quick Settings.<br/>
         5. Ga terug met de back toets en de tegel is klaar voor gebruik.\n]]>

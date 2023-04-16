@@ -8,6 +8,12 @@
     <string name="lbl_permissions">You need to give this app permission to change the settings before it will work, the only setting it will touch is the screen time-out.</string>
     <string name="btn_permissions">Configure</string>
     <string name="lbl_addwidget_header">Adding the widget to the home screen</string>
+    <string name="lbl_addwidget1">1. Press the home button to get to the home screen.</string>
+    <string name="lbl_addwidget2">2. Hold finger down on an area that is not occupied by an icon.</string>
+    <string name="lbl_addwidget3">3. Select \"widgets\".</string>
+    <string name="lbl_addwidget4">4. Scroll to \"ScreenWidget\" widget.</string>
+    <string name="lbl_addwidget5">5. Drag and drop it into the home screen to where you want it.</string>
+    <string name="lbl_addwidget6">6. Click on widget to change screen timeout mode.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Press the home button to get to the home screen.<br/>
         2. Hold finger down on an area that is not occupied by an icon.<br/>
@@ -17,6 +23,11 @@
         6. Click on widget to change screen timeout mode.\n]]>
     </string>
     <string name="lbl_addtile_header">Adding Quick Settings Tile</string>
+    <string name="lbl_addtile1">1. Open the notification drawer.</string>
+    <string name="lbl_addtile2">2. Swipe down from the top to open the Quick Settings drawer.</string>
+    <string name="lbl_addtile3">3. Tap EDIT button.</string>
+    <string name="lbl_addtile4">4. Drag the tile named \"Screen Timeout\" into the Quick Settings drawer.</string>
+    <string name="lbl_addtile5">5. Tap back and you are ready to use tile.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Open the notification drawer.<br/>
         2. Swipe down from the top to open the Quick Settings drawer.<br/>

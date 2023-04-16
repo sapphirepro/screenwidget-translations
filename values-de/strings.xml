@@ -13,6 +13,11 @@
     
     <!-- First Step localization -->
     <string name="lbl_addtile_header">Hinzufügen einer Kachel in den Schnelleinstellungen</string>
+    <string name="lbl_addtile1">1. Öffnen Sie das Benachrichtigungsfeld.</string>
+    <string name="lbl_addtile2">2. Ziehen Sie von oben nach unten, um die Schnelleinstellungen zu öffnen.</string>
+    <string name="lbl_addtile3">3. Klicken Sie auf den Bleistift.</string>
+    <string name="lbl_addtile4">4. Ziehen Sie die Kachel \"Screen Awake\" in den Bereich \"Schnelleinstellungen\".</string>
+    <string name="lbl_addtile5">5. Gehen Sie zurück und der Schnelleinstellungskachel ist bereit für den Einsatz.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Öffnen Sie das Benachrichtigungsfeld.<br/>
         2. Ziehen Sie von oben nach unten, um die Schnelleinstellungen zu öffnen.<br/>
@@ -23,6 +28,12 @@
     
     <!-- Second step localization -->
     <string name="lbl_addwidget_header">Hinzufügen eines Widgets zur Startseite</string>
+    <string name="lbl_addwidget1">1. Drücken Sie die Home-Taste, um zum Startbildschirm zu gelangen.</string>
+    <string name="lbl_addwidget2">2. Halten Sie den Finger in einem beliebigen leeren Bereich des Bildschirms, der nicht von den Symbolen besetzt ist.</string>
+    <string name="lbl_addwidget3">3. Drücken Sie dann auf \"Widgets\".</string>
+    <string name="lbl_addwidget4">4. Finden Sie das Widget \"ScreenWidget\".</string>
+    <string name="lbl_addwidget5">5. Ziehen Sie es auf Ihren Startbildschirm an eine beliebige Stelle.</string>
+    <string name="lbl_addwidget6">6. Klicken Sie auf das Widget, um den Timeout für den Bildschirm zu ändern.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Drücken Sie die Home-Taste, um zum Startbildschirm zu gelangen.<br/>
         2. Halten Sie den Finger in einem beliebigen leeren Bereich des Bildschirms, der nicht von den Symbolen besetzt ist.<br/>

@@ -8,6 +8,12 @@
     <string name="lbl_permissions">Om de time-out instelling te veranderen heeft deze app toelating nodig om de instellingen van uw apparaat te veranderen, de app veranderd enkel de instelling voor de time-out voor het automatisch uitschakelen van het scherm.</string>
     <string name="btn_permissions">Instellen</string>
     <string name="lbl_addwidget_header">Om de widget aan uw startscherm toe te voegen</string>
+    <string name="lbl_addwidget1">1. Druk op de home toets om naar het startscherm te gaan.</string>
+    <string name="lbl_addwidget2">2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.</string>
+    <string name="lbl_addwidget3">3. Selecteer \"widgets\".</string>
+    <string name="lbl_addwidget4">4. Scroll naar de \"ScreenWidget\" widget.</string>
+    <string name="lbl_addwidget5">5. Sleep het naar het startscherm en plaats het waar u het wilt.</string>
+    <string name="lbl_addwidget6">6. Druk op de widget om de time-out modus te kiezen.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Druk op de home toets om naar het startscherm te gaan.<br/>
         2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.<br/>
@@ -18,9 +24,14 @@
     </string>
     <string name="btn_addwidget">Toevoegen aan startscherm</string>
     <string name="lbl_addtile_header">Tegel toevoegen aan "Quick Settings" menu</string>
+    <string name="lbl_addtile1">1. Open de notificatie lade door vanaf de bovenkant van het scherm naar beneden te swipen.</string>
+    <string name="lbl_addtile2">2. Swipe opnieuw naar beneden om de Quick Settings lade te openen.</string>
+    <string name="lbl_addtile3">3. Druk op de "bewerken" knop.</string>
+    <string name="lbl_addtile4">4. Sleep de tegel genaamd \"Screen Timeout\" naar de Quick Settings.</string>
+    <string name="lbl_addtile5">5. Ga terug met de back toets en de tegel is klaar voor gebruik.</string>
     <string name="lbl_addtile"><![CDATA[
-        1. Open de notificatie lade door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
-        2. Swipe opnieuw naar beneden om de Quick Settings lade te openen.<br/>
+        1. Open de "notification drawer" door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
+        2. Swipe opnieuw naar beneden om de Quick Settings drawer te openen.<br/>
         3. Druk op de "bewerken" knop.<br/>
         4. Sleep de tegel genaamd \"Screen Timeout\" naar de Quick Settings.<br/>
         5. Ga terug met de back toets en de tegel is klaar voor gebruik.\n]]>

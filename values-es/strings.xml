@@ -11,6 +11,12 @@
     <string name="btn_permissions">Configurar</string>
     <!-- First Step localization -->
     <string name="lbl_addwidget_header">Añadir el widget a la pantalla de inicio</string>
+    <string name="lbl_addwidget1">1. Pulse el botón home para ir a la pantalla de inicio.</string>
+    <string name="lbl_addwidget2">2. Mantenga pulsado en una zona que no esté ocupada por un icono.</string>
+    <string name="lbl_addwidget3">3. Seleccione \"Widgets\".</string>
+    <string name="lbl_addwidget4">4. Haga scroll hasta llegar al widget \"Screen Awake\".</string>
+    <string name="lbl_addwidget5">5. Arrastre y suelte en la parte de la pantalla de inicio donde lo quiere poner.</string>
+    <string name="lbl_addwidget6">6. Pulse sobre el widget para cambiar el modo de tiempo de apagado de la pantalla.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Pulse el botón home para ir a la pantalla de inicio.<br/>
         2. Mantenga pulsado en una zona que no esté ocupada por un icono.<br/>
@@ -21,6 +27,11 @@
     </string>
     <!-- Second step localization -->
     <string name="lbl_addtile_header">Añadir atajo de ajuste rápido</string>
+    <string name="lbl_addtile1">1. Acceda al área de notificaciones.</string>
+    <string name="lbl_addtile2">2. Deslizar desde arriba hacia abajo para desplegar el panel de ajustes rápidos.</string>
+    <string name="lbl_addtile3">3. Pulse la opción Editar del panel.</string>
+    <string name="lbl_addtile4">4. Arraste el selector llamado \"Tiempo de Pantalla\" hacia el panel de ajustes rápidos.</string>
+    <string name="lbl_addtile5">5. Retroceda y estará preparado para usar el acceso.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Acceda al área de notificaciones.<br/>
         2. Deslizar desde arriba hacia abajo para desplegar el panel de ajustes rápidos.<br/>

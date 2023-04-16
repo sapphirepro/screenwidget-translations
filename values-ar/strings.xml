@@ -11,6 +11,12 @@
     <string name="btn_permissions">Configure</string>
     <!-- First Step localization -->
     <string name="lbl_addwidget_header">إضافة القطعة إلى الشاشة الرئيسية</string>
+    <string name="lbl_addwidget1">1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.</string>
+    <string name="lbl_addwidget2">2. اضغط باستمرار على منطقة لا تشغلها أيقونة.</string>
+    <string name="lbl_addwidget3">3. تحديد \"widgets\".</string>
+    <string name="lbl_addwidget4">4. انتقل إلى \"ScreenWidget\" القطعة.</string>
+    <string name="lbl_addwidget5">        5. اسحبه وأفلته في الشاشة الرئيسية إلى المكان الذي تريده.</string>
+    <string name="lbl_addwidget6">6. انقر على القطعة لتغيير وضع مهلة الشاشة.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.<br/>
         2. اضغط باستمرار على منطقة لا تشغلها أيقونة.<br/>
@@ -21,6 +27,11 @@
     </string>
     <!-- Second step localization -->
     <string name="lbl_addtile_header">إضافة بلاط الإعدادات السريعة</string>
+    <string name="lbl_addtile1">        1. افتح درج الإشعارات.</string>
+    <string name="lbl_addtile2">2. اسحب لأسفل من الأعلى لفتح درج الإعدادات السريعة.</string>
+    <string name="lbl_addtile3">3. اضغط على زر تحرير.</string>
+    <string name="lbl_addtile4">4. اسحب المربع المسمى \"Screen Timeout\" في درج الإعدادات السريعة.</string>
+    <string name="lbl_addtile5">5. اضغط مرة أخرى وأنت على استعداد لاستخدام البلاط.</string>
     <string name="lbl_addtile"><![CDATA[
         1. افتح درج الإشعارات.<br/>
         2. اسحب لأسفل من الأعلى لفتح درج الإعدادات السريعة.<br/>

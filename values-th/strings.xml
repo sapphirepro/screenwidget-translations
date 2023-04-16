@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<!-- General app localization -->
+    <!-- General app localization -->
     <string name="app_name">Screen Awake</string>
     <string name="label_on">หน้าจอเปิดตลอด</string>
     <string name="label_off">%1$d นาที</string>
     <string name="lceck_fail">ไม่สามารถตรวจสอบใบอนุญาติได้</string>
-<!-- End of General app localization -->
-<!-- Main screen localization -->
+    <!-- End of General app localization -->
+    <!-- Main screen localization -->
     <string name="lbl_permissions">คุณต้องให้สิทธิ์กับแอพพลิเคชั่นนี้เพื่อทำให้การตั้งค่ามีผล การตั้งค่านี้จะตั้งค่าเวลาการแสดงผลก่อนหน้าจอดับลง</string>
     <string name="btn_permissions">กำหนดค่า</string>
-	<!-- First Step localization -->
+    <!-- First Step localization -->
     <string name="lbl_addwidget_header">เพิ่มไปที่หน้าหลัก</string>
+    <string name="lbl_addwidget1">1. กดปุ่มหน้าหลักหรือปุ่มโฮมเพื่อกลับไปหน้าหลัก </string>
+    <string name="lbl_addwidget2">2. กดที่หน้าหลักค้างไว้ </string>
+    <string name="lbl_addwidget3">3. เลือก \"วิดเจ็ต\".</string>
+    <string name="lbl_addwidget4">4. เลื่อนลงมาจนกระทั่งเจอ \"วิดเจ็ตเกี่ยวกับหน้าจอ\"</string>
+    <string name="lbl_addwidget5">5. ลากตัววิดเจ็ตตัวนี้ออกมาวางที่ไหนก็ได้ในหน้าจอตามที่ต้องการ </string>
+    <string name="lbl_addwidget6">6. กดที่วิดเจ็ตที่นำออกมาเพื่อเปลี่ยนเวลาแสดงผลก่อนหน้าจอดับลง</string>
     <string name="lbl_addwidget"><![CDATA[
         1. กดปุ่มหน้าหลักหรือปุ่มโฮมเพื่อกลับไปหน้าหลัก <br/>
         2. กดที่หน้าหลักค้างไว้ <br/>
@@ -19,8 +25,13 @@
         5. ลากตัววิดเจ็ตตัวนี้ออกมาวางที่ไหนก็ได้ในหน้าจอตามที่ต้องการ <br/>
         6. กดที่วิดเจ็ตที่นำออกมาเพื่อเปลี่ยนเวลาแสดงผลก่อนหน้าจอดับลง \n]]>
     </string>
-	<!-- Second step localization -->
+    <!-- Second step localization -->
     <string name="lbl_addtile_header">การเพิ่มปุ่มการตั้งค่าแบบรวดเร็วจากแผงการแจ้งเตือน</string>
+    <string name="lbl_addtile1">1. เปิดแถบการแจ้งเตือน </string>
+    <string name="lbl_addtile2">2. ปัดแถบการแจ้งเตือนจากบนลงล่างเพื่อเปิดหน้าการตั้งค่า Quick Settings </string>
+    <string name="lbl_addtile3">3. กดที่ปุ่มแก้ไข </string>
+    <string name="lbl_addtile4">4. ลากตัว \"หมดเวลาหน้าจอ\" ออกมาใส่หน้า Quick Settings </string>
+    <string name="lbl_addtile5">5. เมื่อลากออกมาเสร็จแล้วให้กดเสร็จหรือกดปุ่มย้อนกลับเพื่อบันทึก</string>
     <string name="lbl_addtile"><![CDATA[
         1. เปิดแถบการแจ้งเตือน <br/>
         2. ปัดแถบการแจ้งเตือนจากบนลงล่างเพื่อเปิดหน้าการตั้งค่า Quick Settings <br/>
@@ -28,71 +39,71 @@
         4. ลากตัว \"หมดเวลาหน้าจอ\" ออกมาใส่หน้า Quick Settings <br/>
         5. เมื่อลากออกมาเสร็จแล้วให้กดเสร็จหรือกดปุ่มย้อนกลับเพื่อบันทึก\n]]>
     </string>
-<!-- End of Main screen localization -->
+    <!-- End of Main screen localization -->
 
-<!-- Notification icon settings -->
+    <!-- Notification icon settings -->
     <string name="notification">การแจ้งเตือน</string>
     <string name="notification_name">การแจ้งเตือนและไอคอนแสดงสถานะ</string>
     <string name="notification_desc">เมื่อเปิดใช้งาน การแจ้งเตือนและไอคอนแสดงสถานะจะปรากฏในแถบแสดงการแจ้งเตืีอนเมื่อโหมด \"การแสดงผลตลอดเวลา\" ถูกเปิดใช้งาน</string>
-<!-- End of notification icon settings -->
+    <!-- End of notification icon settings -->
 
-<!-- Auto disable always on mode settings -->
+    <!-- Auto disable always on mode settings -->
     <string name="revert_default_timeout">ปิดใช้งานโดยอัตโนมัติ</string>
     <string name="revert_default_timeout_name">เปลี่ยนกลับเป็นค่าเดิมโดยอัตโนมัติ</string>
     <string name="revert_default_timeout_desc">เปลี่ยนกลับเป็นค่าหมดเวลาเริ่มต้นโดยอัตโนมัติเมื่อหน้าจอปิด %s.</string>
-	<!-- Auto disable select options -->
+    <!-- Auto disable select options -->
     <string name="condition_never">ปิดการใช้งาน</string>
     <string name="condition_any_timeout">เปิดการใช้งาน</string>
     <string name="condition_only_always_on">เปิดการใช้งานเฉพาะสำหรับโหมดเปิดหน้าจอตลอด</string>
-<!-- End of auto disable always on mode setting -->
+    <!-- End of auto disable always on mode setting -->
 
-<!-- Widget localization -->
+    <!-- Widget localization -->
     <string name="btn_addwidget">เพิ่มไปที่หน้าหลัก</string>
-<!-- End of Widget localization -->
+    <!-- End of Widget localization -->
 
-<!-- Settings localization -->
+    <!-- Settings localization -->
     <string name="onboot_section">ตั้งค่าแอพเมื่ออุปกรณ์เริ่ม</string>
     <string name="onboot_trigger_name">คืนค่าเมื่ออุปกรณ์เริ่ม</string>
     <string name="onboot_trigger_desc">คืนค่าที่ใช้งานล่าสุดเมื่ออุปกรณ์เริ่ม เหมาะสำหรับการตั้งเวลาเพื่อคืนค่าก่อนอุปกรณ์รีบูท</string>
     <string name="onboot_toast_name">แสดงข้อความ</string>
     <string name="onboot_toast_desc">แสดงข้อความเมื่อการตั้งค่าถูกคืนค่ากลับ</string>
-	
+
     <!-- Multi tap settings -->
     <string name="multitap_section">ตั้งค่าแบบสัมผัสหลายๆครั้ง</string>
     <string name="multitap_enable_name">การรองรับการกดหลายๆครั้ง</string>
     <string name="multitap_enable_desc">เปิดใช้งานหรือปิดใช้งานการกดแบบหลายครั้งสำหรับวิดเจ็ต การกดแบบหลายๆครั้งนั้นสามารถเพิ่มหรือลดเวลาการแสดงผลของหน้าจอโดยการกดสองครั้งหรือสามครั้งที่วิดเจ็ต</string>
     <string name="multitap_smart_system_name">กดหลายๆครั้งสำหรับการตั้งค่าการหน่วงเวลาแบบอัจฉริยะ</string>
     <string name="multitap_smart_system_desc">กดหลายๆครั้งเพื่อการหน่วงเวลาแบบอัจฉริยะหลายสถานะ: กดหนึ่งครั้งเวลาจะผ่านไปแบบรวดเร็ว กดสองครั้งและสามครั้งเพื่อลดเวลาการรอ</string>
-	
-	<!-- Single tap settings -->
+
+    <!-- Single tap settings -->
     <string name="single_tap_action_name">กดครั้งเดียว</string>
     <string name="single_tap_action_desc">%s.เลือกการกดครั้งเดียวเพื่อใช้งาน</string>
     <string name="single_always_on">เปลี่ยนการตั้งค่าระหว่างเปิดหน้าจอตลอดกับเวลาแสดงผลแบบปกติ</string>
     <string name="single_last_active">เปลี่ยนการตั้งค่าระหว่างการใช้งานหมดเวลาแสดงผลหน้าจอล่าสุดกับเวลาแสดงผลแบบปกติ</string>
-	
-	<!-- Time sorting settings -->
+
+    <!-- Time sorting settings -->
     <string name="sort_timeouts_name">รายการการแสดงผลของเวลาหมดหน้าจอแบบปรับแต่งเอง</string>
     <string name="sort_timeouts_desc">%s. เลือกการเรียงรายการ</string>
     <string name="do_not_sort">ไม่ต้องเรียง</string>
     <string name="do_sort_asc">เรียงจากน้อยไปมาก</string>
     <string name="do_sort_desc">เรียงจากมากไปน้อย</string>
-	
+
     <!-- Design tuning -->
     <string name="design_section">การปรับแต่งการแสดงผล</string>
     <string name="widget_font_size_header">ขนาดตัวอักษร</string>
     <string name="widget_font_size_desc">เลือกขนาดตัวอักษรที่ใช้สำหรับวิดเจ็ต เหมาะสำหรับการแสดงผลของวิดเจ็ตที่ดีที่สุดเมื่อใช้กับตัว Launcher อื่นๆ</string>
     <string name="widget_icon_size_header">ขนาดของไอคอน</string>
     <string name="widget_icon_size_desc">เลือกขนาดไอคอนของวิดเจ็ต เหมาะสำหรับการแสดงผลของวิดเจ็ตที่ดีที่สุดเมื่อใช้กับตัว Launcher อื่นๆ</string>
-	
+
     <!-- Margin settings -->
     <string name="layout_ico_header">ขนาดของไอคอน</string>
     <string name="action_settings">การตั้งค่า</string>
-	
+
     <!-- Menu items -->
     <string name="str_menu_settings">การตั้งค่า</string>
     <string name="str_menu_rate_app">ให้คะแนนแก่แอพพลิเคชั่นของเรา</string>
     <string name="str_menu_share_app">แนะนำแอพพลิเคชั่นให้กับคนอื่น</string>
-	
+
     <!-- Custom timeouts -->
     <string name="settings_custom_timeouts">กำหนดค่าการหมดเวลาการแสดงผลของหน้าจอ</string>
     <string name="custom_timeout1_header">กำหนดค่าการหมดเวลาการแสดงผลของหน้าจอแบบที่ 1</string>
@@ -108,7 +119,7 @@
     <string name="custom_timeout6_header">กำหนดค่าการหมดเวลาการแสดงผลของหน้าจอแบบที่ 6</string>
     <string name="custom_timeout6_value"> ใส่ค่าที่ต้องการกำหนดให้หมดเวลาการแสดงผลของหน้าจอในหน่วยนาที ใส่ 0 เพื่อไม่ใช้การตั้งค่านี้</string>
     <string name="enter_timeout_value">กรุณาใส่ในหน่วยเป็นนาที</string>
-	
+
     <!-- Tile translations -->
     <string name="tile_name">การหมดเวลาการแสดงผลของหน้าจอ</string>
 
@@ -119,9 +130,9 @@
 
     <!-- Licensing state -->
     <string name="no_license">ไม่มีใบอนุญาติ</string>
-<!-- End of Settings localization -->
+    <!-- End of Settings localization -->
 
-<!-- Settings menu -->
+    <!-- Settings menu -->
     <string name="general_settings">การตั้งค่าทั่วไป</string>
     <string name="advanced_settings">การตั้งค่าขั้นสูง</string>
     <string name="timeout_settings">การตั้งค่าเวลาการแสดงผล</string>

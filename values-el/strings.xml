@@ -8,6 +8,12 @@
     <string name="lbl_permissions">Πρέπει να επιτρέψετε στην εφαρμογή τη δυνατότητα τροποποίησης των ρυθμίσεων συστήματος, για να δουλέψει. Η μόνη ρύθμιση την οποία θα τροποποιήσει είναι ο χρόνος αδράνειας της οθόνης.</string>
     <string name="btn_permissions">Ρύθμιση</string>
     <string name="lbl_addwidget_header">Προσθήκη γραφικού στοιχείου (widget) στην αρχική οθόνη</string>
+    <string name="lbl_addwidget1">1. Πατήστε το κουμπί αρχικής οθόνης για να μεταβείτε σε αυτήν.</string>
+    <string name="lbl_addwidget2">2. Κρατήστε το δάκτυλο σας σε μια περιοχή που δεν έχει κάποιο εικονίδιο.</string>
+    <string name="lbl_addwidget3">3. Επιλέξτε \"Γραφικά στοιχεία\".</string>
+    <string name="lbl_addwidget4">4. Επιλέξτε το γραφικό στοιχείο \"ScreenWidget\".</string>
+    <string name="lbl_addwidget5">5. Σύρετε το και αφήστε το στην περιοχή που επιθυμείτε.</string>
+    <string name="lbl_addwidget6">6. Πατήστε το γραφικό στοιχείο για να αλλάξετε το χρόνο αδράνειας της οθόνης.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Πατήστε το κουμπί αρχικής οθόνης για να μεταβείτε σε αυτήν.<br/>
         2. Κρατήστε το δάκτυλο σας σε μια περιοχή που δεν έχει κάποιο εικονίδιο.<br/>
@@ -17,6 +23,11 @@
         6. Πατήστε το γραφικό στοιχείο για να αλλάξετε το χρόνο αδράνειας της οθόνης.\n]]>
     </string>
     <string name="lbl_addtile_header">Προσθήκη εικονιδίου γρήγορων ρυθμίσεων</string>
+    <string name="lbl_addtile1">1. Ανοίξτε την περιοχή ειδοποιήσεων.</string>
+    <string name="lbl_addtile2">2. Σύρετε την προς τα κάτω.</string>
+    <string name="lbl_addtile3">3. Πατήστε το εικονίδιο με το μολυβάκι (τροποποίηση).</string>
+    <string name="lbl_addtile4">4. Σύρετε το εικονίδιο \"Ενεργή οθόνη\" στην περιοχή των γρήγορων ρυθμίσεων.</string>
+    <string name="lbl_addtile5">5. Βγείτε από το μενού και είστε έτοιμοι.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Ανοίξτε την περιοχή ειδοποιήσεων.<br/>
         2. Σύρετε την προς τα κάτω.<br/>
@@ -122,22 +133,22 @@
     <string name="advanced_settings">Προχωρημένες ρυθμίσεις</string>
     <string name="timeout_settings">Προσαρμοσμένοι χρόνοι</string>
     <string name="contact_support">Υποστήριξη</string>
-    <string name="email_us">Στείλτε μας email</string>
+    <string name="email_us">Στείλτε μας Email</string>
     <string name="documentation">Τεκμηρίωση</string>
-    <string name="chat_support">Διάλογος με την τεχνική υποστήριξη</string>
-    <string name="contribute_translations">Συνεισφορά στη μετάφραση</string>
-    <string name="social_networks">Κοινωνικά Δίκτυα</string>
-    <string name="social_facebook">Σελίδα Facebook</string>
-    <string name="social_vk">Σελίδα VK</string>
-    <string name="social_telegram">Ομάδα Telegram</string>
+    <string name="chat_support">Technical Support Chat</string>
+    <string name="contribute_translations">Contribute in Translations</string>
+    <string name="social_networks">Social Networks</string>
+    <string name="social_facebook">Facebook Page</string>
+    <string name="social_vk">VK Page</string>
+    <string name="social_telegram">Telegram Group</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Ρυθμίσεις Εφαρμογής</string>
-    <string name="settings_header_support_channels">Κανάλια Υποστήριξης</string>
-    <string name="settings_header_contribution_and_social_media">Συνεισφορά και Κοινωνικά Δίκτυα</string>
+    <string name="settings_header_application_settings">Application Settings</string>
+    <string name="settings_header_support_channels">Support Channels</string>
+    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Κανάλια Κοινωνικών Δικτύων</string>
+    <string name="social_networks_list">Social Network Channels</string>
 
 
 

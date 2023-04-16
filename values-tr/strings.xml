@@ -11,6 +11,12 @@
 	<string name="btn_permissions">Ayarla</string>
 	<!-- First Step localization / ilk adım çevirisi -->
 	<string name="lbl_addwidget_header">Ana ekranınıza bekleme süresi kısayolunu eklemek için</string>
+	<string name="lbl_addwidget1">1. Öncelikle ana ekranına dönmek için ana ekran tuşuna basınız.</string>
+	<string name="lbl_addwidget2">2. Daha sonra parmağınızı ekranın boş bir kısmında bir süre basılı tutunuz.</string>
+	<string name="lbl_addwidget3">3. Ardından \"Widget\'lar\" butonuna basınız.</string>
+	<string name="lbl_addwidget4">4. Gelen ekranda \"Ekranımı Açık Tut\" kısayolunu bulana kadar sayfayı kaydırın.</string>
+	<string name="lbl_addwidget5">5. Kısayolu bulduktan sonra ana ekranınıza eklemek için kısayola basılı tutun ve ana ekranınızın boş bir kısmına sürükleyin.</string>
+	<string name="lbl_addwidget6">6. Artık ekranınızın bekleme süresini değiştirmek için kısayolu kullanmaya başlayabilirsiniz! :)</string>
 	<string name="lbl_addwidget">
 		<![CDATA[
         1. Öncelikle ana ekranına dönmek için ana ekran tuşuna basınız.<br/>
@@ -23,6 +29,11 @@
 	</string>
 	<!-- Second step localization / ikinci adım çevirisi -->
 	<string name="lbl_addtile_header">Hızlı Ayarlar Menüsüne Kısayol Eklemek için</string>
+	<string name="lbl_addtile1">1. Bildirim ekranınızı açınız.</string>
+	<string name="lbl_addtile2">2. Hızlı Ayarlar ekranını açmak için yukarıdan aşağıya doğru çekiniz.</string>
+	<string name="lbl_addtile3">3. DÜZENLE butonuna basınız.</string>
+	<string name="lbl_addtile4">4. Açılan menüde \"Ekran Zaman Aşımı\" adlı hızlı ayara basılı tutarak üstteki listeye ekleyin.</string>
+	<string name="lbl_addtile5">5. Geri butonuna tıklayın ve artık kısayolu kullanmaya hazırsınız!</string>
 	<string name="lbl_addtile">
 		<![CDATA[
         1. Bildirim ekranınızı açınız.<br/>
@@ -132,18 +143,18 @@
 	<string name="contact_support">Destek ile İletişime Geç</string>
 	<string name="email_us">Bize e-Posta Gönderin</string>
 	<string name="documentation">Bilgilendirmeler</string>
-	<string name="chat_support">Teknik Destek Sohbeti</string>
-	<string name="contribute_translations">Çevirilere Katkıda Bulunun</string>
-	<string name="social_networks">Sosyal Ağlar</string>
-	<string name="social_facebook">Facebook Sayfası</string>
-	<string name="social_vk">VK Sayfası</string>
-	<string name="social_telegram">Telegram Grubu</string>
+	<string name="chat_support">Technical Support Chat</string>
+	<string name="contribute_translations">Contribute in Translations</string>
+	<string name="social_networks">Social Networks</string>
+	<string name="social_facebook">Facebook Page</string>
+	<string name="social_vk">VK Page</string>
+	<string name="social_telegram">Telegram Group</string>
 
-	<!-- Main settings view sections / Ana ayarlar menüsü görünümü -->
-	<string name="settings_header_application_settings">Uygulama Ayarları</string>
-	<string name="settings_header_support_channels">Destek Kanalları</string>
-	<string name="settings_header_contribution_and_social_media">Katkı ve Sosyal Medya</string>
+	<!-- Main settings view sections -->
+	<string name="settings_header_application_settings">Application Settings</string>
+	<string name="settings_header_support_channels">Support Channels</string>
+	<string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
 
-	<!-- Social networks header / Sosyal medya başlığı -->
-	<string name="social_networks_list">Sosyal Medya Kanalları</string>
+	<!-- Social networks header -->
+	<string name="social_networks_list">Social Network Channels</string>
 </resources>

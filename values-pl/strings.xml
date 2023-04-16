@@ -8,6 +8,12 @@
     <string name="lbl_permissions">Aby aplikacja działała poprawnie, należy przyznać pozwolenie na zmianę ustawień systemu, jedyne ustawienie którego używa aplikacja to czas przez jaki ekran będzie włączony.</string>
     <string name="btn_permissions">Konfiguracja</string>
     <string name="lbl_addwidget_header">Aby dodać widget do Ekranu Głównego</string>
+    <string name="lbl_addwidget1">1. Naciśnij przycisk Home, aby wyjść do Ekranu Głównego.</string>
+    <string name="lbl_addwidget2">2. Przytrzymaj palec na wolnym obszarze (bez ikon).</string>
+    <string name="lbl_addwidget3">3. Wybierz \"Widgets\".</string>
+    <string name="lbl_addwidget4">4. Przejdź do \"ScreenWidget\".</string>
+    <string name="lbl_addwidget5">5. Przytrzymaj chwilę palec na ikonie widget\'u, aby dodać go do Ekranu Głównego.</string>
+    <string name="lbl_addwidget6">6. Klikając ikonę widget\'u wybierz żądany czas przez jaki ekran będzie aktywny.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Naciśnij przycisk Home, aby wyjść do Ekranu Głównego.<br/>
         2. Przytrzymaj palec na wolnym obszarze (bez ikon).<br/>
@@ -18,6 +24,11 @@
     </string>
     <string name="btn_addwidget">Dodaj do Ekranu Głównego</string>
     <string name="lbl_addtile_header">Dodawanie kafelka do paneluszybkich ustawień</string>
+    <string name="lbl_addtile1">1. Otwórz panel powiadomień.</string>
+    <string name="lbl_addtile2">2. Przesuń w dół, aby otworzyć panel szybkich ustawień.</string>
+    <string name="lbl_addtile3">3. Przejdź do edycji panelu szybkich ustawień (menu w prawym górnym rogu).</string>
+    <string name="lbl_addtile4">4. Odszukaj i przeciągnij kafelek "Screen Timeout" w obszar panelu szybkich ustawień.</string>
+    <string name="lbl_addtile5">5. Zatwierdź zmiany.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Otwórz panel powiadomień.<br/>
         2. Przesuń w dół, aby otworzyć panel szybkich ustawień.<br/>

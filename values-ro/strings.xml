@@ -11,6 +11,12 @@
     <string name="btn_permissions">Configurare</string>
 	<!-- First Step localization -->
     <string name="lbl_addwidget_header">Adăugarea widget-ului la ecranul de start</string>
+    <string name="lbl_addwidget1">1. Apăsați butonul home pentru a ajunge la ecranul de pornire.</string>
+    <string name="lbl_addwidget2">2. Țineți degetul pe o zonă care nu este ocupată de o pictogramă.</string>
+    <string name="lbl_addwidget3">3. Selectați \"widgets\".</string>
+    <string name="lbl_addwidget4">4. Derulați la \"Widget de ecran\" widget.</string>
+    <string name="lbl_addwidget5">5. Glisați-l și plasați-l în ecranul de start până unde doriți.</string>
+    <string name="lbl_addwidget6">6. Apăsați pe widget pentru a schimba modul de întrerupere al ecranului.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Apăsați butonul home pentru a ajunge la ecranul de pornire.<br/>
         2. Țineți degetul pe o zonă care nu este ocupată de o pictogramă.<br/>
@@ -21,6 +27,11 @@
     </string>
 	<!-- Second step localization -->
     <string name="lbl_addtile_header">Adăugarea mini-pictogramei de setări rapide</string>
+    <string name="lbl_addtile1">1. Deschideți sertarul de notificări.</string>
+    <string name="lbl_addtile2">2. Glisați în jos în sus pentru a deschide sertarul Setări rapide.</string>
+    <string name="lbl_addtile3">3. Atingeți butonul EDITARE.</string>
+    <string name="lbl_addtile4">4. Trageți mini-pictograma denumită \" Întrerupere Ecran \" în sertarul Setări rapide.</string>
+    <string name="lbl_addtile5">5. Atingeți înapoi și sunteți gata să folosiți mini-pictograma.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Deschideți sertarul de notificări.<br/>
         2. Glisați în jos în sus pentru a deschide sertarul Setări rapide.<br/>

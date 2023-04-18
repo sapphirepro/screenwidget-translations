@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="app_name">Screen Awake</string>
+
+    <string name="label_on">켜</string>
+
+    <string name="label_off">%1$d엠및엔 .</string>
+
+    <string name="lceck_fail">잘못된 라이센스.</string>
+
+    <string name="lbl_permissions">당신은 응용 프로그램이 작동하기 전에 설정을 변경할 수있는 권한을 부여해야합니다. 이 변경됩니다 유일한 설정은 화면 제한 시간입니다.</string>
+
+    <string name="btn_permissions">해상도 설정</string>
+
+    <string name="lbl_addwidget_header">바탕 화면에 위젯 추가</string>
+    <string name="lbl_addwidget1">1. 홈 버튼을 눌러 홈 화면으로 이동합니다.</string>
+    <string name="lbl_addwidget2">2. 아이콘이 차지하지 않은 화면의 빈 영역에 손가락을 길게 누릅니다.</string>
+    <string name="lbl_addwidget3">3. 선택 \"위젯\".<br/></string>
+    <string name="lbl_addwidget4">4. 위젯 찾기 \"ScreenWidget\"</string>
+    <string name="lbl_addwidget5">5. 홈 화면에 당신을 위해 편리한 어떤 장소로 드래그.</string>
+    <string name="lbl_addwidget6">6. 화면 자동 꺼짐 모드를 전환 할 수있는 위젯을 클릭합니다.</string>
+
+    -<string name="lbl_addwidget">
+
+<![CDATA[ <br/> <br/> <br/>  4. .<br/> ]]>
+
+</string>
+
+    <string name="lbl_addtile_header">빠른 설정 타일 추가</string>
+    <string name="lbl_addtile1">1. 알림 패널 열기.</string>
+    <string name="lbl_addtile2">2. 위쪽에서 아래로 당겨 빠른 설정 패널을 엽니다.</string>
+    <string name="lbl_addtile3">3. 편집(연필)을 클릭합니다.</string>
+    <string name="lbl_addtile4">4. 타일 드래그 \"화면 대기 시간" 빠른 설정 패널의 영역으로.</string>
+    <string name="lbl_addtile5">5. 뒤로 버튼을 클릭합니다. 빠른 설정 타일을 사용할 준비가되었습니다.</string>
+
+    -<string name="lbl_addtile">
+
+<![CDATA[ <br/>   4. <br/> \n]]>
+
+</string>
+
+    <!-- Notification icon settings -->
+
+
+    <string name="notification">알림</string>
+
+    <string name="notification_name">상태 표시 줄의 알림 및 아이콘</string>
+
+    <string name="notification_desc">활성 모드에서 이 옵션 활성화 \"항상 화면에\" 이 알림 및 상태 표시 줄에 아이콘이 표시됩니다.</string>
+
+    <!-- End of notification icon settings -->
+
+
+    <!-- Auto disable always on mode settings -->
+
+
+    <string name="revert_default_timeout">자동 비활성화</string>
+
+    <string name="revert_default_timeout_name">시스템 시간 초과로 자동 복귀</string>
+
+    <string name="revert_default_timeout_desc">화면이 꺼져있을 때 시스템 시간 초과로 자동 복귀 %s.</string>
+
+    <!-- Auto disable select options -->
+
+
+    <string name="condition_never">사용 안 함</string>
+
+    <string name="condition_any_timeout">포함</string>
+
+    <string name="condition_only_always_on">항상 화면에만 사용</string>
+
+    <string name="btn_addwidget">홈 화면에 추가</string>
+
+    <!-- Settings localization -->
+
+
+    <string name="onboot_section">자동 실행 설정</string>
+
+    <string name="onboot_trigger_name">상태 복원</string>
+
+    <string name="onboot_trigger_desc">시작 시 마지막 상태 복원. 원하는 경우 유용 할 수 있습니다, 장치가 시작될 때 다시 시작하기 전의 상태가 복원되도록 합니다. 화면이 "항상 켜짐", 그런 다음이 값은 시작시 복원됩니다.</string>
+
+    <string name="onboot_toast_name">경고 표시</string>
+
+    <string name="onboot_toast_desc">설정 복원에 대한 팝업 메시지 표시.</string>
+
+    <!-- Multi tap settings-->
+
+
+    <string name="multitap_section">다중 클릭 설정</string>
+
+    <string name="multitap_enable_name">다중 프레스 지원</string>
+
+    <string name="multitap_enable_desc">다중 클릭 지원 활성화 또는 비활성화. 멀티 탭 기능을 사용하면 설정 값 사이의 화면에 시간을 변경할 수 있습니다. 위젯에 더블 탭을 사용하여 - 값을 높이려면, 그리고 트리플 탭 - 값을 줄이기 위해.</string>
+
+    <string name="multitap_smart_system_name">여러 번의 클릭의 스마트 지연</string>
+
+    <string name="multitap_smart_system_desc">여러 번의 클릭의 스마트 지연: 한 번의 클릭의 경우,이벤트에 대한 위젯의 응답은 두 배 빠른 것입니다 (350 мс), 더블 및 트리플 탭에있는 동안,위젯의 반응이 될 것입니다 700 мс.</string>
+
+    <string name="single_tap_action_name">단일 클릭 동작</string>
+
+    <string name="single_tap_action_desc">%s. 한 번의 클릭으로 작업 선택.</string>
+
+
+    -<string name="single_always_on">
+
+<![CDATA[사이 전환 <b>항상 화면에</b> и <b>기본 시간 초과</b>]]>
+
+</string>
+
+
+    -<string name="single_last_active">
+
+<![CDATA[사이 전환 <b>마지막 활성 시간 초과</b> и <b>기본 시간 초과</b>]]>
+
+</string>
+
+    <string name="sort_timeouts_name">사용자 시간 초과 정렬</string>
+
+    <string name="sort_timeouts_desc">%s. 정렬 값 선택.</string>
+
+    <string name="do_not_sort">정렬하지 마십시오</string>
+
+    <string name="do_sort_asc">오름차순으로 정렬</string>
+
+    <string name="do_sort_desc">내림차순으로 정렬</string>
+
+    <!-- Design tuning -->
+
+
+    <string name="design_section">Visual customizations</string>
+
+    <string name="widget_font_size_header">Font size</string>
+
+    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
+
+    <string name="widget_icon_size_header">Icon size</string>
+
+    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
+
+    <!-- Margin settings -->
+
+
+    <string name="layout_ico_header">Icon size</string>
+
+    <string name="action_settings">설정</string>
+
+    <!-- Menu items -->
+
+
+    <string name="str_menu_settings">설정</string>
+
+    <string name="str_menu_rate_app">직업 평가</string>
+
+    <string name="str_menu_share_app">응용 프로그램의 권장 사항</string>
+
+    <!-- Custom timeouts -->
+
+
+    <string name="settings_custom_timeouts">사용자 지정 시간 초과</string>
+
+    <string name="custom_timeout1_header">사용자 제한 시간 #1</string>
+
+    <string name="custom_timeout1_value"> 회의록. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="custom_timeout2_header">사용자 제한 시간 #2</string>
+
+    <string name="custom_timeout2_value"> 회의록. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="custom_timeout3_header">사용자 제한 시간 #3</string>
+
+    <string name="custom_timeout3_value"> минут. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="custom_timeout4_header">사용자 제한 시간 #4</string>
+
+    <string name="custom_timeout4_value"> 회의록. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="custom_timeout5_header">사용자 제한 시간 #5</string>
+
+    <string name="custom_timeout5_value"> 회의록. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="custom_timeout6_header">사용자 제한 시간 #6</string>
+
+    <string name="custom_timeout6_value"> 회의록. (원하는 값을 입력하거나 0 - 값을 건너뛰려면)</string>
+
+    <string name="enter_timeout_value">제발, 값을 분 단위로 입력합니다</string>
+
+    <!-- Tile translations -->
+
+
+    <string name="tile_name">화면 대기 시간</string>
+
+    <!-- Power related events -->
+
+
+    <string name="power_events">완전 방전 보호</string>
+
+    <string name="disable_on_low_name">배터리가 부족할 때 자동 꺼짐</string>
+
+    <string name="disable_on_low_desc">모드 자동 비활성화 "항상 화면에" 배터리가 부족할 때.</string>
+
+    <!-- Licensing state -->
+
+
+    <string name="no_license">라이센스 없음</string>
+
+    <!-- Settings menu -->
+
+
+    <string name="general_settings">일반 설정</string>
+
+    <string name="advanced_settings">고급 설정</string>
+
+    <string name="timeout_settings">사용자 지정 시간 초과</string>
+
+    <string name="contact_support">지원 센터</string>
+
+    <string name="email_us">Отправить нам эмейл</string>
+
+    <string name="documentation">문서</string>
+
+    <string name="chat_support">기술 지원 채팅</string>
+
+    <string name="contribute_translations">앱 번역에 대한 도움말</string>
+
+    <string name="social_networks">소셜 네트워크</string>
+
+    <string name="social_facebook">페이지 Facebook</string>
+
+    <string name="social_vk">페이지 VK</string>
+
+    <string name="social_telegram">그룹 Telegram</string>
+
+    <!-- Main settings view sections -->
+
+
+    <string name="settings_header_application_settings">응용 프로그램 설정</string>
+
+    <string name="settings_header_support_channels">기술 지원 채널</string>
+
+    <string name="settings_header_contribution_and_social_media">프로젝트 지원 및 소셜 네트워크</string>
+
+    <!-- Social networks header -->
+
+
+    <string name="social_networks_list">소셜 미디어 채널</string>
+
+</resources>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">一直开启</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">许可证检查失败</string>
+
+    <string name="lbl_permissions">你必须给这个应用程序改变设置的权限，才能使用，它唯一会触及的设置是屏幕超时。</string>
+    <string name="btn_permissions">设置</string>
+    <string name="lbl_addwidget_header">将小部件添加到主屏幕上</string>
+    <string name="lbl_addwidget1">1. 按下主页按钮进入主屏幕</string>
+    <string name="lbl_addwidget2">2. 用手指按住在没有图标的区域</string>
+    <string name="lbl_addwidget3">3. 选择 \"widgets\".</string>
+    <string name="lbl_addwidget4">4. 往下拉至\"ScreenWidget\" ???.</string>
+    <string name="lbl_addwidget5">5. 把它拖入主屏幕，放到你想要的位置</string>
+    <string name="lbl_addwidget6">6. 点击小部件以改变屏幕超时模式.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. 按下主页按钮进入主屏幕<br/>
+        2. 用手指按住在没有图标的区域.<br/>
+        3. 选择 \"widgets\".<br/>
+        4. 往下拉至 \"ScreenWidget\" widget.<br/>
+        5. 把它拖入主屏幕，放到你想要的位置.<br/>
+        6. 点击小部件以改变屏幕超时模式.\n]]>
+    </string>
+    <string name="lbl_addtile_header">添加快速设置瓦片</string>
+    <string name="lbl_addtile1">1. 打开通知栏.</string>
+    <string name="lbl_addtile2">2. 向下滑动，打开快速设置栏.</string>
+    <string name="lbl_addtile3">3. 点击编辑按钮.</string>
+    <string name="lbl_addtile4">4. 拖动名为 \"Screen Timeout\" 进入快速设置栏</string>
+    <string name="lbl_addtile5">5. 点击返回，便能使用瓦片了</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. 打开通知栏<br/>
+        2. 向下滑动，打开快速设置栏.<br/>
+        3. 点击编辑按钮<br/>
+        4. 拖动名为 \"Screen Timeout\" 进入快速设置栏<br/>
+        5. 点击返回，便能使用瓦片了.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">通知</string>
+    <string name="notification_name">通知和状态栏图标</string>
+    <string name="notification_desc">在 \"Always on\" 模式被启动后，通知和状态栏图标将显示在通知区内</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">自动停用</string>
+    <string name="revert_default_timeout_name">自动回复到默认超时</string>
+    <string name="revert_default_timeout_desc">屏幕关闭时自动回复到默认超时 %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">禁用</string>
+    <string name="condition_any_timeout">启用</string>
+    <string name="condition_only_always_on">仅为常开模式启用</string>
+
+
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">添加到主屏幕</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">启动时设置</string>
+    <string name="onboot_trigger_name">启动时回复</string>
+    <string name="onboot_trigger_desc">启动时恢复到最后的活动状态。如果想让定时器恢复到设备重启前的状态，这个很有用</string>
+    <string name="onboot_toast_name">显示信息</string>
+    <string name="onboot_toast_desc">恢复设置后显示敬酒信息</string>
+
+    <!-- Multi tap settings-->
+    <string name="multitap_section">多点触控式设置</string>
+    <string name="multitap_enable_name">多点触控式支持</string>
+    <string name="multitap_enable_desc">启用或禁用对小部件的多点触控支持。多点触控功能允许通过双重和三重点击小部件来增加和减少小部件的超时设置。</string>
+    <string name="multitap_smart_system_name">多点触控式智能延时</string>
+    <string name="multitap_smart_system_desc">多点触控式多级延时：单次点击会更快通过，然后双重和三重点击会减少等待时间</string>
+
+    <string name="single_tap_action_name">单点式动作</string>
+    <string name="single_tap_action_desc">%s. 选择要使用单点式操作</string>
+    <string name="single_always_on">在常开和默认超时之间切换</string>
+    <string name="single_last_active">在最后使用的超时和默认超时之间切换</string>
+    <string name="sort_timeouts_name">排序自定义超时列表</string>
+    <string name="sort_timeouts_desc">%s. 选择排序选项</string>
+
+    <string name="do_not_sort">不分类</string>
+    <string name="do_sort_asc">升序排序</string>
+    <string name="do_sort_desc">降序排序</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">视觉化自定</string>
+    <string name="widget_font_size_header">字体大小</string>
+    <string name="widget_font_size_desc">选择小部件中使用的字体大小。有助于在不同的启动程序中获得最佳的视觉效果。</string>
+    <string name="widget_icon_size_header">图标大小</string>
+    <string name="widget_icon_size_desc">小部件图标大小的选择。有助于用不同的启动器获得最佳的视觉效果。</string>
+
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">图标大小</string>
+    <string name="action_settings">设置</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">设置</string>
+    <string name="str_menu_rate_app">评价应用程序</string>
+    <string name="str_menu_share_app">推荐应用程序</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">超时自定化</string>
+    <string name="custom_timeout1_header">自定超时值1</string>
+    <string name="custom_timeout1_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。</string>
+    <string name="custom_timeout2_header">自定超时值 2</string>
+    <string name="custom_timeout2_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。</string>
+    <string name="custom_timeout3_header">自定超时值 3</string>
+    <string name="custom_timeout3_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。</string>
+    <string name="custom_timeout4_header">自定超时值  4</string>
+    <string name="custom_timeout4_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。</string>
+    <string name="custom_timeout5_header">自定超时值5</string>
+    <string name="custom_timeout5_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。.</string>
+    <string name="custom_timeout6_header">自定超时值 6</string>
+    <string name="custom_timeout6_value"> 分钟。输入所需的超时值。输入0表示忽略此槽。.</string>
+    <string name="enter_timeout_value">请以分钟为单位输入数值</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">屏幕超时</string>
+
+    <!-- Power related events -->
+    <string name="power_events">低电池保护</string>
+
+    <string name="disable_on_low_name">电池电量不足时自动禁用</string>
+    <string name="disable_on_low_desc">电池电量低时，自动禁用常开模式</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">无许可证</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">一般设置</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="timeout_settings">自定义超时</string>
+    <string name="contact_support">联系支持部门</string>
+    <string name="email_us">电邮我们</string>
+    <string name="documentation">文档</string>
+    <string name="chat_support">技术支持聊天室</string>
+    <string name="contribute_translations">帮助翻译</string>
+    <string name="social_networks">社交平台</string>
+    <string name="social_facebook">Facebook 页面</string>
+    <string name="social_vk">VK 页面</string>
+    <string name="social_telegram">Telegram 群组</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">应用程序设置</string>
+    <string name="settings_header_support_channels">支援渠道</string>
+    <string name="settings_header_contribution_and_social_media">贡献和社交媒体</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">社交媒体渠道</string>
+
+
+</resources>

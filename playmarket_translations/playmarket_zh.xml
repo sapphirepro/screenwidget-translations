@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<string name = "application_name">保持屏幕清醒状态</string>
+
+<string name = "description_short">小部件和快速设置磁贴，用于切换显示自动关闭或始终打开状态</string>
+
+<string name = "playmarket_description">现在，您可以在手机上工作，阅读网络文章以及执行任何其他操作，而无需在最不方便的时间关闭显示器。您可以轻松地用一键式直接从您的主页面，或快速设置面板将其切换为
+
+非常有用且易于使用的应用程序，可让您快速切换手机的屏幕超时设置，将其设置为始终打开或恢复为显示超时前的选择。
+
+<b>主要特点</b>
+&bull; <u><i>最新更新!</i></u> 快速设置磁贴 (需要 Android Nougat 或以上) 以最方便的方式切换屏幕超时
+&bull; 更快且易于使用小部件快速切换屏幕超时。
+&bull; 屏幕始终开启模式。
+&bull; 支持多点触控式以便在不同的屏幕切换超时值。
+&bull; 多达 6 个用户可定义的自定义超时值，您可以在小部件上使用双击和三次点击快速切换。
+&bull; 用于在设备启动时恢复上次活动超时状态的选项。
+
+我们希望您会喜欢这个易于使用且好用的应用程序。
+
+如果您想帮助翻译，请使用 GitHub 链接: <a href="https://github.com/sapphirepro/screenwidget-translations">https://github.com/sapphirepro/screenwidget-translations</a>. 您还可以将其用于任何与应用程序相关的错误报告和功能请求。
+
+<b>功能请求、建议和帮助：</b>
+1. 与此应用程序相关的Google 组 <a href="https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB">https://plus.google.com/communities/102078681874633851289?sqinv=TThZT2FkRXpHN3dRRkRGMFNoMU9WQjl2UzZ4eURB</a>
+2. 提出您的建议，功能请求，请给我们写电子邮件， <a href="mailto:developer@sapphire-project.com">developer@sapphire-project.com</a>
+3. Telegram 客户支持小组: <a href="https://t.me/sapphireprojectsupport">https://t.me/sapphireprojectsupport</a>
+</string>

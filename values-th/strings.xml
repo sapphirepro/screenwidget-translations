@@ -153,4 +153,45 @@
 
     <!-- Social networks header -->
     <string name="social_networks_list">Social Network Channels</string>
+
+    <string name="app_automation_settings_title">ระบบอัตโนมัติของแอป</string>
+    <string name="app_automation_settings_summary">เปิดหน้าจอค้างอัตโนมัติสำหรับแอปที่เลือก</string>
+    <string name="app_automation_usage_access_required">เพื่อให้ตรวจจับแอปที่อยู่หน้าจอได้ โปรดอนุญาตการเข้าถึงข้อมูลการใช้งานในตั้งค่าระบบ</string>
+    <string name="app_automation_open_usage_access">เปิดการตั้งค่าการเข้าถึงข้อมูลการใช้งาน</string>
+    <string name="app_automation_screen_hint">เลือกแอปที่ต้องการให้เปิดหน้าจอค้างโดยอัตโนมัติ</string>
+    <string name="app_automation_no_apps">ไม่พบแอปที่สามารถเปิดใช้งานได้บนอุปกรณ์นี้</string>
+    <string name="app_automation_checkbox_content_desc">เปิดใช้ระบบอัตโนมัติสำหรับแอป</string>
+    <string name="app_automation_service_active">ระบบอัตโนมัติของแอปกำลังทำงาน</string>
+
+    <string name="app_automation_master_name">เปิดใช้ระบบอัตโนมัติของแอป</string>
+
+    <string name="app_automation_master_desc">เปิดโหมดคงหน้าจออัตโนมัติสำหรับแอปที่เลือก</string>
+
+    <string name="app_automation_search_hint">ค้นหาแอป</string>
+
+    <string name="app_automation_section">ระบบอัตโนมัติของแอป</string>
+
+    <string name="app_automation_poll_name">ช่วงเวลาการตรวจสอบแอป</string>
+
+    <string name="app_automation_poll_desc">%s วินาที เลือกช่วงเวลาการตรวจสอบแอป</string>
+
+    <string name="app_automation_default_name">พรีเซ็ตหมดเวลาค่าเริ่มต้น</string>
+
+    <string name="app_automation_default_desc">%s เลือกพรีเซ็ตหมดเวลาค่าเริ่มต้นสำหรับระบบอัตโนมัติของแอป</string>
+
+    <string name="app_automation_minutes_compact">%1$d น.</string>
+
+    <string name="app_automation_preset_default_menu">ค่าเริ่มต้น</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">เลือกพรีเซ็ตหมดเวลา</string>
+
+    <string name="app_language_section">ภาษา</string>
+
+    <string name="app_language_name">ภาษาของแอป</string>
+
+    <string name="app_language_desc">เลือกภาษาของแอป</string>
+
+    <string name="app_language_system_default">ค่าเริ่มต้นของระบบ</string>
 </resources>

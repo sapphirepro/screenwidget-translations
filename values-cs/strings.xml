@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Udržet obrazovku aktivní</string>
+    <string name="label_on">Vždy zapnuto</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Kontrola licence selhala.</string>
+
+    <string name="lbl_permissions">Musíte této aplikaci udělit oprávnění k úpravě nastavení, aby fungovala. Jediné nastavení, které změní, je časový limit obrazovky.</string>
+    <string name="btn_permissions">Konfigurovat</string>
+    <string name="lbl_addwidget_header">Přidání widgetu na domovskou obrazovku</string>
+    <string name="lbl_addwidget1">1. Stiskněte tlačítko Domů pro přechod na domovskou obrazovku.</string>
+    <string name="lbl_addwidget2">2. Podržte prst na oblasti, která není obsazena ikonou.</string>
+    <string name="lbl_addwidget3">3. Vyberte “Widgety”.</string>
+    <string name="lbl_addwidget4">4. Přejděte na widget “ScreenWidget”.</string>
+    <string name="lbl_addwidget5">5. Přetáhněte a pusťte jej na domovskou obrazovku na požadované místo.</string>
+    <string name="lbl_addwidget6">6. Klikněte na widget pro změnu režimu časového limitu obrazovky.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Stiskněte tlačítko Domů pro přechod na domovskou obrazovku.<br/>
+        2. Podržte prst na oblasti, která není obsazena ikonou.<br/>
+        3. Vyberte “Widgety”.<br/>
+        4. Přejděte na widget “ScreenWidget”.<br/>
+        5. Přetáhněte a pusťte jej na domovskou obrazovku na požadované místo.<br/>
+        6. Klikněte na widget pro změnu režimu časového limitu obrazovky.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Přidání dlaždice do Rychlých nastavení</string>
+    <string name="lbl_addtile1">1. Otevřete panel oznámení.</string>
+    <string name="lbl_addtile2">2. Přejeďte dolů z horní části pro otevření panelu Rychlých nastavení.</string>
+    <string name="lbl_addtile3">3. Klepněte na tlačítko UPRAVIT.</string>
+    <string name="lbl_addtile4">4. Přetáhněte dlaždici nazvanou “Časový limit obrazovky” do panelu Rychlých nastavení.</string>
+    <string name="lbl_addtile5">5. Klepněte na Zpět a dlaždice je připravena k použití.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Otevřete panel oznámení.<br/>
+        2. Přejeďte dolů z horní části pro otevření panelu Rychlých nastavení.<br/>
+        3. Klepněte na tlačítko UPRAVIT.<br/>
+        4. Přetáhněte dlaždici nazvanou “Časový limit obrazovky” do panelu Rychlých nastavení.<br/>
+        5. Klepněte na Zpět a dlaždice je připravena k použití.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Oznámení</string>
+    <string name="notification_name">Ikona oznámení a stavového řádku</string>
+    <string name="notification_desc">Pokud je povoleno, ikona oznámení a stavového řádku se zobrazí v oblasti oznámení, když je aktivován režim “Vždy zapnuto”.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Automatická deaktivace</string>
+    <string name="revert_default_timeout_name">Automatický návrat k výchozímu časovému limitu</string>
+    <string name="revert_default_timeout_desc">Automatický návrat k výchozímu časovému limitu obrazovky, když se obrazovka vypne %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">vypnuto</string>
+    <string name="condition_any_timeout">zapnuto</string>
+    <string name="condition_only_always_on">zapnuto pouze pro režim vždy zapnuto</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Přidat na domovskou obrazovku</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Nastavení při spuštění</string>
+    <string name="onboot_trigger_name">Obnovit při spuštění</string>
+    <string name="onboot_trigger_desc">Obnoví poslední aktivní stav při spuštění. Užitečné, pokud chcete, aby se časy vrátily do stavu před restartem zařízení.</string>
+    <string name="onboot_toast_name">Zobrazit zprávu</string>
+    <string name="onboot_toast_desc">Zobrazí Toast zprávu po obnovení nastavení.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Nastavení vícenásobného klepnutí</string>
+    <string name="multitap_enable_name">Podpora vícenásobného klepnutí</string>
+    <string name="multitap_enable_desc">Povolí nebo zakáže podporu vícenásobného klepnutí pro widget. Funkce vícenásobného klepnutí umožňuje zvyšovat a snižovat nastavení časového limitu widgetu pomocí dvojitého a trojitého klepnutí.</string>
+    <string name="multitap_smart_system_name">Chytré zpoždění vícenásobného klepnutí</string>
+    <string name="multitap_smart_system_desc">Chytré vícestupňové zpoždění vícenásobného klepnutí: jedno klepnutí projde rychleji, poté dvojité a trojité klepnutí zkracují čekací dobu.</string>
+
+    <string name="single_tap_action_name">Akce jednoho klepnutí</string>
+    <string name="single_tap_action_desc">%s. Vyberte akci pro jedno klepnutí.</string>
+    <string name="single_always_on">Přepínání mezi vždy zapnuto a výchozím časovým limitem</string>
+    <string name="single_last_active">Přepínání mezi posledním použitým limitem a výchozím</string>
+    <string name="sort_timeouts_name">Seřadit vlastní časové limity</string>
+    <string name="sort_timeouts_desc">%s. Vyberte možnost řazení.</string>
+
+    <string name="do_not_sort">Neseřadit</string>
+    <string name="do_sort_asc">Seřadit vzestupně</string>
+    <string name="do_sort_desc">Seřadit sestupně</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Vizuální přizpůsobení</string>
+    <string name="widget_font_size_header">Velikost písma</string>
+    <string name="widget_font_size_desc">Vyberte velikost písma použitého ve widgetu. Užitečné pro dosažení nejlepších vizuálních výsledků s různými spouštěči.</string>
+    <string name="widget_icon_size_header">Velikost ikony</string>
+    <string name="widget_icon_size_desc">Výběr velikosti ikony widgetu. Užitečné pro dosažení nejlepších vizuálních výsledků s různými spouštěči.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Velikost ikony</string>
+    <string name="action_settings">Nastavení</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Nastavení</string>
+    <string name="str_menu_rate_app">Ohodnotit aplikaci</string>
+    <string name="str_menu_share_app">Doporučit aplikaci</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Přizpůsobit časové limity</string>
+    <string name="custom_timeout1_header">Vlastní časový limit 1</string>
+    <string name="custom_timeout1_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="custom_timeout2_header">Vlastní časový limit 2</string>
+    <string name="custom_timeout2_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="custom_timeout3_header">Vlastní časový limit 3</string>
+    <string name="custom_timeout3_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="custom_timeout4_header">Vlastní časový limit 4</string>
+    <string name="custom_timeout4_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="custom_timeout5_header">Vlastní časový limit 5</string>
+    <string name="custom_timeout5_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="custom_timeout6_header">Vlastní časový limit 6</string>
+    <string name="custom_timeout6_value"> minut. Zadejte požadovanou hodnotu časového limitu. Zadejte 0 pro přeskočení tohoto slotu.</string>
+    <string name="enter_timeout_value">Zadejte hodnotu v minutách</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Časový limit obrazovky</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Ochrana při nízké baterii</string>
+
+    <string name="disable_on_low_name">Automatická deaktivace při nízké baterii</string>
+    <string name="disable_on_low_desc">Automaticky deaktivuje režim vždy zapnuto při nízké úrovni baterie.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Žádná licence</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Obecná nastavení</string>
+    <string name="advanced_settings">Pokročilá nastavení</string>
+    <string name="timeout_settings">Vlastní časové limity</string>
+    <string name="contact_support">Kontaktovat podporu</string>
+    <string name="email_us">Napište nám e-mail</string>
+    <string name="documentation">Dokumentace</string>
+    <string name="chat_support">Chat technické podpory</string>
+    <string name="contribute_translations">Přispět k překladům</string>
+    <string name="social_networks">Sociální sítě</string>
+    <string name="social_facebook">Stránka na Facebooku</string>
+    <string name="social_vk">Stránka na VK</string>
+    <string name="social_telegram">Skupina na Telegramu</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Nastavení aplikace</string>
+    <string name="settings_header_support_channels">Kanály podpory</string>
+    <string name="settings_header_contribution_and_social_media">Příspěvky a sociální média</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Kanály sociálních sítí</string>
+
+    <string name="app_automation_settings_title">Automatizace aplikací</string>
+    <string name="app_automation_settings_summary">Automaticky ponechat obrazovku zapnutou pro vybrané aplikace</string>
+    <string name="app_automation_usage_access_required">Chcete-li rozpoznat aplikaci v popředí, povolte přístup ke statistikám používání v nastavení systému.</string>
+    <string name="app_automation_open_usage_access">Otevřít přístup ke statistikám používání</string>
+    <string name="app_automation_screen_hint">Vyberte aplikace, u kterých má obrazovka zůstat automaticky zapnutá.</string>
+    <string name="app_automation_no_apps">V tomto zařízení nebyly nalezeny žádné spustitelné aplikace.</string>
+    <string name="app_automation_checkbox_content_desc">Zapnout automatizaci pro aplikaci</string>
+    <string name="app_automation_service_active">Automatizace aplikací je aktivní</string>
+
+    <string name="app_automation_master_name">Povolit automatizaci aplikací</string>
+
+    <string name="app_automation_master_desc">Povolit automatický režim ponechání obrazovky zapnuté pro vybrané aplikace</string>
+
+    <string name="app_automation_search_hint">Hledat aplikace</string>
+
+    <string name="app_automation_section">Automatizace aplikací</string>
+
+    <string name="app_automation_poll_name">Interval kontroly aplikací</string>
+
+    <string name="app_automation_poll_desc">%s s. Vyberte interval kontroly aplikací.</string>
+
+    <string name="app_automation_default_name">Výchozí preset časového limitu</string>
+
+    <string name="app_automation_default_desc">%s. Vyberte výchozí preset časového limitu pro automatizaci aplikací.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Výchozí</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Vybrat preset časového limitu</string>
+
+    <string name="app_language_section">Jazyk</string>
+
+    <string name="app_language_name">Jazyk aplikace</string>
+
+    <string name="app_language_desc">Vyberte jazyk aplikace</string>
+
+    <string name="app_language_system_default">Výchozí systémový</string>
+</resources>

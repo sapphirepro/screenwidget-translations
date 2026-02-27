@@ -145,4 +145,45 @@
     <!-- Social networks header -->
     <string name="social_networks_list">Social Network Channels</string>
 
+
+    <string name="app_automation_settings_title">Automatyzacja aplikacji</string>
+    <string name="app_automation_settings_summary">Automatycznie utrzymuj ekran włączony dla wybranych aplikacji</string>
+    <string name="app_automation_usage_access_required">Aby wykrywać aplikację na pierwszym planie, zezwól na dostęp do statystyk użycia w ustawieniach systemu.</string>
+    <string name="app_automation_open_usage_access">Otwórz dostęp do statystyk użycia</string>
+    <string name="app_automation_screen_hint">Wybierz aplikacje, dla których ekran ma automatycznie pozostać włączony.</string>
+    <string name="app_automation_no_apps">Nie znaleziono aplikacji możliwych do uruchomienia na tym urządzeniu.</string>
+    <string name="app_automation_checkbox_content_desc">Włącz automatyzację dla aplikacji</string>
+    <string name="app_automation_service_active">Automatyzacja aplikacji jest aktywna</string>
+
+    <string name="app_automation_master_name">Włącz automatyzację aplikacji</string>
+
+    <string name="app_automation_master_desc">Włącz automatyczny tryb utrzymywania ekranu dla wybranych aplikacji</string>
+
+    <string name="app_automation_search_hint">Szukaj aplikacji</string>
+
+    <string name="app_automation_section">Automatyzacja aplikacji</string>
+
+    <string name="app_automation_poll_name">Interwał sprawdzania aplikacji</string>
+
+    <string name="app_automation_poll_desc">%s s. Wybierz interwał sprawdzania aplikacji.</string>
+
+    <string name="app_automation_default_name">Domyślny preset limitu czasu</string>
+
+    <string name="app_automation_default_desc">%s. Wybierz domyślny preset limitu czasu dla automatyzacji aplikacji.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Domyślnie</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Wybierz preset limitu czasu</string>
+
+    <string name="app_language_section">Język</string>
+
+    <string name="app_language_name">Język aplikacji</string>
+
+    <string name="app_language_desc">Wybierz język aplikacji</string>
+
+    <string name="app_language_system_default">Domyślny systemowy</string>
 </resources>

@@ -151,4 +151,45 @@
     <string name="social_networks_list">社交媒体渠道</string>
 
 
+
+    <string name="app_automation_settings_title">应用自动化</string>
+    <string name="app_automation_settings_summary">为所选应用自动保持屏幕常亮</string>
+    <string name="app_automation_usage_access_required">要检测前台应用，请在系统设置中允许“使用情况访问权限”。</string>
+    <string name="app_automation_open_usage_access">打开使用情况访问权限设置</string>
+    <string name="app_automation_screen_hint">选择需要自动保持屏幕常亮的应用。</string>
+    <string name="app_automation_no_apps">此设备上未找到可启动的应用。</string>
+    <string name="app_automation_checkbox_content_desc">启用应用自动化</string>
+    <string name="app_automation_service_active">应用自动化正在运行</string>
+
+    <string name="app_automation_master_name">启用应用自动化</string>
+
+    <string name="app_automation_master_desc">为所选应用启用自动常亮模式</string>
+
+    <string name="app_automation_search_hint">搜索应用</string>
+
+    <string name="app_automation_section">应用自动化</string>
+
+    <string name="app_automation_poll_name">应用轮询间隔</string>
+
+    <string name="app_automation_poll_desc">%s 秒。选择应用轮询间隔。</string>
+
+    <string name="app_automation_default_name">默认超时预设</string>
+
+    <string name="app_automation_default_desc">%s。为应用自动化选择默认超时预设。</string>
+
+    <string name="app_automation_minutes_compact">%1$d 分</string>
+
+    <string name="app_automation_preset_default_menu">默认</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">选择超时预设</string>
+
+    <string name="app_language_section">语言</string>
+
+    <string name="app_language_name">应用语言</string>
+
+    <string name="app_language_desc">选择应用语言</string>
+
+    <string name="app_language_system_default">跟随系统</string>
 </resources>

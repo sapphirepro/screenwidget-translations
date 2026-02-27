@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Écran Actif</string>
+    <string name="label_on">Toujours actif</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Échec de la vérification de la licence.</string>
+    <string name="lbl_permissions">Vous devez accorder à cette application l’autorisation de modifier les paramètres pour qu’elle fonctionne. Le seul paramètre qu’elle modifiera est le délai d’extinction de l’écran.</string>
+    <string name="btn_permissions">Configurer</string>
+    <string name="lbl_addwidget_header">Ajout du widget à l’écran d’accueil</string>
+    <string name="lbl_addwidget1">1. Appuyez sur le bouton d’accueil pour accéder à l’écran d’accueil.</string>
+    <string name="lbl_addwidget2">2. Maintenez votre doigt enfoncé sur une zone non occupée par une icône.</string>
+    <string name="lbl_addwidget3">3. Sélectionnez « Widgets ».</string>
+    <string name="lbl_addwidget4">4. Faites défiler jusqu’au widget « ScreenWidget ».</string>
+    <string name="lbl_addwidget5">5. Faites glisser et déposez-le sur l’écran d’accueil à l’emplacement souhaité.</string>
+    <string name="lbl_addwidget6">6. Cliquez sur le widget pour modifier le mode de délai d’extinction de l’écran.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Appuyez sur le bouton d’accueil pour accéder à l’écran d’accueil.<br/>
+        2. Maintenez votre doigt enfoncé sur une zone non occupée par une icône.<br/>
+        3. Sélectionnez « Widgets ».<br/>
+        4. Faites défiler jusqu’au widget « ScreenWidget ».<br/>
+        5. Faites glisser et déposez-le sur l’écran d’accueil à l’emplacement souhaité.<br/>
+        6. Cliquez sur le widget pour modifier le mode de délai d’extinction de l’écran.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Ajout d’une tuile aux paramètres rapides</string>
+    <string name="lbl_addtile1">1. Ouvrez le panneau de notifications.</string>
+    <string name="lbl_addtile2">2. Faites glisser vers le bas depuis le haut pour ouvrir les paramètres rapides.</string>
+    <string name="lbl_addtile3">3. Appuyez sur le bouton MODIFIER.</string>
+    <string name="lbl_addtile4">4. Faites glisser la tuile nommée « Délai d’extinction de l’écran » dans les paramètres rapides.</string>
+    <string name="lbl_addtile5">5. Appuyez sur retour, et la tuile est prête à être utilisée.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Ouvrez le panneau de notifications.<br/>
+        2. Faites glisser vers le bas depuis le haut pour ouvrir les paramètres rapides.<br/>
+        3. Appuyez sur le bouton MODIFIER.<br/>
+        4. Faites glisser la tuile nommée « Délai d’extinction de l’écran » dans les paramètres rapides.<br/>
+        5. Appuyez sur retour, et la tuile est prête à être utilisée.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notification</string>
+    <string name="notification_name">Icône de notification et de barre d’état</string>
+    <string name="notification_desc">Lorsqu’activé, une icône de notification et de barre d’état sera affichée dans la zone de notification lorsque le mode « Toujours actif » est activé.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Désactivation automatique</string>
+    <string name="revert_default_timeout_name">Retour automatique au délai par défaut</string>
+    <string name="revert_default_timeout_desc">Retour automatique au délai d’extinction d’écran par défaut lorsque l’écran s’éteint %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">désactivé</string>
+    <string name="condition_any_timeout">activé</string>
+    <string name="condition_only_always_on">activé uniquement pour le mode toujours actif</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Ajouter à l’écran d’accueil</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Paramètres au démarrage</string>
+    <string name="onboot_trigger_name">Restaurer au démarrage</string>
+    <string name="onboot_trigger_desc">Restaure le dernier état actif au démarrage. Utile si vous souhaitez que les durées soient restaurées à l’état antérieur au redémarrage de l’appareil.</string>
+    <string name="onboot_toast_name">Afficher un message</string>
+    <string name="onboot_toast_desc">Affiche un message Toast une fois les paramètres restaurés.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Paramètres de multi-tap</string>
+    <string name="multitap_enable_name">Prise en charge du multi-tap</string>
+    <string name="multitap_enable_desc">Active ou désactive la prise en charge du multi-tap pour le widget. Cette fonction permet d’augmenter ou de diminuer le délai du widget en utilisant des doubles ou triples tapotements sur le widget.</string>
+    <string name="multitap_smart_system_name">Délai intelligent multi-tap</string>
+    <string name="multitap_smart_system_desc">Délai multi-étapes intelligent pour le multi-tap : un simple tapotement sera traité plus rapidement, réduisant le temps d’attente pour les doubles et triples tapotements.</string>
+
+    <string name="single_tap_action_name">Action du tapotement simple</string>
+    <string name="single_tap_action_desc">%s. Choisissez l’action à utiliser pour un tapotement simple.</string>
+    <string name="single_always_on">Basculer entre toujours actif et délai par défaut</string>
+    <string name="single_last_active">Basculer entre le dernier délai utilisé et le délai par défaut</string>
+    <string name="sort_timeouts_name">Trier la liste des délais personnalisés</string>
+    <string name="sort_timeouts_desc">%s. Choisissez une option de tri.</string>
+
+    <string name="do_not_sort">Ne pas trier</string>
+    <string name="do_sort_asc">Trier par ordre croissant</string>
+    <string name="do_sort_desc">Trier par ordre décroissant</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Personnalisations visuelles</string>
+    <string name="widget_font_size_header">Taille de la police</string>
+    <string name="widget_font_size_desc">Sélectionnez la taille de la police utilisée dans le widget. Utile pour obtenir les meilleurs résultats visuels avec différents lanceurs.</string>
+    <string name="widget_icon_size_header">Taille de l’icône</string>
+    <string name="widget_icon_size_desc">Sélection de la taille de l’icône du widget. Utile pour obtenir les meilleurs résultats visuels avec différents lanceurs.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Taille de l’icône</string>
+    <string name="action_settings">Paramètres</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Paramètres</string>
+    <string name="str_menu_rate_app">Évaluer l’application</string>
+    <string name="str_menu_share_app">Recommander l’application</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Personnaliser les délais</string>
+    <string name="custom_timeout1_header">Valeur de délai personnalisé 1</string>
+    <string name="custom_timeout1_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="custom_timeout2_header">Valeur de délai personnalisé 2</string>
+    <string name="custom_timeout2_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="custom_timeout3_header">Valeur de délai personnalisé 3</string>
+    <string name="custom_timeout3_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="custom_timeout4_header">Valeur de délai personnalisé 4</string>
+    <string name="custom_timeout4_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="custom_timeout5_header">Valeur de délai personnalisé 5</string>
+    <string name="custom_timeout5_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="custom_timeout6_header">Valeur de délai personnalisé 6</string>
+    <string name="custom_timeout6_value"> minutes. Entrez la valeur de délai souhaitée. Entrez 0 pour ignorer cet emplacement.</string>
+    <string name="enter_timeout_value">Veuillez entrer une valeur en minutes</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Délai d’extinction de l’écran</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Protection contre faible batterie</string>
+
+    <string name="disable_on_low_name">Désactivation automatique en cas de faible batterie</string>
+    <string name="disable_on_low_desc">Désactive automatiquement le mode toujours actif lorsque le niveau de batterie est faible.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Aucune licence</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Paramètres généraux</string>
+    <string name="advanced_settings">Paramètres avancés</string>
+    <string name="timeout_settings">Délais personnalisés</string>
+    <string name="contact_support">Contacter le support</string>
+    <string name="email_us">Nous envoyer un e-mail</string>
+    <string name="documentation">Documentation</string>
+    <string name="chat_support">Chat de support technique</string>
+    <string name="contribute_translations">Contribuer aux traductions</string>
+    <string name="social_networks">Réseaux sociaux</string>
+    <string name="social_facebook">Page Facebook</string>
+    <string name="social_vk">Page VK</string>
+    <string name="social_telegram">Groupe Telegram</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Paramètres de l’application</string>
+    <string name="settings_header_support_channels">Canaux de support</string>
+    <string name="settings_header_contribution_and_social_media">Contribution et médias sociaux</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Canaux des réseaux sociaux</string>
+
+    <string name="app_automation_settings_title">Automatisation des applications</string>
+    <string name="app_automation_settings_summary">Garder l’écran allumé automatiquement pour les applications sélectionnées</string>
+    <string name="app_automation_usage_access_required">Pour détecter l’application au premier plan, autorisez l’accès aux statistiques d’utilisation dans les paramètres système.</string>
+    <string name="app_automation_open_usage_access">Ouvrir l’accès aux statistiques d’utilisation</string>
+    <string name="app_automation_screen_hint">Sélectionnez les applications qui doivent garder l’écran allumé automatiquement.</string>
+    <string name="app_automation_no_apps">Aucune application lançable trouvée sur cet appareil.</string>
+    <string name="app_automation_checkbox_content_desc">Activer l’automatisation pour l’application</string>
+    <string name="app_automation_service_active">L’automatisation des applications est active</string>
+
+    <string name="app_automation_master_name">Activer l’automatisation des applications</string>
+
+    <string name="app_automation_master_desc">Activer le mode automatique de maintien de l’écran allumé pour les applications sélectionnées</string>
+
+    <string name="app_automation_search_hint">Rechercher des applications</string>
+
+    <string name="app_automation_section">Automatisation des applications</string>
+
+    <string name="app_automation_poll_name">Intervalle de vérification des applications</string>
+
+    <string name="app_automation_poll_desc">%s s. Choisissez l’intervalle de vérification des applications.</string>
+
+    <string name="app_automation_default_name">Préréglage de délai par défaut</string>
+
+    <string name="app_automation_default_desc">%s. Choisissez le préréglage de délai par défaut pour l’automatisation des applications.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Par défaut</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Sélectionner un préréglage de délai</string>
+
+    <string name="app_language_section">Langue</string>
+
+    <string name="app_language_name">Langue de l\'application</string>
+
+    <string name="app_language_desc">Choisissez la langue de l\'application</string>
+
+    <string name="app_language_system_default">Par défaut du système</string>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Schermo Attivo</string>
+    <string name="label_on">Sempre attivo</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Verifica della licenza fallita.</string>
+
+    <string name="lbl_permissions">Devi concedere a questa app il permesso di modificare le impostazioni prima che funzioni. L’unica impostazione che modificherà è il timeout dello schermo.</string>
+    <string name="btn_permissions">Configura</string>
+    <string name="lbl_addwidget_header">Aggiunta del widget alla schermata iniziale</string>
+    <string name="lbl_addwidget1">1. Premi il pulsante Home per accedere alla schermata iniziale.</string>
+    <string name="lbl_addwidget2">2. Tieni premuto il dito su un’area non occupata da un’icona.</string>
+    <string name="lbl_addwidget3">3. Seleziona “Widget”.</string>
+    <string name="lbl_addwidget4">4. Scorri fino al widget “ScreenWidget”.</string>
+    <string name="lbl_addwidget5">5. Trascinalo e rilascialo nella schermata iniziale dove desideri.</string>
+    <string name="lbl_addwidget6">6. Clicca sul widget per cambiare la modalità di timeout dello schermo.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Premi il pulsante Home per accedere alla schermata iniziale.<br/>
+        2. Tieni premuto il dito su un’area non occupata da un’icona.<br/>
+        3. Seleziona “Widget”.<br/>
+        4. Scorri fino al widget “ScreenWidget”.<br/>
+        5. Trascinalo e rilascialo nella schermata iniziale dove desideri.<br/>
+        6. Clicca sul widget per cambiare la modalità di timeout dello schermo.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Aggiunta di una tessera alle Impostazioni Rapide</string>
+    <string name="lbl_addtile1">1. Apri il pannello delle notifiche.</string>
+    <string name="lbl_addtile2">2. Scorri verso il basso dall’alto per aprire il pannello delle Impostazioni Rapide.</string>
+    <string name="lbl_addtile3">3. Tocca il pulsante MODIFICA.</string>
+    <string name="lbl_addtile4">4. Trascina la tessera chiamata “Timeout Schermo” nel pannello delle Impostazioni Rapide.</string>
+    <string name="lbl_addtile5">5. Tocca Indietro e la tessera sarà pronta per l’uso.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Apri il pannello delle notifiche.<br/>
+        2. Scorri verso il basso dall’alto per aprire il pannello delle Impostazioni Rapide.<br/>
+        3. Tocca il pulsante MODIFICA.<br/>
+        4. Trascina la tessera chiamata “Timeout Schermo” nel pannello delle Impostazioni Rapide.<br/>
+        5. Tocca Indietro e la tessera sarà pronta per l’uso.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notifica</string>
+    <string name="notification_name">Icona di notifica e barra di stato</string>
+    <string name="notification_desc">Quando abilitato, l’icona di notifica e della barra di stato verrà mostrata nell’area delle notifiche quando la modalità “Sempre attivo” è attivata.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Disattivazione automatica</string>
+    <string name="revert_default_timeout_name">Ripristino automatico del timeout predefinito</string>
+    <string name="revert_default_timeout_desc">Ripristino automatico del timeout predefinito dello schermo quando lo schermo si spegne %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">disabilitato</string>
+    <string name="condition_any_timeout">abilitato</string>
+    <string name="condition_only_always_on">abilitato solo per la modalità sempre attivo</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Aggiungi alla schermata iniziale</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Impostazioni all’avvio</string>
+    <string name="onboot_trigger_name">Ripristina all’avvio</string>
+    <string name="onboot_trigger_desc">Ripristina l’ultimo stato attivo all’avvio. Utile se desideri che i tempi siano ripristinati allo stato precedente al riavvio del dispositivo.</string>
+    <string name="onboot_toast_name">Mostra messaggio</string>
+    <string name="onboot_toast_desc">Mostra un messaggio Toast una volta ripristinate le impostazioni.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Impostazioni multi-tap</string>
+    <string name="multitap_enable_name">Supporto multi-tap</string>
+    <string name="multitap_enable_desc">Abilita o disabilita il supporto multi-tap per il widget. La funzione multi-tap consente di aumentare o diminuire il timeout del widget usando doppi o tripli tocchi sul widget.</string>
+    <string name="multitap_smart_system_name">Ritardo intelligente multi-tap</string>
+    <string name="multitap_smart_system_desc">Ritardo multi-stadio intelligente per multi-tap: un tocco singolo sarà elaborato più velocemente, riducendo il tempo di attesa per tocchi doppi e tripli.</string>
+
+    <string name="single_tap_action_name">Azione tocco singolo</string>
+    <string name="single_tap_action_desc">%s. Scegli l’azione da usare per un tocco singolo.</string>
+    <string name="single_always_on">Passa tra sempre attivo e timeout predefinito</string>
+    <string name="single_last_active">Passa tra l’ultimo timeout usato e il timeout predefinito</string>
+    <string name="sort_timeouts_name">Ordina la lista dei timeout personalizzati</string>
+    <string name="sort_timeouts_desc">%s. Scegli un’opzione di ordinamento.</string>
+
+    <string name="do_not_sort">Non ordinare</string>
+    <string name="do_sort_asc">Ordina in ordine crescente</string>
+    <string name="do_sort_desc">Ordina in ordine decrescente</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Personalizzazioni visive</string>
+    <string name="widget_font_size_header">Dimensione del carattere</string>
+    <string name="widget_font_size_desc">Seleziona la dimensione del carattere usata nel widget. Utile per ottenere i migliori risultati visivi con diversi launcher.</string>
+    <string name="widget_icon_size_header">Dimensione dell’icona</string>
+    <string name="widget_icon_size_desc">Selezione della dimensione dell’icona del widget. Utile per ottenere i migliori risultati visivi con diversi launcher.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Dimensione dell’icona</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Impostazioni</string>
+    <string name="str_menu_rate_app">Valuta l’applicazione</string>
+    <string name="str_menu_share_app">Consiglia l’applicazione</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Personalizza i timeout</string>
+    <string name="custom_timeout1_header">Valore timeout personalizzato 1</string>
+    <string name="custom_timeout1_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="custom_timeout2_header">Valore timeout personalizzato 2</string>
+    <string name="custom_timeout2_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="custom_timeout3_header">Valore timeout personalizzato 3</string>
+    <string name="custom_timeout3_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="custom_timeout4_header">Valore timeout personalizzato 4</string>
+    <string name="custom_timeout4_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="custom_timeout5_header">Valore timeout personalizzato 5</string>
+    <string name="custom_timeout5_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="custom_timeout6_header">Valore timeout personalizzato 6</string>
+    <string name="custom_timeout6_value"> minuti. Inserisci il valore di timeout desiderato. Inserisci 0 per ignorare questo slot.</string>
+    <string name="enter_timeout_value">Inserisci il valore in minuti</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Timeout Schermo</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Protezione batteria scarica</string>
+
+    <string name="disable_on_low_name">Disattivazione automatica con batteria scarica</string>
+    <string name="disable_on_low_desc">Disattiva automaticamente la modalità sempre attivo quando il livello della batteria è basso.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Nessuna licenza</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Impostazioni generali</string>
+    <string name="advanced_settings">Impostazioni avanzate</string>
+    <string name="timeout_settings">Timeout personalizzati</string>
+    <string name="contact_support">Contatta il supporto</string>
+    <string name="email_us">Inviaci un’email</string>
+    <string name="documentation">Documentazione</string>
+    <string name="chat_support">Chat di supporto tecnico</string>
+    <string name="contribute_translations">Contribuisci alle traduzioni</string>
+    <string name="social_networks">Reti sociali</string>
+    <string name="social_facebook">Pagina Facebook</string>
+    <string name="social_vk">Pagina VK</string>
+    <string name="social_telegram">Gruppo Telegram</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Impostazioni dell’applicazione</string>
+    <string name="settings_header_support_channels">Canali di supporto</string>
+    <string name="settings_header_contribution_and_social_media">Contributo e social media</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Canali delle reti sociali</string>
+
+    <string name="app_automation_settings_title">Automazione applicazioni</string>
+    <string name="app_automation_settings_summary">Mantieni lo schermo acceso automaticamente per le app selezionate</string>
+    <string name="app_automation_usage_access_required">Per rilevare l’app in primo piano, consenti l’accesso alle statistiche di utilizzo nelle impostazioni di sistema.</string>
+    <string name="app_automation_open_usage_access">Apri accesso statistiche utilizzo</string>
+    <string name="app_automation_screen_hint">Seleziona le app che devono mantenere automaticamente lo schermo acceso.</string>
+    <string name="app_automation_no_apps">Nessuna app avviabile trovata su questo dispositivo.</string>
+    <string name="app_automation_checkbox_content_desc">Abilita automazione per l\'app</string>
+    <string name="app_automation_service_active">L\'automazione delle app è attiva</string>
+
+    <string name="app_automation_master_name">Abilita automazione app</string>
+
+    <string name="app_automation_master_desc">Abilita la modalità automatica di schermo acceso per le app selezionate</string>
+
+    <string name="app_automation_search_hint">Cerca app</string>
+
+    <string name="app_automation_section">Automazione applicazioni</string>
+
+    <string name="app_automation_poll_name">Intervallo di controllo applicazioni</string>
+
+    <string name="app_automation_poll_desc">%s sec. Scegli l’intervallo di controllo applicazioni.</string>
+
+    <string name="app_automation_default_name">Preset timeout predefinito</string>
+
+    <string name="app_automation_default_desc">%s. Scegli il preset timeout predefinito per l’automazione app.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Predefinito</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Seleziona preset timeout</string>
+
+    <string name="app_language_section">Lingua</string>
+
+    <string name="app_language_name">Lingua dell\'applicazione</string>
+
+    <string name="app_language_desc">Scegli la lingua dell\'applicazione</string>
+
+    <string name="app_language_system_default">Predefinita di sistema</string>
+</resources>

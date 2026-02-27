@@ -153,4 +153,45 @@
 
     <!-- Social networks header -->
     <string name="social_networks_list">Social Network Channels</string>
+
+    <string name="app_automation_settings_title">Automatizare aplicații</string>
+    <string name="app_automation_settings_summary">Menține automat ecranul aprins pentru aplicațiile selectate</string>
+    <string name="app_automation_usage_access_required">Pentru a detecta aplicația din prim-plan, permite accesul la statisticile de utilizare în setările sistemului.</string>
+    <string name="app_automation_open_usage_access">Deschide accesul la statisticile de utilizare</string>
+    <string name="app_automation_screen_hint">Selectează aplicațiile pentru care ecranul trebuie să rămână automat aprins.</string>
+    <string name="app_automation_no_apps">Nu au fost găsite aplicații lansabile pe acest dispozitiv.</string>
+    <string name="app_automation_checkbox_content_desc">Activează automatizarea pentru aplicație</string>
+    <string name="app_automation_service_active">Automatizarea aplicațiilor este activă</string>
+
+    <string name="app_automation_master_name">Activează automatizarea aplicațiilor</string>
+
+    <string name="app_automation_master_desc">Activează modul automat de menținere a ecranului aprins pentru aplicațiile selectate</string>
+
+    <string name="app_automation_search_hint">Caută aplicații</string>
+
+    <string name="app_automation_section">Automatizare aplicații</string>
+
+    <string name="app_automation_poll_name">Interval de verificare aplicații</string>
+
+    <string name="app_automation_poll_desc">%s sec. Alege intervalul de verificare pentru aplicații.</string>
+
+    <string name="app_automation_default_name">Preset timeout implicit</string>
+
+    <string name="app_automation_default_desc">%s. Alege presetul timeout implicit pentru automatizarea aplicațiilor.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Implicit</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Selectează presetul de timeout</string>
+
+    <string name="app_language_section">Limbă</string>
+
+    <string name="app_language_name">Limba aplicației</string>
+
+    <string name="app_language_desc">Alege limba aplicației</string>
+
+    <string name="app_language_system_default">Implicit sistem</string>
 </resources>

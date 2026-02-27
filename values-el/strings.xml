@@ -152,4 +152,45 @@
 
 
 
+
+    <string name="app_automation_settings_title">Αυτοματοποίηση εφαρμογών</string>
+    <string name="app_automation_settings_summary">Διατήρηση της οθόνης ενεργής αυτόματα για επιλεγμένες εφαρμογές</string>
+    <string name="app_automation_usage_access_required">Για να εντοπίζεται η εφαρμογή στο προσκήνιο, επιτρέψτε πρόσβαση στα στατιστικά χρήσης στις ρυθμίσεις συστήματος.</string>
+    <string name="app_automation_open_usage_access">Άνοιγμα πρόσβασης στα στατιστικά χρήσης</string>
+    <string name="app_automation_screen_hint">Επιλέξτε εφαρμογές που πρέπει να κρατούν αυτόματα ενεργή την οθόνη.</string>
+    <string name="app_automation_no_apps">Δεν βρέθηκαν εκκινήσιμες εφαρμογές σε αυτή τη συσκευή.</string>
+    <string name="app_automation_checkbox_content_desc">Ενεργοποίηση αυτοματοποίησης εφαρμογής</string>
+    <string name="app_automation_service_active">Η αυτοματοποίηση εφαρμογών είναι ενεργή</string>
+
+    <string name="app_automation_master_name">Ενεργοποίηση αυτοματοποίησης εφαρμογών</string>
+
+    <string name="app_automation_master_desc">Ενεργοποίηση αυτόματης λειτουργίας διατήρησης οθόνης για επιλεγμένες εφαρμογές</string>
+
+    <string name="app_automation_search_hint">Αναζήτηση εφαρμογών</string>
+
+    <string name="app_automation_section">Αυτοματοποίηση εφαρμογών</string>
+
+    <string name="app_automation_poll_name">Διάστημα ελέγχου εφαρμογών</string>
+
+    <string name="app_automation_poll_desc">%s δευτ. Επιλέξτε διάστημα ελέγχου εφαρμογών.</string>
+
+    <string name="app_automation_default_name">Προεπιλεγμένο preset χρονικού ορίου</string>
+
+    <string name="app_automation_default_desc">%s. Επιλέξτε το προεπιλεγμένο preset χρονικού ορίου για την αυτοματοποίηση εφαρμογών.</string>
+
+    <string name="app_automation_minutes_compact">%1$d λ</string>
+
+    <string name="app_automation_preset_default_menu">Προεπιλογή</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Επιλογή preset χρονικού ορίου</string>
+
+    <string name="app_language_section">Γλώσσα</string>
+
+    <string name="app_language_name">Γλώσσα εφαρμογής</string>
+
+    <string name="app_language_desc">Επιλέξτε γλώσσα εφαρμογής</string>
+
+    <string name="app_language_system_default">Προεπιλογή συστήματος</string>
 </resources>

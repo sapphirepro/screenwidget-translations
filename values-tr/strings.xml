@@ -157,4 +157,45 @@
 
 	<!-- Social networks header -->
 	<string name="social_networks_list">Social Network Channels</string>
+
+    <string name="app_automation_settings_title">Uygulama otomasyonu</string>
+    <string name="app_automation_settings_summary">Seçilen uygulamalar için ekranı otomatik olarak açık tut</string>
+    <string name="app_automation_usage_access_required">Öndeki uygulamayı algılamak için sistem ayarlarında kullanım erişimine izin verin.</string>
+    <string name="app_automation_open_usage_access">Kullanım erişimi ayarını aç</string>
+    <string name="app_automation_screen_hint">Ekranı otomatik olarak açık tutması gereken uygulamaları seçin.</string>
+    <string name="app_automation_no_apps">Bu cihazda başlatılabilir uygulama bulunamadı.</string>
+    <string name="app_automation_checkbox_content_desc">Uygulama otomasyonunu etkinleştir</string>
+    <string name="app_automation_service_active">Uygulama otomasyonu etkin</string>
+
+    <string name="app_automation_master_name">Uygulama otomasyonunu etkinleştir</string>
+
+    <string name="app_automation_master_desc">Seçilen uygulamalar için otomatik ekran açık modunu etkinleştir</string>
+
+    <string name="app_automation_search_hint">Uygulama ara</string>
+
+    <string name="app_automation_section">Uygulama otomasyonu</string>
+
+    <string name="app_automation_poll_name">Uygulama kontrol aralığı</string>
+
+    <string name="app_automation_poll_desc">%s sn. Uygulama kontrol aralığını seçin.</string>
+
+    <string name="app_automation_default_name">Varsayılan zaman aşımı ön ayarı</string>
+
+    <string name="app_automation_default_desc">%s. Uygulama otomasyonu için varsayılan zaman aşımı ön ayarını seçin.</string>
+
+    <string name="app_automation_minutes_compact">%1$d dk</string>
+
+    <string name="app_automation_preset_default_menu">Varsayılan</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Zaman aşımı ön ayarı seç</string>
+
+    <string name="app_language_section">Dil</string>
+
+    <string name="app_language_name">Uygulama dili</string>
+
+    <string name="app_language_desc">Uygulama dilini seçin</string>
+
+    <string name="app_language_system_default">Sistem varsayılanı</string>
 </resources>

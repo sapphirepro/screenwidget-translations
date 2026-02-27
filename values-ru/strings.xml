@@ -145,4 +145,45 @@
 
     <!-- Social networks header -->
     <string name="social_networks_list">Каналы социальных сетей</string>
+
+    <string name="app_automation_settings_title">Автоматизация приложений</string>
+    <string name="app_automation_settings_summary">Автоматически удерживать экран включенным для выбранных приложений</string>
+    <string name="app_automation_usage_access_required">Чтобы определять активное приложение, разрешите доступ к статистике использования в настройках системы.</string>
+    <string name="app_automation_open_usage_access">Открыть доступ к статистике использования</string>
+    <string name="app_automation_screen_hint">Выберите приложения, для которых экран должен автоматически оставаться включенным.</string>
+    <string name="app_automation_no_apps">На устройстве не найдено приложений с интерфейсом.</string>
+    <string name="app_automation_checkbox_content_desc">Включить автоматику для приложения</string>
+    <string name="app_automation_service_active">Автоматизация приложений активна</string>
+
+    <string name="app_automation_master_name">Включить автоматизацию приложений</string>
+
+    <string name="app_automation_master_desc">Включить автоматическое удержание экрана для выбранных приложений</string>
+
+    <string name="app_automation_search_hint">Поиск приложений</string>
+
+    <string name="app_automation_section">Автоматизация приложений</string>
+
+    <string name="app_automation_poll_name">Интервал опроса приложений</string>
+
+    <string name="app_automation_poll_desc">%s сек. Выберите интервал опроса приложений.</string>
+
+    <string name="app_automation_default_name">Пресет таймаута по умолчанию</string>
+
+    <string name="app_automation_default_desc">%s. Выберите пресет таймаута по умолчанию для автоматизации приложений.</string>
+
+    <string name="app_automation_minutes_compact">%1$d м</string>
+
+    <string name="app_automation_preset_default_menu">По умолчанию</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Выбрать пресет таймаута</string>
+
+    <string name="app_language_section">Язык</string>
+
+    <string name="app_language_name">Язык приложения</string>
+
+    <string name="app_language_desc">Выберите язык приложения</string>
+
+    <string name="app_language_system_default">Как в системе</string>
 </resources>

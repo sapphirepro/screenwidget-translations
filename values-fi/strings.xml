@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Näytön Pito</string>
+    <string name="label_on">Aina päällä</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Lisenssitarkistus epäonnistui.</string>
+
+    <string name="lbl_permissions">Sinun on annettava tälle sovellukselle lupa muuttaa asetuksia, ennen kuin se toimii. Ainoa asetus, jota se muuttaa, on näytön aikakatkaisu.</string>
+    <string name="btn_permissions">Määritä</string>
+    <string name="lbl_addwidget_header">Widgetin lisääminen aloitusnäyttöön</string>
+    <string name="lbl_addwidget1">1. Paina Koti-painiketta päästäksesi aloitusnäyttöön.</string>
+    <string name="lbl_addwidget2">2. Pidä sormea painettuna alueella, jota ei ole varattu kuvakkeella.</string>
+    <string name="lbl_addwidget3">3. Valitse “Widgetit”.</string>
+    <string name="lbl_addwidget4">4. Vieritä “ScreenWidget”-widgetiin.</string>
+    <string name="lbl_addwidget5">5. Vedä ja pudota se aloitusnäyttöön haluamaasi paikkaan.</string>
+    <string name="lbl_addwidget6">6. Napsauta widgetiä vaihtaaksesi näytön aikakatkaisutilaa.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Paina Koti-painiketta päästäksesi aloitusnäyttöön.<br/>
+        2. Pidä sormea painettuna alueella, jota ei ole varattu kuvakkeella.<br/>
+        3. Valitse “Widgetit”.<br/>
+        4. Vieritä “ScreenWidget”-widgetiin.<br/>
+        5. Vedä ja pudota se aloitusnäyttöön haluamaasi paikkaan.<br/>
+        6. Napsauta widgetiä vaihtaaksesi näytön aikakatkaisutilaa.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Pika-asetusten laatan lisääminen</string>
+    <string name="lbl_addtile1">1. Avaa ilmoituspaneeli.</string>
+    <string name="lbl_addtile2">2. Vedä alas ylhäältä avataksesi Pika-asetukset-paneelin.</string>
+    <string name="lbl_addtile3">3. Napauta MUOKKAA-painiketta.</string>
+    <string name="lbl_addtile4">4. Vedä “Näytön aikakatkaisu”-laatta Pika-asetukset-paneeliin.</string>
+    <string name="lbl_addtile5">5. Napauta Takaisin, ja laatta on valmis käytettäväksi.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Avaa ilmoituspaneeli.<br/>
+        2. Vedä alas ylhäältä avataksesi Pika-asetukset-paneelin.<br/>
+        3. Napauta MUOKKAA-painiketta.<br/>
+        4. Vedä “Näytön aikakatkaisu”-laatta Pika-asetukset-paneeliin.<br/>
+        5. Napauta Takaisin, ja laatta on valmis käytettäväksi.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Ilmoitus</string>
+    <string name="notification_name">Ilmoitus- ja tilapalkkikuvake</string>
+    <string name="notification_desc">Kun tämä on käytössä, ilmoitus- ja tilapalkkikuvake näytetään ilmoitusalueella, kun “Aina päällä” -tila on aktivoitu.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Automaattinen deaktivointi</string>
+    <string name="revert_default_timeout_name">Automaattinen paluu oletusaikakatkaisuun</string>
+    <string name="revert_default_timeout_desc">Palaa automaattisesti oletusnäytön aikakatkaisuun, kun näyttö sammuu %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">pois käytöstä</string>
+    <string name="condition_any_timeout">käytössä</string>
+    <string name="condition_only_always_on">käytössä vain aina päällä -tilassa</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Lisää aloitusnäyttöön</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Käynnistysasetukset</string>
+    <string name="onboot_trigger_name">Palauta käynnistyksessä</string>
+    <string name="onboot_trigger_desc">Palauta viimeisin aktiivinen tila käynnistyksessä. Hyödyllinen, jos haluat aikojen palautuvan laitteen uudelleenkäynnistystä edeltävään tilaan.</string>
+    <string name="onboot_toast_name">Näytä viesti</string>
+    <string name="onboot_toast_desc">Näytä Toast-viesti, kun asetukset on palautettu.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Monikosketusasetukset</string>
+    <string name="multitap_enable_name">Monikosketustuki</string>
+    <string name="multitap_enable_desc">Ota käyttöön tai poista käytöstä monikosketustuki widgetille. Monikosketusominaisuus mahdollistaa aikakatkaisuasetusten lisäämisen ja vähentämisen kaksois- ja kolmoisnapautuksilla widgetissä.</string>
+    <string name="multitap_smart_system_name">Älykäs monikosketusviive</string>
+    <string name="multitap_smart_system_desc">Älykäs monivaiheinen monikosketusviive: yksi napautus käsitellään nopeammin, sitten kaksois- ja kolmoisnapautukset vähentävät odotusaikaa.</string>
+
+    <string name="single_tap_action_name">Yhden napautuksen toiminto</string>
+    <string name="single_tap_action_desc">%s. Valitse yhden napautuksen toiminto.</string>
+    <string name="single_always_on">Vaihda aina päällä ja oletusaikakatkaisun välillä</string>
+    <string name="single_last_active">Vaihda viimeksi käytetyn aikakatkaisun ja oletuksen välillä</string>
+    <string name="sort_timeouts_name">Järjestä mukautetut aikakatkaisut</string>
+    <string name="sort_timeouts_desc">%s. Valitse järjestysvaihtoehto.</string>
+
+    <string name="do_not_sort">Älä järjestä</string>
+    <string name="do_sort_asc">Järjestä nousevasti</string>
+    <string name="do_sort_desc">Järjestä laskevasti</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Visuaaliset mukautukset</string>
+    <string name="widget_font_size_header">Fontin koko</string>
+    <string name="widget_font_size_desc">Valitse widgetissä käytettävä fontin koko. Hyödyllinen parhaiden visuaalisten tulosten saamiseksi eri käynnistimillä.</string>
+    <string name="widget_icon_size_header">Kuvakkeen koko</string>
+    <string name="widget_icon_size_desc">Widgetin kuvakkeen koon valinta. Hyödyllinen parhaiden visuaalisten tulosten saamiseksi eri käynnistimillä.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Kuvakkeen koko</string>
+    <string name="action_settings">Asetukset</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Asetukset</string>
+    <string name="str_menu_rate_app">Arvioi sovellus</string>
+    <string name="str_menu_share_app">Suosittele sovellusta</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Mukauta aikakatkaisuja</string>
+    <string name="custom_timeout1_header">Mukautettu aikakatkaisu 1</string>
+    <string name="custom_timeout1_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="custom_timeout2_header">Mukautettu aikakatkaisu 2</string>
+    <string name="custom_timeout2_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="custom_timeout3_header">Mukautettu aikakatkaisu 3</string>
+    <string name="custom_timeout3_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="custom_timeout4_header">Mukautettu aikakatkaisu 4</string>
+    <string name="custom_timeout4_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="custom_timeout5_header">Mukautettu aikakatkaisu 5</string>
+    <string name="custom_timeout5_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="custom_timeout6_header">Mukautettu aikakatkaisu 6</string>
+    <string name="custom_timeout6_value"> minuuttia. Syötä haluamasi aikakatkaisuarvo. Syötä 0 ohittaaksesi tämän paikan.</string>
+    <string name="enter_timeout_value">Syötä arvo minuuteissa</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Näytön aikakatkaisu</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Alhaisen akun suojaus</string>
+
+    <string name="disable_on_low_name">Automaattinen poiskytkentä alhaisella akulla</string>
+    <string name="disable_on_low_desc">Poistaa automaattisesti aina päällä -tilan, kun akun taso on alhainen.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Ei lisenssiä</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Yleiset asetukset</string>
+    <string name="advanced_settings">Lisäasetukset</string>
+    <string name="timeout_settings">Mukautetut aikakatkaisut</string>
+    <string name="contact_support">Ota yhteyttä tukeen</string>
+    <string name="email_us">Lähetä meille sähköpostia</string>
+    <string name="documentation">Dokumentaatio</string>
+    <string name="chat_support">Tekninen tuki -chat</string>
+    <string name="contribute_translations">Osallistu käännöksiin</string>
+    <string name="social_networks">Sosiaalinen media</string>
+    <string name="social_facebook">Facebook-sivu</string>
+    <string name="social_vk">VK-sivu</string>
+    <string name="social_telegram">Telegram-ryhmä</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Sovelluksen asetukset</string>
+    <string name="settings_header_support_channels">Tukikanavat</string>
+    <string name="settings_header_contribution_and_social_media">Osallistuminen ja sosiaalinen media</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Sosiaalisen median kanavat</string>
+
+    <string name="app_automation_settings_title">Sovellusautomaatio</string>
+    <string name="app_automation_settings_summary">Pidä näyttö automaattisesti päällä valituille sovelluksille</string>
+    <string name="app_automation_usage_access_required">Jotta aktiivinen sovellus voidaan tunnistaa, salli käyttötilastojen käyttö järjestelmäasetuksissa.</string>
+    <string name="app_automation_open_usage_access">Avaa käyttötilastojen käyttöoikeus</string>
+    <string name="app_automation_screen_hint">Valitse sovellukset, joiden tulee pitää näyttö automaattisesti päällä.</string>
+    <string name="app_automation_no_apps">Tästä laitteesta ei löytynyt käynnistettäviä sovelluksia.</string>
+    <string name="app_automation_checkbox_content_desc">Ota sovellusautomaatio käyttöön</string>
+    <string name="app_automation_service_active">Sovellusautomaatio on käytössä</string>
+
+    <string name="app_automation_master_name">Ota sovellusautomaatio käyttöön</string>
+
+    <string name="app_automation_master_desc">Ota käyttöön automaattinen näytön päällä -tila valituille sovelluksille</string>
+
+    <string name="app_automation_search_hint">Hae sovelluksia</string>
+
+    <string name="app_automation_section">Sovellusautomaatio</string>
+
+    <string name="app_automation_poll_name">Sovellusten tarkistusväli</string>
+
+    <string name="app_automation_poll_desc">%s s. Valitse sovellusten tarkistusväli.</string>
+
+    <string name="app_automation_default_name">Oletusviiveen esiasetus</string>
+
+    <string name="app_automation_default_desc">%s. Valitse oletusviiveen esiasetus sovellusautomaatioon.</string>
+
+    <string name="app_automation_minutes_compact">%1$d min</string>
+
+    <string name="app_automation_preset_default_menu">Oletus</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Valitse viiveen esiasetus</string>
+
+    <string name="app_language_section">Kieli</string>
+
+    <string name="app_language_name">Sovelluksen kieli</string>
+
+    <string name="app_language_desc">Valitse sovelluksen kieli</string>
+
+    <string name="app_language_system_default">Järjestelmän oletus</string>
+</resources>

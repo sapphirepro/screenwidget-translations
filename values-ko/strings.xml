@@ -247,4 +247,45 @@
 
     <string name="social_networks_list">소셜 미디어 채널</string>
 
+
+    <string name="app_automation_settings_title">앱 자동화</string>
+    <string name="app_automation_settings_summary">선택한 앱에서 화면을 자동으로 켜진 상태로 유지</string>
+    <string name="app_automation_usage_access_required">전면 앱을 감지하려면 시스템 설정에서 사용량 접근 권한을 허용하세요.</string>
+    <string name="app_automation_open_usage_access">사용량 접근 설정 열기</string>
+    <string name="app_automation_screen_hint">화면을 자동으로 켜진 상태로 유지할 앱을 선택하세요.</string>
+    <string name="app_automation_no_apps">이 기기에서 실행 가능한 앱을 찾지 못했습니다.</string>
+    <string name="app_automation_checkbox_content_desc">앱 자동화 사용</string>
+    <string name="app_automation_service_active">앱 자동화가 실행 중입니다</string>
+
+        <string name="app_automation_master_name">앱 자동화 활성화</string>
+
+        <string name="app_automation_master_desc">선택한 앱에서 화면을 자동으로 켜진 상태로 유지합니다</string>
+
+    <string name="app_automation_search_hint">앱 검색</string>
+
+    <string name="app_automation_section">앱 자동화</string>
+
+        <string name="app_automation_poll_name">앱 확인 주기</string>
+
+        <string name="app_automation_poll_desc">%s초. 앱 확인 주기를 선택하세요.</string>
+
+        <string name="app_automation_default_name">기본 타임아웃 프리셋</string>
+
+        <string name="app_automation_default_desc">%s. 앱 자동화의 기본 타임아웃 프리셋을 선택하세요.</string>
+
+    <string name="app_automation_minutes_compact">%1$d분</string>
+
+    <string name="app_automation_preset_default_menu">기본값</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">화면 꺼짐 프리셋 선택</string>
+
+    <string name="app_language_section">언어</string>
+
+    <string name="app_language_name">앱 언어</string>
+
+    <string name="app_language_desc">앱 언어를 선택하세요</string>
+
+    <string name="app_language_system_default">시스템 기본값</string>
 </resources>

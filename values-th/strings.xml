@@ -139,20 +139,20 @@
     <string name="contact_support">ติดต่อเรา</string>
     <string name="email_us">ติดต่อเราผ่านอีเมล</string>
     <string name="documentation">เอกสารการใช้งาน</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">แชตฝ่ายสนับสนุนทางเทคนิค</string>
+    <string name="contribute_translations">ช่วยแปลภาษา</string>
+    <string name="social_networks">โซเชียลเน็ตเวิร์ก</string>
+    <string name="social_facebook">เพจ Facebook</string>
+    <string name="social_vk">เพจ VK</string>
+    <string name="social_telegram">กลุ่ม Telegram</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">การตั้งค่าแอปพลิเคชัน</string>
+    <string name="settings_header_support_channels">ช่องทางการสนับสนุน</string>
+    <string name="settings_header_contribution_and_social_media">การมีส่วนร่วมและโซเชียลมีเดีย</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">ช่องทางโซเชียลเน็ตเวิร์ก</string>
 
     <string name="app_automation_settings_title">ระบบอัตโนมัติของแอป</string>
     <string name="app_automation_settings_summary">เปิดหน้าจอค้างอัตโนมัติสำหรับแอปที่เลือก</string>
@@ -194,4 +194,23 @@
     <string name="app_language_desc">เลือกภาษาของแอป</string>
 
     <string name="app_language_system_default">ค่าเริ่มต้นของระบบ</string>
+
+    <string name="support_card_title">สนับสนุนแอป</string>
+    <string name="support_card_body">หากแอปนี้ช่วยคุณได้ โปรดให้คะแนนหรือเขียนรีวิวสั้นๆ
+สิ่งนี้มีผลโดยตรงว่าแอปจะได้รับการอัปเดตต่อไปหรือจะหยุดพัฒนา</string>
+    <string name="support_card_rate_on_play">ให้คะแนนบน Google Play</string>
+    <string name="support_card_not_now">ไว้ก่อน</string>
+    <string name="support_card_dont_show_again">ไม่ต้องแสดงอีก</string>
+
+    <string name="settings_export_title">ส่งออกการตั้งค่า</string>
+    <string name="settings_export_summary">บันทึกและกู้คืนการตั้งค่าแอปด้วยไฟล์ JSON</string>
+    <string name="settings_export_action">ส่งออกการตั้งค่า</string>
+    <string name="settings_import_action">นำเข้าการตั้งค่า</string>
+    <string name="settings_import_summary">นำเข้าการตั้งค่าจากไฟล์ JSON ที่ส่งออกไว้ก่อนหน้านี้</string>
+    <string name="settings_export_done">ส่งออกการตั้งค่าแล้ว: %1$d</string>
+    <string name="settings_import_done">นำเข้าการตั้งค่าแล้ว: %1$d</string>
+    <string name="settings_export_failed">การส่งออกล้มเหลว</string>
+    <string name="settings_import_failed">การนำเข้าล้มเหลว</string>
+    <string name="settings_export_failed_details">การส่งออกล้มเหลว: %1$s</string>
+    <string name="settings_import_failed_details">การนำเข้าล้มเหลว: %1$s</string>
 </resources>

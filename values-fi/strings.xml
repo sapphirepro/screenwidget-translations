@@ -187,4 +187,23 @@
     <string name="app_language_desc">Valitse sovelluksen kieli</string>
 
     <string name="app_language_system_default">Järjestelmän oletus</string>
+
+    <string name="support_card_title">Tue sovellusta</string>
+    <string name="support_card_body">Jos tämä sovellus auttaa sinua, jätäthän arvostelun tai lyhyen kommentin.
+Se vaikuttaa suoraan siihen, saako sovellus jatkossakin päivityksiä vai lopetetaanko se.</string>
+    <string name="support_card_rate_on_play">Arvioi Google Playssa</string>
+    <string name="support_card_not_now">Ei nyt</string>
+    <string name="support_card_dont_show_again">Älä näytä uudelleen</string>
+
+    <string name="settings_export_title">Vie asetukset</string>
+    <string name="settings_export_summary">Tallenna ja palauta sovelluksen asetukset JSON-tiedoston avulla</string>
+    <string name="settings_export_action">Vie asetukset</string>
+    <string name="settings_import_action">Tuo asetukset</string>
+    <string name="settings_import_summary">Tuo asetukset aiemmin viedystä JSON-tiedostosta</string>
+    <string name="settings_export_done">Asetuksia viety: %1$d</string>
+    <string name="settings_import_done">Asetuksia tuotu: %1$d</string>
+    <string name="settings_export_failed">Vienti epäonnistui</string>
+    <string name="settings_import_failed">Tuonti epäonnistui</string>
+    <string name="settings_export_failed_details">Vienti epäonnistui: %1$s</string>
+    <string name="settings_import_failed_details">Tuonti epäonnistui: %1$s</string>
 </resources>

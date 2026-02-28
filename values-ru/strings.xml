@@ -186,4 +186,23 @@
     <string name="app_language_desc">Выберите язык приложения</string>
 
     <string name="app_language_system_default">Как в системе</string>
+
+    <string name="settings_export_title">Экспорт настроек</string>
+    <string name="settings_export_summary">Сохранение и восстановление настроек приложения через JSON-файл</string>
+    <string name="settings_export_action">Экспортировать настройки</string>
+    <string name="settings_import_action">Импортировать настройки</string>
+    <string name="settings_import_summary">Импорт настроек из ранее экспортированного JSON-файла</string>
+    <string name="settings_export_done">Настройки экспортированы: %1$d</string>
+    <string name="settings_import_done">Настройки импортированы: %1$d</string>
+    <string name="settings_export_failed">Ошибка экспорта</string>
+    <string name="settings_import_failed">Ошибка импорта</string>
+    <string name="settings_export_failed_details">Не удалось экспортировать: %1$s</string>
+    <string name="settings_import_failed_details">Не удалось импортировать: %1$s</string>
+
+    <string name="support_card_title">Поддержите приложение</string>
+    <string name="support_card_body">Если это приложение вам помогает, пожалуйста, оставьте оценку или короткий отзыв.
+Это напрямую влияет на то, будет ли приложение получать обновления дальше или будет закрыто.</string>
+    <string name="support_card_rate_on_play">Оценить в Google Play</string>
+    <string name="support_card_not_now">Не сейчас</string>
+    <string name="support_card_dont_show_again">Больше не показывать</string>
 </resources>

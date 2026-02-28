@@ -198,4 +198,23 @@
     <string name="app_language_desc">App-Sprache auswählen</string>
 
     <string name="app_language_system_default">Systemstandard</string>
+
+    <string name="support_card_title">Unterstütze die App</string>
+    <string name="support_card_body">Wenn dir diese App hilft, hinterlasse bitte eine Bewertung oder kurze Rezension.
+Davon hängt direkt ab, ob die App weiterhin Updates erhält oder eingestellt wird.</string>
+    <string name="support_card_rate_on_play">Bei Google Play bewerten</string>
+    <string name="support_card_not_now">Jetzt nicht</string>
+    <string name="support_card_dont_show_again">Nicht mehr anzeigen</string>
+
+    <string name="settings_export_title">Einstellungen exportieren</string>
+    <string name="settings_export_summary">App-Einstellungen mit einer JSON-Datei sichern und wiederherstellen</string>
+    <string name="settings_export_action">Einstellungen exportieren</string>
+    <string name="settings_import_action">Einstellungen importieren</string>
+    <string name="settings_import_summary">Einstellungen aus einer zuvor exportierten JSON-Datei importieren</string>
+    <string name="settings_export_done">Einstellungen exportiert: %1$d</string>
+    <string name="settings_import_done">Einstellungen importiert: %1$d</string>
+    <string name="settings_export_failed">Export fehlgeschlagen</string>
+    <string name="settings_import_failed">Import fehlgeschlagen</string>
+    <string name="settings_export_failed_details">Export fehlgeschlagen: %1$s</string>
+    <string name="settings_import_failed_details">Import fehlgeschlagen: %1$s</string>
 </resources>

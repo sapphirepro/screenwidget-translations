@@ -192,4 +192,23 @@
     <string name="app_language_desc">Choose application language</string>
 
     <string name="app_language_system_default">System default</string>
+
+    <string name="settings_export_title">Export Settings</string>
+    <string name="settings_export_summary">Save and restore app settings using a JSON file</string>
+    <string name="settings_export_action">Export settings</string>
+    <string name="settings_import_action">Import settings</string>
+    <string name="settings_import_summary">Import settings from a previously exported JSON file</string>
+    <string name="settings_export_done">Settings exported: %1$d</string>
+    <string name="settings_import_done">Settings imported: %1$d</string>
+    <string name="settings_export_failed">Export failed</string>
+    <string name="settings_import_failed">Import failed</string>
+    <string name="settings_export_failed_details">Export failed: %1$s</string>
+    <string name="settings_import_failed_details">Import failed: %1$s</string>
+
+    <string name="support_card_title">Support the app</string>
+    <string name="support_card_body">If this app helps you, please leave a rating or short review.
+It directly determines whether the app will keep receiving updates or be discontinued.</string>
+    <string name="support_card_rate_on_play">Rate on Google Play</string>
+    <string name="support_card_not_now">Not now</string>
+    <string name="support_card_dont_show_again">Do not show again</string>
 </resources>

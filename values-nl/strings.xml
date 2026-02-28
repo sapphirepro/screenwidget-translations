@@ -183,4 +183,23 @@
     <string name="app_language_desc">Kies de taal van de app</string>
 
     <string name="app_language_system_default">Systeemstandaard</string>
+
+    <string name="support_card_title">Steun de app</string>
+    <string name="support_card_body">Als deze app je helpt, laat dan een beoordeling of korte review achter.
+Dit bepaalt direct of de app updates blijft krijgen of wordt stopgezet.</string>
+    <string name="support_card_rate_on_play">Beoordeel op Google Play</string>
+    <string name="support_card_not_now">Nu niet</string>
+    <string name="support_card_dont_show_again">Niet meer tonen</string>
+
+    <string name="settings_export_title">Instellingen exporteren</string>
+    <string name="settings_export_summary">Sla appinstellingen op en herstel ze met een JSON-bestand</string>
+    <string name="settings_export_action">Instellingen exporteren</string>
+    <string name="settings_import_action">Instellingen importeren</string>
+    <string name="settings_import_summary">Importeer instellingen uit een eerder geëxporteerd JSON-bestand</string>
+    <string name="settings_export_done">Instellingen geëxporteerd: %1$d</string>
+    <string name="settings_import_done">Instellingen geïmporteerd: %1$d</string>
+    <string name="settings_export_failed">Exporteren mislukt</string>
+    <string name="settings_import_failed">Importeren mislukt</string>
+    <string name="settings_export_failed_details">Exporteren mislukt: %1$s</string>
+    <string name="settings_import_failed_details">Importeren mislukt: %1$s</string>
 </resources>

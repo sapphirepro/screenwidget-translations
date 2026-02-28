@@ -198,4 +198,23 @@
     <string name="app_language_desc">Uygulama dilini seçin</string>
 
     <string name="app_language_system_default">Sistem varsayılanı</string>
+
+    <string name="support_card_title">Uygulamayı destekleyin</string>
+    <string name="support_card_body">Bu uygulama işinize yarıyorsa lütfen puan verin veya kısa bir yorum bırakın.
+Bu, uygulamanın güncelleme almaya devam edip etmeyeceğini ya da sonlandırılıp sonlandırılmayacağını doğrudan belirler.</string>
+    <string name="support_card_rate_on_play">Google Play üzerinde puanla</string>
+    <string name="support_card_not_now">Şimdi değil</string>
+    <string name="support_card_dont_show_again">Bir daha gösterme</string>
+
+    <string name="settings_export_title">Ayarları dışa aktar</string>
+    <string name="settings_export_summary">Uygulama ayarlarını JSON dosyasıyla kaydedin ve geri yükleyin</string>
+    <string name="settings_export_action">Ayarları dışa aktar</string>
+    <string name="settings_import_action">Ayarları içe aktar</string>
+    <string name="settings_import_summary">Ayarları daha önce dışa aktarılmış bir JSON dosyasından içe aktarın</string>
+    <string name="settings_export_done">Dışa aktarılan ayarlar: %1$d</string>
+    <string name="settings_import_done">İçe aktarılan ayarlar: %1$d</string>
+    <string name="settings_export_failed">Dışa aktarma başarısız</string>
+    <string name="settings_import_failed">İçe aktarma başarısız</string>
+    <string name="settings_export_failed_details">Dışa aktarma başarısız: %1$s</string>
+    <string name="settings_import_failed_details">İçe aktarma başarısız: %1$s</string>
 </resources>

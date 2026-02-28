@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">תמיד פעיל</string>
+    <string name="label_off">%1$d דק׳</string>
+    <string name="lceck_fail">בדיקת הרישיון נכשלה.</string>
+
+    <string name="lbl_permissions">כדי שהאפליקציה תפעל, עליך להעניק לה הרשאה לשנות הגדרות. ההגדרה היחידה שתשתנה היא זמן הכיבוי של המסך.</string>
+    <string name="btn_permissions">הגדרה</string>
+    <string name="lbl_addwidget_header">הוספת הווידג׳ט למסך הבית</string>
+    <string name="lbl_addwidget1">1. לחץ על כפתור הבית כדי להגיע למסך הבית.</string>
+    <string name="lbl_addwidget2">2. לחץ והחזק באזור שאינו תפוס על ידי אייקון.</string>
+    <string name="lbl_addwidget3">3. בחר "widgets".</string>
+    <string name="lbl_addwidget4">4. גלול אל הווידג׳ט "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. גרור ושחרר למסך הבית למקום הרצוי.</string>
+    <string name="lbl_addwidget6">6. לחץ על הווידג׳ט כדי לשנות את מצב זמן כיבוי המסך.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. לחץ על כפתור הבית כדי להגיע למסך הבית.<br/>
+        2. לחץ והחזק באזור שאינו תפוס על ידי אייקון.<br/>
+        3. בחר "widgets".<br/>
+        4. גלול אל הווידג׳ט "ScreenWidget".<br/>
+        5. גרור ושחרר למסך הבית למקום הרצוי.<br/>
+        6. לחץ על הווידג׳ט כדי לשנות את מצב זמן כיבוי המסך.\n]]>
+    </string>
+    <string name="lbl_addtile_header">הוספת אריח הגדרות מהירות</string>
+    <string name="lbl_addtile1">1. פתח את מגירת ההתראות.</string>
+    <string name="lbl_addtile2">2. החלק מטה מהחלק העליון כדי לפתוח את מגירת ההגדרות המהירות.</string>
+    <string name="lbl_addtile3">3. הקש על כפתור EDIT.</string>
+    <string name="lbl_addtile4">4. גרור את האריח בשם "Screen Timeout" אל מגירת ההגדרות המהירות.</string>
+    <string name="lbl_addtile5">5. הקש חזרה והאריח מוכן לשימוש.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. פתח את מגירת ההתראות.<br/>
+        2. החלק מטה מהחלק העליון כדי לפתוח את מגירת ההגדרות המהירות.<br/>
+        3. הקש על כפתור EDIT.<br/>
+        4. גרור את האריח בשם "Screen Timeout" אל מגירת ההגדרות המהירות.<br/>
+        5. הקש חזרה והאריח מוכן לשימוש.\n]]>
+    </string>
+
+    <string name="notification">התראה</string>
+    <string name="notification_name">התראה ואייקון שורת מצב</string>
+    <string name="notification_desc">כאשר מופעל, ההתראה ואייקון שורת המצב יוצגו באזור ההתראות כאשר מצב "תמיד פעיל" מופעל</string>
+
+    <string name="revert_default_timeout">כיבוי אוטומטי</string>
+    <string name="revert_default_timeout_name">חזרה אוטומטית לזמן ברירת מחדל</string>
+    <string name="revert_default_timeout_desc">חזרה אוטומטית לזמן כיבוי מסך ברירת מחדל כשהמסך נכבה %s.</string>
+
+    <string name="condition_never">מושבת</string>
+    <string name="condition_any_timeout">מופעל</string>
+    <string name="condition_only_always_on">מופעל רק למצב תמיד פעיל</string>
+
+    <string name="btn_addwidget">הוסף למסך הבית</string>
+
+    <string name="onboot_section">הגדרות בעת אתחול</string>
+    <string name="onboot_trigger_name">שחזור בעת אתחול</string>
+    <string name="onboot_trigger_desc">שחזר את המצב הפעיל האחרון בעת אתחול. שימושי אם ברצונך להחזיר את התזמונים למצבם לפני אתחול המכשיר.</string>
+    <string name="onboot_toast_name">הצג הודעה</string>
+    <string name="onboot_toast_desc">הצג הודעת Toast לאחר שחזור ההגדרות</string>
+
+    <string name="multitap_section">הגדרות Multi-Tap</string>
+    <string name="multitap_enable_name">תמיכת Multi-Tap</string>
+    <string name="multitap_enable_desc">הפעל או השבת תמיכת Multi-Tap עבור הווידג׳ט. התכונה מאפשרת להגדיל או להקטין את זמן הכיבוי של הווידג׳ט באמצעות הקשה כפולה או משולשת.</string>
+    <string name="multitap_smart_system_name">השהיה חכמה ל-Multi-Tap</string>
+    <string name="multitap_smart_system_desc">השהיה חכמה רב-שלבית: הקשה בודדת תעבור מהר יותר, ואז הקשה כפולה ומשולשת תפחית את זמן ההמתנה.</string>
+
+    <string name="single_tap_action_name">פעולת הקשה בודדת</string>
+    <string name="single_tap_action_desc">%s. בחר את פעולת ההקשה הבודדת.</string>
+    <string name="single_always_on">מעבר בין תמיד פעיל לבין זמן ברירת מחדל</string>
+    <string name="single_last_active">מעבר בין זמן הכיבוי האחרון לבין זמן ברירת מחדל</string>
+    <string name="sort_timeouts_name">מיין רשימת זמני כיבוי מותאמים</string>
+    <string name="sort_timeouts_desc">%s. בחר אפשרות מיון.</string>
+
+    <string name="do_not_sort">ללא מיון</string>
+    <string name="do_sort_asc">מיון עולה</string>
+    <string name="do_sort_desc">מיון יורד</string>
+
+    <string name="design_section">התאמות תצוגה</string>
+    <string name="widget_font_size_header">גודל גופן</string>
+    <string name="widget_font_size_desc">בחר את גודל הגופן בווידג׳ט. שימושי לקבלת תוצאה ויזואלית מיטבית עם משגרים שונים.</string>
+    <string name="widget_icon_size_header">גודל אייקון</string>
+    <string name="widget_icon_size_desc">בחירת גודל אייקון הווידג׳ט. שימושי לקבלת תוצאה ויזואלית מיטבית עם משגרים שונים.</string>
+
+    <string name="layout_ico_header">גודל אייקון</string>
+    <string name="action_settings">הגדרות</string>
+
+    <string name="str_menu_settings">הגדרות</string>
+    <string name="str_menu_rate_app">דרג את האפליקציה</string>
+    <string name="str_menu_share_app">המלץ על האפליקציה</string>
+
+    <string name="settings_custom_timeouts">התאמת זמני כיבוי</string>
+    <string name="custom_timeout1_header">ערך זמן כיבוי מותאם 1</string>
+    <string name="custom_timeout1_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="custom_timeout2_header">ערך זמן כיבוי מותאם 2</string>
+    <string name="custom_timeout2_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="custom_timeout3_header">ערך זמן כיבוי מותאם 3</string>
+    <string name="custom_timeout3_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="custom_timeout4_header">ערך זמן כיבוי מותאם 4</string>
+    <string name="custom_timeout4_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="custom_timeout5_header">ערך זמן כיבוי מותאם 5</string>
+    <string name="custom_timeout5_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="custom_timeout6_header">ערך זמן כיבוי מותאם 6</string>
+    <string name="custom_timeout6_value"> דקות. הזן את ערך הזמן הרצוי. הזן 0 כדי להתעלם מהמיקום הזה.</string>
+    <string name="enter_timeout_value">נא להזין ערך בדקות</string>
+
+    <string name="tile_name">זמן כיבוי מסך</string>
+
+    <string name="power_events">הגנה על סוללה חלשה</string>
+
+    <string name="disable_on_low_name">כיבוי אוטומטי בסוללה חלשה</string>
+    <string name="disable_on_low_desc">השבתה אוטומטית של מצב תמיד פעיל כאשר רמת הסוללה נמוכה.</string>
+
+    <string name="no_license">ללא רישיון</string>
+
+    <string name="general_settings">הגדרות כלליות</string>
+    <string name="advanced_settings">הגדרות מתקדמות</string>
+    <string name="timeout_settings">זמני כיבוי מותאמים</string>
+    <string name="contact_support">צור קשר עם התמיכה</string>
+    <string name="email_us">שלח לנו דוא"ל</string>
+    <string name="documentation">תיעוד</string>
+    <string name="chat_support">צ׳אט תמיכה טכנית</string>
+    <string name="contribute_translations">תרום לתרגומים</string>
+    <string name="social_networks">רשתות חברתיות</string>
+    <string name="social_facebook">דף Facebook</string>
+    <string name="social_vk">דף VK</string>
+    <string name="social_telegram">קבוצת Telegram</string>
+
+    <string name="settings_header_application_settings">הגדרות אפליקציה</string>
+    <string name="settings_header_support_channels">ערוצי תמיכה</string>
+    <string name="settings_header_contribution_and_social_media">תרומה ומדיה חברתית</string>
+
+    <string name="social_networks_list">ערוצי רשתות חברתיות</string>
+
+    <string name="app_automation_settings_title">אוטומציית אפליקציות</string>
+    <string name="app_automation_settings_summary">השאר את המסך פעיל אוטומטית עבור אפליקציות נבחרות</string>
+    <string name="app_automation_usage_access_required">כדי לזהות את האפליקציה בחזית, אפשר גישת שימוש בהגדרות המערכת.</string>
+    <string name="app_automation_open_usage_access">פתח הגדרות גישת שימוש</string>
+    <string name="app_automation_screen_hint">בחר אפליקציות שצריכות להשאיר את המסך פעיל באופן אוטומטי.</string>
+    <string name="app_automation_no_apps">לא נמצאו אפליקציות שניתן להפעיל במכשיר זה.</string>
+    <string name="app_automation_checkbox_content_desc">אפשר אוטומציית אפליקציות</string>
+    <string name="app_automation_service_active">אוטומציית אפליקציות פועלת</string>
+
+    <string name="app_automation_master_name">אפשר אוטומציית אפליקציות</string>
+
+    <string name="app_automation_master_desc">אפשר מצב אוטומטי לשמירת המסך פעיל עבור אפליקציות נבחרות</string>
+
+    <string name="app_automation_search_hint">חפש אפליקציות</string>
+
+    <string name="app_automation_section">אוטומציית אפליקציות</string>
+
+    <string name="app_automation_poll_name">מרווח בדיקת אפליקציות</string>
+
+    <string name="app_automation_poll_desc">%s שנ׳. בחר מרווח בדיקת אפליקציות.</string>
+
+    <string name="app_automation_default_name">תצורת זמן כיבוי ברירת מחדל</string>
+
+    <string name="app_automation_default_desc">%s. בחר תצורת זמן כיבוי ברירת מחדל עבור אוטומציית אפליקציות.</string>
+
+    <string name="app_automation_minutes_compact">%1$d ד</string>
+
+    <string name="app_automation_preset_default_menu">ברירת מחדל</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">בחר תצורת זמן כיבוי</string>
+
+    <string name="app_language_section">שפה</string>
+
+    <string name="app_language_name">שפת האפליקציה</string>
+
+    <string name="app_language_desc">בחר שפת אפליקציה</string>
+
+    <string name="app_language_system_default">ברירת מחדל של המערכת</string>
+
+    <string name="support_card_title">תמכו באפליקציה</string>
+    <string name="support_card_body">אם האפליקציה הזו עוזרת לכם, נשמח שתשאירו דירוג או ביקורת קצרה.
+זה משפיע ישירות על השאלה אם האפליקציה תמשיך לקבל עדכונים או תופסק.</string>
+    <string name="support_card_rate_on_play">דרג ב-Google Play</string>
+    <string name="support_card_not_now">לא עכשיו</string>
+    <string name="support_card_dont_show_again">אל תציג שוב</string>
+
+    <string name="settings_export_title">ייצוא הגדרות</string>
+    <string name="settings_export_summary">שמירה ושחזור של הגדרות האפליקציה באמצעות קובץ JSON</string>
+    <string name="settings_export_action">ייצוא הגדרות</string>
+    <string name="settings_import_action">ייבוא הגדרות</string>
+    <string name="settings_import_summary">ייבוא הגדרות מקובץ JSON שיוצא קודם לכן</string>
+    <string name="settings_export_done">ההגדרות יוצאו: %1$d</string>
+    <string name="settings_import_done">ההגדרות יובאו: %1$d</string>
+    <string name="settings_export_failed">הייצוא נכשל</string>
+    <string name="settings_import_failed">הייבוא נכשל</string>
+    <string name="settings_export_failed_details">הייצוא נכשל: %1$s</string>
+    <string name="settings_import_failed_details">הייבוא נכשל: %1$s</string>
+</resources>

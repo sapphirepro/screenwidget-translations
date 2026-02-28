@@ -186,4 +186,23 @@
     <string name="app_language_desc">Choisissez la langue de l\'application</string>
 
     <string name="app_language_system_default">Par défaut du système</string>
+
+    <string name="support_card_title">Soutenez l’application</string>
+    <string name="support_card_body">Si cette application vous aide, merci de laisser une note ou un court avis.
+Cela détermine directement si l’application continuera à recevoir des mises à jour ou sera arrêtée.</string>
+    <string name="support_card_rate_on_play">Noter sur Google Play</string>
+    <string name="support_card_not_now">Pas maintenant</string>
+    <string name="support_card_dont_show_again">Ne plus afficher</string>
+
+    <string name="settings_export_title">Exporter les paramètres</string>
+    <string name="settings_export_summary">Enregistrer et restaurer les paramètres de l’application avec un fichier JSON</string>
+    <string name="settings_export_action">Exporter les paramètres</string>
+    <string name="settings_import_action">Importer les paramètres</string>
+    <string name="settings_import_summary">Importer les paramètres depuis un fichier JSON exporté précédemment</string>
+    <string name="settings_export_done">Paramètres exportés : %1$d</string>
+    <string name="settings_import_done">Paramètres importés : %1$d</string>
+    <string name="settings_export_failed">Échec de l’exportation</string>
+    <string name="settings_import_failed">Échec de l’importation</string>
+    <string name="settings_export_failed_details">Échec de l’exportation : %1$s</string>
+    <string name="settings_import_failed_details">Échec de l’importation : %1$s</string>
 </resources>

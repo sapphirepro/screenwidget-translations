@@ -187,4 +187,23 @@
     <string name="app_language_desc">Välj appens språk</string>
 
     <string name="app_language_system_default">Systemstandard</string>
+
+    <string name="support_card_title">Stöd appen</string>
+    <string name="support_card_body">Om appen hjälper dig, lämna gärna ett betyg eller en kort recension.
+Det avgör direkt om appen kommer fortsätta få uppdateringar eller läggas ned.</string>
+    <string name="support_card_rate_on_play">Betygsätt på Google Play</string>
+    <string name="support_card_not_now">Inte nu</string>
+    <string name="support_card_dont_show_again">Visa inte igen</string>
+
+    <string name="settings_export_title">Exportera inställningar</string>
+    <string name="settings_export_summary">Spara och återställ appens inställningar med en JSON-fil</string>
+    <string name="settings_export_action">Exportera inställningar</string>
+    <string name="settings_import_action">Importera inställningar</string>
+    <string name="settings_import_summary">Importera inställningar från en tidigare exporterad JSON-fil</string>
+    <string name="settings_export_done">Inställningar exporterade: %1$d</string>
+    <string name="settings_import_done">Inställningar importerade: %1$d</string>
+    <string name="settings_export_failed">Export misslyckades</string>
+    <string name="settings_import_failed">Import misslyckades</string>
+    <string name="settings_export_failed_details">Export misslyckades: %1$s</string>
+    <string name="settings_import_failed_details">Import misslyckades: %1$s</string>
 </resources>

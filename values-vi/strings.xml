@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">Luôn bật</string>
+    <string name="label_off">%1$d phút</string>
+    <string name="lceck_fail">Kiểm tra giấy phép thất bại.</string>
+
+    <string name="lbl_permissions">Bạn cần cấp quyền thay đổi cài đặt cho ứng dụng này để ứng dụng hoạt động. Cài đặt duy nhất ứng dụng thay đổi là thời gian chờ màn hình.</string>
+    <string name="btn_permissions">Cấu hình</string>
+    <string name="lbl_addwidget_header">Thêm widget vào màn hình chính</string>
+    <string name="lbl_addwidget1">1. Nhấn nút Home để về màn hình chính.</string>
+    <string name="lbl_addwidget2">2. Nhấn giữ vào vùng trống không có biểu tượng.</string>
+    <string name="lbl_addwidget3">3. Chọn "widget".</string>
+    <string name="lbl_addwidget4">4. Cuộn đến widget "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. Kéo và thả vào vị trí bạn muốn trên màn hình chính.</string>
+    <string name="lbl_addwidget6">6. Chạm vào widget để đổi chế độ thời gian chờ màn hình.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Nhấn nút Home để về màn hình chính.<br/>
+        2. Nhấn giữ vào vùng trống không có biểu tượng.<br/>
+        3. Chọn "widget".<br/>
+        4. Cuộn đến widget "ScreenWidget".<br/>
+        5. Kéo và thả vào vị trí bạn muốn trên màn hình chính.<br/>
+        6. Chạm vào widget để đổi chế độ thời gian chờ màn hình.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Thêm ô Cài đặt nhanh</string>
+    <string name="lbl_addtile1">1. Mở khay thông báo.</string>
+    <string name="lbl_addtile2">2. Vuốt xuống từ trên cùng để mở khay Cài đặt nhanh.</string>
+    <string name="lbl_addtile3">3. Chạm nút CHỈNH SỬA.</string>
+    <string name="lbl_addtile4">4. Kéo ô có tên "Screen Timeout" vào khay Cài đặt nhanh.</string>
+    <string name="lbl_addtile5">5. Chạm quay lại và bạn có thể dùng ô này.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Mở khay thông báo.<br/>
+        2. Vuốt xuống từ trên cùng để mở khay Cài đặt nhanh.<br/>
+        3. Chạm nút CHỈNH SỬA.<br/>
+        4. Kéo ô có tên "Screen Timeout" vào khay Cài đặt nhanh.<br/>
+        5. Chạm quay lại và bạn có thể dùng ô này.\n]]>
+    </string>
+
+    <string name="notification">Thông báo</string>
+    <string name="notification_name">Thông báo và biểu tượng thanh trạng thái</string>
+    <string name="notification_desc">Khi bật, thông báo và biểu tượng thanh trạng thái sẽ hiển thị trong vùng thông báo khi chế độ "Luôn bật" được kích hoạt</string>
+
+    <string name="revert_default_timeout">Tự động tắt</string>
+    <string name="revert_default_timeout_name">Tự động quay về thời gian chờ mặc định</string>
+    <string name="revert_default_timeout_desc">Tự động quay về thời gian chờ màn hình mặc định khi màn hình tắt %s.</string>
+
+    <string name="condition_never">tắt</string>
+    <string name="condition_any_timeout">bật</string>
+    <string name="condition_only_always_on">chỉ bật cho chế độ luôn bật</string>
+
+    <string name="btn_addwidget">Thêm vào màn hình chính</string>
+
+    <string name="onboot_section">Cài đặt khi khởi động</string>
+    <string name="onboot_trigger_name">Khôi phục khi khởi động</string>
+    <string name="onboot_trigger_desc">Khôi phục trạng thái hoạt động gần nhất khi khởi động. Hữu ích nếu bạn muốn khôi phục lại các mốc thời gian như trước khi khởi động lại thiết bị.</string>
+    <string name="onboot_toast_name">Hiển thị thông báo</string>
+    <string name="onboot_toast_desc">Hiển thị thông báo Toast sau khi khôi phục cài đặt</string>
+
+    <string name="multitap_section">Cài đặt đa chạm</string>
+    <string name="multitap_enable_name">Hỗ trợ đa chạm</string>
+    <string name="multitap_enable_desc">Bật hoặc tắt hỗ trợ đa chạm cho widget. Tính năng đa chạm cho phép tăng/giảm thời gian chờ của widget bằng chạm đôi hoặc chạm ba.</string>
+    <string name="multitap_smart_system_name">Độ trễ thông minh đa chạm</string>
+    <string name="multitap_smart_system_desc">Độ trễ nhiều tầng thông minh cho đa chạm: chạm một lần sẽ được xử lý nhanh hơn, sau đó chạm đôi và chạm ba sẽ giảm thời gian chờ.</string>
+
+    <string name="single_tap_action_name">Hành động chạm một lần</string>
+    <string name="single_tap_action_desc">%s. Chọn hành động chạm một lần để dùng.</string>
+    <string name="single_always_on">Chuyển giữa luôn bật và thời gian chờ mặc định</string>
+    <string name="single_last_active">Chuyển giữa thời gian chờ dùng gần nhất và thời gian chờ mặc định</string>
+    <string name="sort_timeouts_name">Sắp xếp danh sách thời gian chờ tùy chỉnh</string>
+    <string name="sort_timeouts_desc">%s. Chọn kiểu sắp xếp.</string>
+
+    <string name="do_not_sort">Không sắp xếp</string>
+    <string name="do_sort_asc">Sắp xếp tăng dần</string>
+    <string name="do_sort_desc">Sắp xếp giảm dần</string>
+
+    <string name="design_section">Tùy chỉnh giao diện</string>
+    <string name="widget_font_size_header">Cỡ chữ</string>
+    <string name="widget_font_size_desc">Chọn cỡ chữ dùng trong widget. Hữu ích để có kết quả hiển thị tốt nhất với các launcher khác nhau.</string>
+    <string name="widget_icon_size_header">Kích thước biểu tượng</string>
+    <string name="widget_icon_size_desc">Chọn kích thước biểu tượng widget. Hữu ích để có kết quả hiển thị tốt nhất với các launcher khác nhau.</string>
+
+    <string name="layout_ico_header">Kích thước biểu tượng</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <string name="str_menu_settings">Cài đặt</string>
+    <string name="str_menu_rate_app">Đánh giá ứng dụng</string>
+    <string name="str_menu_share_app">Giới thiệu ứng dụng</string>
+
+    <string name="settings_custom_timeouts">Tùy chỉnh thời gian chờ</string>
+    <string name="custom_timeout1_header">Giá trị thời gian chờ tùy chỉnh 1</string>
+    <string name="custom_timeout1_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="custom_timeout2_header">Giá trị thời gian chờ tùy chỉnh 2</string>
+    <string name="custom_timeout2_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="custom_timeout3_header">Giá trị thời gian chờ tùy chỉnh 3</string>
+    <string name="custom_timeout3_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="custom_timeout4_header">Giá trị thời gian chờ tùy chỉnh 4</string>
+    <string name="custom_timeout4_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="custom_timeout5_header">Giá trị thời gian chờ tùy chỉnh 5</string>
+    <string name="custom_timeout5_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="custom_timeout6_header">Giá trị thời gian chờ tùy chỉnh 6</string>
+    <string name="custom_timeout6_value"> phút. Nhập giá trị thời gian chờ mong muốn. Nhập 0 để bỏ qua ô này.</string>
+    <string name="enter_timeout_value">Vui lòng nhập giá trị theo phút</string>
+
+    <string name="tile_name">Thời gian chờ màn hình</string>
+
+    <string name="power_events">Bảo vệ pin yếu</string>
+
+    <string name="disable_on_low_name">Tự động tắt khi pin yếu</string>
+    <string name="disable_on_low_desc">Tự động tắt chế độ luôn bật khi mức pin thấp.</string>
+
+    <string name="no_license">Không có giấy phép</string>
+
+    <string name="general_settings">Cài đặt chung</string>
+    <string name="advanced_settings">Cài đặt nâng cao</string>
+    <string name="timeout_settings">Thời gian chờ tùy chỉnh</string>
+    <string name="contact_support">Liên hệ hỗ trợ</string>
+    <string name="email_us">Gửi email cho chúng tôi</string>
+    <string name="documentation">Tài liệu</string>
+    <string name="chat_support">Trò chuyện hỗ trợ kỹ thuật</string>
+    <string name="contribute_translations">Đóng góp bản dịch</string>
+    <string name="social_networks">Mạng xã hội</string>
+    <string name="social_facebook">Trang Facebook</string>
+    <string name="social_vk">Trang VK</string>
+    <string name="social_telegram">Nhóm Telegram</string>
+
+    <string name="settings_header_application_settings">Cài đặt ứng dụng</string>
+    <string name="settings_header_support_channels">Kênh hỗ trợ</string>
+    <string name="settings_header_contribution_and_social_media">Đóng góp và mạng xã hội</string>
+
+    <string name="social_networks_list">Các kênh mạng xã hội</string>
+
+    <string name="app_automation_settings_title">Tự động hóa ứng dụng</string>
+    <string name="app_automation_settings_summary">Tự động giữ màn hình luôn sáng cho các ứng dụng đã chọn</string>
+    <string name="app_automation_usage_access_required">Để phát hiện ứng dụng ở nền trước, hãy cho phép Quyền truy cập sử dụng trong cài đặt hệ thống.</string>
+    <string name="app_automation_open_usage_access">Mở cài đặt Quyền truy cập sử dụng</string>
+    <string name="app_automation_screen_hint">Chọn các ứng dụng cần tự động giữ màn hình luôn sáng.</string>
+    <string name="app_automation_no_apps">Không tìm thấy ứng dụng có thể khởi chạy trên thiết bị này.</string>
+    <string name="app_automation_checkbox_content_desc">Bật tự động hóa ứng dụng</string>
+    <string name="app_automation_service_active">Tự động hóa ứng dụng đang chạy</string>
+
+    <string name="app_automation_master_name">Bật tự động hóa ứng dụng</string>
+
+    <string name="app_automation_master_desc">Bật chế độ tự động giữ màn hình luôn sáng cho các ứng dụng đã chọn</string>
+
+    <string name="app_automation_search_hint">Tìm kiếm ứng dụng</string>
+
+    <string name="app_automation_section">Tự động hóa ứng dụng</string>
+
+    <string name="app_automation_poll_name">Khoảng thời gian kiểm tra ứng dụng</string>
+
+    <string name="app_automation_poll_desc">%s giây. Chọn khoảng thời gian kiểm tra ứng dụng.</string>
+
+    <string name="app_automation_default_name">Preset thời gian chờ mặc định</string>
+
+    <string name="app_automation_default_desc">%s. Chọn preset thời gian chờ mặc định cho tự động hóa ứng dụng.</string>
+
+    <string name="app_automation_minutes_compact">%1$d p</string>
+
+    <string name="app_automation_preset_default_menu">Mặc định</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Chọn preset thời gian chờ</string>
+
+    <string name="app_language_section">Ngôn ngữ</string>
+
+    <string name="app_language_name">Ngôn ngữ ứng dụng</string>
+
+    <string name="app_language_desc">Chọn ngôn ngữ ứng dụng</string>
+
+    <string name="app_language_system_default">Mặc định hệ thống</string>
+
+    <string name="support_card_title">Ủng hộ ứng dụng</string>
+    <string name="support_card_body">Nếu ứng dụng này hữu ích với bạn, vui lòng để lại đánh giá hoặc nhận xét ngắn.
+Điều này ảnh hưởng trực tiếp đến việc ứng dụng tiếp tục được cập nhật hay bị ngừng phát triển.</string>
+    <string name="support_card_rate_on_play">Đánh giá trên Google Play</string>
+    <string name="support_card_not_now">Để sau</string>
+    <string name="support_card_dont_show_again">Đừng hiển thị lại</string>
+
+    <string name="settings_export_title">Xuất cài đặt</string>
+    <string name="settings_export_summary">Lưu và khôi phục cài đặt ứng dụng bằng tệp JSON</string>
+    <string name="settings_export_action">Xuất cài đặt</string>
+    <string name="settings_import_action">Nhập cài đặt</string>
+    <string name="settings_import_summary">Nhập cài đặt từ tệp JSON đã xuất trước đó</string>
+    <string name="settings_export_done">Đã xuất cài đặt: %1$d</string>
+    <string name="settings_import_done">Đã nhập cài đặt: %1$d</string>
+    <string name="settings_export_failed">Xuất thất bại</string>
+    <string name="settings_import_failed">Nhập thất bại</string>
+    <string name="settings_export_failed_details">Xuất thất bại: %1$s</string>
+    <string name="settings_import_failed_details">Nhập thất bại: %1$s</string>
+</resources>

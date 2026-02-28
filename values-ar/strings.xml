@@ -8,7 +8,7 @@
     <!-- End of General app localization -->
     <!-- Main screen localization -->
     <string name="lbl_permissions">تحتاج إلى منح هذا التطبيق إذنًا لتغيير الإعدادات قبل أن يعمل ، الإعداد الوحيد الذي سيلمسه هو مهلة الشاشة.</string>
-    <string name="btn_permissions">Configure</string>
+    <string name="btn_permissions">إعداد</string>
     <!-- First Step localization -->
     <string name="lbl_addwidget_header">إضافة القطعة إلى الشاشة الرئيسية</string>
     <string name="lbl_addwidget1">1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.</string>
@@ -139,20 +139,20 @@
     <string name="contact_support">اتصل بالدعم</string>
     <string name="email_us">ارسل لنا عبر البريد الإلكتروني</string>
     <string name="documentation">توثيق</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">دردشة الدعم الفني</string>
+    <string name="contribute_translations">ساهم في الترجمات</string>
+    <string name="social_networks">الشبكات الاجتماعية</string>
+    <string name="social_facebook">صفحة فيسبوك</string>
+    <string name="social_vk">صفحة VK</string>
+    <string name="social_telegram">مجموعة تيليجرام</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">إعدادات التطبيق</string>
+    <string name="settings_header_support_channels">قنوات الدعم</string>
+    <string name="settings_header_contribution_and_social_media">المساهمة ووسائل التواصل الاجتماعي</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">قنوات الشبكات الاجتماعية</string>
 
     <string name="app_automation_settings_title">أتمتة التطبيقات</string>
     <string name="app_automation_settings_summary">إبقاء الشاشة قيد التشغيل تلقائياً للتطبيقات المحددة</string>
@@ -194,4 +194,23 @@
     <string name="app_language_desc">اختر لغة التطبيق</string>
 
     <string name="app_language_system_default">افتراضي النظام</string>
+
+    <string name="support_card_title">ادعم التطبيق</string>
+    <string name="support_card_body">إذا كان هذا التطبيق يساعدك، فالرجاء ترك تقييم أو مراجعة قصيرة.
+هذا يحدد بشكل مباشر ما إذا كان التطبيق سيستمر في تلقي التحديثات أم سيتوقف.</string>
+    <string name="support_card_rate_on_play">قيّم على Google Play</string>
+    <string name="support_card_not_now">ليس الآن</string>
+    <string name="support_card_dont_show_again">لا تُظهر هذا مرة أخرى</string>
+
+    <string name="settings_export_title">تصدير الإعدادات</string>
+    <string name="settings_export_summary">حفظ واستعادة إعدادات التطبيق باستخدام ملف JSON</string>
+    <string name="settings_export_action">تصدير الإعدادات</string>
+    <string name="settings_import_action">استيراد الإعدادات</string>
+    <string name="settings_import_summary">استيراد الإعدادات من ملف JSON تم تصديره مسبقًا</string>
+    <string name="settings_export_done">تم تصدير الإعدادات: %1$d</string>
+    <string name="settings_import_done">تم استيراد الإعدادات: %1$d</string>
+    <string name="settings_export_failed">فشل التصدير</string>
+    <string name="settings_import_failed">فشل الاستيراد</string>
+    <string name="settings_export_failed_details">فشل التصدير: %1$s</string>
+    <string name="settings_import_failed_details">فشل الاستيراد: %1$s</string>
 </resources>

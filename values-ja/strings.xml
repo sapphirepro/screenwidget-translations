@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">常時オン</string>
+    <string name="label_off">%1$d分</string>
+    <string name="lceck_fail">ライセンスチェックに失敗しました。</string>
+
+    <string name="lbl_permissions">このアプリを動作させるには、設定の変更権限を許可してください。変更される設定は画面タイムアウトのみです。</string>
+    <string name="btn_permissions">設定</string>
+    <string name="lbl_addwidget_header">ホーム画面にウィジェットを追加</string>
+    <string name="lbl_addwidget1">1. ホームボタンを押してホーム画面に移動します。</string>
+    <string name="lbl_addwidget2">2. アイコンがない場所を長押しします。</string>
+    <string name="lbl_addwidget3">3. 「ウィジェット」を選択します。</string>
+    <string name="lbl_addwidget4">4. 「ScreenWidget」ウィジェットまでスクロールします。</string>
+    <string name="lbl_addwidget5">5. 追加したい場所へドラッグ＆ドロップします。</string>
+    <string name="lbl_addwidget6">6. 画面タイムアウトモードを変更するにはウィジェットをタップします。</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. ホームボタンを押してホーム画面に移動します。<br/>
+        2. アイコンがない場所を長押しします。<br/>
+        3. 「ウィジェット」を選択します。<br/>
+        4. 「ScreenWidget」ウィジェットまでスクロールします。<br/>
+        5. 追加したい場所へドラッグ＆ドロップします。<br/>
+        6. 画面タイムアウトモードを変更するにはウィジェットをタップします。\n]]>
+    </string>
+    <string name="lbl_addtile_header">クイック設定タイルの追加</string>
+    <string name="lbl_addtile1">1. 通知パネルを開きます。</string>
+    <string name="lbl_addtile2">2. 上から下にスワイプしてクイック設定パネルを開きます。</string>
+    <string name="lbl_addtile3">3. 「編集」ボタンをタップします。</string>
+    <string name="lbl_addtile4">4. 「Screen Timeout」というタイルをクイック設定パネルにドラッグします。</string>
+    <string name="lbl_addtile5">5. 戻るをタップするとタイルを使用できます。</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. 通知パネルを開きます。<br/>
+        2. 上から下にスワイプしてクイック設定パネルを開きます。<br/>
+        3. 「編集」ボタンをタップします。<br/>
+        4. 「Screen Timeout」というタイルをクイック設定パネルにドラッグします。<br/>
+        5. 戻るをタップするとタイルを使用できます。\n]]>
+    </string>
+
+    <string name="notification">通知</string>
+    <string name="notification_name">通知とステータスバーアイコン</string>
+    <string name="notification_desc">有効にすると、「常時オン」モードが有効なとき通知エリアに通知とステータスバーアイコンが表示されます</string>
+
+    <string name="revert_default_timeout">自動解除</string>
+    <string name="revert_default_timeout_name">既定タイムアウトへ自動復帰</string>
+    <string name="revert_default_timeout_desc">画面がオフになったとき、既定の画面タイムアウトへ自動復帰します %s。</string>
+
+    <string name="condition_never">無効</string>
+    <string name="condition_any_timeout">有効</string>
+    <string name="condition_only_always_on">常時オンモードのみ有効</string>
+
+    <string name="btn_addwidget">ホーム画面に追加</string>
+
+    <string name="onboot_section">起動時設定</string>
+    <string name="onboot_trigger_name">起動時に復元</string>
+    <string name="onboot_trigger_desc">起動時に最後の状態を復元します。再起動前の状態にタイムアウト設定を戻したい場合に便利です。</string>
+    <string name="onboot_toast_name">メッセージを表示</string>
+    <string name="onboot_toast_desc">設定復元後にトーストメッセージを表示</string>
+
+    <string name="multitap_section">マルチタップ設定</string>
+    <string name="multitap_enable_name">マルチタップ対応</string>
+    <string name="multitap_enable_desc">ウィジェットのマルチタップ機能を有効または無効にします。ダブルタップやトリプルタップでウィジェットのタイムアウト設定を増減できます。</string>
+    <string name="multitap_smart_system_name">マルチタップのスマート遅延</string>
+    <string name="multitap_smart_system_desc">マルチタップのスマート多段遅延: シングルタップはより早く処理され、ダブル/トリプルタップの待ち時間を短縮します。</string>
+
+    <string name="single_tap_action_name">シングルタップ動作</string>
+    <string name="single_tap_action_desc">%s. シングルタップ時の動作を選択してください。</string>
+    <string name="single_always_on">常時オンと既定タイムアウトを切り替え</string>
+    <string name="single_last_active">最後に使用したタイムアウトと既定タイムアウトを切り替え</string>
+    <string name="sort_timeouts_name">カスタムタイムアウト一覧を並べ替え</string>
+    <string name="sort_timeouts_desc">%s. 並べ替え方法を選択してください。</string>
+
+    <string name="do_not_sort">並べ替えしない</string>
+    <string name="do_sort_asc">昇順</string>
+    <string name="do_sort_desc">降順</string>
+
+    <string name="design_section">外観のカスタマイズ</string>
+    <string name="widget_font_size_header">フォントサイズ</string>
+    <string name="widget_font_size_desc">ウィジェットで使用するフォントサイズを選択します。ランチャーごとに最適な表示結果を得るのに役立ちます。</string>
+    <string name="widget_icon_size_header">アイコンサイズ</string>
+    <string name="widget_icon_size_desc">ウィジェットのアイコンサイズを選択します。ランチャーごとに最適な表示結果を得るのに役立ちます。</string>
+
+    <string name="layout_ico_header">アイコンサイズ</string>
+    <string name="action_settings">設定</string>
+
+    <string name="str_menu_settings">設定</string>
+    <string name="str_menu_rate_app">アプリを評価</string>
+    <string name="str_menu_share_app">アプリを共有</string>
+
+    <string name="settings_custom_timeouts">カスタムタイムアウト</string>
+    <string name="custom_timeout1_header">カスタムタイムアウト値 1</string>
+    <string name="custom_timeout1_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="custom_timeout2_header">カスタムタイムアウト値 2</string>
+    <string name="custom_timeout2_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="custom_timeout3_header">カスタムタイムアウト値 3</string>
+    <string name="custom_timeout3_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="custom_timeout4_header">カスタムタイムアウト値 4</string>
+    <string name="custom_timeout4_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="custom_timeout5_header">カスタムタイムアウト値 5</string>
+    <string name="custom_timeout5_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="custom_timeout6_header">カスタムタイムアウト値 6</string>
+    <string name="custom_timeout6_value">分。希望するタイムアウト値を入力してください。このスロットを無視するには 0 を入力してください。</string>
+    <string name="enter_timeout_value">分単位で値を入力してください</string>
+
+    <string name="tile_name">画面タイムアウト</string>
+
+    <string name="power_events">低バッテリー保護</string>
+
+    <string name="disable_on_low_name">バッテリー残量低下時に自動無効化</string>
+    <string name="disable_on_low_desc">バッテリー残量が低いとき、常時オンモードを自動的に無効にします。</string>
+
+    <string name="no_license">ライセンスなし</string>
+
+    <string name="general_settings">一般設定</string>
+    <string name="advanced_settings">詳細設定</string>
+    <string name="timeout_settings">カスタムタイムアウト</string>
+    <string name="contact_support">サポートに連絡</string>
+    <string name="email_us">メールで連絡</string>
+    <string name="documentation">ドキュメント</string>
+    <string name="chat_support">技術サポートチャット</string>
+    <string name="contribute_translations">翻訳に協力する</string>
+    <string name="social_networks">ソーシャルネットワーク</string>
+    <string name="social_facebook">Facebookページ</string>
+    <string name="social_vk">VKページ</string>
+    <string name="social_telegram">Telegramグループ</string>
+
+    <string name="settings_header_application_settings">アプリ設定</string>
+    <string name="settings_header_support_channels">サポートチャネル</string>
+    <string name="settings_header_contribution_and_social_media">貢献とソーシャルメディア</string>
+
+    <string name="social_networks_list">ソーシャルネットワークチャネル</string>
+
+    <string name="app_automation_settings_title">アプリ自動化</string>
+    <string name="app_automation_settings_summary">選択したアプリで画面を自動的にスリープさせない</string>
+    <string name="app_automation_usage_access_required">フォアグラウンドのアプリを検出するには、システム設定で使用状況アクセスを許可してください。</string>
+    <string name="app_automation_open_usage_access">使用状況アクセス設定を開く</string>
+    <string name="app_automation_screen_hint">画面を自動的にスリープさせないアプリを選択してください。</string>
+    <string name="app_automation_no_apps">この端末では起動可能なアプリが見つかりませんでした。</string>
+    <string name="app_automation_checkbox_content_desc">アプリ自動化を有効にする</string>
+    <string name="app_automation_service_active">アプリ自動化が実行中です</string>
+
+    <string name="app_automation_master_name">アプリ自動化を有効にする</string>
+
+    <string name="app_automation_master_desc">選択したアプリに対して画面常時オンの自動モードを有効にする</string>
+
+    <string name="app_automation_search_hint">アプリを検索</string>
+
+    <string name="app_automation_section">アプリ自動化</string>
+
+    <string name="app_automation_poll_name">アプリ監視頻度</string>
+
+    <string name="app_automation_poll_desc">%s 秒。アプリ監視頻度を選択してください。</string>
+
+    <string name="app_automation_default_name">既定のタイムアウトプリセット</string>
+
+    <string name="app_automation_default_desc">%s. アプリ自動化の既定タイムアウトプリセットを選択してください。</string>
+
+    <string name="app_automation_minutes_compact">%1$d分</string>
+
+    <string name="app_automation_preset_default_menu">既定</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">タイムアウトプリセットを選択</string>
+
+    <string name="app_language_section">言語</string>
+
+    <string name="app_language_name">アプリの言語</string>
+
+    <string name="app_language_desc">アプリの言語を選択</string>
+
+    <string name="app_language_system_default">システムの既定</string>
+
+    <string name="support_card_title">アプリを応援してください</string>
+    <string name="support_card_body">このアプリが役に立っている場合は、評価または短いレビューをお願いします。
+これにより、今後アップデートを継続できるか、配信終了するかが直接決まります。</string>
+    <string name="support_card_rate_on_play">Google Playで評価</string>
+    <string name="support_card_not_now">今はしない</string>
+    <string name="support_card_dont_show_again">今後表示しない</string>
+
+    <string name="settings_export_title">設定をエクスポート</string>
+    <string name="settings_export_summary">JSONファイルを使ってアプリ設定を保存および復元します</string>
+    <string name="settings_export_action">設定をエクスポート</string>
+    <string name="settings_import_action">設定をインポート</string>
+    <string name="settings_import_summary">以前にエクスポートしたJSONファイルから設定をインポートします</string>
+    <string name="settings_export_done">エクスポートされた設定: %1$d</string>
+    <string name="settings_import_done">インポートされた設定: %1$d</string>
+    <string name="settings_export_failed">エクスポートに失敗しました</string>
+    <string name="settings_import_failed">インポートに失敗しました</string>
+    <string name="settings_export_failed_details">エクスポートに失敗しました: %1$s</string>
+    <string name="settings_import_failed_details">インポートに失敗しました: %1$s</string>
+</resources>

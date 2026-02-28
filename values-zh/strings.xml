@@ -192,4 +192,23 @@
     <string name="app_language_desc">选择应用语言</string>
 
     <string name="app_language_system_default">跟随系统</string>
+
+    <string name="support_card_title">支持此应用</string>
+    <string name="support_card_body">如果这个应用对你有帮助，请留下评分或简短评价。
+这将直接决定应用是否会继续获得更新，还是停止维护。</string>
+    <string name="support_card_rate_on_play">在 Google Play 评分</string>
+    <string name="support_card_not_now">暂不</string>
+    <string name="support_card_dont_show_again">不再显示</string>
+
+    <string name="settings_export_title">导出设置</string>
+    <string name="settings_export_summary">使用 JSON 文件保存并恢复应用设置</string>
+    <string name="settings_export_action">导出设置</string>
+    <string name="settings_import_action">导入设置</string>
+    <string name="settings_import_summary">从之前导出的 JSON 文件导入设置</string>
+    <string name="settings_export_done">已导出设置：%1$d</string>
+    <string name="settings_import_done">已导入设置：%1$d</string>
+    <string name="settings_export_failed">导出失败</string>
+    <string name="settings_import_failed">导入失败</string>
+    <string name="settings_export_failed_details">导出失败：%1$s</string>
+    <string name="settings_import_failed_details">导入失败：%1$s</string>
 </resources>

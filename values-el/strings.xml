@@ -135,20 +135,20 @@
     <string name="contact_support">Υποστήριξη</string>
     <string name="email_us">Στείλτε μας Email</string>
     <string name="documentation">Τεκμηρίωση</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">Συνομιλία τεχνικής υποστήριξης</string>
+    <string name="contribute_translations">Συμβολή στις μεταφράσεις</string>
+    <string name="social_networks">Κοινωνικά δίκτυα</string>
+    <string name="social_facebook">Σελίδα Facebook</string>
+    <string name="social_vk">Σελίδα VK</string>
+    <string name="social_telegram">Ομάδα Telegram</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">Ρυθμίσεις εφαρμογής</string>
+    <string name="settings_header_support_channels">Κανάλια υποστήριξης</string>
+    <string name="settings_header_contribution_and_social_media">Συνεισφορά και κοινωνικά δίκτυα</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">Κανάλια κοινωνικών δικτύων</string>
 
 
 
@@ -193,4 +193,23 @@
     <string name="app_language_desc">Επιλέξτε γλώσσα εφαρμογής</string>
 
     <string name="app_language_system_default">Προεπιλογή συστήματος</string>
+
+    <string name="support_card_title">Υποστηρίξτε την εφαρμογή</string>
+    <string name="support_card_body">Αν αυτή η εφαρμογή σας βοηθά, αφήστε μια βαθμολογία ή μια σύντομη κριτική.
+Αυτό καθορίζει άμεσα αν η εφαρμογή θα συνεχίσει να λαμβάνει ενημερώσεις ή θα διακοπεί.</string>
+    <string name="support_card_rate_on_play">Αξιολόγηση στο Google Play</string>
+    <string name="support_card_not_now">Όχι τώρα</string>
+    <string name="support_card_dont_show_again">Να μην εμφανιστεί ξανά</string>
+
+    <string name="settings_export_title">Εξαγωγή ρυθμίσεων</string>
+    <string name="settings_export_summary">Αποθήκευση και επαναφορά ρυθμίσεων εφαρμογής με αρχείο JSON</string>
+    <string name="settings_export_action">Εξαγωγή ρυθμίσεων</string>
+    <string name="settings_import_action">Εισαγωγή ρυθμίσεων</string>
+    <string name="settings_import_summary">Εισαγωγή ρυθμίσεων από αρχείο JSON που έχει εξαχθεί προηγουμένως</string>
+    <string name="settings_export_done">Οι ρυθμίσεις εξήχθησαν: %1$d</string>
+    <string name="settings_import_done">Οι ρυθμίσεις εισήχθησαν: %1$d</string>
+    <string name="settings_export_failed">Αποτυχία εξαγωγής</string>
+    <string name="settings_import_failed">Αποτυχία εισαγωγής</string>
+    <string name="settings_export_failed_details">Αποτυχία εξαγωγής: %1$s</string>
+    <string name="settings_import_failed_details">Αποτυχία εισαγωγής: %1$s</string>
 </resources>

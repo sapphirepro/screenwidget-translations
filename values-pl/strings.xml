@@ -130,20 +130,20 @@
     <string name="contact_support">Wsparcie techniczne/pomoc</string>
     <string name="email_us">Wyślij email</string>
     <string name="documentation">Dokumentacja</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">Czat wsparcia technicznego</string>
+    <string name="contribute_translations">Współtwórz tłumaczenia</string>
+    <string name="social_networks">Sieci społecznościowe</string>
+    <string name="social_facebook">Strona na Facebooku</string>
+    <string name="social_vk">Strona VK</string>
+    <string name="social_telegram">Grupa Telegram</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">Ustawienia aplikacji</string>
+    <string name="settings_header_support_channels">Kanały wsparcia</string>
+    <string name="settings_header_contribution_and_social_media">Wkład i media społecznościowe</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">Kanały mediów społecznościowych</string>
 
 
     <string name="app_automation_settings_title">Automatyzacja aplikacji</string>
@@ -186,4 +186,23 @@
     <string name="app_language_desc">Wybierz język aplikacji</string>
 
     <string name="app_language_system_default">Domyślny systemowy</string>
+
+    <string name="support_card_title">Wesprzyj aplikację</string>
+    <string name="support_card_body">Jeśli ta aplikacja Ci pomaga, zostaw ocenę lub krótką opinię.
+To bezpośrednio decyduje, czy aplikacja będzie dalej aktualizowana, czy zostanie zakończona.</string>
+    <string name="support_card_rate_on_play">Oceń w Google Play</string>
+    <string name="support_card_not_now">Nie teraz</string>
+    <string name="support_card_dont_show_again">Nie pokazuj ponownie</string>
+
+    <string name="settings_export_title">Eksport ustawień</string>
+    <string name="settings_export_summary">Zapisz i przywróć ustawienia aplikacji za pomocą pliku JSON</string>
+    <string name="settings_export_action">Eksportuj ustawienia</string>
+    <string name="settings_import_action">Importuj ustawienia</string>
+    <string name="settings_import_summary">Importuj ustawienia z wcześniej wyeksportowanego pliku JSON</string>
+    <string name="settings_export_done">Wyeksportowane ustawienia: %1$d</string>
+    <string name="settings_import_done">Zaimportowane ustawienia: %1$d</string>
+    <string name="settings_export_failed">Eksport nie powiódł się</string>
+    <string name="settings_import_failed">Import nie powiódł się</string>
+    <string name="settings_export_failed_details">Eksport nie powiódł się: %1$s</string>
+    <string name="settings_import_failed_details">Import nie powiódł się: %1$s</string>
 </resources>

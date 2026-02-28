@@ -195,13 +195,13 @@ Isso determina diretamente se o aplicativo continuará recebendo atualizações 
     <string name="support_card_not_now">Agora não</string>
     <string name="support_card_dont_show_again">Não mostrar novamente</string>
 
-    <string name="settings_export_title">Exportar definições</string>
-    <string name="settings_export_summary">Guardar e restaurar as definições da aplicação com um ficheiro JSON</string>
-    <string name="settings_export_action">Exportar definições</string>
-    <string name="settings_import_action">Importar definições</string>
-    <string name="settings_import_summary">Importar definições de um ficheiro JSON exportado anteriormente</string>
-    <string name="settings_export_done">Definições exportadas: %1$d</string>
-    <string name="settings_import_done">Definições importadas: %1$d</string>
+    <string name="settings_export_title">Exportar configurações</string>
+    <string name="settings_export_summary">Salvar e restaurar as configurações do app usando um arquivo JSON</string>
+    <string name="settings_export_action">Exportar configurações</string>
+    <string name="settings_import_action">Importar configurações</string>
+    <string name="settings_import_summary">Importar configurações de um arquivo JSON exportado anteriormente</string>
+    <string name="settings_export_done">Configurações exportadas: %1$d</string>
+    <string name="settings_import_done">Configurações importadas: %1$d</string>
     <string name="settings_export_failed">Falha na exportação</string>
     <string name="settings_import_failed">Falha na importação</string>
     <string name="settings_export_failed_details">Falha na exportação: %1$s</string>

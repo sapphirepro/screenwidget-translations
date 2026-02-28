@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">Selalu aktif</string>
+    <string name="label_off">%1$d mnt.</string>
+    <string name="lceck_fail">Pemeriksaan lisensi gagal.</string>
+
+    <string name="lbl_permissions">Agar aplikasi ini berfungsi, Anda harus memberi izin untuk mengubah pengaturan. Satu-satunya pengaturan yang diubah adalah batas waktu layar.</string>
+    <string name="btn_permissions">Konfigurasi</string>
+    <string name="lbl_addwidget_header">Menambahkan widget ke layar beranda</string>
+    <string name="lbl_addwidget1">1. Tekan tombol beranda untuk membuka layar beranda.</string>
+    <string name="lbl_addwidget2">2. Tekan dan tahan pada area yang tidak ditempati ikon.</string>
+    <string name="lbl_addwidget3">3. Pilih "widget".</string>
+    <string name="lbl_addwidget4">4. Gulir ke widget "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. Seret dan lepas ke layar beranda pada posisi yang diinginkan.</string>
+    <string name="lbl_addwidget6">6. Ketuk widget untuk mengubah mode batas waktu layar.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Tekan tombol beranda untuk membuka layar beranda.<br/>
+        2. Tekan dan tahan pada area yang tidak ditempati ikon.<br/>
+        3. Pilih "widget".<br/>
+        4. Gulir ke widget "ScreenWidget".<br/>
+        5. Seret dan lepas ke layar beranda pada posisi yang diinginkan.<br/>
+        6. Ketuk widget untuk mengubah mode batas waktu layar.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Menambahkan Tile Pengaturan Cepat</string>
+    <string name="lbl_addtile1">1. Buka panel notifikasi.</string>
+    <string name="lbl_addtile2">2. Geser ke bawah dari atas untuk membuka panel Pengaturan Cepat.</string>
+    <string name="lbl_addtile3">3. Ketuk tombol EDIT.</string>
+    <string name="lbl_addtile4">4. Seret tile bernama "Screen Timeout" ke panel Pengaturan Cepat.</string>
+    <string name="lbl_addtile5">5. Ketuk kembali dan tile siap digunakan.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Buka panel notifikasi.<br/>
+        2. Geser ke bawah dari atas untuk membuka panel Pengaturan Cepat.<br/>
+        3. Ketuk tombol EDIT.<br/>
+        4. Seret tile bernama "Screen Timeout" ke panel Pengaturan Cepat.<br/>
+        5. Ketuk kembali dan tile siap digunakan.\n]]>
+    </string>
+
+    <string name="notification">Notifikasi</string>
+    <string name="notification_name">Notifikasi dan ikon bilah status</string>
+    <string name="notification_desc">Saat diaktifkan, notifikasi dan ikon bilah status akan ditampilkan di area notifikasi ketika mode "Selalu aktif" diaktifkan</string>
+
+    <string name="revert_default_timeout">Nonaktifkan otomatis</string>
+    <string name="revert_default_timeout_name">Kembali otomatis ke batas waktu default</string>
+    <string name="revert_default_timeout_desc">Kembali otomatis ke batas waktu layar default saat layar mati %s.</string>
+
+    <string name="condition_never">dinonaktifkan</string>
+    <string name="condition_any_timeout">diaktifkan</string>
+    <string name="condition_only_always_on">diaktifkan hanya untuk mode selalu aktif</string>
+
+    <string name="btn_addwidget">Tambahkan ke Layar Beranda</string>
+
+    <string name="onboot_section">Pengaturan Saat Boot</string>
+    <string name="onboot_trigger_name">Pulihkan saat boot</string>
+    <string name="onboot_trigger_desc">Pulihkan status aktif terakhir saat boot. Berguna jika Anda ingin pengaturan waktu kembali ke kondisi sebelum perangkat di-reboot.</string>
+    <string name="onboot_toast_name">Tampilkan pesan</string>
+    <string name="onboot_toast_desc">Tampilkan pesan Toast setelah pengaturan dipulihkan</string>
+
+    <string name="multitap_section">Pengaturan Multi-Tap</string>
+    <string name="multitap_enable_name">Dukungan multi-tap</string>
+    <string name="multitap_enable_desc">Aktifkan atau nonaktifkan dukungan multi-tap untuk widget. Fitur ini memungkinkan menaikkan atau menurunkan batas waktu widget dengan ketukan ganda dan ketukan tiga kali.</string>
+    <string name="multitap_smart_system_name">Jeda pintar multi-tap</string>
+    <string name="multitap_smart_system_desc">Jeda bertahap pintar multi-tap: ketukan tunggal diproses lebih cepat, lalu ketukan ganda dan tiga kali mengurangi waktu tunggu.</string>
+
+    <string name="single_tap_action_name">Aksi ketuk tunggal</string>
+    <string name="single_tap_action_desc">%s. Pilih aksi ketuk tunggal yang akan digunakan.</string>
+    <string name="single_always_on">Beralih antara selalu aktif dan batas waktu default</string>
+    <string name="single_last_active">Beralih antara batas waktu terakhir digunakan dan batas waktu default</string>
+    <string name="sort_timeouts_name">Urutkan daftar batas waktu kustom</string>
+    <string name="sort_timeouts_desc">%s. Pilih opsi pengurutan.</string>
+
+    <string name="do_not_sort">Jangan urutkan</string>
+    <string name="do_sort_asc">Urut naik</string>
+    <string name="do_sort_desc">Urut turun</string>
+
+    <string name="design_section">Kustomisasi tampilan</string>
+    <string name="widget_font_size_header">Ukuran font</string>
+    <string name="widget_font_size_desc">Pilih ukuran font yang digunakan pada widget. Berguna untuk mendapatkan hasil visual terbaik pada launcher yang berbeda.</string>
+    <string name="widget_icon_size_header">Ukuran ikon</string>
+    <string name="widget_icon_size_desc">Pilih ukuran ikon widget. Berguna untuk mendapatkan hasil visual terbaik pada launcher yang berbeda.</string>
+
+    <string name="layout_ico_header">Ukuran ikon</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="str_menu_settings">Pengaturan</string>
+    <string name="str_menu_rate_app">Beri nilai aplikasi</string>
+    <string name="str_menu_share_app">Rekomendasikan aplikasi</string>
+
+    <string name="settings_custom_timeouts">Sesuaikan batas waktu</string>
+    <string name="custom_timeout1_header">Nilai batas waktu kustom 1</string>
+    <string name="custom_timeout1_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout2_header">Nilai batas waktu kustom 2</string>
+    <string name="custom_timeout2_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout3_header">Nilai batas waktu kustom 3</string>
+    <string name="custom_timeout3_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout4_header">Nilai batas waktu kustom 4</string>
+    <string name="custom_timeout4_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout5_header">Nilai batas waktu kustom 5</string>
+    <string name="custom_timeout5_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout6_header">Nilai batas waktu kustom 6</string>
+    <string name="custom_timeout6_value"> menit. Masukkan nilai batas waktu yang diinginkan. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="enter_timeout_value">Silakan masukkan nilai dalam menit</string>
+
+    <string name="tile_name">Batas Waktu Layar</string>
+
+    <string name="power_events">Perlindungan baterai rendah</string>
+
+    <string name="disable_on_low_name">Nonaktifkan otomatis saat baterai rendah</string>
+    <string name="disable_on_low_desc">Otomatis menonaktifkan mode selalu aktif saat level baterai rendah.</string>
+
+    <string name="no_license">Tidak ada lisensi</string>
+
+    <string name="general_settings">Pengaturan Umum</string>
+    <string name="advanced_settings">Pengaturan Lanjutan</string>
+    <string name="timeout_settings">Batas Waktu Kustom</string>
+    <string name="contact_support">Hubungi Dukungan</string>
+    <string name="email_us">Kirim Email</string>
+    <string name="documentation">Dokumentasi</string>
+    <string name="chat_support">Chat Dukungan Teknis</string>
+    <string name="contribute_translations">Berkontribusi pada Terjemahan</string>
+    <string name="social_networks">Jejaring Sosial</string>
+    <string name="social_facebook">Halaman Facebook</string>
+    <string name="social_vk">Halaman VK</string>
+    <string name="social_telegram">Grup Telegram</string>
+
+    <string name="settings_header_application_settings">Pengaturan Aplikasi</string>
+    <string name="settings_header_support_channels">Saluran Dukungan</string>
+    <string name="settings_header_contribution_and_social_media">Kontribusi dan Media Sosial</string>
+
+    <string name="social_networks_list">Saluran Jejaring Sosial</string>
+
+    <string name="app_automation_settings_title">Otomasi Aplikasi</string>
+    <string name="app_automation_settings_summary">Biarkan layar tetap menyala secara otomatis untuk aplikasi yang dipilih</string>
+    <string name="app_automation_usage_access_required">Untuk mendeteksi aplikasi di latar depan, izinkan Akses Penggunaan di pengaturan sistem.</string>
+    <string name="app_automation_open_usage_access">Buka Pengaturan Akses Penggunaan</string>
+    <string name="app_automation_screen_hint">Pilih aplikasi yang harus menjaga layar tetap menyala secara otomatis.</string>
+    <string name="app_automation_no_apps">Tidak ada aplikasi yang dapat diluncurkan ditemukan di perangkat ini.</string>
+    <string name="app_automation_checkbox_content_desc">Aktifkan otomasi aplikasi</string>
+    <string name="app_automation_service_active">Otomasi aplikasi sedang berjalan</string>
+
+    <string name="app_automation_master_name">Aktifkan otomasi aplikasi</string>
+
+    <string name="app_automation_master_desc">Aktifkan mode layar tetap menyala otomatis untuk aplikasi yang dipilih</string>
+
+    <string name="app_automation_search_hint">Cari aplikasi</string>
+
+    <string name="app_automation_section">Otomasi Aplikasi</string>
+
+    <string name="app_automation_poll_name">Interval polling aplikasi</string>
+
+    <string name="app_automation_poll_desc">%s dtk. Pilih interval polling aplikasi.</string>
+
+    <string name="app_automation_default_name">Preset batas waktu default</string>
+
+    <string name="app_automation_default_desc">%s. Pilih preset batas waktu default untuk otomasi aplikasi.</string>
+
+    <string name="app_automation_minutes_compact">%1$d mnt</string>
+
+    <string name="app_automation_preset_default_menu">Bawaan</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Pilih preset batas waktu</string>
+
+    <string name="app_language_section">Bahasa</string>
+
+    <string name="app_language_name">Bahasa aplikasi</string>
+
+    <string name="app_language_desc">Pilih bahasa aplikasi</string>
+
+    <string name="app_language_system_default">Default sistem</string>
+
+    <string name="support_card_title">Dukung aplikasi</string>
+    <string name="support_card_body">Jika aplikasi ini membantu Anda, mohon beri rating atau ulasan singkat.
+Ini secara langsung menentukan apakah aplikasi akan terus mendapat pembaruan atau dihentikan.</string>
+    <string name="support_card_rate_on_play">Beri rating di Google Play</string>
+    <string name="support_card_not_now">Nanti saja</string>
+    <string name="support_card_dont_show_again">Jangan tampilkan lagi</string>
+
+    <string name="settings_export_title">Ekspor pengaturan</string>
+    <string name="settings_export_summary">Simpan dan pulihkan pengaturan aplikasi menggunakan file JSON</string>
+    <string name="settings_export_action">Ekspor pengaturan</string>
+    <string name="settings_import_action">Impor pengaturan</string>
+    <string name="settings_import_summary">Impor pengaturan dari file JSON yang sebelumnya diekspor</string>
+    <string name="settings_export_done">Pengaturan diekspor: %1$d</string>
+    <string name="settings_import_done">Pengaturan diimpor: %1$d</string>
+    <string name="settings_export_failed">Ekspor gagal</string>
+    <string name="settings_import_failed">Impor gagal</string>
+    <string name="settings_export_failed_details">Ekspor gagal: %1$s</string>
+    <string name="settings_import_failed_details">Impor gagal: %1$s</string>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">Sentiasa hidup</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Semakan lesen gagal.</string>
+
+    <string name="lbl_permissions">Anda perlu memberi kebenaran kepada aplikasi ini untuk menukar tetapan sebelum ia berfungsi. Satu-satunya tetapan yang akan diubah ialah masa tamat skrin.</string>
+    <string name="btn_permissions">Konfigurasi</string>
+    <string name="lbl_addwidget_header">Menambah widget ke skrin utama</string>
+    <string name="lbl_addwidget1">1. Tekan butang utama untuk pergi ke skrin utama.</string>
+    <string name="lbl_addwidget2">2. Tekan dan tahan pada kawasan yang tidak dipenuhi ikon.</string>
+    <string name="lbl_addwidget3">3. Pilih "widget".</string>
+    <string name="lbl_addwidget4">4. Tatal ke widget "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. Seret dan lepaskan ke skrin utama pada lokasi yang dikehendaki.</string>
+    <string name="lbl_addwidget6">6. Ketik widget untuk menukar mod masa tamat skrin.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Tekan butang utama untuk pergi ke skrin utama.<br/>
+        2. Tekan dan tahan pada kawasan yang tidak dipenuhi ikon.<br/>
+        3. Pilih "widget".<br/>
+        4. Tatal ke widget "ScreenWidget".<br/>
+        5. Seret dan lepaskan ke skrin utama pada lokasi yang dikehendaki.<br/>
+        6. Ketik widget untuk menukar mod masa tamat skrin.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Menambah Tile Tetapan Pantas</string>
+    <string name="lbl_addtile1">1. Buka panel notifikasi.</string>
+    <string name="lbl_addtile2">2. Leret ke bawah dari atas untuk membuka panel Tetapan Pantas.</string>
+    <string name="lbl_addtile3">3. Ketik butang EDIT.</string>
+    <string name="lbl_addtile4">4. Seret tile bernama "Screen Timeout" ke panel Tetapan Pantas.</string>
+    <string name="lbl_addtile5">5. Ketik kembali dan tile sedia digunakan.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Buka panel notifikasi.<br/>
+        2. Leret ke bawah dari atas untuk membuka panel Tetapan Pantas.<br/>
+        3. Ketik butang EDIT.<br/>
+        4. Seret tile bernama "Screen Timeout" ke panel Tetapan Pantas.<br/>
+        5. Ketik kembali dan tile sedia digunakan.\n]]>
+    </string>
+
+    <string name="notification">Pemberitahuan</string>
+    <string name="notification_name">Pemberitahuan dan ikon bar status</string>
+    <string name="notification_desc">Apabila diaktifkan, pemberitahuan dan ikon bar status akan dipaparkan di kawasan pemberitahuan apabila mod "Sentiasa hidup" diaktifkan</string>
+
+    <string name="revert_default_timeout">Nyahaktif automatik</string>
+    <string name="revert_default_timeout_name">Kembali automatik ke masa tamat lalai</string>
+    <string name="revert_default_timeout_desc">Kembali automatik ke masa tamat skrin lalai apabila skrin dimatikan %s.</string>
+
+    <string name="condition_never">dimatikan</string>
+    <string name="condition_any_timeout">diaktifkan</string>
+    <string name="condition_only_always_on">diaktifkan hanya untuk mod sentiasa hidup</string>
+
+    <string name="btn_addwidget">Tambah ke Skrin Utama</string>
+
+    <string name="onboot_section">Tetapan Semasa Boot</string>
+    <string name="onboot_trigger_name">Pulihkan semasa boot</string>
+    <string name="onboot_trigger_desc">Pulihkan keadaan aktif terakhir semasa boot. Berguna jika anda mahu tetapan masa dipulihkan ke keadaan sebelum peranti dimulakan semula.</string>
+    <string name="onboot_toast_name">Tunjukkan mesej</string>
+    <string name="onboot_toast_desc">Tunjukkan mesej Toast selepas tetapan dipulihkan</string>
+
+    <string name="multitap_section">Tetapan Multi-Tap</string>
+    <string name="multitap_enable_name">Sokongan multi-tap</string>
+    <string name="multitap_enable_desc">Aktifkan atau nyahaktifkan sokongan multi-tap untuk widget. Ciri ini membolehkan peningkatan atau pengurangan tetapan masa tamat widget menggunakan ketikan dua kali dan tiga kali.</string>
+    <string name="multitap_smart_system_name">Kelewatan pintar multi-tap</string>
+    <string name="multitap_smart_system_desc">Kelewatan berperingkat pintar multi-tap: ketikan tunggal diproses lebih cepat, kemudian ketikan dua dan tiga kali mengurangkan masa menunggu.</string>
+
+    <string name="single_tap_action_name">Tindakan ketik tunggal</string>
+    <string name="single_tap_action_desc">%s. Pilih tindakan ketik tunggal untuk digunakan.</string>
+    <string name="single_always_on">Tukar antara sentiasa hidup dan masa tamat lalai</string>
+    <string name="single_last_active">Tukar antara masa tamat terakhir digunakan dan masa tamat lalai</string>
+    <string name="sort_timeouts_name">Isih senarai masa tamat tersuai</string>
+    <string name="sort_timeouts_desc">%s. Pilih pilihan isihan.</string>
+
+    <string name="do_not_sort">Jangan isih</string>
+    <string name="do_sort_asc">Isih menaik</string>
+    <string name="do_sort_desc">Isih menurun</string>
+
+    <string name="design_section">Penyesuaian visual</string>
+    <string name="widget_font_size_header">Saiz fon</string>
+    <string name="widget_font_size_desc">Pilih saiz fon yang digunakan dalam widget. Berguna untuk mendapatkan hasil visual terbaik dengan pelancar yang berbeza.</string>
+    <string name="widget_icon_size_header">Saiz ikon</string>
+    <string name="widget_icon_size_desc">Pilihan saiz ikon widget. Berguna untuk mendapatkan hasil visual terbaik dengan pelancar yang berbeza.</string>
+
+    <string name="layout_ico_header">Saiz ikon</string>
+    <string name="action_settings">Tetapan</string>
+
+    <string name="str_menu_settings">Tetapan</string>
+    <string name="str_menu_rate_app">Nilai aplikasi</string>
+    <string name="str_menu_share_app">Syorkan aplikasi</string>
+
+    <string name="settings_custom_timeouts">Sesuaikan masa tamat</string>
+    <string name="custom_timeout1_header">Nilai masa tamat tersuai 1</string>
+    <string name="custom_timeout1_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout2_header">Nilai masa tamat tersuai 2</string>
+    <string name="custom_timeout2_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout3_header">Nilai masa tamat tersuai 3</string>
+    <string name="custom_timeout3_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout4_header">Nilai masa tamat tersuai 4</string>
+    <string name="custom_timeout4_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout5_header">Nilai masa tamat tersuai 5</string>
+    <string name="custom_timeout5_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="custom_timeout6_header">Nilai masa tamat tersuai 6</string>
+    <string name="custom_timeout6_value"> minit. Masukkan nilai masa tamat yang dikehendaki. Masukkan 0 untuk mengabaikan slot ini.</string>
+    <string name="enter_timeout_value">Sila masukkan nilai dalam minit</string>
+
+    <string name="tile_name">Masa Tamat Skrin</string>
+
+    <string name="power_events">Perlindungan bateri rendah</string>
+
+    <string name="disable_on_low_name">Nyahaktif automatik pada bateri rendah</string>
+    <string name="disable_on_low_desc">Nyahaktifkan mod sentiasa hidup secara automatik apabila tahap bateri rendah.</string>
+
+    <string name="no_license">Tiada lesen</string>
+
+    <string name="general_settings">Tetapan Umum</string>
+    <string name="advanced_settings">Tetapan Lanjutan</string>
+    <string name="timeout_settings">Masa Tamat Tersuai</string>
+    <string name="contact_support">Hubungi Sokongan</string>
+    <string name="email_us">E-mel Kami</string>
+    <string name="documentation">Dokumentasi</string>
+    <string name="chat_support">Sembang Sokongan Teknikal</string>
+    <string name="contribute_translations">Sumbang kepada Terjemahan</string>
+    <string name="social_networks">Rangkaian Sosial</string>
+    <string name="social_facebook">Halaman Facebook</string>
+    <string name="social_vk">Halaman VK</string>
+    <string name="social_telegram">Kumpulan Telegram</string>
+
+    <string name="settings_header_application_settings">Tetapan Aplikasi</string>
+    <string name="settings_header_support_channels">Saluran Sokongan</string>
+    <string name="settings_header_contribution_and_social_media">Sumbangan dan Media Sosial</string>
+
+    <string name="social_networks_list">Saluran Rangkaian Sosial</string>
+
+    <string name="app_automation_settings_title">Automasi Aplikasi</string>
+    <string name="app_automation_settings_summary">Kekalkan skrin hidup secara automatik untuk aplikasi terpilih</string>
+    <string name="app_automation_usage_access_required">Untuk mengesan aplikasi di latar hadapan, benarkan Akses Penggunaan dalam tetapan sistem.</string>
+    <string name="app_automation_open_usage_access">Buka Tetapan Akses Penggunaan</string>
+    <string name="app_automation_screen_hint">Pilih aplikasi yang perlu mengekalkan skrin hidup secara automatik.</string>
+    <string name="app_automation_no_apps">Tiada aplikasi boleh dilancar ditemui pada peranti ini.</string>
+    <string name="app_automation_checkbox_content_desc">Aktifkan automasi aplikasi</string>
+    <string name="app_automation_service_active">Automasi aplikasi sedang berjalan</string>
+
+    <string name="app_automation_master_name">Aktifkan automasi aplikasi</string>
+
+    <string name="app_automation_master_desc">Aktifkan mod skrin sentiasa hidup automatik untuk aplikasi terpilih</string>
+
+    <string name="app_automation_search_hint">Cari aplikasi</string>
+
+    <string name="app_automation_section">Automasi Aplikasi</string>
+
+    <string name="app_automation_poll_name">Selang semakan aplikasi</string>
+
+    <string name="app_automation_poll_desc">%s saat. Pilih selang semakan aplikasi.</string>
+
+    <string name="app_automation_default_name">Pratetap masa tamat lalai</string>
+
+    <string name="app_automation_default_desc">%s. Pilih pratetap masa tamat lalai untuk automasi aplikasi.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Lalai</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Pilih pratetap masa tamat</string>
+
+    <string name="app_language_section">Bahasa</string>
+
+    <string name="app_language_name">Bahasa aplikasi</string>
+
+    <string name="app_language_desc">Pilih bahasa aplikasi</string>
+
+    <string name="app_language_system_default">Lalai sistem</string>
+
+    <string name="support_card_title">Sokong aplikasi ini</string>
+    <string name="support_card_body">Jika aplikasi ini membantu anda, sila beri penilaian atau ulasan ringkas.
+Ini secara langsung menentukan sama ada aplikasi akan terus menerima kemas kini atau dihentikan.</string>
+    <string name="support_card_rate_on_play">Nilai di Google Play</string>
+    <string name="support_card_not_now">Bukan sekarang</string>
+    <string name="support_card_dont_show_again">Jangan tunjuk lagi</string>
+
+    <string name="settings_export_title">Eksport tetapan</string>
+    <string name="settings_export_summary">Simpan dan pulihkan tetapan aplikasi menggunakan fail JSON</string>
+    <string name="settings_export_action">Eksport tetapan</string>
+    <string name="settings_import_action">Import tetapan</string>
+    <string name="settings_import_summary">Import tetapan daripada fail JSON yang dieksport sebelum ini</string>
+    <string name="settings_export_done">Tetapan dieksport: %1$d</string>
+    <string name="settings_import_done">Tetapan diimport: %1$d</string>
+    <string name="settings_export_failed">Eksport gagal</string>
+    <string name="settings_import_failed">Import gagal</string>
+    <string name="settings_export_failed_details">Eksport gagal: %1$s</string>
+    <string name="settings_import_failed_details">Import gagal: %1$s</string>
+</resources>

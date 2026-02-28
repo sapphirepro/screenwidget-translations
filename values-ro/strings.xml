@@ -139,20 +139,20 @@
     <string name="contact_support">Contactați asistența</string>
     <string name="email_us">Trimite-ți-ne un e-mail</string>
     <string name="documentation">Documentație</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">Chat de asistență tehnică</string>
+    <string name="contribute_translations">Contribuie la traduceri</string>
+    <string name="social_networks">Rețele sociale</string>
+    <string name="social_facebook">Pagină Facebook</string>
+    <string name="social_vk">Pagină VK</string>
+    <string name="social_telegram">Grup Telegram</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">Setări aplicație</string>
+    <string name="settings_header_support_channels">Canale de asistență</string>
+    <string name="settings_header_contribution_and_social_media">Contribuții și rețele sociale</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">Canale de rețele sociale</string>
 
     <string name="app_automation_settings_title">Automatizare aplicații</string>
     <string name="app_automation_settings_summary">Menține automat ecranul aprins pentru aplicațiile selectate</string>
@@ -194,4 +194,23 @@
     <string name="app_language_desc">Alege limba aplicației</string>
 
     <string name="app_language_system_default">Implicit sistem</string>
+
+    <string name="support_card_title">Susține aplicația</string>
+    <string name="support_card_body">Dacă această aplicație te ajută, te rugăm să lași un rating sau o recenzie scurtă.
+Acest lucru determină direct dacă aplicația va continua să primească actualizări sau va fi întreruptă.</string>
+    <string name="support_card_rate_on_play">Evaluează pe Google Play</string>
+    <string name="support_card_not_now">Nu acum</string>
+    <string name="support_card_dont_show_again">Nu mai afișa</string>
+
+    <string name="settings_export_title">Exportă setările</string>
+    <string name="settings_export_summary">Salvează și restaurează setările aplicației folosind un fișier JSON</string>
+    <string name="settings_export_action">Exportă setările</string>
+    <string name="settings_import_action">Importă setările</string>
+    <string name="settings_import_summary">Importă setările dintr-un fișier JSON exportat anterior</string>
+    <string name="settings_export_done">Setări exportate: %1$d</string>
+    <string name="settings_import_done">Setări importate: %1$d</string>
+    <string name="settings_export_failed">Exportul a eșuat</string>
+    <string name="settings_import_failed">Importul a eșuat</string>
+    <string name="settings_export_failed_details">Exportul a eșuat: %1$s</string>
+    <string name="settings_import_failed_details">Importul a eșuat: %1$s</string>
 </resources>

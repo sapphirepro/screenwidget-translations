@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">همیشه روشن</string>
+    <string name="label_off">%1$d د.</string>
+    <string name="lceck_fail">بررسی مجوز ناموفق بود.</string>
+
+    <string name="lbl_permissions">برای کارکرد این برنامه باید اجازه تغییر تنظیمات را بدهید. تنها تنظیمی که تغییر می‌کند زمان خاموشی صفحه است.</string>
+    <string name="btn_permissions">پیکربندی</string>
+    <string name="lbl_addwidget_header">افزودن ویجت به صفحه اصلی</string>
+    <string name="lbl_addwidget1">1. دکمه خانه را بزنید تا به صفحه اصلی بروید.</string>
+    <string name="lbl_addwidget2">2. روی ناحیه‌ای که با آیکن اشغال نشده لمس طولانی کنید.</string>
+    <string name="lbl_addwidget3">3. "widgets" را انتخاب کنید.</string>
+    <string name="lbl_addwidget4">4. به ویجت "ScreenWidget" اسکرول کنید.</string>
+    <string name="lbl_addwidget5">5. آن را به محل دلخواه در صفحه اصلی بکشید و رها کنید.</string>
+    <string name="lbl_addwidget6">6. برای تغییر حالت زمان خاموشی صفحه روی ویجت بزنید.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. دکمه خانه را بزنید تا به صفحه اصلی بروید.<br/>
+        2. روی ناحیه‌ای که با آیکن اشغال نشده لمس طولانی کنید.<br/>
+        3. "widgets" را انتخاب کنید.<br/>
+        4. به ویجت "ScreenWidget" اسکرول کنید.<br/>
+        5. آن را به محل دلخواه در صفحه اصلی بکشید و رها کنید.<br/>
+        6. برای تغییر حالت زمان خاموشی صفحه روی ویجت بزنید.\n]]>
+    </string>
+    <string name="lbl_addtile_header">افزودن کاشی تنظیمات سریع</string>
+    <string name="lbl_addtile1">1. پنل اعلان را باز کنید.</string>
+    <string name="lbl_addtile2">2. از بالا به پایین بکشید تا پنل تنظیمات سریع باز شود.</string>
+    <string name="lbl_addtile3">3. دکمه EDIT را لمس کنید.</string>
+    <string name="lbl_addtile4">4. کاشی با نام "Screen Timeout" را به پنل تنظیمات سریع بکشید.</string>
+    <string name="lbl_addtile5">5. به عقب برگردید، حالا کاشی آماده استفاده است.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. پنل اعلان را باز کنید.<br/>
+        2. از بالا به پایین بکشید تا پنل تنظیمات سریع باز شود.<br/>
+        3. دکمه EDIT را لمس کنید.<br/>
+        4. کاشی با نام "Screen Timeout" را به پنل تنظیمات سریع بکشید.<br/>
+        5. به عقب برگردید، حالا کاشی آماده استفاده است.\n]]>
+    </string>
+
+    <string name="notification">اعلان</string>
+    <string name="notification_name">اعلان و آیکن نوار وضعیت</string>
+    <string name="notification_desc">در صورت فعال بودن، هنگام فعال شدن حالت "همیشه روشن" اعلان و آیکن نوار وضعیت در ناحیه اعلان نمایش داده می‌شود</string>
+
+    <string name="revert_default_timeout">غیرفعال‌سازی خودکار</string>
+    <string name="revert_default_timeout_name">بازگشت خودکار به زمان پیش‌فرض</string>
+    <string name="revert_default_timeout_desc">بازگشت خودکار به زمان خاموشی پیش‌فرض صفحه هنگام خاموش شدن صفحه %s.</string>
+
+    <string name="condition_never">غیرفعال</string>
+    <string name="condition_any_timeout">فعال</string>
+    <string name="condition_only_always_on">فقط برای حالت همیشه روشن فعال</string>
+
+    <string name="btn_addwidget">افزودن به صفحه اصلی</string>
+
+    <string name="onboot_section">تنظیمات هنگام راه‌اندازی</string>
+    <string name="onboot_trigger_name">بازیابی هنگام راه‌اندازی</string>
+    <string name="onboot_trigger_desc">آخرین وضعیت فعال را هنگام راه‌اندازی بازیابی می‌کند. اگر می‌خواهید زمان‌بندی‌ها به حالت قبل از راه‌اندازی مجدد برگردند، این گزینه مفید است.</string>
+    <string name="onboot_toast_name">نمایش پیام</string>
+    <string name="onboot_toast_desc">پس از بازیابی تنظیمات، پیام Toast نمایش داده شود</string>
+
+    <string name="multitap_section">تنظیمات چندلمسی</string>
+    <string name="multitap_enable_name">پشتیبانی چندلمسی</string>
+    <string name="multitap_enable_desc">پشتیبانی چندلمسی ویجت را فعال یا غیرفعال کنید. این قابلیت با دوبار یا سه‌بار لمس، مقدار زمان خاموشی ویجت را افزایش یا کاهش می‌دهد.</string>
+    <string name="multitap_smart_system_name">تاخیر هوشمند چندلمسی</string>
+    <string name="multitap_smart_system_desc">تاخیر هوشمند چندمرحله‌ای: لمس تکی سریع‌تر پردازش می‌شود و سپس لمس دوبل و سه‌تایی زمان انتظار را کاهش می‌دهد.</string>
+
+    <string name="single_tap_action_name">عملکرد لمس تکی</string>
+    <string name="single_tap_action_desc">%s. عملکرد لمس تکی را انتخاب کنید.</string>
+    <string name="single_always_on">جابجایی بین همیشه روشن و زمان پیش‌فرض</string>
+    <string name="single_last_active">جابجایی بین آخرین زمان استفاده‌شده و زمان پیش‌فرض</string>
+    <string name="sort_timeouts_name">مرتب‌سازی فهرست زمان‌های سفارشی</string>
+    <string name="sort_timeouts_desc">%s. گزینه مرتب‌سازی را انتخاب کنید.</string>
+
+    <string name="do_not_sort">مرتب نکن</string>
+    <string name="do_sort_asc">مرتب‌سازی صعودی</string>
+    <string name="do_sort_desc">مرتب‌سازی نزولی</string>
+
+    <string name="design_section">سفارشی‌سازی ظاهری</string>
+    <string name="widget_font_size_header">اندازه فونت</string>
+    <string name="widget_font_size_desc">اندازه فونت مورد استفاده در ویجت را انتخاب کنید. برای رسیدن به بهترین نتیجه بصری در لانچرهای مختلف مفید است.</string>
+    <string name="widget_icon_size_header">اندازه آیکن</string>
+    <string name="widget_icon_size_desc">اندازه آیکن ویجت را انتخاب کنید. برای رسیدن به بهترین نتیجه بصری در لانچرهای مختلف مفید است.</string>
+
+    <string name="layout_ico_header">اندازه آیکن</string>
+    <string name="action_settings">تنظیمات</string>
+
+    <string name="str_menu_settings">تنظیمات</string>
+    <string name="str_menu_rate_app">امتیاز دادن به برنامه</string>
+    <string name="str_menu_share_app">پیشنهاد برنامه</string>
+
+    <string name="settings_custom_timeouts">سفارشی‌سازی زمان‌ها</string>
+    <string name="custom_timeout1_header">مقدار زمان سفارشی 1</string>
+    <string name="custom_timeout1_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="custom_timeout2_header">مقدار زمان سفارشی 2</string>
+    <string name="custom_timeout2_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="custom_timeout3_header">مقدار زمان سفارشی 3</string>
+    <string name="custom_timeout3_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="custom_timeout4_header">مقدار زمان سفارشی 4</string>
+    <string name="custom_timeout4_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="custom_timeout5_header">مقدار زمان سفارشی 5</string>
+    <string name="custom_timeout5_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="custom_timeout6_header">مقدار زمان سفارشی 6</string>
+    <string name="custom_timeout6_value"> دقیقه. مقدار زمان دلخواه را وارد کنید. برای نادیده گرفتن این بخش، 0 وارد کنید.</string>
+    <string name="enter_timeout_value">لطفاً مقدار را برحسب دقیقه وارد کنید</string>
+
+    <string name="tile_name">زمان خاموشی صفحه</string>
+
+    <string name="power_events">محافظت باتری کم</string>
+
+    <string name="disable_on_low_name">غیرفعال‌سازی خودکار در باتری کم</string>
+    <string name="disable_on_low_desc">در سطح پایین باتری، حالت همیشه روشن به‌طور خودکار غیرفعال می‌شود.</string>
+
+    <string name="no_license">بدون مجوز</string>
+
+    <string name="general_settings">تنظیمات عمومی</string>
+    <string name="advanced_settings">تنظیمات پیشرفته</string>
+    <string name="timeout_settings">زمان‌های سفارشی</string>
+    <string name="contact_support">تماس با پشتیبانی</string>
+    <string name="email_us">به ما ایمیل بزنید</string>
+    <string name="documentation">مستندات</string>
+    <string name="chat_support">چت پشتیبانی فنی</string>
+    <string name="contribute_translations">مشارکت در ترجمه‌ها</string>
+    <string name="social_networks">شبکه‌های اجتماعی</string>
+    <string name="social_facebook">صفحه Facebook</string>
+    <string name="social_vk">صفحه VK</string>
+    <string name="social_telegram">گروه Telegram</string>
+
+    <string name="settings_header_application_settings">تنظیمات برنامه</string>
+    <string name="settings_header_support_channels">کانال‌های پشتیبانی</string>
+    <string name="settings_header_contribution_and_social_media">مشارکت و شبکه‌های اجتماعی</string>
+
+    <string name="social_networks_list">کانال‌های شبکه‌های اجتماعی</string>
+
+    <string name="app_automation_settings_title">اتوماسیون برنامه‌ها</string>
+    <string name="app_automation_settings_summary">برای برنامه‌های انتخاب‌شده، صفحه را به‌صورت خودکار روشن نگه دارد</string>
+    <string name="app_automation_usage_access_required">برای تشخیص برنامه در پیش‌زمینه، دسترسی استفاده را در تنظیمات سیستم فعال کنید.</string>
+    <string name="app_automation_open_usage_access">باز کردن تنظیمات دسترسی استفاده</string>
+    <string name="app_automation_screen_hint">برنامه‌هایی را انتخاب کنید که باید صفحه را به‌صورت خودکار روشن نگه دارند.</string>
+    <string name="app_automation_no_apps">هیچ برنامه قابل اجرا روی این دستگاه پیدا نشد.</string>
+    <string name="app_automation_checkbox_content_desc">فعال‌سازی اتوماسیون برنامه</string>
+    <string name="app_automation_service_active">اتوماسیون برنامه فعال است</string>
+
+    <string name="app_automation_master_name">فعال‌سازی اتوماسیون برنامه</string>
+
+    <string name="app_automation_master_desc">فعال‌سازی حالت روشن نگه داشتن خودکار صفحه برای برنامه‌های انتخاب‌شده</string>
+
+    <string name="app_automation_search_hint">جستجوی برنامه‌ها</string>
+
+    <string name="app_automation_section">اتوماسیون برنامه‌ها</string>
+
+    <string name="app_automation_poll_name">فاصله بررسی برنامه‌ها</string>
+
+    <string name="app_automation_poll_desc">%s ثانیه. فاصله بررسی برنامه‌ها را انتخاب کنید.</string>
+
+    <string name="app_automation_default_name">پیش‌تنظیم زمان پیش‌فرض</string>
+
+    <string name="app_automation_default_desc">%s. پیش‌تنظیم زمان پیش‌فرض را برای اتوماسیون برنامه‌ها انتخاب کنید.</string>
+
+    <string name="app_automation_minutes_compact">%1$d د</string>
+
+    <string name="app_automation_preset_default_menu">پیش‌فرض</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">انتخاب پیش‌تنظیم زمان</string>
+
+    <string name="app_language_section">زبان</string>
+
+    <string name="app_language_name">زبان برنامه</string>
+
+    <string name="app_language_desc">زبان برنامه را انتخاب کنید</string>
+
+    <string name="app_language_system_default">پیش‌فرض سیستم</string>
+
+    <string name="support_card_title">از برنامه حمایت کنید</string>
+    <string name="support_card_body">اگر این برنامه به شما کمک می‌کند، لطفاً یک امتیاز یا نظر کوتاه ثبت کنید.
+این موضوع مستقیماً تعیین می‌کند برنامه به‌روزرسانی دریافت کند یا متوقف شود.</string>
+    <string name="support_card_rate_on_play">امتیاز در Google Play</string>
+    <string name="support_card_not_now">الان نه</string>
+    <string name="support_card_dont_show_again">دیگر نشان نده</string>
+
+    <string name="settings_export_title">خروجی گرفتن از تنظیمات</string>
+    <string name="settings_export_summary">ذخیره و بازیابی تنظیمات برنامه با فایل JSON</string>
+    <string name="settings_export_action">خروجی تنظیمات</string>
+    <string name="settings_import_action">ورود تنظیمات</string>
+    <string name="settings_import_summary">وارد کردن تنظیمات از فایل JSON که قبلا صادر شده است</string>
+    <string name="settings_export_done">تنظیمات صادر شد: %1$d</string>
+    <string name="settings_import_done">تنظیمات وارد شد: %1$d</string>
+    <string name="settings_export_failed">خروجی ناموفق بود</string>
+    <string name="settings_import_failed">ورود ناموفق بود</string>
+    <string name="settings_export_failed_details">خروجی ناموفق بود: %1$s</string>
+    <string name="settings_import_failed_details">ورود ناموفق بود: %1$s</string>
+</resources>

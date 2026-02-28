@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">हमेशा चालू</string>
+    <string name="label_off">%1$d मि.</string>
+    <string name="lceck_fail">लाइसेंस जांच विफल हुई।</string>
+
+    <string name="lbl_permissions">इस ऐप को काम करने के लिए सेटिंग बदलने की अनुमति दें। यह केवल स्क्रीन टाइम-आउट सेटिंग को बदलेगा।</string>
+    <string name="btn_permissions">कॉन्फ़िगर करें</string>
+    <string name="lbl_addwidget_header">होम स्क्रीन पर विजेट जोड़ना</string>
+    <string name="lbl_addwidget1">1. होम स्क्रीन पर जाने के लिए होम बटन दबाएँ।</string>
+    <string name="lbl_addwidget2">2. किसी खाली जगह पर उंगली दबाकर रखें जहाँ कोई आइकन न हो।</string>
+    <string name="lbl_addwidget3">3. "widgets" चुनें।</string>
+    <string name="lbl_addwidget4">4. "ScreenWidget" विजेट तक स्क्रॉल करें।</string>
+    <string name="lbl_addwidget5">5. उसे खींचकर होम स्क्रीन पर मनचाही जगह छोड़ें।</string>
+    <string name="lbl_addwidget6">6. स्क्रीन टाइम-आउट मोड बदलने के लिए विजेट पर टैप करें।</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. होम स्क्रीन पर जाने के लिए होम बटन दबाएँ।<br/>
+        2. किसी खाली जगह पर उंगली दबाकर रखें जहाँ कोई आइकन न हो।<br/>
+        3. "widgets" चुनें।<br/>
+        4. "ScreenWidget" विजेट तक स्क्रॉल करें।<br/>
+        5. उसे खींचकर होम स्क्रीन पर मनचाही जगह छोड़ें।<br/>
+        6. स्क्रीन टाइम-आउट मोड बदलने के लिए विजेट पर टैप करें।\n]]>
+    </string>
+    <string name="lbl_addtile_header">क्विक सेटिंग्स टाइल जोड़ना</string>
+    <string name="lbl_addtile1">1. नोटिफिकेशन पैनल खोलें।</string>
+    <string name="lbl_addtile2">2. ऊपर से नीचे स्वाइप करके क्विक सेटिंग्स पैनल खोलें।</string>
+    <string name="lbl_addtile3">3. EDIT बटन पर टैप करें।</string>
+    <string name="lbl_addtile4">4. "Screen Timeout" नाम की टाइल को क्विक सेटिंग्स पैनल में खींचें।</string>
+    <string name="lbl_addtile5">5. वापस जाएँ, अब टाइल उपयोग के लिए तैयार है।</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. नोटिफिकेशन पैनल खोलें।<br/>
+        2. ऊपर से नीचे स्वाइप करके क्विक सेटिंग्स पैनल खोलें।<br/>
+        3. EDIT बटन पर टैप करें।<br/>
+        4. "Screen Timeout" नाम की टाइल को क्विक सेटिंग्स पैनल में खींचें।<br/>
+        5. वापस जाएँ, अब टाइल उपयोग के लिए तैयार है।\n]]>
+    </string>
+
+    <string name="notification">सूचना</string>
+    <string name="notification_name">नोटिफिकेशन और स्टेटस बार आइकन</string>
+    <string name="notification_desc">सक्षम होने पर, "हमेशा चालू" मोड सक्रिय होने पर नोटिफिकेशन क्षेत्र में नोटिफिकेशन और स्टेटस बार आइकन दिखेगा</string>
+
+    <string name="revert_default_timeout">स्वतः निष्क्रियकरण</string>
+    <string name="revert_default_timeout_name">डिफ़ॉल्ट टाइम-आउट पर स्वतः वापसी</string>
+    <string name="revert_default_timeout_desc">स्क्रीन बंद होने पर डिफ़ॉल्ट स्क्रीन टाइम-आउट पर स्वतः वापसी %s.</string>
+
+    <string name="condition_never">अक्षम</string>
+    <string name="condition_any_timeout">सक्षम</string>
+    <string name="condition_only_always_on">केवल हमेशा चालू मोड के लिए सक्षम</string>
+
+    <string name="btn_addwidget">होम स्क्रीन में जोड़ें</string>
+
+    <string name="onboot_section">बूट पर सेटिंग्स</string>
+    <string name="onboot_trigger_name">बूट पर पुनर्स्थापित करें</string>
+    <string name="onboot_trigger_desc">बूट पर अंतिम सक्रिय स्थिति बहाल करें। यदि आप चाहते हैं कि रीबूट से पहले वाली टाइमिंग लौट आए, तो यह उपयोगी है।</string>
+    <string name="onboot_toast_name">संदेश दिखाएँ</string>
+    <string name="onboot_toast_desc">सेटिंग्स बहाल होने पर Toast संदेश दिखाएँ</string>
+
+    <string name="multitap_section">मल्टी-टैप सेटिंग्स</string>
+    <string name="multitap_enable_name">मल्टी-टैप समर्थन</string>
+    <string name="multitap_enable_desc">विजेट के लिए मल्टी-टैप समर्थन सक्षम या अक्षम करें। डबल और ट्रिपल टैप से विजेट टाइम-आउट बढ़ाया या घटाया जा सकता है।</string>
+    <string name="multitap_smart_system_name">मल्टी-टैप स्मार्ट विलंब</string>
+    <string name="multitap_smart_system_desc">मल्टी-टैप स्मार्ट बहु-स्तरीय विलंब: सिंगल क्लिक तेज़ी से प्रोसेस होता है, फिर डबल और ट्रिपल क्लिक प्रतीक्षा समय घटाते हैं।</string>
+
+    <string name="single_tap_action_name">सिंगल टैप क्रिया</string>
+    <string name="single_tap_action_desc">%s. उपयोग के लिए सिंगल-टैप क्रिया चुनें।</string>
+    <string name="single_always_on">हमेशा चालू और डिफ़ॉल्ट टाइम-आउट के बीच स्विच करें</string>
+    <string name="single_last_active">अंतिम उपयोग किए गए टाइम-आउट और डिफ़ॉल्ट टाइम-आउट के बीच स्विच करें</string>
+    <string name="sort_timeouts_name">कस्टम टाइम-आउट सूची क्रमबद्ध करें</string>
+    <string name="sort_timeouts_desc">%s. क्रमबद्ध विकल्प चुनें।</string>
+
+    <string name="do_not_sort">क्रमबद्ध न करें</string>
+    <string name="do_sort_asc">आरोही क्रम</string>
+    <string name="do_sort_desc">अवरोही क्रम</string>
+
+    <string name="design_section">दृश्य अनुकूलन</string>
+    <string name="widget_font_size_header">फ़ॉन्ट आकार</string>
+    <string name="widget_font_size_desc">विजेट में उपयोग होने वाला फ़ॉन्ट आकार चुनें। अलग-अलग लॉन्चर के साथ बेहतर दृश्य परिणाम पाने में सहायक।</string>
+    <string name="widget_icon_size_header">आइकन आकार</string>
+    <string name="widget_icon_size_desc">विजेट आइकन आकार चुनें। अलग-अलग लॉन्चर के साथ बेहतर दृश्य परिणाम पाने में सहायक।</string>
+
+    <string name="layout_ico_header">आइकन आकार</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="str_menu_settings">सेटिंग्स</string>
+    <string name="str_menu_rate_app">ऐप को रेट करें</string>
+    <string name="str_menu_share_app">ऐप की सिफारिश करें</string>
+
+    <string name="settings_custom_timeouts">कस्टम टाइम-आउट</string>
+    <string name="custom_timeout1_header">कस्टम टाइम-आउट मान 1</string>
+    <string name="custom_timeout1_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="custom_timeout2_header">कस्टम टाइम-आउट मान 2</string>
+    <string name="custom_timeout2_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="custom_timeout3_header">कस्टम टाइम-आउट मान 3</string>
+    <string name="custom_timeout3_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="custom_timeout4_header">कस्टम टाइम-आउट मान 4</string>
+    <string name="custom_timeout4_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="custom_timeout5_header">कस्टम टाइम-आउट मान 5</string>
+    <string name="custom_timeout5_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="custom_timeout6_header">कस्टम टाइम-आउट मान 6</string>
+    <string name="custom_timeout6_value"> मिनट। इच्छित टाइम-आउट मान दर्ज करें। इस स्लॉट को अनदेखा करने के लिए 0 दर्ज करें।</string>
+    <string name="enter_timeout_value">कृपया मान मिनट में दर्ज करें</string>
+
+    <string name="tile_name">स्क्रीन टाइम-आउट</string>
+
+    <string name="power_events">कम बैटरी सुरक्षा</string>
+
+    <string name="disable_on_low_name">कम बैटरी पर स्वतः बंद करें</string>
+    <string name="disable_on_low_desc">बैटरी स्तर कम होने पर हमेशा चालू मोड को स्वतः अक्षम करें।</string>
+
+    <string name="no_license">कोई लाइसेंस नहीं</string>
+
+    <string name="general_settings">सामान्य सेटिंग्स</string>
+    <string name="advanced_settings">उन्नत सेटिंग्स</string>
+    <string name="timeout_settings">कस्टम टाइम-आउट</string>
+    <string name="contact_support">सहायता से संपर्क करें</string>
+    <string name="email_us">हमें ईमेल करें</string>
+    <string name="documentation">दस्तावेज़</string>
+    <string name="chat_support">तकनीकी सहायता चैट</string>
+    <string name="contribute_translations">अनुवाद में योगदान दें</string>
+    <string name="social_networks">सामाजिक नेटवर्क</string>
+    <string name="social_facebook">Facebook पेज</string>
+    <string name="social_vk">VK पेज</string>
+    <string name="social_telegram">Telegram समूह</string>
+
+    <string name="settings_header_application_settings">एप्लिकेशन सेटिंग्स</string>
+    <string name="settings_header_support_channels">सहायता चैनल</string>
+    <string name="settings_header_contribution_and_social_media">योगदान और सोशल मीडिया</string>
+
+    <string name="social_networks_list">सामाजिक नेटवर्क चैनल</string>
+
+    <string name="app_automation_settings_title">ऐप ऑटोमेशन</string>
+    <string name="app_automation_settings_summary">चयनित ऐप्स के लिए स्क्रीन को स्वतः जागृत रखें</string>
+    <string name="app_automation_usage_access_required">फ़ोरग्राउंड में ऐप पहचानने के लिए सिस्टम सेटिंग्स में Usage Access की अनुमति दें।</string>
+    <string name="app_automation_open_usage_access">Usage Access सेटिंग्स खोलें</string>
+    <string name="app_automation_screen_hint">वे ऐप चुनें जिनके लिए स्क्रीन स्वतः जागृत रहनी चाहिए।</string>
+    <string name="app_automation_no_apps">इस डिवाइस पर कोई चलाने योग्य ऐप नहीं मिला।</string>
+    <string name="app_automation_checkbox_content_desc">ऐप ऑटोमेशन सक्षम करें</string>
+    <string name="app_automation_service_active">ऐप ऑटोमेशन चल रहा है</string>
+
+    <string name="app_automation_master_name">ऐप ऑटोमेशन सक्षम करें</string>
+
+    <string name="app_automation_master_desc">चयनित ऐप्स के लिए स्वतः स्क्रीन जागृत मोड सक्षम करें</string>
+
+    <string name="app_automation_search_hint">ऐप खोजें</string>
+
+    <string name="app_automation_section">ऐप ऑटोमेशन</string>
+
+    <string name="app_automation_poll_name">ऐप पोलिंग अंतराल</string>
+
+    <string name="app_automation_poll_desc">%s सेक. ऐप पोलिंग अंतराल चुनें।</string>
+
+    <string name="app_automation_default_name">डिफ़ॉल्ट टाइम-आउट प्रीसेट</string>
+
+    <string name="app_automation_default_desc">%s. ऐप ऑटोमेशन के लिए डिफ़ॉल्ट टाइम-आउट प्रीसेट चुनें।</string>
+
+    <string name="app_automation_minutes_compact">%1$d मि</string>
+
+    <string name="app_automation_preset_default_menu">डिफ़ॉल्ट</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">टाइम-आउट प्रीसेट चुनें</string>
+
+    <string name="app_language_section">भाषा</string>
+
+    <string name="app_language_name">एप्लिकेशन भाषा</string>
+
+    <string name="app_language_desc">एप्लिकेशन भाषा चुनें</string>
+
+    <string name="app_language_system_default">सिस्टम डिफ़ॉल्ट</string>
+
+    <string name="support_card_title">ऐप को सपोर्ट करें</string>
+    <string name="support_card_body">अगर यह ऐप आपके काम आता है, तो कृपया रेटिंग या छोटी समीक्षा दें।
+इसी से सीधे तय होता है कि ऐप को आगे अपडेट मिलेंगे या इसे बंद कर दिया जाएगा।</string>
+    <string name="support_card_rate_on_play">Google Play पर रेट करें</string>
+    <string name="support_card_not_now">अभी नहीं</string>
+    <string name="support_card_dont_show_again">दोबारा न दिखाएँ</string>
+
+    <string name="settings_export_title">सेटिंग्स निर्यात करें</string>
+    <string name="settings_export_summary">JSON फ़ाइल का उपयोग करके ऐप सेटिंग्स सहेजें और पुनर्स्थापित करें</string>
+    <string name="settings_export_action">सेटिंग्स निर्यात करें</string>
+    <string name="settings_import_action">सेटिंग्स आयात करें</string>
+    <string name="settings_import_summary">पहले निर्यात की गई JSON फ़ाइल से सेटिंग्स आयात करें</string>
+    <string name="settings_export_done">निर्यात की गई सेटिंग्स: %1$d</string>
+    <string name="settings_import_done">आयात की गई सेटिंग्स: %1$d</string>
+    <string name="settings_export_failed">निर्यात विफल</string>
+    <string name="settings_import_failed">आयात विफल</string>
+    <string name="settings_export_failed_details">निर्यात विफल: %1$s</string>
+    <string name="settings_import_failed_details">आयात विफल: %1$s</string>
+</resources>

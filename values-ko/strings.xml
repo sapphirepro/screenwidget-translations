@@ -130,20 +130,20 @@
     <!-- Design tuning -->
 
 
-    <string name="design_section">Visual customizations</string>
+    <string name="design_section">시각적 사용자 지정</string>
 
-    <string name="widget_font_size_header">Font size</string>
+    <string name="widget_font_size_header">글꼴 크기</string>
 
-    <string name="widget_font_size_desc">Select font size being used in widget. Useful to get best visual results with different launchers.</string>
+    <string name="widget_font_size_desc">위젯에 사용할 글꼴 크기를 선택합니다. 다양한 런처에서 최적의 시각적 결과를 얻는 데 유용합니다.</string>
 
-    <string name="widget_icon_size_header">Icon size</string>
+    <string name="widget_icon_size_header">아이콘 크기</string>
 
-    <string name="widget_icon_size_desc">Widget icon size selection. Useful to get best visual results with different launchers.</string>
+    <string name="widget_icon_size_desc">위젯 아이콘 크기를 선택합니다. 다양한 런처에서 최적의 시각적 결과를 얻는 데 유용합니다.</string>
 
     <!-- Margin settings -->
 
 
-    <string name="layout_ico_header">Icon size</string>
+    <string name="layout_ico_header">아이콘 크기</string>
 
     <string name="action_settings">설정</string>
 
@@ -288,4 +288,23 @@
     <string name="app_language_desc">앱 언어를 선택하세요</string>
 
     <string name="app_language_system_default">시스템 기본값</string>
+
+    <string name="support_card_title">앱을 응원해 주세요</string>
+    <string name="support_card_body">이 앱이 도움이 된다면 평점이나 짧은 리뷰를 남겨 주세요.
+이는 앱이 계속 업데이트될지, 중단될지를 직접 결정합니다.</string>
+    <string name="support_card_rate_on_play">Google Play에서 평가하기</string>
+    <string name="support_card_not_now">지금은 안 함</string>
+    <string name="support_card_dont_show_again">다시 표시하지 않기</string>
+
+    <string name="settings_export_title">설정 내보내기</string>
+    <string name="settings_export_summary">JSON 파일을 사용해 앱 설정을 저장하고 복원합니다</string>
+    <string name="settings_export_action">설정 내보내기</string>
+    <string name="settings_import_action">설정 가져오기</string>
+    <string name="settings_import_summary">이전에 내보낸 JSON 파일에서 설정을 가져옵니다</string>
+    <string name="settings_export_done">내보낸 설정: %1$d</string>
+    <string name="settings_import_done">가져온 설정: %1$d</string>
+    <string name="settings_export_failed">내보내기 실패</string>
+    <string name="settings_import_failed">가져오기 실패</string>
+    <string name="settings_export_failed_details">내보내기 실패: %1$s</string>
+    <string name="settings_import_failed_details">가져오기 실패: %1$s</string>
 </resources>

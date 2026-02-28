@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Awake</string>
+    <string name="label_on">Altid tændt</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Licenskontrol mislykkedes.</string>
+
+    <string name="lbl_permissions">Du skal give denne app tilladelse til at ændre indstillinger, før den virker. Den eneste indstilling, den ændrer, er skærmens timeout.</string>
+    <string name="btn_permissions">Konfigurer</string>
+    <string name="lbl_addwidget_header">Tilføj widget til startskærmen</string>
+    <string name="lbl_addwidget1">1. Tryk på hjem-knappen for at gå til startskærmen.</string>
+    <string name="lbl_addwidget2">2. Hold fingeren nede på et område uden ikon.</string>
+    <string name="lbl_addwidget3">3. Vælg "widgets".</string>
+    <string name="lbl_addwidget4">4. Rul til widgeten "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. Træk og slip den på startskærmen, hvor du vil have den.</string>
+    <string name="lbl_addwidget6">6. Tryk på widgeten for at ændre skærmens timeout-tilstand.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Tryk på hjem-knappen for at gå til startskærmen.<br/>
+        2. Hold fingeren nede på et område uden ikon.<br/>
+        3. Vælg "widgets".<br/>
+        4. Rul til widgeten "ScreenWidget".<br/>
+        5. Træk og slip den på startskærmen, hvor du vil have den.<br/>
+        6. Tryk på widgeten for at ændre skærmens timeout-tilstand.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Tilføj hurtigindstilling-flise</string>
+    <string name="lbl_addtile1">1. Åbn notifikationspanelet.</string>
+    <string name="lbl_addtile2">2. Stryg ned fra toppen for at åbne panelet Hurtigindstillinger.</string>
+    <string name="lbl_addtile3">3. Tryk på knappen REDIGER.</string>
+    <string name="lbl_addtile4">4. Træk flisen med navnet "Screen Timeout" ind i panelet Hurtigindstillinger.</string>
+    <string name="lbl_addtile5">5. Tryk tilbage, så er flisen klar til brug.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Åbn notifikationspanelet.<br/>
+        2. Stryg ned fra toppen for at åbne panelet Hurtigindstillinger.<br/>
+        3. Tryk på knappen REDIGER.<br/>
+        4. Træk flisen med navnet "Screen Timeout" ind i panelet Hurtigindstillinger.<br/>
+        5. Tryk tilbage, så er flisen klar til brug.\n]]>
+    </string>
+
+    <string name="notification">Notifikation</string>
+    <string name="notification_name">Notifikation og statuslinjeikon</string>
+    <string name="notification_desc">Når aktiveret, vises notifikation og statuslinjeikon i notifikationsområdet, når tilstanden "Altid tændt" er aktiv</string>
+
+    <string name="revert_default_timeout">Automatisk deaktivering</string>
+    <string name="revert_default_timeout_name">Automatisk tilbage til standard-timeout</string>
+    <string name="revert_default_timeout_desc">Automatisk tilbage til standard skærm-timeout, når skærmen slukkes %s.</string>
+
+    <string name="condition_never">deaktiveret</string>
+    <string name="condition_any_timeout">aktiveret</string>
+    <string name="condition_only_always_on">aktiveret kun for altid tændt-tilstand</string>
+
+    <string name="btn_addwidget">Tilføj til startskærm</string>
+
+    <string name="onboot_section">Indstillinger ved opstart</string>
+    <string name="onboot_trigger_name">Gendan ved opstart</string>
+    <string name="onboot_trigger_desc">Gendan senest aktive tilstand ved opstart. Nyttigt hvis du vil gendanne tiderne til tilstanden før enhedsgenstart.</string>
+    <string name="onboot_toast_name">Vis besked</string>
+    <string name="onboot_toast_desc">Vis Toast-besked når indstillinger er gendannet</string>
+
+    <string name="multitap_section">Multi-tap-indstillinger</string>
+    <string name="multitap_enable_name">Multi-tap-understøttelse</string>
+    <string name="multitap_enable_desc">Aktivér eller deaktivér multi-tap-understøttelse for widgeten. Multi-tap gør det muligt at øge eller mindske widgetens timeout med dobbelt- og trippeltryk.</string>
+    <string name="multitap_smart_system_name">Smart multi-tap-forsinkelse</string>
+    <string name="multitap_smart_system_desc">Smart flertrinsforsinkelse for multi-tap: enkelttryk behandles hurtigere, derefter reducerer dobbelt- og trippeltryk ventetiden.</string>
+
+    <string name="single_tap_action_name">Enkelttryk-handling</string>
+    <string name="single_tap_action_desc">%s. Vælg handling for enkelttryk.</string>
+    <string name="single_always_on">Skift mellem altid tændt og standard-timeout</string>
+    <string name="single_last_active">Skift mellem sidst brugte timeout og standard-timeout</string>
+    <string name="sort_timeouts_name">Sortér liste over brugerdefinerede timeouts</string>
+    <string name="sort_timeouts_desc">%s. Vælg sorteringsindstilling.</string>
+
+    <string name="do_not_sort">Sortér ikke</string>
+    <string name="do_sort_asc">Sortér stigende</string>
+    <string name="do_sort_desc">Sortér faldende</string>
+
+    <string name="design_section">Visuelle tilpasninger</string>
+    <string name="widget_font_size_header">Skriftstørrelse</string>
+    <string name="widget_font_size_desc">Vælg skriftstørrelse, der bruges i widgeten. Nyttigt for bedste visuelle resultat med forskellige launchere.</string>
+    <string name="widget_icon_size_header">Ikonstørrelse</string>
+    <string name="widget_icon_size_desc">Valg af ikonstørrelse for widget. Nyttigt for bedste visuelle resultat med forskellige launchere.</string>
+
+    <string name="layout_ico_header">Ikonstørrelse</string>
+    <string name="action_settings">Indstillinger</string>
+
+    <string name="str_menu_settings">Indstillinger</string>
+    <string name="str_menu_rate_app">Bedøm appen</string>
+    <string name="str_menu_share_app">Anbefal appen</string>
+
+    <string name="settings_custom_timeouts">Tilpas timeouts</string>
+    <string name="custom_timeout1_header">Brugerdefineret timeoutværdi 1</string>
+    <string name="custom_timeout1_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="custom_timeout2_header">Brugerdefineret timeoutværdi 2</string>
+    <string name="custom_timeout2_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="custom_timeout3_header">Brugerdefineret timeoutværdi 3</string>
+    <string name="custom_timeout3_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="custom_timeout4_header">Brugerdefineret timeoutværdi 4</string>
+    <string name="custom_timeout4_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="custom_timeout5_header">Brugerdefineret timeoutværdi 5</string>
+    <string name="custom_timeout5_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="custom_timeout6_header">Brugerdefineret timeoutværdi 6</string>
+    <string name="custom_timeout6_value"> minutter. Indtast ønsket timeoutværdi. Indtast 0 for at ignorere denne plads.</string>
+    <string name="enter_timeout_value">Indtast venligst værdi i minutter</string>
+
+    <string name="tile_name">Skærm-timeout</string>
+
+    <string name="power_events">Beskyttelse ved lavt batteri</string>
+
+    <string name="disable_on_low_name">Automatisk deaktivering ved lavt batteri</string>
+    <string name="disable_on_low_desc">Deaktiverer automatisk altid tændt-tilstand ved lavt batteriniveau.</string>
+
+    <string name="no_license">Ingen licens</string>
+
+    <string name="general_settings">Generelle indstillinger</string>
+    <string name="advanced_settings">Avancerede indstillinger</string>
+    <string name="timeout_settings">Brugerdefinerede timeouts</string>
+    <string name="contact_support">Kontakt support</string>
+    <string name="email_us">Send os e-mail</string>
+    <string name="documentation">Dokumentation</string>
+    <string name="chat_support">Teknisk supportchat</string>
+    <string name="contribute_translations">Bidrag til oversættelser</string>
+    <string name="social_networks">Sociale netværk</string>
+    <string name="social_facebook">Facebook-side</string>
+    <string name="social_vk">VK-side</string>
+    <string name="social_telegram">Telegram-gruppe</string>
+
+    <string name="settings_header_application_settings">App-indstillinger</string>
+    <string name="settings_header_support_channels">Supportkanaler</string>
+    <string name="settings_header_contribution_and_social_media">Bidrag og sociale medier</string>
+
+    <string name="social_networks_list">Kanaler for sociale netværk</string>
+
+    <string name="app_automation_settings_title">App-automatisering</string>
+    <string name="app_automation_settings_summary">Hold skærmen automatisk tændt for valgte apps</string>
+    <string name="app_automation_usage_access_required">For at registrere appen i forgrunden skal du give adgang til brug i systemindstillinger.</string>
+    <string name="app_automation_open_usage_access">Åbn indstillinger for brugsadgang</string>
+    <string name="app_automation_screen_hint">Vælg apps, der automatisk skal holde skærmen tændt.</string>
+    <string name="app_automation_no_apps">Ingen startbare apps fundet på denne enhed.</string>
+    <string name="app_automation_checkbox_content_desc">Aktivér app-automatisering</string>
+    <string name="app_automation_service_active">App-automatisering kører</string>
+
+    <string name="app_automation_master_name">Aktivér app-automatisering</string>
+
+    <string name="app_automation_master_desc">Aktivér automatisk skærm tændt-tilstand for valgte apps</string>
+
+    <string name="app_automation_search_hint">Søg apps</string>
+
+    <string name="app_automation_section">App-automatisering</string>
+
+    <string name="app_automation_poll_name">Pollinginterval for apps</string>
+
+    <string name="app_automation_poll_desc">%s sek. Vælg pollinginterval for apps.</string>
+
+    <string name="app_automation_default_name">Standard timeout-forvalg</string>
+
+    <string name="app_automation_default_desc">%s. Vælg standard timeout-forvalg til app-automatisering.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Standard</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Vælg timeout-forvalg</string>
+
+    <string name="app_language_section">Sprog</string>
+
+    <string name="app_language_name">Appsprog</string>
+
+    <string name="app_language_desc">Vælg appsprog</string>
+
+    <string name="app_language_system_default">Systemstandard</string>
+
+    <string name="support_card_title">Støt appen</string>
+    <string name="support_card_body">Hvis appen hjælper dig, så giv gerne en vurdering eller en kort anmeldelse.
+Det afgør direkte, om appen fortsat får opdateringer eller bliver afviklet.</string>
+    <string name="support_card_rate_on_play">Bedøm på Google Play</string>
+    <string name="support_card_not_now">Ikke nu</string>
+    <string name="support_card_dont_show_again">Vis ikke igen</string>
+
+    <string name="settings_export_title">Eksportér indstillinger</string>
+    <string name="settings_export_summary">Gem og gendan appens indstillinger med en JSON-fil</string>
+    <string name="settings_export_action">Eksportér indstillinger</string>
+    <string name="settings_import_action">Importér indstillinger</string>
+    <string name="settings_import_summary">Importér indstillinger fra en tidligere eksporteret JSON-fil</string>
+    <string name="settings_export_done">Indstillinger eksporteret: %1$d</string>
+    <string name="settings_import_done">Indstillinger importeret: %1$d</string>
+    <string name="settings_export_failed">Eksport mislykkedes</string>
+    <string name="settings_import_failed">Import mislykkedes</string>
+    <string name="settings_export_failed_details">Eksport mislykkedes: %1$s</string>
+    <string name="settings_import_failed_details">Import mislykkedes: %1$s</string>
+</resources>

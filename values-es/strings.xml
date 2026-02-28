@@ -139,20 +139,20 @@
     <string name="contact_support">Soporte</string>
     <string name="email_us">Email</string>
     <string name="documentation">Documentación</string>
-    <string name="chat_support">Technical Support Chat</string>
-    <string name="contribute_translations">Contribute in Translations</string>
-    <string name="social_networks">Social Networks</string>
-    <string name="social_facebook">Facebook Page</string>
-    <string name="social_vk">VK Page</string>
-    <string name="social_telegram">Telegram Group</string>
+    <string name="chat_support">Chat de soporte técnico</string>
+    <string name="contribute_translations">Contribuir a las traducciones</string>
+    <string name="social_networks">Redes sociales</string>
+    <string name="social_facebook">Página de Facebook</string>
+    <string name="social_vk">Página de VK</string>
+    <string name="social_telegram">Grupo de Telegram</string>
 
     <!-- Main settings view sections -->
-    <string name="settings_header_application_settings">Application Settings</string>
-    <string name="settings_header_support_channels">Support Channels</string>
-    <string name="settings_header_contribution_and_social_media">Contribution and Social Media</string>
+    <string name="settings_header_application_settings">Ajustes de la aplicación</string>
+    <string name="settings_header_support_channels">Canales de soporte</string>
+    <string name="settings_header_contribution_and_social_media">Contribución y redes sociales</string>
 
     <!-- Social networks header -->
-    <string name="social_networks_list">Social Network Channels</string>
+    <string name="social_networks_list">Canales de redes sociales</string>
 
     <string name="app_automation_settings_title">Automatización de aplicaciones</string>
     <string name="app_automation_settings_summary">Mantener la pantalla encendida automáticamente para las apps seleccionadas</string>
@@ -194,4 +194,23 @@
     <string name="app_language_desc">Elige el idioma de la aplicación</string>
 
     <string name="app_language_system_default">Predeterminado del sistema</string>
+
+    <string name="support_card_title">Apoya la aplicación</string>
+    <string name="support_card_body">Si esta aplicación te ayuda, por favor deja una valoración o una reseña breve.
+Esto determina directamente si la aplicación seguirá recibiendo actualizaciones o se discontinuará.</string>
+    <string name="support_card_rate_on_play">Valorar en Google Play</string>
+    <string name="support_card_not_now">Ahora no</string>
+    <string name="support_card_dont_show_again">No volver a mostrar</string>
+
+    <string name="settings_export_title">Exportar configuración</string>
+    <string name="settings_export_summary">Guardar y restaurar la configuración de la app con un archivo JSON</string>
+    <string name="settings_export_action">Exportar configuración</string>
+    <string name="settings_import_action">Importar configuración</string>
+    <string name="settings_import_summary">Importar configuración desde un archivo JSON exportado previamente</string>
+    <string name="settings_export_done">Configuración exportada: %1$d</string>
+    <string name="settings_import_done">Configuración importada: %1$d</string>
+    <string name="settings_export_failed">Error al exportar</string>
+    <string name="settings_import_failed">Error al importar</string>
+    <string name="settings_export_failed_details">Error al exportar: %1$s</string>
+    <string name="settings_import_failed_details">Error al importar: %1$s</string>
 </resources>

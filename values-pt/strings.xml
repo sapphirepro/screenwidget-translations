@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tela Ativa</string>
+    <string name="label_on">Sempre ativa</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Falha na verificação da licença.</string>
+
+    <string name="lbl_permissions">Você precisa conceder permissão a este aplicativo para alterar as configurações antes que ele funcione. A única configuração que ele modificará é o tempo de expiração da tela.</string>
+    <string name="btn_permissions">Configurar</string>
+    <string name="lbl_addwidget_header">Adicionando o widget à tela inicial</string>
+    <string name="lbl_addwidget1">1. Pressione o botão de início para acessar a tela inicial.</string>
+    <string name="lbl_addwidget2">2. Mantenha o dedo pressionado em uma área não ocupada por um ícone.</string>
+    <string name="lbl_addwidget3">3. Selecione "Widgets".</string>
+    <string name="lbl_addwidget4">4. Role até o widget "ScreenWidget".</string>
+    <string name="lbl_addwidget5">5. Arraste e solte-o na tela inicial onde desejar.</string>
+    <string name="lbl_addwidget6">6. Clique no widget para alterar o modo de tempo de expiração da tela.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Pressione o botão de início para acessar a tela inicial.<br/>
+        2. Mantenha o dedo pressionado em uma área não ocupada por um ícone.<br/>
+        3. Selecione "Widgets".<br/>
+        4. Role até o widget "ScreenWidget".<br/>
+        5. Arraste e solte-o na tela inicial onde desejar.<br/>
+        6. Clique no widget para alterar o modo de tempo de expiração da tela.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Adicionando um bloco às Configurações Rápidas</string>
+    <string name="lbl_addtile1">1. Abra a gaveta de notificações.</string>
+    <string name="lbl_addtile2">2. Deslize de cima para baixo para abrir a gaveta de Configurações Rápidas.</string>
+    <string name="lbl_addtile3">3. Toque no botão EDITAR.</string>
+    <string name="lbl_addtile4">4. Arraste o bloco chamado "Tempo de Expiração da Tela" para a gaveta de Configurações Rápidas.</string>
+    <string name="lbl_addtile5">5. Toque em voltar e o bloco estará pronto para uso.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Abra a gaveta de notificações.<br/>
+        2. Deslize de cima para baixo para abrir a gaveta de Configurações Rápidas.<br/>
+        3. Toque no botão EDITAR.<br/>
+        4. Arraste o bloco chamado "Tempo de Expiração da Tela" para a gaveta de Configurações Rápidas.<br/>
+        5. Toque em voltar e o bloco estará pronto para uso.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notificação</string>
+    <string name="notification_name">Ícone de notificação e barra de status</string>
+    <string name="notification_desc">Quando ativado, o ícone de notificação e da barra de status será exibido na área de notificação quando o modo "Sempre ativa" estiver ativado.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Desativação automática</string>
+    <string name="revert_default_timeout_name">Reversão automática ao tempo padrão</string>
+    <string name="revert_default_timeout_desc">Reverte automaticamente para o tempo de expiração da tela padrão quando a tela é desligada %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">desativado</string>
+    <string name="condition_any_timeout">ativado</string>
+    <string name="condition_only_always_on">ativado apenas para o modo sempre ativa</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Adicionar à tela inicial</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Configurações ao iniciar</string>
+    <string name="onboot_trigger_name">Restaurar ao iniciar</string>
+    <string name="onboot_trigger_desc">Restaura o último estado ativo ao iniciar. Útil se você deseja que os tempos sejam restaurados ao estado anterior ao reinício do dispositivo.</string>
+    <string name="onboot_toast_name">Exibir mensagem</string>
+    <string name="onboot_toast_desc">Exibe uma mensagem Toast assim que as configurações forem restauradas.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Configurações de toque múltiplo</string>
+    <string name="multitap_enable_name">Suporte a toque múltiplo</string>
+    <string name="multitap_enable_desc">Ativa ou desativa o suporte a toque múltiplo para o widget. O recurso de toque múltiplo permite aumentar ou diminuir o tempo do widget usando toques duplos e triplos no widget.</string>
+    <string name="multitap_smart_system_name">Atraso inteligente de toque múltiplo</string>
+    <string name="multitap_smart_system_desc">Atraso multiestágio inteligente para toque múltiplo: um toque simples será processado mais rapidamente, reduzindo o tempo de espera para toques duplos e triplos.</string>
+
+    <string name="single_tap_action_name">Ação de toque simples</string>
+    <string name="single_tap_action_desc">%s. Escolha a ação a ser usada para um toque simples.</string>
+    <string name="single_always_on">Alternar entre sempre ativa e tempo padrão</string>
+    <string name="single_last_active">Alternar entre o último tempo usado e o tempo padrão</string>
+    <string name="sort_timeouts_name">Ordenar a lista de tempos personalizados</string>
+    <string name="sort_timeouts_desc">%s. Escolha uma opção de ordenação.</string>
+
+    <string name="do_not_sort">Não ordenar</string>
+    <string name="do_sort_asc">Ordenar em ordem crescente</string>
+    <string name="do_sort_desc">Ordenar em ordem decrescente</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Personalizações visuais</string>
+    <string name="widget_font_size_header">Tamanho da fonte</string>
+    <string name="widget_font_size_desc">Selecione o tamanho da fonte usada no widget. Útil para obter os melhores resultados visuais com diferentes lançadores.</string>
+    <string name="widget_icon_size_header">Tamanho do ícone</string>
+    <string name="widget_icon_size_desc">Seleção do tamanho do ícone do widget. Útil para obter os melhores resultados visuais com diferentes lançadores.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Tamanho do ícone</string>
+    <string name="action_settings">Configurações</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Configurações</string>
+    <string name="str_menu_rate_app">Avaliar o aplicativo</string>
+    <string name="str_menu_share_app">Recomendar o aplicativo</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Personalizar tempos</string>
+    <string name="custom_timeout1_header">Valor de tempo personalizado 1</string>
+    <string name="custom_timeout1_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="custom_timeout2_header">Valor de tempo personalizado 2</string>
+    <string name="custom_timeout2_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="custom_timeout3_header">Valor de tempo personalizado 3</string>
+    <string name="custom_timeout3_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="custom_timeout4_header">Valor de tempo personalizado 4</string>
+    <string name="custom_timeout4_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="custom_timeout5_header">Valor de tempo personalizado 5</string>
+    <string name="custom_timeout5_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="custom_timeout6_header">Valor de tempo personalizado 6</string>
+    <string name="custom_timeout6_value"> minutos. Insira o valor de tempo desejado. Digite 0 para ignorar este espaço.</string>
+    <string name="enter_timeout_value">Por favor, insira o valor em minutos</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Tempo de Expiração da Tela</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Proteção contra bateria fraca</string>
+
+    <string name="disable_on_low_name">Desativar automaticamente com bateria fraca</string>
+    <string name="disable_on_low_desc">Desativa automaticamente o modo sempre ativa quando o nível de bateria está baixo.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Sem licença</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Configurações gerais</string>
+    <string name="advanced_settings">Configurações avançadas</string>
+    <string name="timeout_settings">Tempos personalizados</string>
+    <string name="contact_support">Contato com o suporte</string>
+    <string name="email_us">Enviar e-mail para nós</string>
+    <string name="documentation">Documentação</string>
+    <string name="chat_support">Chat de suporte técnico</string>
+    <string name="contribute_translations">Contribuir com traduções</string>
+    <string name="social_networks">Redes sociais</string>
+    <string name="social_facebook">Página no Facebook</string>
+    <string name="social_vk">Página no VK</string>
+    <string name="social_telegram">Grupo no Telegram</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Configurações do aplicativo</string>
+    <string name="settings_header_support_channels">Canais de suporte</string>
+    <string name="settings_header_contribution_and_social_media">Contribuição e mídias sociais</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Canais de redes sociais</string>
+
+    <string name="app_automation_settings_title">Automação de aplicativos</string>
+    <string name="app_automation_settings_summary">Manter a tela ligada automaticamente para os aplicativos selecionados</string>
+    <string name="app_automation_usage_access_required">Para detectar o aplicativo em primeiro plano, permita o acesso ao uso nas configurações do sistema.</string>
+    <string name="app_automation_open_usage_access">Abrir acesso de uso</string>
+    <string name="app_automation_screen_hint">Selecione os aplicativos que devem manter a tela ligada automaticamente.</string>
+    <string name="app_automation_no_apps">Nenhum aplicativo iniciável encontrado neste dispositivo.</string>
+    <string name="app_automation_checkbox_content_desc">Ativar automação para o aplicativo</string>
+    <string name="app_automation_service_active">A automação de aplicativos está ativa</string>
+
+    <string name="app_automation_master_name">Ativar automação de aplicativos</string>
+
+    <string name="app_automation_master_desc">Ativar modo automático de tela ligada para os aplicativos selecionados</string>
+
+    <string name="app_automation_search_hint">Pesquisar aplicativos</string>
+
+    <string name="app_automation_section">Automação de aplicativos</string>
+
+    <string name="app_automation_poll_name">Intervalo de verificação dos aplicativos</string>
+
+    <string name="app_automation_poll_desc">%s seg. Escolha o intervalo de verificação dos aplicativos.</string>
+
+    <string name="app_automation_default_name">Preset de tempo limite padrão</string>
+
+    <string name="app_automation_default_desc">%s. Escolha o preset de tempo limite padrão para a automação de aplicativos.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Padrão</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Selecionar preset de tempo limite</string>
+
+    <string name="app_language_section">Idioma</string>
+
+    <string name="app_language_name">Idioma do aplicativo</string>
+
+    <string name="app_language_desc">Escolha o idioma do aplicativo</string>
+
+    <string name="app_language_system_default">Padrão do sistema</string>
+</resources>

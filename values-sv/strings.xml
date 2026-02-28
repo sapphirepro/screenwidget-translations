@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Håll Skärmen Vaket</string>
+    <string name="label_on">Alltid på</string>
+    <string name="label_off">%1$d min.</string>
+    <string name="lceck_fail">Licenskontroll misslyckades.</string>
+
+    <string name="lbl_permissions">Du måste ge den här appen tillstånd att ändra inställningar innan den fungerar. Den enda inställning den kommer att ändra är skärmens tidsgräns.</string>
+    <string name="btn_permissions">Konfigurera</string>
+    <string name="lbl_addwidget_header">Lägga till widgeten på hemskärmen</string>
+    <string name="lbl_addwidget1">1. Tryck på Hem-knappen för att komma till hemskärmen.</string>
+    <string name="lbl_addwidget2">2. Håll fingret nedtryckt på ett område som inte är upptaget av en ikon.</string>
+    <string name="lbl_addwidget3">3. Välj “Widgetar”.</string>
+    <string name="lbl_addwidget4">4. Bläddra till widgeten “ScreenWidget”.</string>
+    <string name="lbl_addwidget5">5. Dra och släpp den på hemskärmen där du vill ha den.</string>
+    <string name="lbl_addwidget6">6. Klicka på widgeten för att ändra skärmens tidsgränsläge.</string>
+    <string name="lbl_addwidget"><![CDATA[
+        1. Tryck på Hem-knappen för att komma till hemskärmen.<br/>
+        2. Håll fingret nedtryckt på ett område som inte är upptaget av en ikon.<br/>
+        3. Välj “Widgetar”.<br/>
+        4. Bläddra till widgeten “ScreenWidget”.<br/>
+        5. Dra och släpp den på hemskärmen där du vill ha den.<br/>
+        6. Klicka på widgeten för att ändra skärmens tidsgränsläge.\n]]>
+    </string>
+    <string name="lbl_addtile_header">Lägga till en Snabb inställningsplatta</string>
+    <string name="lbl_addtile1">1. Öppna meddelandepanelen.</string>
+    <string name="lbl_addtile2">2. Svep nedåt från toppen för att öppna panelen för Snabbinställningar.</string>
+    <string name="lbl_addtile3">3. Tryck på knappen REDIGERA.</string>
+    <string name="lbl_addtile4">4. Dra plattan med namnet “Skärmens tidsgräns” till panelen för Snabbinställningar.</string>
+    <string name="lbl_addtile5">5. Tryck på Tillbaka och plattan är redo att användas.</string>
+    <string name="lbl_addtile"><![CDATA[
+        1. Öppna meddelandepanelen.<br/>
+        2. Svep nedåt från toppen för att öppna panelen för Snabbinställningar.<br/>
+        3. Tryck på knappen REDIGERA.<br/>
+        4. Dra plattan med namnet “Skärmens tidsgräns” till panelen för Snabbinställningar.<br/>
+        5. Tryck på Tillbaka och plattan är redo att användas.\n]]>
+    </string>
+
+    <!-- Notification icon settings -->
+    <string name="notification">Notifikation</string>
+    <string name="notification_name">Notifikations- och statusfältsikon</string>
+    <string name="notification_desc">När detta är aktiverat visas en notifikations- och statusfältsikon i notifikationsområdet när läget “Alltid på” är aktiverat.</string>
+    <!-- End of notification icon settings -->
+
+    <!-- Auto disable always on mode settings -->
+    <string name="revert_default_timeout">Automatisk deaktivering</string>
+    <string name="revert_default_timeout_name">Automatisk återgång till standardtidsgräns</string>
+    <string name="revert_default_timeout_desc">Återgå automatiskt till standardskärmens tidsgräns när skärmen stängs av %s.</string>
+
+    <!-- Auto disable select options -->
+    <string name="condition_never">inaktiverad</string>
+    <string name="condition_any_timeout">aktiverad</string>
+    <string name="condition_only_always_on">aktiverad endast för alltid på-läge</string>
+
+    <!-- End of auto disable always on mode setting -->
+
+    <string name="btn_addwidget">Lägg till på hemskärmen</string>
+
+    <!-- Settings localization -->
+    <string name="onboot_section">Inställningar vid start</string>
+    <string name="onboot_trigger_name">Återställ vid start</string>
+    <string name="onboot_trigger_desc">Återställ det senaste aktiva tillståndet vid start. Användbart om du vill att tiderna återställs till tillståndet före enhetens omstart.</string>
+    <string name="onboot_toast_name">Visa meddelande</string>
+    <string name="onboot_toast_desc">Visa ett Toast-meddelande när inställningarna har återställts.</string>
+
+    <!-- Multi tap settings -->
+    <string name="multitap_section">Inställningar för multitryck</string>
+    <string name="multitap_enable_name">Stöd för multitryck</string>
+    <string name="multitap_enable_desc">Aktivera eller inaktivera stöd för multitryck för widgeten. Multitryckfunktionen gör det möjligt att öka och minska widgetens tidsgränsinställning med dubbel- och trippeltryck på widgeten.</string>
+    <string name="multitap_smart_system_name">Smart multitryckfördröjning</string>
+    <string name="multitap_smart_system_desc">Smart flerstegsfördröjning för multitryck: ett enkelt tryck går igenom mycket snabbare, sedan dubbel- och trippeltryck minskar väntetiden.</string>
+
+    <string name="single_tap_action_name">Enkeltryck-åtgärd</string>
+    <string name="single_tap_action_desc">%s. Välj åtgärd för enkeltryck.</string>
+    <string name="single_always_on">Växla mellan alltid på och standardtidsgräns</string>
+    <string name="single_last_active">Växla mellan senast använda tidsgräns och standard</string>
+    <string name="sort_timeouts_name">Sortera anpassade tidsgränser</string>
+    <string name="sort_timeouts_desc">%s. Välj sorteringsalternativ.</string>
+
+    <string name="do_not_sort">Sortera inte</string>
+    <string name="do_sort_asc">Sortera stigande</string>
+    <string name="do_sort_desc">Sortera fallande</string>
+
+    <!-- Design tuning -->
+    <string name="design_section">Visuella anpassningar</string>
+    <string name="widget_font_size_header">Teckenstorlek</string>
+    <string name="widget_font_size_desc">Välj teckenstorlek som används i widgeten. Användbart för att få bästa visuella resultat med olika startprogram.</string>
+    <string name="widget_icon_size_header">Ikonstorlek</string>
+    <string name="widget_icon_size_desc">Val av ikonstorlek för widgeten. Användbart för att få bästa visuella resultat med olika startprogram.</string>
+
+    <!-- Margin settings -->
+    <string name="layout_ico_header">Ikonstorlek</string>
+    <string name="action_settings">Inställningar</string>
+
+    <!-- Menu items -->
+    <string name="str_menu_settings">Inställningar</string>
+    <string name="str_menu_rate_app">Betygsätt appen</string>
+    <string name="str_menu_share_app">Rekommendera appen</string>
+
+    <!-- Custom timeouts -->
+    <string name="settings_custom_timeouts">Anpassa tidsgränser</string>
+    <string name="custom_timeout1_header">Anpassad tidsgränsvärde 1</string>
+    <string name="custom_timeout1_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="custom_timeout2_header">Anpassad tidsgränsvärde 2</string>
+    <string name="custom_timeout2_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="custom_timeout3_header">Anpassad tidsgränsvärde 3</string>
+    <string name="custom_timeout3_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="custom_timeout4_header">Anpassad tidsgränsvärde 4</string>
+    <string name="custom_timeout4_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="custom_timeout5_header">Anpassad tidsgränsvärde 5</string>
+    <string name="custom_timeout5_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="custom_timeout6_header">Anpassad tidsgränsvärde 6</string>
+    <string name="custom_timeout6_value"> minuter. Ange önskat tidsgränsvärde. Ange 0 för att ignorera denna plats.</string>
+    <string name="enter_timeout_value">Ange värdet i minuter</string>
+
+    <!-- Tile translations -->
+    <string name="tile_name">Skärmens tidsgräns</string>
+
+    <!-- Power related events -->
+    <string name="power_events">Skydd vid låg batterinivå</string>
+
+    <string name="disable_on_low_name">Automatisk deaktivering vid låg batterinivå</string>
+    <string name="disable_on_low_desc">Deaktiverar automatiskt alltid på-läget vid låg batterinivå.</string>
+
+    <!-- Licensing state -->
+    <string name="no_license">Ingen licens</string>
+
+    <!-- Settings menu -->
+    <string name="general_settings">Allmänna inställningar</string>
+    <string name="advanced_settings">Avancerade inställningar</string>
+    <string name="timeout_settings">Anpassade tidsgränser</string>
+    <string name="contact_support">Kontakta support</string>
+    <string name="email_us">Skicka e-post till oss</string>
+    <string name="documentation">Dokumentation</string>
+    <string name="chat_support">Teknisk supportchatt</string>
+    <string name="contribute_translations">Bidra till översättningar</string>
+    <string name="social_networks">Sociala nätverk</string>
+    <string name="social_facebook">Facebook-sida</string>
+    <string name="social_vk">VK-sida</string>
+    <string name="social_telegram">Telegram-grupp</string>
+
+    <!-- Main settings view sections -->
+    <string name="settings_header_application_settings">Appinställningar</string>
+    <string name="settings_header_support_channels">Supportkanaler</string>
+    <string name="settings_header_contribution_and_social_media">Bidrag och sociala medier</string>
+
+    <!-- Social networks header -->
+    <string name="social_networks_list">Kanaler för sociala medier</string>
+
+    <string name="app_automation_settings_title">Appautomatisering</string>
+    <string name="app_automation_settings_summary">Håll skärmen automatiskt på för valda appar</string>
+    <string name="app_automation_usage_access_required">För att upptäcka appen i förgrunden, ge åtkomst till användningsstatistik i systeminställningarna.</string>
+    <string name="app_automation_open_usage_access">Öppna åtkomst till användningsstatistik</string>
+    <string name="app_automation_screen_hint">Välj appar som automatiskt ska hålla skärmen på.</string>
+    <string name="app_automation_no_apps">Inga startbara appar hittades på den här enheten.</string>
+    <string name="app_automation_checkbox_content_desc">Aktivera appautomatisering</string>
+    <string name="app_automation_service_active">Appautomatisering är aktiv</string>
+
+    <string name="app_automation_master_name">Aktivera appautomatisering</string>
+
+    <string name="app_automation_master_desc">Aktivera automatiskt skärm-på-läge för valda appar</string>
+
+    <string name="app_automation_search_hint">Sök appar</string>
+
+    <string name="app_automation_section">Appautomatisering</string>
+
+    <string name="app_automation_poll_name">Kontrollintervall för appar</string>
+
+    <string name="app_automation_poll_desc">%s sek. Välj kontrollintervall för appar.</string>
+
+    <string name="app_automation_default_name">Standardförval för timeout</string>
+
+    <string name="app_automation_default_desc">%s. Välj standardförval för timeout för appautomatisering.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Standard</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Välj timeout-förval</string>
+
+    <string name="app_language_section">Språk</string>
+
+    <string name="app_language_name">Applikationsspråk</string>
+
+    <string name="app_language_desc">Välj appens språk</string>
+
+    <string name="app_language_system_default">Systemstandard</string>
+</resources>

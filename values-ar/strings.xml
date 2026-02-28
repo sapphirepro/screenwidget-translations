@@ -11,6 +11,12 @@
     <string name="btn_permissions">Configure</string>
     <!-- First Step localization -->
     <string name="lbl_addwidget_header">إضافة القطعة إلى الشاشة الرئيسية</string>
+    <string name="lbl_addwidget1">1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.</string>
+    <string name="lbl_addwidget2">2. اضغط باستمرار على منطقة لا تشغلها أيقونة.</string>
+    <string name="lbl_addwidget3">3. تحديد \"widgets\".</string>
+    <string name="lbl_addwidget4">4. انتقل إلى \"ScreenWidget\" القطعة.</string>
+    <string name="lbl_addwidget5">        5. اسحبه وأفلته في الشاشة الرئيسية إلى المكان الذي تريده.</string>
+    <string name="lbl_addwidget6">6. انقر على القطعة لتغيير وضع مهلة الشاشة.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. اضغط على زر الصفحة الرئيسية للوصول إلى الشاشة الرئيسية.<br/>
         2. اضغط باستمرار على منطقة لا تشغلها أيقونة.<br/>
@@ -21,6 +27,11 @@
     </string>
     <!-- Second step localization -->
     <string name="lbl_addtile_header">إضافة بلاط الإعدادات السريعة</string>
+    <string name="lbl_addtile1">        1. افتح درج الإشعارات.</string>
+    <string name="lbl_addtile2">2. اسحب لأسفل من الأعلى لفتح درج الإعدادات السريعة.</string>
+    <string name="lbl_addtile3">3. اضغط على زر تحرير.</string>
+    <string name="lbl_addtile4">4. اسحب المربع المسمى \"Screen Timeout\" في درج الإعدادات السريعة.</string>
+    <string name="lbl_addtile5">5. اضغط مرة أخرى وأنت على استعداد لاستخدام البلاط.</string>
     <string name="lbl_addtile"><![CDATA[
         1. افتح درج الإشعارات.<br/>
         2. اسحب لأسفل من الأعلى لفتح درج الإعدادات السريعة.<br/>
@@ -142,4 +153,45 @@
 
     <!-- Social networks header -->
     <string name="social_networks_list">Social Network Channels</string>
+
+    <string name="app_automation_settings_title">أتمتة التطبيقات</string>
+    <string name="app_automation_settings_summary">إبقاء الشاشة قيد التشغيل تلقائياً للتطبيقات المحددة</string>
+    <string name="app_automation_usage_access_required">لاكتشاف التطبيق الموجود في الواجهة، اسمح بالوصول إلى إحصاءات الاستخدام من إعدادات النظام.</string>
+    <string name="app_automation_open_usage_access">فتح إعدادات الوصول إلى إحصاءات الاستخدام</string>
+    <string name="app_automation_screen_hint">اختر التطبيقات التي يجب أن تُبقي الشاشة قيد التشغيل تلقائياً.</string>
+    <string name="app_automation_no_apps">لم يتم العثور على تطبيقات قابلة للتشغيل على هذا الجهاز.</string>
+    <string name="app_automation_checkbox_content_desc">تفعيل أتمتة التطبيق</string>
+    <string name="app_automation_service_active">أتمتة التطبيقات قيد التشغيل</string>
+
+    <string name="app_automation_master_name">تمكين أتمتة التطبيقات</string>
+
+    <string name="app_automation_master_desc">تمكين وضع إبقاء الشاشة قيد التشغيل تلقائياً للتطبيقات المحددة</string>
+
+    <string name="app_automation_search_hint">البحث عن التطبيقات</string>
+
+    <string name="app_automation_section">أتمتة التطبيقات</string>
+
+    <string name="app_automation_poll_name">فاصل فحص التطبيقات</string>
+
+    <string name="app_automation_poll_desc">%s ثانية. اختر فاصل فحص التطبيقات.</string>
+
+    <string name="app_automation_default_name">إعداد مهلة افتراضي</string>
+
+    <string name="app_automation_default_desc">%s. اختر إعداد المهلة الافتراضي لأتمتة التطبيقات.</string>
+
+    <string name="app_automation_minutes_compact">%1$d د</string>
+
+    <string name="app_automation_preset_default_menu">افتراضي</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">اختيار إعداد المهلة</string>
+
+    <string name="app_language_section">اللغة</string>
+
+    <string name="app_language_name">لغة التطبيق</string>
+
+    <string name="app_language_desc">اختر لغة التطبيق</string>
+
+    <string name="app_language_system_default">افتراضي النظام</string>
 </resources>

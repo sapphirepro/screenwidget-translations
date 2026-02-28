@@ -8,6 +8,12 @@
     <string name="lbl_permissions">Om de time-out instelling te veranderen heeft deze app toelating nodig om de instellingen van uw apparaat te veranderen, de app veranderd enkel de instelling voor de time-out voor het automatisch uitschakelen van het scherm.</string>
     <string name="btn_permissions">Instellen</string>
     <string name="lbl_addwidget_header">Om de widget aan uw startscherm toe te voegen</string>
+    <string name="lbl_addwidget1">1. Druk op de home toets om naar het startscherm te gaan.</string>
+    <string name="lbl_addwidget2">2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.</string>
+    <string name="lbl_addwidget3">3. Selecteer \"widgets\".</string>
+    <string name="lbl_addwidget4">4. Scroll naar de \"ScreenWidget\" widget.</string>
+    <string name="lbl_addwidget5">5. Sleep het naar het startscherm en plaats het waar u het wilt.</string>
+    <string name="lbl_addwidget6">6. Druk op de widget om de time-out modus te kiezen.</string>
     <string name="lbl_addwidget"><![CDATA[
         1. Druk op de home toets om naar het startscherm te gaan.<br/>
         2. Hou voor enkele seconden een plaats waar geen icoon of widget is ingedrukt.<br/>
@@ -18,6 +24,11 @@
     </string>
     <string name="btn_addwidget">Toevoegen aan startscherm</string>
     <string name="lbl_addtile_header">Tegel toevoegen aan "Quick Settings" menu</string>
+    <string name="lbl_addtile1">1. Open de notificatie lade door vanaf de bovenkant van het scherm naar beneden te swipen.</string>
+    <string name="lbl_addtile2">2. Swipe opnieuw naar beneden om de Quick Settings lade te openen.</string>
+    <string name="lbl_addtile3">3. Druk op de "bewerken" knop.</string>
+    <string name="lbl_addtile4">4. Sleep de tegel genaamd \"Screen Timeout\" naar de Quick Settings.</string>
+    <string name="lbl_addtile5">5. Ga terug met de back toets en de tegel is klaar voor gebruik.</string>
     <string name="lbl_addtile"><![CDATA[
         1. Open de "notification drawer" door vanaf de bovenkant van het scherm naar beneden te swipen.<br/>
         2. Swipe opnieuw naar beneden om de Quick Settings drawer te openen.<br/>
@@ -131,4 +142,45 @@
 
     <!-- Social networks header -->
     <string name="social_networks_list">Sociale Netwerken</string>
+
+    <string name="app_automation_settings_title">App-automatisering</string>
+    <string name="app_automation_settings_summary">Houd het scherm automatisch aan voor geselecteerde apps</string>
+    <string name="app_automation_usage_access_required">Om de app op de voorgrond te detecteren, geef toegang tot gebruiksstatistieken in de systeeminstellingen.</string>
+    <string name="app_automation_open_usage_access">Toegang tot gebruiksstatistieken openen</string>
+    <string name="app_automation_screen_hint">Selecteer apps waarbij het scherm automatisch aan moet blijven.</string>
+    <string name="app_automation_no_apps">Geen startbare apps gevonden op dit apparaat.</string>
+    <string name="app_automation_checkbox_content_desc">App-automatisering inschakelen</string>
+    <string name="app_automation_service_active">App-automatisering is actief</string>
+
+    <string name="app_automation_master_name">App-automatisering inschakelen</string>
+
+    <string name="app_automation_master_desc">Automatische scherm-aan-modus inschakelen voor geselecteerde apps</string>
+
+    <string name="app_automation_search_hint">Apps zoeken</string>
+
+    <string name="app_automation_section">App-automatisering</string>
+
+    <string name="app_automation_poll_name">Controle-interval apps</string>
+
+    <string name="app_automation_poll_desc">%s sec. Kies het controle-interval voor apps.</string>
+
+    <string name="app_automation_default_name">Standaard timeout-preset</string>
+
+    <string name="app_automation_default_desc">%s. Kies de standaard timeout-preset voor app-automatisering.</string>
+
+    <string name="app_automation_minutes_compact">%1$d m</string>
+
+    <string name="app_automation_preset_default_menu">Standaard</string>
+
+    <string name="app_automation_disabled_slot_short">-</string>
+
+    <string name="app_automation_preset_content_desc">Timeout-preset selecteren</string>
+
+    <string name="app_language_section">Taal</string>
+
+    <string name="app_language_name">Applicatietaal</string>
+
+    <string name="app_language_desc">Kies de taal van de app</string>
+
+    <string name="app_language_system_default">Systeemstandaard</string>
 </resources>
